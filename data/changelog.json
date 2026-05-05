@@ -1,0 +1,24 @@
+{
+  "entries": [
+    {
+      "date": "2026-05-01",
+      "session": "Manual merge: 430 -> 102",
+      "feedback_added": 0,
+      "merged_into_existing": 1,
+      "master_version": "Customer_Insights_Data_19.csv",
+      "snapshot": "snapshot_20260501T161108Z.json",
+      "notes": "Merged consolidated hallucination insight (ID 430) into ID 102 (desired-state phrasing for answer accuracy). Mention count: 38 + 22 = 60. Features and JIRA tickets carried over."
+    },
+    {
+      "date": "2026-04-30",
+      "session": "JIRA Review 2026-04-30",
+      "tickets_reviewed": 100,
+      "discarded": 70,
+      "feedback_added": 28,
+      "merged_into_existing": 2,
+      "master_version": "Customer_Insights_Data_18.csv",
+      "snapshot": "snapshot_20260430T234820Z.json",
+      "notes": "CS tickets created in 2026 (Publishers segment). 21 Swiss legal-quality tickets consolidated into 1 cross-publisher hallucination insight."
+    }
+  ]
+}
