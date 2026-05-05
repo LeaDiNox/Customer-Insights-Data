@@ -10,7 +10,7 @@ pip install flask
 
 **Step 1 — After merging a new CSV batch**, run the export:
 ```bash
-cd noxtua_insights
+cd Customer-Insights-Data
 python export_data.py
 ```
 This finds the latest `Customer_Insights_Data_*.csv` in `data/`, builds `data/insights.json`, saves a snapshot, and updates the changelog.
@@ -22,7 +22,7 @@ python app.py
 
 **Step 3 — Open in browser:**
 ```
-http://localhost:5000
+http://localhost:5001
 ```
 
 That's it. Leave the terminal open while using the dashboard.
