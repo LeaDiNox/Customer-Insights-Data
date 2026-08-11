@@ -29,8 +29,9 @@ from pathlib import Path
 # CONFIGURATION — edit these before running
 # ---------------------------------------------------------------------------
 
-# Paste your API key here (this file is private in your OneDrive):
-FEATUREBASE_API_KEY = os.environ.get("FEATUREBASE_API_KEY", "***REMOVED-ROTATED-FEATUREBASE-KEY***")
+# Set FEATUREBASE_API_KEY as an environment variable. This file is committed
+# to a public repo — never hardcode a key here, even as a fallback default.
+FEATUREBASE_API_KEY = os.environ.get("FEATUREBASE_API_KEY", "")
 
 # Run --list-boards to find this ID, then paste it here:
 MISSING_FEATURE_BOARD = "6a2123630535f655cfaec3cb"  # e.g. "64a1b2c3d4e5f6a7b8c9d0e1"
@@ -909,8 +910,7 @@ def main():
 
     if not FEATUREBASE_API_KEY and not args.dry_run:
         print("Error: FEATUREBASE_API_KEY not set.")
-        print("  Either: export FEATUREBASE_API_KEY=your_key_here")
-        print("  Or paste it into FEATUREBASE_API_KEY at the top of this script.")
+        print("  Set it as an environment variable: export FEATUREBASE_API_KEY=your_key_here")
         sys.exit(1)
 
     if args.list_boards:

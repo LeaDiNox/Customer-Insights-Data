@@ -20,10 +20,7 @@ import datetime
 import urllib.request
 import urllib.error
 
-FEATUREBASE_API_KEY = os.environ.get(
-    "FEATUREBASE_API_KEY",
-    "***REMOVED-ROTATED-FEATUREBASE-KEY***",
-)
+FEATUREBASE_API_KEY = os.environ.get("FEATUREBASE_API_KEY", "")
 API_BASE = "https://do.featurebase.app/v2"
 
 BOARDS = {

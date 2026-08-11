@@ -36,10 +36,7 @@ import time
 import urllib.error
 import urllib.request
 
-FEATUREBASE_API_KEY = os.environ.get(
-    "FEATUREBASE_API_KEY",
-    "***REMOVED-ROTATED-FEATUREBASE-KEY***",
-)
+FEATUREBASE_API_KEY = os.environ.get("FEATUREBASE_API_KEY", "")
 API_BASE = "https://do.featurebase.app/v2"
 
 # ── The full subscriber list, as shown in Featurebase's own UI ─────────────

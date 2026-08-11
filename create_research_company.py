@@ -13,7 +13,7 @@ Flags:
 
 import json, time, os, urllib.request, urllib.error
 
-API_KEY = os.getenv("FEATUREBASE_API_KEY", "***REMOVED-ROTATED-FEATUREBASE-KEY***")
+API_KEY = os.getenv("FEATUREBASE_API_KEY", "")
 BASE    = "https://do.featurebase.app/v2"
 HEADERS = {
     "Authorization": f"Bearer {API_KEY}",
