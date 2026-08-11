@@ -1,0 +1,6 @@
+{
+  "env": {
+    "API_TIMEOUT_MS": "1200000",
+    "FEATUREBASE_API_KEY": "sk_qVM7SqwrLDlfWHgFSanCIy_Cr9JU3OuVp-5YUSpd-awKVPa1a4NyE1rfrVk-HI6G"
+  }
+}
