@@ -1,0 +1,1155 @@
+source_response_id,version_key,segment,submitted_at,feature,frequency_raw,used_yn,frequency_score,feature_csat,csat_accuracy,csat_sources
+3,v1_CSM,CSM,2025-07-14 02:29:39+00,matrix,Nein,f,0,,,
+3,v1_CSM,CSM,2025-07-14 02:29:39+00,research,Nein,f,0,,,
+4,v1_CSM,CSM,2025-07-14 02:31:41+00,matrix,Ja,t,4,4.0,,
+4,v1_CSM,CSM,2025-07-14 02:31:41+00,research,Ja,t,4,6.0,6.0,8.0
+5,v1_CSM,CSM,2025-07-14 02:32:51+00,matrix,Ja,t,4,,,
+5,v1_CSM,CSM,2025-07-14 02:32:51+00,research,Ja,t,4,6.0,6.0,4.0
+6,v1_CSM,CSM,2025-07-14 02:33:58+00,matrix,Nein,f,0,,,
+6,v1_CSM,CSM,2025-07-14 02:33:58+00,research,Ja,t,4,5.0,7.0,7.0
+7,v1_CSM,CSM,2025-07-18 09:08:12+00,matrix,Nein,f,0,,,
+7,v1_CSM,CSM,2025-07-18 09:08:12+00,research,Nein,f,0,,,
+8,v1_CSM,CSM,2025-08-12 23:04:04+00,matrix,Nein,f,0,,,
+8,v1_CSM,CSM,2025-08-12 23:04:04+00,research,Ja,t,4,8.0,7.0,7.0
+9,v1_CSM,CSM,2025-08-13 00:20:49+00,matrix,Nein,f,0,,,
+9,v1_CSM,CSM,2025-08-13 00:20:49+00,research,Ja,t,4,9.0,8.0,9.0
+10,v1_CSM,CSM,2025-08-19 04:14:10+00,matrix,Nein,f,0,,,
+10,v1_CSM,CSM,2025-08-19 04:14:10+00,research,Ja,t,4,10.0,6.0,5.0
+11,v1_CSM,CSM,2025-08-19 07:39:59+00,matrix,Nein,f,0,,,
+11,v1_CSM,CSM,2025-08-19 07:39:59+00,research,Ja,t,4,7.0,7.0,6.0
+12,v1_CSM,CSM,2025-08-19 22:22:56+00,matrix,Nein,f,0,,,
+12,v1_CSM,CSM,2025-08-19 22:22:56+00,research,Ja,t,4,6.0,5.0,3.0
+13,v1_CSM,CSM,2025-08-21 07:37:40+00,matrix,Nein,f,0,,,
+13,v1_CSM,CSM,2025-08-21 07:37:40+00,research,Ja,t,4,7.0,7.0,7.0
+14,v1_CSM,CSM,2025-08-22 07:47:12+00,matrix,Ja,t,4,4.0,,
+14,v1_CSM,CSM,2025-08-22 07:47:12+00,research,Ja,t,4,8.0,5.0,5.0
+15,v1_CSM,CSM,2025-08-25 23:19:29+00,matrix,Nein,f,0,,,
+15,v1_CSM,CSM,2025-08-25 23:19:29+00,research,Ja,t,4,7.0,7.0,6.0
+16,v1_CSM,CSM,2025-08-26 00:54:28+00,matrix,Nein,f,0,,,
+16,v1_CSM,CSM,2025-08-26 00:54:28+00,research,Ja,t,4,8.0,8.0,8.0
+17,v1_CSM,CSM,2025-08-27 08:45:18+00,matrix,Nein,f,0,,,
+17,v1_CSM,CSM,2025-08-27 08:45:18+00,research,Nein,f,0,,,
+18,v1_CSM,CSM,2025-08-28 08:20:48+00,matrix,Nein,f,0,,,
+18,v1_CSM,CSM,2025-08-28 08:20:48+00,research,Nein,f,0,,,
+19,v1_CSM,CSM,2025-09-01 23:31:20+00,matrix,Nein,f,0,,,
+19,v1_CSM,CSM,2025-09-01 23:31:20+00,research,Ja,t,4,6.0,5.0,7.0
+20,v1_CSM,CSM,2025-09-02 04:31:33+00,matrix,Ja,t,4,,,
+20,v1_CSM,CSM,2025-09-02 04:31:33+00,research,Nein,f,0,,,
+21,v1_CSM,CSM,2025-09-03 06:25:56+00,matrix,Nein,f,0,,,
+21,v1_CSM,CSM,2025-09-03 06:25:56+00,research,Ja,t,4,9.0,9.0,9.0
+22,v1_CSM,CSM,2025-09-04 06:56:56+00,matrix,Nein,f,0,,,
+22,v1_CSM,CSM,2025-09-04 06:56:56+00,research,Ja,t,4,7.0,7.0,5.0
+23,v1_CSM,CSM,2025-09-04 09:28:28+00,matrix,Nein,f,0,,,
+23,v1_CSM,CSM,2025-09-04 09:28:28+00,research,Nein,f,0,,,
+24,v1_CSM,CSM,2025-09-05 01:42:35+00,matrix,Nein,f,0,,,
+24,v1_CSM,CSM,2025-09-05 01:42:35+00,research,Nein,f,0,,,
+25,v1_CSM,CSM,2025-09-05 01:55:17+00,matrix,Nein,f,0,,,
+25,v1_CSM,CSM,2025-09-05 01:55:17+00,research,Nein,f,0,,,
+26,v1_CSM,CSM,2025-09-05 03:22:24+00,matrix,Nein,f,0,,,
+26,v1_CSM,CSM,2025-09-05 03:22:24+00,research,Nein,f,0,,,
+27,v1_CSM,CSM,2025-09-05 04:57:57+00,matrix,Ja,t,4,,,
+27,v1_CSM,CSM,2025-09-05 04:57:57+00,research,Ja,t,4,5.0,6.0,7.0
+28,v1_CSM,CSM,2025-09-05 07:10:31+00,matrix,Nein,f,0,,,
+28,v1_CSM,CSM,2025-09-05 07:10:31+00,research,Ja,t,4,7.0,8.0,6.0
+29,v1_CSM,CSM,2025-09-07 04:56:10+00,matrix,Nein,f,0,,,
+29,v1_CSM,CSM,2025-09-07 04:56:10+00,research,Nein,f,0,,,
+30,v1_CSM,CSM,2025-09-08 05:35:12+00,matrix,Nein,f,0,,,
+30,v1_CSM,CSM,2025-09-08 05:35:12+00,research,Ja,t,4,4.0,4.0,3.0
+31,v1_CSM,CSM,2025-09-08 23:42:33+00,matrix,Nein,f,0,,,
+31,v1_CSM,CSM,2025-09-08 23:42:33+00,research,Ja,t,4,7.0,7.0,8.0
+32,v1_CSM,CSM,2025-09-09 05:02:39+00,matrix,Nein,f,0,,,
+32,v1_CSM,CSM,2025-09-09 05:02:39+00,research,Nein,f,0,,,
+33,v1_CSM,CSM,2025-09-10 02:25:36+00,matrix,Ja,t,4,8.0,,
+33,v1_CSM,CSM,2025-09-10 02:25:36+00,research,Ja,t,4,8.0,8.0,8.0
+34,v1_CSM,CSM,2025-09-10 02:35:11+00,matrix,Nein,f,0,,,
+34,v1_CSM,CSM,2025-09-10 02:35:11+00,research,Ja,t,4,7.0,6.0,8.0
+35,v1_CSM,CSM,2025-09-11 07:19:28+00,matrix,Nein,f,0,,,
+35,v1_CSM,CSM,2025-09-11 07:19:28+00,research,Ja,t,4,3.0,5.0,3.0
+36,v1_CSM,CSM,2025-09-12 05:24:53+00,matrix,Nein,f,0,,,
+36,v1_CSM,CSM,2025-09-12 05:24:53+00,research,Ja,t,4,,5.0,6.0
+37,v1_CSM,CSM,2025-09-12 06:14:21+00,matrix,Nein,f,0,,,
+37,v1_CSM,CSM,2025-09-12 06:14:21+00,research,Nein,f,0,,,
+38,v1_CSM,CSM,2025-09-15 02:33:52+00,matrix,Nein,f,0,,,
+38,v1_CSM,CSM,2025-09-15 02:33:52+00,research,Ja,t,4,6.0,4.0,3.0
+39,v1_CSM,CSM,2025-09-15 04:27:22+00,matrix,Nein,f,0,,,
+39,v1_CSM,CSM,2025-09-15 04:27:22+00,research,Ja,t,4,5.0,5.0,3.0
+40,v1_CSM,CSM,2025-09-15 04:38:58+00,matrix,Nein,f,0,,,
+40,v1_CSM,CSM,2025-09-15 04:38:58+00,research,Ja,t,4,6.0,,
+41,v1_CSM,CSM,2025-09-15 04:50:53+00,matrix,Ja,t,4,,,
+41,v1_CSM,CSM,2025-09-15 04:50:53+00,research,Ja,t,4,2.0,2.0,1.0
+42,v1_CSM,CSM,2025-09-15 05:35:11+00,matrix,Nein,f,0,,,
+42,v1_CSM,CSM,2025-09-15 05:35:11+00,research,Ja,t,4,8.0,7.0,10.0
+43,v1_CSM,CSM,2025-09-15 06:37:43+00,matrix,,,,,,
+43,v1_CSM,CSM,2025-09-15 06:37:43+00,research,Ja,t,4,2.0,2.0,1.0
+44,v1_CSM,CSM,2025-09-15 07:59:15+00,matrix,Nein,f,0,,,
+44,v1_CSM,CSM,2025-09-15 07:59:15+00,research,Ja,t,4,6.0,6.0,4.0
+45,v1_CSM,CSM,2025-09-15 08:11:11+00,matrix,Nein,f,0,,,
+45,v1_CSM,CSM,2025-09-15 08:11:11+00,research,Ja,t,4,,8.0,7.0
+46,v1_CSM,CSM,2025-09-15 08:24:09+00,matrix,Nein,f,0,,,
+46,v1_CSM,CSM,2025-09-15 08:24:09+00,research,Ja,t,4,7.0,8.0,6.0
+47,v1_CSM,CSM,2025-09-16 02:37:05+00,matrix,Nein,f,0,,,
+47,v1_CSM,CSM,2025-09-16 02:37:05+00,research,Ja,t,4,3.0,3.0,3.0
+48,v1_CSM,CSM,2025-09-16 03:06:00+00,matrix,Nein,f,0,,,
+48,v1_CSM,CSM,2025-09-16 03:06:00+00,research,Ja,t,4,3.0,3.0,7.0
+49,v1_CSM,CSM,2025-09-16 05:15:33+00,matrix,Ja,t,4,7.0,,
+49,v1_CSM,CSM,2025-09-16 05:15:33+00,research,Ja,t,4,6.0,6.0,5.0
+50,v1_CSM,CSM,2025-09-16 06:00:36+00,matrix,Nein,f,0,,,
+50,v1_CSM,CSM,2025-09-16 06:00:36+00,research,Ja,t,4,4.0,3.0,3.0
+51,v1_CSM,CSM,2025-09-16 06:24:04+00,matrix,Nein,f,0,,,
+51,v1_CSM,CSM,2025-09-16 06:24:04+00,research,Ja,t,4,9.0,8.0,10.0
+52,v1_CSM,CSM,2025-09-16 06:59:24+00,matrix,Nein,f,0,,,
+52,v1_CSM,CSM,2025-09-16 06:59:24+00,research,Ja,t,4,4.0,4.0,4.0
+53,v1_CSM,CSM,2025-09-16 07:33:54+00,matrix,Nein,f,0,,,
+53,v1_CSM,CSM,2025-09-16 07:33:54+00,research,Ja,t,4,8.0,8.0,8.0
+54,v1_CSM,CSM,2025-09-17 00:38:29+00,matrix,Nein,f,0,,,
+54,v1_CSM,CSM,2025-09-17 00:38:29+00,research,Ja,t,4,4.0,4.0,7.0
+55,v1_CSM,CSM,2025-09-17 06:55:05+00,matrix,Nein,f,0,,,
+55,v1_CSM,CSM,2025-09-17 06:55:05+00,research,Ja,t,4,7.0,5.0,4.0
+56,v1_CSM,CSM,2025-09-22 07:06:24+00,matrix,Nein,f,0,,,
+56,v1_CSM,CSM,2025-09-22 07:06:24+00,research,Ja,t,4,8.0,8.0,10.0
+57,v1_CSM,CSM,2025-09-22 09:01:01+00,matrix,Nein,f,0,,,
+57,v1_CSM,CSM,2025-09-22 09:01:01+00,research,Ja,t,4,3.0,3.0,3.0
+58,v1_CSM,CSM,2025-09-24 10:05:15+00,matrix,Nein,f,0,,,
+58,v1_CSM,CSM,2025-09-24 10:05:15+00,research,Ja,t,4,2.0,2.0,1.0
+59,v1_CSM,CSM,2025-09-25 04:15:39+00,matrix,Nein,f,0,,,
+59,v1_CSM,CSM,2025-09-25 04:15:39+00,research,Ja,t,4,4.0,3.0,8.0
+60,v1_CSM,CSM,2025-09-26 01:27:00+00,matrix,Nein,f,0,,,
+60,v1_CSM,CSM,2025-09-26 01:27:00+00,research,Ja,t,4,,,
+61,v1_CSM,CSM,2025-09-26 02:26:15+00,matrix,Nein,f,0,,,
+61,v1_CSM,CSM,2025-09-26 02:26:15+00,research,Ja,t,4,9.0,8.0,10.0
+62,v1_CSM,CSM,2025-09-26 03:13:36+00,matrix,Nein,f,0,,,
+62,v1_CSM,CSM,2025-09-26 03:13:36+00,research,Nein,f,0,,,
+63,v1_CSM,CSM,2025-09-26 08:09:05+00,matrix,Nein,f,0,,,
+63,v1_CSM,CSM,2025-09-26 08:09:05+00,research,Ja,t,4,8.0,7.0,4.0
+64,v1_CSM,CSM,2025-09-29 01:28:03+00,matrix,Nein,f,0,,,
+64,v1_CSM,CSM,2025-09-29 01:28:03+00,research,Nein,f,0,,,
+65,v1_CSM,CSM,2025-09-29 03:25:28+00,matrix,Nein,f,0,,,
+65,v1_CSM,CSM,2025-09-29 03:25:28+00,research,Ja,t,4,3.0,3.0,2.0
+66,v1_CSM,CSM,2025-09-29 03:35:40+00,matrix,Nein,f,0,,,
+66,v1_CSM,CSM,2025-09-29 03:35:40+00,research,Ja,t,4,9.0,9.0,5.0
+67,v1_CSM,CSM,2025-09-29 06:12:54+00,matrix,Nein,f,0,,,
+67,v1_CSM,CSM,2025-09-29 06:12:54+00,research,Ja,t,4,8.0,8.0,8.0
+68,v1_CSM,CSM,2025-09-29 07:11:41+00,matrix,Nein,f,0,,,
+68,v1_CSM,CSM,2025-09-29 07:11:41+00,research,Ja,t,4,7.0,8.0,6.0
+69,v1_CSM,CSM,2025-09-29 09:14:06+00,matrix,Nein,f,0,,,
+69,v1_CSM,CSM,2025-09-29 09:14:06+00,research,Nein,f,0,,,
+70,v1_CSM,CSM,2025-09-29 23:38:03+00,matrix,Nein,f,0,,,
+70,v1_CSM,CSM,2025-09-29 23:38:03+00,research,Ja,t,4,4.0,3.0,3.0
+71,v1_CSM,CSM,2025-09-30 04:41:37+00,matrix,Nein,f,0,,,
+71,v1_CSM,CSM,2025-09-30 04:41:37+00,research,Ja,t,4,6.0,6.0,3.0
+72,v1_CSM,CSM,2025-09-30 23:21:37+00,matrix,Nein,f,0,,,
+72,v1_CSM,CSM,2025-09-30 23:21:37+00,research,Ja,t,4,7.0,5.0,5.0
+73,v1_CSM,CSM,2025-10-01 02:11:27+00,matrix,Nein,f,0,,,
+73,v1_CSM,CSM,2025-10-01 02:11:27+00,research,Nein,f,0,,,
+74,v1_CSM,CSM,2025-10-01 10:14:15+00,matrix,Ja,t,4,7.0,,
+74,v1_CSM,CSM,2025-10-01 10:14:15+00,research,Nein,f,0,,,
+75,v1_CSM,CSM,2025-10-02 04:29:42+00,matrix,Nein,f,0,,,
+75,v1_CSM,CSM,2025-10-02 04:29:42+00,research,Ja,t,4,5.0,5.0,8.0
+76,v1_CSM,CSM,2025-10-06 01:13:37+00,matrix,Nein,f,0,,,
+76,v1_CSM,CSM,2025-10-06 01:13:37+00,research,Nein,f,0,,,
+77,v1_CSM,CSM,2025-10-06 01:30:11+00,matrix,Ja,t,4,,,
+77,v1_CSM,CSM,2025-10-06 01:30:11+00,research,Ja,t,4,8.0,7.0,6.0
+78,v1_CSM,CSM,2025-10-06 02:08:57+00,matrix,Ja,t,4,,,
+78,v1_CSM,CSM,2025-10-06 02:08:57+00,research,Nein,f,0,,,
+79,v1_CSM,CSM,2025-10-06 02:24:14+00,matrix,Nein,f,0,,,
+79,v1_CSM,CSM,2025-10-06 02:24:14+00,research,Ja,t,4,7.0,7.0,5.0
+80,v1_CSM,CSM,2025-10-06 02:37:40+00,matrix,Ja,t,4,,,
+80,v1_CSM,CSM,2025-10-06 02:37:40+00,research,Ja,t,4,8.0,7.0,8.0
+81,v1_CSM,CSM,2025-10-06 03:01:50+00,matrix,Nein,f,0,,,
+81,v1_CSM,CSM,2025-10-06 03:01:50+00,research,Ja,t,4,8.0,8.0,8.0
+82,v1_CSM,CSM,2025-10-06 03:46:21+00,matrix,Ja,t,4,7.0,,
+82,v1_CSM,CSM,2025-10-06 03:46:21+00,research,Ja,t,4,7.0,7.0,7.0
+83,v1_CSM,CSM,2025-10-06 07:06:30+00,matrix,Nein,f,0,,,
+83,v1_CSM,CSM,2025-10-06 07:06:30+00,research,Ja,t,4,10.0,8.0,5.0
+84,v1_CSM,CSM,2025-10-06 07:09:40+00,matrix,Nein,f,0,,,
+84,v1_CSM,CSM,2025-10-06 07:09:40+00,research,Nein,f,0,,,
+85,v1_CSM,CSM,2025-10-07 00:12:39+00,matrix,Nein,f,0,,,
+85,v1_CSM,CSM,2025-10-07 00:12:39+00,research,Ja,t,4,9.0,8.0,8.0
+86,v1_CSM,CSM,2025-10-07 01:50:15+00,matrix,Nein,f,0,,,
+86,v1_CSM,CSM,2025-10-07 01:50:15+00,research,Ja,t,4,7.0,7.0,8.0
+87,v1_CSM,CSM,2025-10-07 02:15:46+00,matrix,Nein,f,0,,,
+87,v1_CSM,CSM,2025-10-07 02:15:46+00,research,Ja,t,4,8.0,8.0,7.0
+88,v1_CSM,CSM,2025-10-08 02:30:44+00,matrix,Nein,f,0,,,
+88,v1_CSM,CSM,2025-10-08 02:30:44+00,research,Ja,t,4,9.0,9.0,8.0
+89,v1_CSM,CSM,2025-10-09 02:51:02+00,matrix,Nein,f,0,,,
+89,v1_CSM,CSM,2025-10-09 02:51:02+00,research,Ja,t,4,4.0,2.0,6.0
+90,v1_CSM,CSM,2025-10-09 04:53:10+00,matrix,Nein,f,0,,,
+90,v1_CSM,CSM,2025-10-09 04:53:10+00,research,Ja,t,4,9.0,9.0,8.0
+91,v1_CSM,CSM,2025-10-09 05:00:34+00,matrix,Nein,f,0,,,
+91,v1_CSM,CSM,2025-10-09 05:00:34+00,research,Nein,f,0,,,
+92,v1_CSM,CSM,2025-10-10 05:56:54+00,matrix,Nein,f,0,,,
+92,v1_CSM,CSM,2025-10-10 05:56:54+00,research,,,,,,
+93,v1_CSM,CSM,2025-10-10 07:14:53+00,matrix,Nein,f,0,,,
+93,v1_CSM,CSM,2025-10-10 07:14:53+00,research,Ja,t,4,10.0,8.0,7.0
+94,v1_CSM,CSM,2025-10-10 08:29:07+00,matrix,Nein,f,0,,,
+94,v1_CSM,CSM,2025-10-10 08:29:07+00,research,Ja,t,4,3.0,3.0,5.0
+95,v1_CSM,CSM,2025-10-10 08:49:16+00,matrix,Ja,t,4,8.0,,
+95,v1_CSM,CSM,2025-10-10 08:49:16+00,research,Ja,t,4,4.0,4.0,7.0
+96,v1_CSM,CSM,2025-10-13 02:01:59+00,matrix,Nein,f,0,,,
+96,v1_CSM,CSM,2025-10-13 02:01:59+00,research,Nein,f,0,,,
+97,v1_CSM,CSM,2025-10-13 02:13:27+00,matrix,Nein,f,0,,,
+97,v1_CSM,CSM,2025-10-13 02:13:27+00,research,Ja,t,4,6.0,6.0,5.0
+98,v1_CSM,CSM,2025-10-13 05:14:31+00,matrix,Nein,f,0,,,
+98,v1_CSM,CSM,2025-10-13 05:14:31+00,research,Ja,t,4,2.0,2.0,8.0
+99,v1_CSM,CSM,2025-10-13 05:31:59+00,matrix,Nein,f,0,,,
+99,v1_CSM,CSM,2025-10-13 05:31:59+00,research,Nein,f,0,,,
+100,v1_CSM,CSM,2025-10-13 05:35:20+00,matrix,Nein,f,0,,,
+100,v1_CSM,CSM,2025-10-13 05:35:20+00,research,Ja,t,4,6.0,8.0,6.0
+101,v1_CSM,CSM,2025-10-13 06:58:23+00,matrix,Nein,f,0,,,
+101,v1_CSM,CSM,2025-10-13 06:58:23+00,research,Ja,t,4,7.0,5.0,5.0
+102,v1_CSM,CSM,2025-10-13 07:37:24+00,matrix,Nein,f,0,,,
+102,v1_CSM,CSM,2025-10-13 07:37:24+00,research,Nein,f,0,,,
+103,v1_CSM,CSM,2025-10-13 09:08:59+00,matrix,Nein,f,0,,,
+103,v1_CSM,CSM,2025-10-13 09:08:59+00,research,Ja,t,4,6.0,4.0,7.0
+104,v1_CSM,CSM,2025-10-13 09:54:55+00,matrix,Nein,f,0,,,
+104,v1_CSM,CSM,2025-10-13 09:54:55+00,research,Ja,t,4,2.0,3.0,6.0
+105,v1_CSM,CSM,2025-10-14 06:22:03+00,matrix,Ja,t,4,,,
+105,v1_CSM,CSM,2025-10-14 06:22:03+00,research,Nein,f,0,,,
+106,v1_CSM,CSM,2025-10-14 06:44:22+00,matrix,Nein,f,0,,,
+106,v1_CSM,CSM,2025-10-14 06:44:22+00,research,Ja,t,4,9.0,9.0,9.0
+1,v2_CSM,CSM,2025-10-18 05:05:41+00,matrix,,,,,,
+1,v2_CSM,CSM,2025-10-18 05:05:41+00,research,Ja,t,4,7.0,7.0,6.0
+2,v2_CSM,CSM,2025-10-20 02:31:47+00,matrix,,,,,,
+2,v2_CSM,CSM,2025-10-20 02:31:47+00,research,Ja,t,4,8.0,8.0,7.0
+3,v2_CSM,CSM,2025-10-20 02:32:37+00,matrix,Nein,f,0,,,
+3,v2_CSM,CSM,2025-10-20 02:32:37+00,research,Ja,t,4,8.0,9.0,7.0
+4,v2_CSM,CSM,2025-10-20 03:01:40+00,matrix,,,,,,
+4,v2_CSM,CSM,2025-10-20 03:01:40+00,research,Ja,t,4,3.0,4.0,3.0
+5,v2_CSM,CSM,2025-10-20 04:38:24+00,matrix,Nein,f,0,,,
+5,v2_CSM,CSM,2025-10-20 04:38:24+00,research,Nein,f,0,,,
+6,v2_CSM,CSM,2025-10-20 04:47:49+00,matrix,,,,,,
+6,v2_CSM,CSM,2025-10-20 04:47:49+00,research,Ja,t,4,7.0,7.0,6.0
+7,v2_CSM,CSM,2025-10-20 05:46:15+00,matrix,Nein,f,0,,,
+7,v2_CSM,CSM,2025-10-20 05:46:15+00,research,Ja,t,4,7.0,7.0,
+8,v2_CSM,CSM,2025-10-22 05:24:20+00,matrix,Nein,f,0,,,
+8,v2_CSM,CSM,2025-10-22 05:24:20+00,research,Ja,t,4,5.0,5.0,6.0
+9,v2_CSM,CSM,2025-10-23 01:45:26+00,matrix,,,,,,
+9,v2_CSM,CSM,2025-10-23 01:45:26+00,research,Ja,t,4,8.0,7.0,6.0
+10,v2_CSM,CSM,2025-10-23 02:19:54+00,matrix,,,,,,
+10,v2_CSM,CSM,2025-10-23 02:19:54+00,research,Ja,t,4,8.0,7.0,6.0
+11,v2_CSM,CSM,2025-10-23 02:31:03+00,matrix,,,,,,
+11,v2_CSM,CSM,2025-10-23 02:31:03+00,research,Ja,t,4,5.0,5.0,4.0
+12,v2_CSM,CSM,2025-10-23 04:10:13+00,matrix,Nein,f,0,,,
+12,v2_CSM,CSM,2025-10-23 04:10:13+00,research,Ja,t,4,8.0,7.0,8.0
+13,v2_CSM,CSM,2025-10-23 05:41:07+00,matrix,Nein,f,0,,,
+13,v2_CSM,CSM,2025-10-23 05:41:07+00,research,Ja,t,4,9.0,9.0,10.0
+14,v2_CSM,CSM,2025-10-23 06:02:06+00,matrix,Nein,f,0,,,
+14,v2_CSM,CSM,2025-10-23 06:02:06+00,research,Ja,t,4,1.0,1.0,2.0
+15,v2_CSM,CSM,2025-10-24 01:44:54+00,matrix,Nein,f,0,,,
+15,v2_CSM,CSM,2025-10-24 01:44:54+00,research,Ja,t,4,5.0,5.0,5.0
+16,v2_CSM,CSM,2025-10-27 00:09:12+00,matrix,Ja,t,4,6.0,,
+16,v2_CSM,CSM,2025-10-27 00:09:12+00,research,Ja,t,4,7.0,7.0,8.0
+17,v2_CSM,CSM,2025-10-27 08:20:51+00,matrix,,,,,,
+17,v2_CSM,CSM,2025-10-27 08:20:51+00,research,Ja,t,4,9.0,9.0,7.0
+18,v2_CSM,CSM,2025-10-27 08:38:24+00,matrix,Nein,f,0,,,
+18,v2_CSM,CSM,2025-10-27 08:38:24+00,research,Ja,t,4,8.0,8.0,9.0
+19,v2_CSM,CSM,2025-10-27 09:10:04+00,matrix,Nein,f,0,,,
+19,v2_CSM,CSM,2025-10-27 09:10:04+00,research,Ja,t,4,8.0,9.0,8.0
+20,v2_CSM,CSM,2025-10-28 01:03:29+00,matrix,,,,,,
+20,v2_CSM,CSM,2025-10-28 01:03:29+00,research,Ja,t,4,5.0,5.0,3.0
+21,v2_CSM,CSM,2025-10-28 02:29:14+00,matrix,,,,,,
+21,v2_CSM,CSM,2025-10-28 02:29:14+00,research,Ja,t,4,3.0,2.0,2.0
+22,v2_CSM,CSM,2025-10-28 09:06:48+00,matrix,Nein,f,0,,,
+22,v2_CSM,CSM,2025-10-28 09:06:48+00,research,Ja,t,4,8.0,9.0,9.0
+23,v2_CSM,CSM,2025-10-28 23:54:40+00,matrix,Nein,f,0,,,
+23,v2_CSM,CSM,2025-10-28 23:54:40+00,research,Ja,t,4,7.0,7.0,6.0
+24,v2_CSM,CSM,2025-10-29 04:53:06+00,matrix,Nein,f,0,,,
+24,v2_CSM,CSM,2025-10-29 04:53:06+00,research,Ja,t,4,8.0,7.0,7.0
+25,v2_CSM,CSM,2025-10-29 05:34:32+00,matrix,Nein,f,0,,,
+25,v2_CSM,CSM,2025-10-29 05:34:32+00,research,Ja,t,4,7.0,6.0,6.0
+26,v2_CSM,CSM,2025-10-29 05:52:51+00,matrix,Nein,f,0,,,
+26,v2_CSM,CSM,2025-10-29 05:52:51+00,research,Ja,t,4,5.0,5.0,5.0
+27,v2_CSM,CSM,2025-10-29 08:10:39+00,matrix,,,,,,
+27,v2_CSM,CSM,2025-10-29 08:10:39+00,research,Ja,t,4,8.0,9.0,7.0
+28,v2_CSM,CSM,2025-10-29 12:23:56+00,matrix,Nein,f,0,,,
+28,v2_CSM,CSM,2025-10-29 12:23:56+00,research,Ja,t,4,8.0,5.0,4.0
+29,v2_CSM,CSM,2025-10-30 03:48:27+00,matrix,,,,,,
+29,v2_CSM,CSM,2025-10-30 03:48:27+00,research,Ja,t,4,6.0,5.0,5.0
+30,v2_CSM,CSM,2025-10-30 05:57:22+00,matrix,Nein,f,0,,,
+30,v2_CSM,CSM,2025-10-30 05:57:22+00,research,Ja,t,4,7.0,7.0,6.0
+31,v2_CSM,CSM,2025-10-30 05:57:56+00,matrix,,,,,,
+31,v2_CSM,CSM,2025-10-30 05:57:56+00,research,Ja,t,4,8.0,8.0,7.0
+32,v2_CSM,CSM,2025-10-30 08:33:01+00,matrix,,,,,,
+32,v2_CSM,CSM,2025-10-30 08:33:01+00,research,Ja,t,4,7.0,6.0,4.0
+33,v2_CSM,CSM,2025-10-30 08:35:07+00,matrix,,,,,,
+33,v2_CSM,CSM,2025-10-30 08:35:07+00,research,Ja,t,4,6.0,6.0,7.0
+34,v2_CSM,CSM,2025-10-30 08:36:08+00,matrix,Nein,f,0,,,
+34,v2_CSM,CSM,2025-10-30 08:36:08+00,research,Ja,t,4,7.0,6.0,3.0
+35,v2_CSM,CSM,2025-10-30 08:48:27+00,matrix,Nein,f,0,,,
+35,v2_CSM,CSM,2025-10-30 08:48:27+00,research,Ja,t,4,8.0,7.0,7.0
+36,v2_CSM,CSM,2025-10-30 09:06:46+00,matrix,,,,,,
+36,v2_CSM,CSM,2025-10-30 09:06:46+00,research,Ja,t,4,8.0,7.0,8.0
+37,v2_CSM,CSM,2025-10-30 10:16:57+00,matrix,Nein,f,0,,,
+37,v2_CSM,CSM,2025-10-30 10:16:57+00,research,Ja,t,4,7.0,6.0,7.0
+38,v2_CSM,CSM,2025-10-30 11:18:30+00,matrix,,,,,,
+38,v2_CSM,CSM,2025-10-30 11:18:30+00,research,Ja,t,4,6.0,6.0,6.0
+39,v2_CSM,CSM,2025-10-30 12:57:14+00,matrix,Nein,f,0,,,
+39,v2_CSM,CSM,2025-10-30 12:57:14+00,research,Ja,t,4,10.0,9.0,9.0
+40,v2_CSM,CSM,2025-10-31 02:34:35+00,matrix,Nein,f,0,,,
+40,v2_CSM,CSM,2025-10-31 02:34:35+00,research,Ja,t,4,6.0,6.0,7.0
+41,v2_CSM,CSM,2025-10-31 03:55:35+00,matrix,Nein,f,0,,,
+41,v2_CSM,CSM,2025-10-31 03:55:35+00,research,Ja,t,4,8.0,6.0,7.0
+42,v2_CSM,CSM,2025-10-31 05:33:36+00,matrix,,,,,,
+42,v2_CSM,CSM,2025-10-31 05:33:36+00,research,Ja,t,4,7.0,7.0,6.0
+43,v2_CSM,CSM,2025-10-31 05:54:32+00,matrix,,,,,,
+43,v2_CSM,CSM,2025-10-31 05:54:32+00,research,Ja,t,4,7.0,7.0,7.0
+44,v2_CSM,CSM,2025-10-31 06:16:45+00,matrix,,,,,,
+44,v2_CSM,CSM,2025-10-31 06:16:45+00,research,Ja,t,4,7.0,7.0,7.0
+45,v2_CSM,CSM,2025-10-31 08:23:33+00,matrix,,,,,,
+45,v2_CSM,CSM,2025-10-31 08:23:33+00,research,Ja,t,4,4.0,4.0,8.0
+46,v2_CSM,CSM,2025-11-03 00:07:15+00,matrix,Nein,f,0,,,
+46,v2_CSM,CSM,2025-11-03 00:07:15+00,research,Ja,t,4,9.0,9.0,9.0
+47,v2_CSM,CSM,2025-11-03 01:13:56+00,matrix,,,,,,
+47,v2_CSM,CSM,2025-11-03 01:13:56+00,research,Nein,f,0,,,
+48,v2_CSM,CSM,2025-11-03 02:09:32+00,matrix,,,,,,
+48,v2_CSM,CSM,2025-11-03 02:09:32+00,research,Ja,t,4,5.0,5.0,5.0
+49,v2_CSM,CSM,2025-11-03 04:20:16+00,matrix,,,,,,
+49,v2_CSM,CSM,2025-11-03 04:20:16+00,research,Nein,f,0,,,
+50,v2_CSM,CSM,2025-11-03 06:48:26+00,matrix,Nein,f,0,,,
+50,v2_CSM,CSM,2025-11-03 06:48:26+00,research,Ja,t,4,6.0,5.0,3.0
+51,v2_CSM,CSM,2025-11-03 07:51:19+00,matrix,Nein,f,0,,,
+51,v2_CSM,CSM,2025-11-03 07:51:19+00,research,Ja,t,4,7.0,7.0,8.0
+52,v2_CSM,CSM,2025-11-04 00:02:21+00,matrix,,,,,,
+52,v2_CSM,CSM,2025-11-04 00:02:21+00,research,Ja,t,4,7.0,7.0,7.0
+53,v2_CSM,CSM,2025-11-04 23:16:14+00,matrix,Nein,f,0,,,
+53,v2_CSM,CSM,2025-11-04 23:16:14+00,research,Ja,t,4,5.0,5.0,2.0
+54,v2_CSM,CSM,2025-11-05 08:20:06+00,matrix,,,,,,
+54,v2_CSM,CSM,2025-11-05 08:20:06+00,research,Ja,t,4,8.0,8.0,7.0
+55,v2_CSM,CSM,2025-11-06 03:50:05+00,matrix,,,,,,
+55,v2_CSM,CSM,2025-11-06 03:50:05+00,research,Ja,t,4,7.0,8.0,6.0
+56,v2_CSM,CSM,2025-11-06 06:45:47+00,matrix,Nein,f,0,,,
+56,v2_CSM,CSM,2025-11-06 06:45:47+00,research,Ja,t,4,8.0,7.0,8.0
+57,v2_CSM,CSM,2025-11-06 09:33:01+00,matrix,,,,,,
+57,v2_CSM,CSM,2025-11-06 09:33:01+00,research,Ja,t,4,6.0,7.0,8.0
+58,v2_CSM,CSM,2025-11-06 13:03:21+00,matrix,,,,,,
+58,v2_CSM,CSM,2025-11-06 13:03:21+00,research,Ja,t,4,8.0,8.0,7.0
+59,v2_CSM,CSM,2025-11-10 02:50:59+00,matrix,,,,,,
+59,v2_CSM,CSM,2025-11-10 02:50:59+00,research,Ja,t,4,5.0,6.0,4.0
+60,v2_CSM,CSM,2025-11-10 03:06:18+00,matrix,,,,,,
+60,v2_CSM,CSM,2025-11-10 03:06:18+00,research,Ja,t,4,4.0,5.0,4.0
+61,v2_CSM,CSM,2025-11-10 04:49:06+00,matrix,Nein,f,0,,,
+61,v2_CSM,CSM,2025-11-10 04:49:06+00,research,Ja,t,4,8.0,7.0,7.0
+62,v2_CSM,CSM,2025-11-11 04:35:40+00,matrix,Nein,f,0,,,
+62,v2_CSM,CSM,2025-11-11 04:35:40+00,research,Ja,t,4,10.0,8.0,10.0
+63,v2_CSM,CSM,2025-11-11 13:39:11+00,matrix,Nein,f,0,,,
+63,v2_CSM,CSM,2025-11-11 13:39:11+00,research,Ja,t,4,9.0,8.0,10.0
+64,v2_CSM,CSM,2025-11-11 23:59:18+00,matrix,,,,,,
+64,v2_CSM,CSM,2025-11-11 23:59:18+00,research,Ja,t,4,8.0,7.0,8.0
+65,v2_CSM,CSM,2025-11-12 07:07:45+00,matrix,,,,,,
+65,v2_CSM,CSM,2025-11-12 07:07:45+00,research,Ja,t,4,10.0,8.0,9.0
+66,v2_CSM,CSM,2025-11-13 00:44:28+00,matrix,Nein,f,0,,,
+66,v2_CSM,CSM,2025-11-13 00:44:28+00,research,Ja,t,4,5.0,4.0,4.0
+67,v2_CSM,CSM,2025-11-13 00:49:19+00,matrix,Ja,t,4,9.0,,
+67,v2_CSM,CSM,2025-11-13 00:49:19+00,research,Ja,t,4,7.0,7.0,7.0
+68,v2_CSM,CSM,2025-11-14 02:25:13+00,matrix,Nein,f,0,,,
+68,v2_CSM,CSM,2025-11-14 02:25:13+00,research,Ja,t,4,6.0,6.0,6.0
+69,v2_CSM,CSM,2025-11-14 07:48:25+00,matrix,Nein,f,0,,,
+69,v2_CSM,CSM,2025-11-14 07:48:25+00,research,Ja,t,4,8.0,7.0,9.0
+70,v2_CSM,CSM,2025-11-17 01:10:50+00,matrix,,,,,,
+70,v2_CSM,CSM,2025-11-17 01:10:50+00,research,Ja,t,4,8.0,8.0,9.0
+71,v2_CSM,CSM,2025-11-18 06:07:31+00,matrix,,,,,,
+71,v2_CSM,CSM,2025-11-18 06:07:31+00,research,Ja,t,4,8.0,8.0,6.0
+72,v2_CSM,CSM,2025-11-18 06:28:44+00,matrix,,,,,,
+72,v2_CSM,CSM,2025-11-18 06:28:44+00,research,Ja,t,4,7.0,7.0,7.0
+73,v2_CSM,CSM,2025-11-18 23:51:15+00,matrix,Nein,f,0,,,
+73,v2_CSM,CSM,2025-11-18 23:51:15+00,research,Ja,t,4,7.0,6.0,3.0
+74,v2_CSM,CSM,2025-11-19 07:52:34+00,matrix,,,,,,
+74,v2_CSM,CSM,2025-11-19 07:52:34+00,research,Ja,t,4,8.0,8.0,9.0
+75,v2_CSM,CSM,2025-11-19 08:32:22+00,matrix,Nein,f,0,,,
+75,v2_CSM,CSM,2025-11-19 08:32:22+00,research,Ja,t,4,5.0,4.0,9.0
+76,v2_CSM,CSM,2025-11-19 09:00:17+00,matrix,Nein,f,0,,,
+76,v2_CSM,CSM,2025-11-19 09:00:17+00,research,Ja,t,4,8.0,8.0,8.0
+77,v2_CSM,CSM,2025-11-20 01:22:16+00,matrix,Ja,t,4,10.0,,
+77,v2_CSM,CSM,2025-11-20 01:22:16+00,research,Ja,t,4,9.0,9.0,10.0
+78,v2_CSM,CSM,2025-11-20 04:40:56+00,matrix,Nein,f,0,,,
+78,v2_CSM,CSM,2025-11-20 04:40:56+00,research,Ja,t,4,8.0,7.0,6.0
+79,v2_CSM,CSM,2025-11-20 05:21:52+00,matrix,,,,,,
+79,v2_CSM,CSM,2025-11-20 05:21:52+00,research,Ja,t,4,7.0,7.0,8.0
+80,v2_CSM,CSM,2025-11-20 13:05:13+00,matrix,Nein,f,0,,,
+80,v2_CSM,CSM,2025-11-20 13:05:13+00,research,Ja,t,4,6.0,7.0,5.0
+81,v2_CSM,CSM,2025-11-24 08:39:41+00,matrix,Nein,f,0,,,
+81,v2_CSM,CSM,2025-11-24 08:39:41+00,research,Ja,t,4,7.0,7.0,6.0
+82,v2_CSM,CSM,2025-11-25 01:02:58+00,matrix,Ja,t,4,9.0,,
+82,v2_CSM,CSM,2025-11-25 01:02:58+00,research,Ja,t,4,9.0,8.0,7.0
+83,v2_CSM,CSM,2025-11-26 03:28:02+00,matrix,,,,,,
+83,v2_CSM,CSM,2025-11-26 03:28:02+00,research,Ja,t,4,5.0,5.0,5.0
+84,v2_CSM,CSM,2025-11-26 03:34:43+00,matrix,Ja,t,4,3.0,,
+84,v2_CSM,CSM,2025-11-26 03:34:43+00,research,Ja,t,4,8.0,8.0,9.0
+85,v2_CSM,CSM,2025-11-26 03:43:23+00,matrix,Nein,f,0,,,
+85,v2_CSM,CSM,2025-11-26 03:43:23+00,research,Ja,t,4,6.0,6.0,7.0
+86,v2_CSM,CSM,2025-11-27 02:51:24+00,matrix,,,,,,
+86,v2_CSM,CSM,2025-11-27 02:51:24+00,research,Ja,t,4,6.0,6.0,7.0
+87,v2_CSM,CSM,2025-11-27 07:05:54+00,matrix,Nein,f,0,,,
+87,v2_CSM,CSM,2025-11-27 07:05:54+00,research,Ja,t,4,9.0,8.0,10.0
+88,v2_CSM,CSM,2025-11-28 00:29:59+00,matrix,Ja,t,4,7.0,,
+88,v2_CSM,CSM,2025-11-28 00:29:59+00,research,Ja,t,4,5.0,3.0,3.0
+89,v2_CSM,CSM,2025-11-28 02:43:14+00,matrix,Ja,t,4,6.0,,
+89,v2_CSM,CSM,2025-11-28 02:43:14+00,research,Ja,t,4,8.0,8.0,7.0
+90,v2_CSM,CSM,2025-11-28 05:47:44+00,matrix,Nein,f,0,,,
+90,v2_CSM,CSM,2025-11-28 05:47:44+00,research,Ja,t,4,7.0,7.0,7.0
+91,v2_CSM,CSM,2025-11-28 08:10:01+00,matrix,Ja,t,4,6.0,,
+91,v2_CSM,CSM,2025-11-28 08:10:01+00,research,Ja,t,4,8.0,8.0,9.0
+92,v2_CSM,CSM,2025-11-30 15:46:04+00,matrix,,,,,,
+92,v2_CSM,CSM,2025-11-30 15:46:04+00,research,Ja,t,4,3.0,4.0,3.0
+93,v2_CSM,CSM,2025-12-02 03:55:39+00,matrix,,,,,,
+93,v2_CSM,CSM,2025-12-02 03:55:39+00,research,Ja,t,4,5.0,3.0,3.0
+94,v2_CSM,CSM,2025-12-02 08:17:42+00,matrix,Nein,f,0,,,
+94,v2_CSM,CSM,2025-12-02 08:17:42+00,research,Ja,t,4,8.0,8.0,8.0
+95,v2_CSM,CSM,2025-12-08 04:49:52+00,matrix,Nein,f,0,,,
+95,v2_CSM,CSM,2025-12-08 04:49:52+00,research,Ja,t,4,8.0,7.0,6.0
+96,v2_CSM,CSM,2025-12-10 00:42:46+00,matrix,,,,,,
+96,v2_CSM,CSM,2025-12-10 00:42:46+00,research,Ja,t,4,4.0,3.0,3.0
+97,v2_CSM,CSM,2025-12-16 01:45:14+00,matrix,Nein,f,0,,,
+97,v2_CSM,CSM,2025-12-16 01:45:14+00,research,Ja,t,4,8.0,7.0,8.0
+98,v2_CSM,CSM,2025-12-16 01:45:44+00,matrix,Nein,f,0,,,
+98,v2_CSM,CSM,2025-12-16 01:45:44+00,research,Ja,t,4,10.0,10.0,10.0
+99,v2_CSM,CSM,2025-12-16 02:14:33+00,matrix,Nein,f,0,,,
+99,v2_CSM,CSM,2025-12-16 02:14:33+00,research,Ja,t,4,7.0,8.0,8.0
+100,v2_CSM,CSM,2025-12-16 03:23:02+00,matrix,,,,,,
+100,v2_CSM,CSM,2025-12-16 03:23:02+00,research,Ja,t,4,5.0,6.0,8.0
+101,v2_CSM,CSM,2025-12-16 03:53:51+00,matrix,Nein,f,0,,,
+101,v2_CSM,CSM,2025-12-16 03:53:51+00,research,Ja,t,4,7.0,7.0,5.0
+102,v2_CSM,CSM,2025-12-16 06:43:56+00,matrix,Nein,f,0,,,
+102,v2_CSM,CSM,2025-12-16 06:43:56+00,research,Ja,t,4,7.0,7.0,6.0
+103,v2_CSM,CSM,2025-12-18 06:26:26+00,matrix,,,,,,
+103,v2_CSM,CSM,2025-12-18 06:26:26+00,research,Ja,t,4,8.0,7.0,7.0
+104,v2_CSM,CSM,2025-12-19 06:39:26+00,matrix,,,,,,
+104,v2_CSM,CSM,2025-12-19 06:39:26+00,research,Ja,t,4,8.0,8.0,8.0
+105,v2_CSM,CSM,2025-12-19 06:40:35+00,matrix,Nein,f,0,,,
+105,v2_CSM,CSM,2025-12-19 06:40:35+00,research,Ja,t,4,7.0,6.0,8.0
+106,v2_CSM,CSM,2025-12-19 06:42:28+00,matrix,Nein,f,0,,,
+106,v2_CSM,CSM,2025-12-19 06:42:28+00,research,Ja,t,4,6.0,6.0,5.0
+107,v2_CSM,CSM,2025-12-19 06:48:02+00,matrix,Nein,f,0,,,
+107,v2_CSM,CSM,2025-12-19 06:48:02+00,research,Ja,t,4,5.0,5.0,
+108,v2_CSM,CSM,2025-12-19 06:56:41+00,matrix,Nein,f,0,,,
+108,v2_CSM,CSM,2025-12-19 06:56:41+00,research,Ja,t,4,7.0,10.0,7.0
+109,v2_CSM,CSM,2025-12-19 07:17:53+00,matrix,Nein,f,0,,,
+109,v2_CSM,CSM,2025-12-19 07:17:53+00,research,Ja,t,4,10.0,8.0,10.0
+110,v2_CSM,CSM,2025-12-19 07:53:01+00,matrix,Nein,f,0,,,
+110,v2_CSM,CSM,2025-12-19 07:53:01+00,research,Ja,t,4,8.0,8.0,4.0
+111,v2_CSM,CSM,2025-12-21 05:36:08+00,matrix,Nein,f,0,,,
+111,v2_CSM,CSM,2025-12-21 05:36:08+00,research,Ja,t,4,8.0,8.0,7.0
+112,v2_CSM,CSM,2025-12-21 23:38:59+00,matrix,Nein,f,0,,,
+112,v2_CSM,CSM,2025-12-21 23:38:59+00,research,Ja,t,4,7.0,7.0,6.0
+113,v2_CSM,CSM,2025-12-21 23:58:59+00,matrix,,,,,,
+113,v2_CSM,CSM,2025-12-21 23:58:59+00,research,Ja,t,4,6.0,5.0,5.0
+114,v2_CSM,CSM,2025-12-28 23:11:57+00,matrix,Nein,f,0,,,
+114,v2_CSM,CSM,2025-12-28 23:11:57+00,research,Ja,t,4,9.0,8.0,7.0
+115,v2_CSM,CSM,2026-01-02 00:58:26+00,matrix,Nein,f,0,,,
+115,v2_CSM,CSM,2026-01-02 00:58:26+00,research,Ja,t,4,8.0,8.0,5.0
+116,v2_CSM,CSM,2026-01-02 01:01:56+00,matrix,Nein,f,0,,,
+116,v2_CSM,CSM,2026-01-02 01:01:56+00,research,Ja,t,4,7.0,7.0,8.0
+117,v2_CSM,CSM,2026-01-02 04:40:48+00,matrix,,,,,,
+117,v2_CSM,CSM,2026-01-02 04:40:48+00,research,Ja,t,4,2.0,5.0,2.0
+118,v2_CSM,CSM,2026-01-04 04:23:03+00,matrix,Nein,f,0,,,
+118,v2_CSM,CSM,2026-01-04 04:23:03+00,research,Ja,t,4,5.0,4.0,
+119,v2_CSM,CSM,2026-01-05 00:05:18+00,matrix,,,,,,
+119,v2_CSM,CSM,2026-01-05 00:05:18+00,research,Ja,t,4,8.0,8.0,7.0
+120,v2_CSM,CSM,2026-01-05 02:00:29+00,matrix,,,,,,
+120,v2_CSM,CSM,2026-01-05 02:00:29+00,research,Ja,t,4,7.0,7.0,6.0
+121,v2_CSM,CSM,2026-01-05 09:14:56+00,matrix,Nein,f,0,,,
+121,v2_CSM,CSM,2026-01-05 09:14:56+00,research,Ja,t,4,9.0,9.0,9.0
+122,v2_CSM,CSM,2026-01-07 02:11:08+00,matrix,Nein,f,0,,,
+122,v2_CSM,CSM,2026-01-07 02:11:08+00,research,Ja,t,4,7.0,7.0,5.0
+123,v2_CSM,CSM,2026-01-12 02:38:26+00,matrix,,,,,,
+123,v2_CSM,CSM,2026-01-12 02:38:26+00,research,Ja,t,4,10.0,10.0,10.0
+124,v2_CSM,CSM,2026-01-12 05:57:30+00,matrix,Nein,f,0,,,
+124,v2_CSM,CSM,2026-01-12 05:57:30+00,research,Ja,t,4,8.0,8.0,7.0
+125,v2_CSM,CSM,2026-01-12 12:30:49+00,matrix,Nein,f,0,,,
+125,v2_CSM,CSM,2026-01-12 12:30:49+00,research,Ja,t,4,7.0,8.0,6.0
+126,v2_CSM,CSM,2026-01-13 04:24:41+00,matrix,Ja,t,4,7.0,,
+126,v2_CSM,CSM,2026-01-13 04:24:41+00,research,Ja,t,4,10.0,8.0,9.0
+127,v2_CSM,CSM,2026-01-13 05:59:47+00,matrix,Nein,f,0,,,
+127,v2_CSM,CSM,2026-01-13 05:59:47+00,research,Ja,t,4,9.0,9.0,9.0
+128,v2_CSM,CSM,2026-01-13 07:53:21+00,matrix,Nein,f,0,,,
+128,v2_CSM,CSM,2026-01-13 07:53:21+00,research,Ja,t,4,8.0,8.0,9.0
+129,v2_CSM,CSM,2026-01-13 10:07:20+00,matrix,Nein,f,0,,,
+129,v2_CSM,CSM,2026-01-13 10:07:20+00,research,Ja,t,4,9.0,9.0,
+130,v2_CSM,CSM,2026-01-14 05:20:02+00,matrix,Nein,f,0,,,
+130,v2_CSM,CSM,2026-01-14 05:20:02+00,research,Ja,t,4,10.0,10.0,10.0
+131,v2_CSM,CSM,2026-01-15 01:23:04+00,matrix,,,,,,
+131,v2_CSM,CSM,2026-01-15 01:23:04+00,research,Ja,t,4,9.0,9.0,
+132,v2_CSM,CSM,2026-01-15 07:29:55+00,matrix,,,,,,
+132,v2_CSM,CSM,2026-01-15 07:29:55+00,research,Ja,t,4,9.0,9.0,9.0
+133,v2_CSM,CSM,2026-01-15 07:32:25+00,matrix,,,,,,
+133,v2_CSM,CSM,2026-01-15 07:32:25+00,research,Ja,t,4,7.0,7.0,9.0
+134,v2_CSM,CSM,2026-01-16 05:31:45+00,matrix,Nein,f,0,,,
+134,v2_CSM,CSM,2026-01-16 05:31:45+00,research,Ja,t,4,10.0,8.0,8.0
+135,v2_CSM,CSM,2026-01-16 08:11:33+00,matrix,Nein,f,0,,,
+135,v2_CSM,CSM,2026-01-16 08:11:33+00,research,Ja,t,4,7.0,7.0,10.0
+136,v2_CSM,CSM,2026-01-19 11:50:23+00,matrix,Nein,f,0,,,
+136,v2_CSM,CSM,2026-01-19 11:50:23+00,research,Ja,t,4,6.0,5.0,6.0
+137,v2_CSM,CSM,2026-01-20 05:33:19+00,matrix,,,,,,
+137,v2_CSM,CSM,2026-01-20 05:33:19+00,research,Ja,t,4,7.0,6.0,8.0
+138,v2_CSM,CSM,2026-01-21 08:43:34+00,matrix,,,,,,
+138,v2_CSM,CSM,2026-01-21 08:43:34+00,research,Ja,t,4,7.0,8.0,7.0
+139,v2_CSM,CSM,2026-01-22 06:58:20+00,matrix,Nein,f,0,,,
+139,v2_CSM,CSM,2026-01-22 06:58:20+00,research,Ja,t,4,9.0,8.0,8.0
+140,v2_CSM,CSM,2026-02-04 06:05:41+00,matrix,,,,,,
+140,v2_CSM,CSM,2026-02-04 06:05:41+00,research,Ja,t,4,8.0,8.0,9.0
+141,v2_CSM,CSM,2026-02-10 05:34:22+00,matrix,,,,,,
+141,v2_CSM,CSM,2026-02-10 05:34:22+00,research,Ja,t,4,5.0,7.0,4.0
+142,v2_CSM,CSM,2026-02-12 23:27:53+00,matrix,Nein,f,0,,,
+142,v2_CSM,CSM,2026-02-12 23:27:53+00,research,Ja,t,4,,6.0,8.0
+143,v2_CSM,CSM,2026-02-24 06:09:56+00,matrix,,,,,,
+143,v2_CSM,CSM,2026-02-24 06:09:56+00,research,Ja,t,4,6.0,6.0,5.0
+10,v3_CSM,CSM,2026-03-03 11:11:15+00,editor,Nie,f,0,,,
+10,v3_CSM,CSM,2026-03-03 11:11:15+00,matrix,Nie,f,0,,,
+10,v3_CSM,CSM,2026-03-03 11:11:15+00,research,Einmal pro Woche,t,3,6.0,8.0,8.0
+10,v3_CSM,CSM,2026-03-03 11:11:15+00,templates,Nie,f,0,,,
+14,v3_CSM,CSM,2026-03-03 16:59:03+00,editor,Täglich,t,5,4.0,8.0,8.0
+14,v3_CSM,CSM,2026-03-03 16:59:03+00,matrix,Nie,f,0,,,
+14,v3_CSM,CSM,2026-03-03 16:59:03+00,research,Täglich,t,5,6.0,8.0,8.0
+14,v3_CSM,CSM,2026-03-03 16:59:03+00,templates,Nie,f,0,,,
+15,v3_CSM,CSM,2026-03-03 17:01:15+00,editor,Täglich,t,5,8.0,10.0,10.0
+15,v3_CSM,CSM,2026-03-03 17:01:15+00,matrix,Nie,f,0,,,
+15,v3_CSM,CSM,2026-03-03 17:01:15+00,research,Täglich,t,5,9.0,10.0,10.0
+15,v3_CSM,CSM,2026-03-03 17:01:15+00,templates,Seltener,t,1,,,
+16,v3_CSM,CSM,2026-03-04 07:45:55+00,editor,,,,,,
+16,v3_CSM,CSM,2026-03-04 07:45:55+00,matrix,,,,,,
+16,v3_CSM,CSM,2026-03-04 07:45:55+00,research,,,,,,
+16,v3_CSM,CSM,2026-03-04 07:45:55+00,templates,,,,,,
+18,v3_CSM,CSM,2026-03-04 16:39:48+00,editor,Einmal pro Woche,t,3,,,
+18,v3_CSM,CSM,2026-03-04 16:39:48+00,matrix,Nie,f,0,,,
+18,v3_CSM,CSM,2026-03-04 16:39:48+00,research,Mehrmals pro Woche,t,4,7.0,8.0,6.0
+18,v3_CSM,CSM,2026-03-04 16:39:48+00,templates,Nie,f,0,,,
+19,v3_CSM,CSM,2026-03-09 18:06:05+00,editor,Mehrmals pro Woche,t,4,1.0,2.0,2.0
+19,v3_CSM,CSM,2026-03-09 18:06:05+00,matrix,Nie,f,0,,,
+19,v3_CSM,CSM,2026-03-09 18:06:05+00,research,Täglich,t,5,2.0,2.0,4.0
+19,v3_CSM,CSM,2026-03-09 18:06:05+00,templates,Nie,f,0,,,
+20,v3_CSM,CSM,2026-03-12 10:24:02+00,editor,Mehrmals pro Woche,t,4,,8.0,8.0
+20,v3_CSM,CSM,2026-03-12 10:24:02+00,matrix,Nie,f,0,,,
+20,v3_CSM,CSM,2026-03-12 10:24:02+00,research,Mehrmals pro Woche,t,4,,10.0,8.0
+20,v3_CSM,CSM,2026-03-12 10:24:02+00,templates,Einmal pro Woche,t,3,,,
+21,v3_CSM,CSM,2026-03-12 12:26:15+00,editor,Nie,f,0,,,
+21,v3_CSM,CSM,2026-03-12 12:26:15+00,matrix,Einmal im Monat,t,2,3.0,8.0,
+21,v3_CSM,CSM,2026-03-12 12:26:15+00,research,Mehrmals pro Woche,t,4,7.0,8.0,10.0
+21,v3_CSM,CSM,2026-03-12 12:26:15+00,templates,Nie,f,0,,,
+22,v3_CSM,CSM,2026-03-12 13:12:20+00,editor,Täglich,t,5,9.0,8.0,10.0
+22,v3_CSM,CSM,2026-03-12 13:12:20+00,matrix,Einmal pro Woche,t,3,,8.0,
+22,v3_CSM,CSM,2026-03-12 13:12:20+00,research,Täglich,t,5,8.0,8.0,10.0
+22,v3_CSM,CSM,2026-03-12 13:12:20+00,templates,Einmal pro Woche,t,3,,8.0,
+23,v3_CSM,CSM,2026-03-12 15:49:21+00,editor,Nie,f,0,,,
+23,v3_CSM,CSM,2026-03-12 15:49:21+00,matrix,Nie,f,0,,,
+23,v3_CSM,CSM,2026-03-12 15:49:21+00,research,Einmal pro Woche,t,3,10.0,10.0,10.0
+23,v3_CSM,CSM,2026-03-12 15:49:21+00,templates,Nie,f,0,,,
+25,v3_CSM,CSM,2026-03-12 16:20:27+00,editor,Nie,f,0,,,
+25,v3_CSM,CSM,2026-03-12 16:20:27+00,matrix,Nie,f,0,,,
+25,v3_CSM,CSM,2026-03-12 16:20:27+00,research,Mehrmals pro Woche,t,4,9.0,10.0,10.0
+25,v3_CSM,CSM,2026-03-12 16:20:27+00,templates,Nie,f,0,,,
+26,v3_CSM,CSM,2026-03-13 08:01:44+00,editor,Nie,f,0,,,
+26,v3_CSM,CSM,2026-03-13 08:01:44+00,matrix,Nie,f,0,,,
+26,v3_CSM,CSM,2026-03-13 08:01:44+00,research,Einmal im Monat,t,2,,,
+26,v3_CSM,CSM,2026-03-13 08:01:44+00,templates,Nie,f,0,,,
+27,v3_CSM,CSM,2026-03-16 08:39:22+00,editor,Nie,f,0,,,
+27,v3_CSM,CSM,2026-03-16 08:39:22+00,matrix,Nie,f,0,,,
+27,v3_CSM,CSM,2026-03-16 08:39:22+00,research,Mehrmals pro Woche,t,4,6.0,8.0,6.0
+27,v3_CSM,CSM,2026-03-16 08:39:22+00,templates,Nie,f,0,,,
+28,v3_CSM,CSM,2026-03-16 10:06:31+00,editor,Nie,f,0,,,
+28,v3_CSM,CSM,2026-03-16 10:06:31+00,matrix,Einmal pro Woche,t,3,,,
+28,v3_CSM,CSM,2026-03-16 10:06:31+00,research,Nie,f,0,,,
+28,v3_CSM,CSM,2026-03-16 10:06:31+00,templates,Nie,f,0,,,
+29,v3_CSM,CSM,2026-03-17 08:06:16+00,editor,Einmal pro Woche,t,3,2.0,4.0,8.0
+29,v3_CSM,CSM,2026-03-17 08:06:16+00,matrix,Nie,f,0,,,
+29,v3_CSM,CSM,2026-03-17 08:06:16+00,research,Täglich,t,5,8.0,8.0,8.0
+29,v3_CSM,CSM,2026-03-17 08:06:16+00,templates,Nie,f,0,,,
+30,v3_CSM,CSM,2026-03-17 11:01:14+00,editor,Einmal pro Woche,t,3,7.0,8.0,8.0
+30,v3_CSM,CSM,2026-03-17 11:01:14+00,matrix,Nie,f,0,,,
+30,v3_CSM,CSM,2026-03-17 11:01:14+00,research,Mehrmals pro Woche,t,4,7.0,10.0,8.0
+30,v3_CSM,CSM,2026-03-17 11:01:14+00,templates,Nie,f,0,,,
+31,v3_CSM,CSM,2026-03-17 11:07:11+00,editor,Täglich,t,5,8.0,8.0,8.0
+31,v3_CSM,CSM,2026-03-17 11:07:11+00,matrix,,,,,,
+31,v3_CSM,CSM,2026-03-17 11:07:11+00,research,Täglich,t,5,10.0,10.0,8.0
+31,v3_CSM,CSM,2026-03-17 11:07:11+00,templates,,,,,,
+32,v3_CSM,CSM,2026-03-18 10:31:16+00,editor,Einmal pro Woche,t,3,4.0,4.0,4.0
+32,v3_CSM,CSM,2026-03-18 10:31:16+00,matrix,Nie,f,0,,,
+32,v3_CSM,CSM,2026-03-18 10:31:16+00,research,Mehrmals pro Woche,t,4,7.0,4.0,8.0
+32,v3_CSM,CSM,2026-03-18 10:31:16+00,templates,Seltener,t,1,,,
+33,v3_CSM,CSM,2026-03-18 15:33:54+00,editor,Einmal im Monat,t,2,,,
+33,v3_CSM,CSM,2026-03-18 15:33:54+00,matrix,Nie,f,0,,,
+33,v3_CSM,CSM,2026-03-18 15:33:54+00,research,Mehrmals pro Woche,t,4,5.0,8.0,8.0
+33,v3_CSM,CSM,2026-03-18 15:33:54+00,templates,Nie,f,0,,,
+34,v3_CSM,CSM,2026-03-19 08:46:37+00,editor,Nie,f,0,,,
+34,v3_CSM,CSM,2026-03-19 08:46:37+00,matrix,Nie,f,0,,,
+34,v3_CSM,CSM,2026-03-19 08:46:37+00,research,Mehrmals pro Woche,t,4,10.0,10.0,4.0
+34,v3_CSM,CSM,2026-03-19 08:46:37+00,templates,,,,,,
+39,v3_CSM,CSM,2026-03-23 10:59:31+00,editor,Nie,f,0,,,
+39,v3_CSM,CSM,2026-03-23 10:59:31+00,matrix,Nie,f,0,,,
+39,v3_CSM,CSM,2026-03-23 10:59:31+00,research,Mehrmals pro Woche,t,4,6.0,8.0,8.0
+39,v3_CSM,CSM,2026-03-23 10:59:31+00,templates,Nie,f,0,,,
+40,v3_CSM,CSM,2026-03-23 11:22:04+00,editor,Täglich,t,5,8.0,10.0,10.0
+40,v3_CSM,CSM,2026-03-23 11:22:04+00,matrix,Nie,f,0,,,
+40,v3_CSM,CSM,2026-03-23 11:22:04+00,research,Täglich,t,5,8.0,10.0,10.0
+40,v3_CSM,CSM,2026-03-23 11:22:04+00,templates,Nie,f,0,,,
+42,v3_CSM,CSM,2026-03-23 12:04:14+00,editor,Mehrmals pro Woche,t,4,7.0,8.0,8.0
+42,v3_CSM,CSM,2026-03-23 12:04:14+00,matrix,Nie,f,0,,,
+42,v3_CSM,CSM,2026-03-23 12:04:14+00,research,Mehrmals pro Woche,t,4,9.0,8.0,10.0
+42,v3_CSM,CSM,2026-03-23 12:04:14+00,templates,,,,,,
+44,v3_CSM,CSM,2026-03-23 13:07:19+00,editor,Einmal im Monat,t,2,,,
+44,v3_CSM,CSM,2026-03-23 13:07:19+00,matrix,Nie,f,0,,,
+44,v3_CSM,CSM,2026-03-23 13:07:19+00,research,Mehrmals pro Woche,t,4,7.0,8.0,10.0
+44,v3_CSM,CSM,2026-03-23 13:07:19+00,templates,Nie,f,0,,,
+43,v3_CSM,CSM,2026-03-23 13:07:37+00,editor,Einmal pro Woche,t,3,6.0,8.0,6.0
+43,v3_CSM,CSM,2026-03-23 13:07:37+00,matrix,Nie,f,0,,,
+43,v3_CSM,CSM,2026-03-23 13:07:37+00,research,Täglich,t,5,,8.0,8.0
+43,v3_CSM,CSM,2026-03-23 13:07:37+00,templates,Seltener,t,1,,,
+45,v3_CSM,CSM,2026-03-23 17:47:29+00,editor,Mehrmals pro Woche,t,4,8.0,8.0,8.0
+45,v3_CSM,CSM,2026-03-23 17:47:29+00,matrix,Seltener,t,1,,,
+45,v3_CSM,CSM,2026-03-23 17:47:29+00,research,Täglich,t,5,8.0,10.0,8.0
+45,v3_CSM,CSM,2026-03-23 17:47:29+00,templates,Seltener,t,1,,,
+46,v3_CSM,CSM,2026-03-24 07:29:01+00,editor,Nie,f,0,,,
+46,v3_CSM,CSM,2026-03-24 07:29:01+00,matrix,Nie,f,0,,,
+46,v3_CSM,CSM,2026-03-24 07:29:01+00,research,Täglich,t,5,9.0,8.0,10.0
+46,v3_CSM,CSM,2026-03-24 07:29:01+00,templates,Nie,f,0,,,
+49,v3_CSM,CSM,2026-03-26 13:36:46+00,editor,Einmal pro Woche,t,3,6.0,8.0,6.0
+49,v3_CSM,CSM,2026-03-26 13:36:46+00,matrix,Nie,f,0,,,
+49,v3_CSM,CSM,2026-03-26 13:36:46+00,research,Täglich,t,5,,8.0,6.0
+49,v3_CSM,CSM,2026-03-26 13:36:46+00,templates,Nie,f,0,,,
+50,v3_CSM,CSM,2026-03-26 14:07:58+00,editor,Seltener,t,1,,,
+50,v3_CSM,CSM,2026-03-26 14:07:58+00,matrix,Nie,f,0,,,
+50,v3_CSM,CSM,2026-03-26 14:07:58+00,research,Täglich,t,5,9.0,8.0,6.0
+50,v3_CSM,CSM,2026-03-26 14:07:58+00,templates,Mehrmals pro Woche,t,4,9.0,8.0,
+51,v3_CSM,CSM,2026-03-26 14:15:15+00,editor,Nie,f,0,,,
+51,v3_CSM,CSM,2026-03-26 14:15:15+00,matrix,Nie,f,0,,,
+51,v3_CSM,CSM,2026-03-26 14:15:15+00,research,Nie,f,0,,,
+51,v3_CSM,CSM,2026-03-26 14:15:15+00,templates,Nie,f,0,,,
+55,v3_CSM,CSM,2026-04-07 13:53:17+00,editor,,,,,,
+55,v3_CSM,CSM,2026-04-07 13:53:17+00,matrix,,,,,,
+55,v3_CSM,CSM,2026-04-07 13:53:17+00,research,Mehrmals pro Woche,t,4,5.0,4.0,8.0
+55,v3_CSM,CSM,2026-04-07 13:53:17+00,templates,,,,,,
+56,v3_CSM,CSM,2026-04-07 15:35:55+00,editor,Mehrmals pro Woche,t,4,8.0,8.0,8.0
+56,v3_CSM,CSM,2026-04-07 15:35:55+00,matrix,Nie,f,0,,,
+56,v3_CSM,CSM,2026-04-07 15:35:55+00,research,Täglich,t,5,3.0,8.0,8.0
+56,v3_CSM,CSM,2026-04-07 15:35:55+00,templates,Nie,f,0,,,
+57,v3_CSM,CSM,2026-04-07 15:48:54+00,editor,,,,,,
+57,v3_CSM,CSM,2026-04-07 15:48:54+00,matrix,,,,,,
+57,v3_CSM,CSM,2026-04-07 15:48:54+00,research,Mehrmals pro Woche,t,4,,2.0,8.0
+57,v3_CSM,CSM,2026-04-07 15:48:54+00,templates,Seltener,t,1,,,
+59,v3_CSM,CSM,2026-04-16 15:50:10+00,editor,,,,,,
+59,v3_CSM,CSM,2026-04-16 15:50:10+00,matrix,,,,,,
+59,v3_CSM,CSM,2026-04-16 15:50:10+00,research,,,,,,
+59,v3_CSM,CSM,2026-04-16 15:50:10+00,templates,,,,,,
+61,v3_CSM,CSM,2026-04-20 13:42:40+00,editor,Einmal im Monat,t,2,,,
+61,v3_CSM,CSM,2026-04-20 13:42:40+00,matrix,Nie,f,0,,,
+61,v3_CSM,CSM,2026-04-20 13:42:40+00,research,Mehrmals pro Woche,t,4,7.0,8.0,4.0
+61,v3_CSM,CSM,2026-04-20 13:42:40+00,templates,Nie,f,0,,,
+65,v3_CSM,CSM,2026-04-28 06:46:42+00,editor,Nie,f,0,,,
+65,v3_CSM,CSM,2026-04-28 06:46:42+00,matrix,Einmal im Monat,t,2,9.0,10.0,
+65,v3_CSM,CSM,2026-04-28 06:46:42+00,research,Mehrmals pro Woche,t,4,9.0,8.0,10.0
+65,v3_CSM,CSM,2026-04-28 06:46:42+00,templates,Einmal im Monat,t,2,,,
+68,v3_CSM,CSM,2026-05-07 07:30:03+00,editor,Einmal pro Woche,t,3,4.0,6.0,8.0
+68,v3_CSM,CSM,2026-05-07 07:30:03+00,matrix,Nie,f,0,,,
+68,v3_CSM,CSM,2026-05-07 07:30:03+00,research,Täglich,t,5,,8.0,8.0
+68,v3_CSM,CSM,2026-05-07 07:30:03+00,templates,Nie,f,0,,,
+70,v3_CSM,CSM,2026-05-08 14:10:03+00,editor,Nie,f,0,,,
+70,v3_CSM,CSM,2026-05-08 14:10:03+00,matrix,Nie,f,0,,,
+70,v3_CSM,CSM,2026-05-08 14:10:03+00,research,Mehrmals pro Woche,t,4,8.0,8.0,8.0
+70,v3_CSM,CSM,2026-05-08 14:10:03+00,templates,Nie,f,0,,,
+71,v3_CSM,CSM,2026-05-11 10:00:26+00,editor,Nie,f,0,,,
+71,v3_CSM,CSM,2026-05-11 10:00:26+00,matrix,Nie,f,0,,,
+71,v3_CSM,CSM,2026-05-11 10:00:26+00,research,Mehrmals pro Woche,t,4,4.0,4.0,10.0
+71,v3_CSM,CSM,2026-05-11 10:00:26+00,templates,Nie,f,0,,,
+72,v3_CSM,CSM,2026-05-11 10:02:54+00,editor,Nie,f,0,,,
+72,v3_CSM,CSM,2026-05-11 10:02:54+00,matrix,Nie,f,0,,,
+72,v3_CSM,CSM,2026-05-11 10:02:54+00,research,Mehrmals pro Woche,t,4,3.0,4.0,6.0
+72,v3_CSM,CSM,2026-05-11 10:02:54+00,templates,Nie,f,0,,,
+77,v3_CSM,CSM,2026-05-11 10:05:03+00,editor,,,,,,
+77,v3_CSM,CSM,2026-05-11 10:05:03+00,matrix,,,,,,
+77,v3_CSM,CSM,2026-05-11 10:05:03+00,research,Täglich,t,5,8.0,10.0,10.0
+77,v3_CSM,CSM,2026-05-11 10:05:03+00,templates,,,,,,
+76,v3_CSM,CSM,2026-05-11 10:13:52+00,editor,Seltener,t,1,,,
+76,v3_CSM,CSM,2026-05-11 10:13:52+00,matrix,,,,,,
+76,v3_CSM,CSM,2026-05-11 10:13:52+00,research,Mehrmals pro Woche,t,4,4.0,4.0,8.0
+76,v3_CSM,CSM,2026-05-11 10:13:52+00,templates,Nie,f,0,,,
+73,v3_CSM,CSM,2026-05-11 10:16:52+00,editor,Nie,f,0,,,
+73,v3_CSM,CSM,2026-05-11 10:16:52+00,matrix,Seltener,t,1,,,
+73,v3_CSM,CSM,2026-05-11 10:16:52+00,research,Täglich,t,5,4.0,4.0,8.0
+73,v3_CSM,CSM,2026-05-11 10:16:52+00,templates,Nie,f,0,,,
+78,v3_CSM,CSM,2026-05-11 10:17:32+00,editor,,,,,,
+78,v3_CSM,CSM,2026-05-11 10:17:32+00,matrix,,,,,,
+78,v3_CSM,CSM,2026-05-11 10:17:32+00,research,Täglich,t,5,5.0,4.0,10.0
+78,v3_CSM,CSM,2026-05-11 10:17:32+00,templates,,,,,,
+75,v3_CSM,CSM,2026-05-11 10:18:48+00,editor,Täglich,t,5,5.0,6.0,10.0
+75,v3_CSM,CSM,2026-05-11 10:18:48+00,matrix,,,,,,
+75,v3_CSM,CSM,2026-05-11 10:18:48+00,research,Täglich,t,5,2.0,2.0,10.0
+75,v3_CSM,CSM,2026-05-11 10:18:48+00,templates,Täglich,t,5,5.0,6.0,
+80,v3_CSM,CSM,2026-05-11 10:27:05+00,editor,,,,,,
+80,v3_CSM,CSM,2026-05-11 10:27:05+00,matrix,Nie,f,0,,,
+80,v3_CSM,CSM,2026-05-11 10:27:05+00,research,Täglich,t,5,3.0,2.0,6.0
+80,v3_CSM,CSM,2026-05-11 10:27:05+00,templates,Seltener,t,1,,,
+74,v3_CSM,CSM,2026-05-11 10:30:06+00,editor,Mehrmals pro Woche,t,4,4.0,4.0,4.0
+74,v3_CSM,CSM,2026-05-11 10:30:06+00,matrix,Mehrmals pro Woche,t,4,3.0,4.0,
+74,v3_CSM,CSM,2026-05-11 10:30:06+00,research,Seltener,t,1,,,
+74,v3_CSM,CSM,2026-05-11 10:30:06+00,templates,Nie,f,0,,,
+81,v3_CSM,CSM,2026-05-11 10:36:29+00,editor,Nie,f,0,,,
+81,v3_CSM,CSM,2026-05-11 10:36:29+00,matrix,Nie,f,0,,,
+81,v3_CSM,CSM,2026-05-11 10:36:29+00,research,Einmal im Monat,t,2,,,
+81,v3_CSM,CSM,2026-05-11 10:36:29+00,templates,Nie,f,0,,,
+79,v3_CSM,CSM,2026-05-11 10:37:29+00,editor,Mehrmals pro Woche,t,4,3.0,6.0,6.0
+79,v3_CSM,CSM,2026-05-11 10:37:29+00,matrix,,,,,,
+79,v3_CSM,CSM,2026-05-11 10:37:29+00,research,Mehrmals pro Woche,t,4,3.0,4.0,6.0
+79,v3_CSM,CSM,2026-05-11 10:37:29+00,templates,Seltener,t,1,,,
+82,v3_CSM,CSM,2026-05-11 10:39:27+00,editor,Nie,f,0,,,
+82,v3_CSM,CSM,2026-05-11 10:39:27+00,matrix,Nie,f,0,,,
+82,v3_CSM,CSM,2026-05-11 10:39:27+00,research,Mehrmals pro Woche,t,4,3.0,4.0,4.0
+82,v3_CSM,CSM,2026-05-11 10:39:27+00,templates,Nie,f,0,,,
+83,v3_CSM,CSM,2026-05-11 10:45:10+00,editor,Mehrmals pro Woche,t,4,2.0,4.0,6.0
+83,v3_CSM,CSM,2026-05-11 10:45:10+00,matrix,Mehrmals pro Woche,t,4,4.0,4.0,
+83,v3_CSM,CSM,2026-05-11 10:45:10+00,research,Mehrmals pro Woche,t,4,3.0,2.0,6.0
+83,v3_CSM,CSM,2026-05-11 10:45:10+00,templates,Nie,f,0,,,
+84,v3_CSM,CSM,2026-05-11 11:02:35+00,editor,Einmal pro Woche,t,3,4.0,4.0,8.0
+84,v3_CSM,CSM,2026-05-11 11:02:35+00,matrix,Nie,f,0,,,
+84,v3_CSM,CSM,2026-05-11 11:02:35+00,research,Einmal pro Woche,t,3,4.0,4.0,4.0
+84,v3_CSM,CSM,2026-05-11 11:02:35+00,templates,Nie,f,0,,,
+86,v3_CSM,CSM,2026-05-11 11:28:37+00,editor,,,,,,
+86,v3_CSM,CSM,2026-05-11 11:28:37+00,matrix,Täglich,t,5,6.0,6.0,
+86,v3_CSM,CSM,2026-05-11 11:28:37+00,research,Täglich,t,5,5.0,8.0,8.0
+86,v3_CSM,CSM,2026-05-11 11:28:37+00,templates,Nie,f,0,,,
+85,v3_CSM,CSM,2026-05-11 11:37:15+00,editor,Seltener,t,1,,,
+85,v3_CSM,CSM,2026-05-11 11:37:15+00,matrix,Nie,f,0,,,
+85,v3_CSM,CSM,2026-05-11 11:37:15+00,research,Täglich,t,5,8.0,8.0,8.0
+85,v3_CSM,CSM,2026-05-11 11:37:15+00,templates,Mehrmals pro Woche,t,4,3.0,6.0,
+87,v3_CSM,CSM,2026-05-11 11:49:28+00,editor,Seltener,t,1,,,
+87,v3_CSM,CSM,2026-05-11 11:49:28+00,matrix,Nie,f,0,,,
+87,v3_CSM,CSM,2026-05-11 11:49:28+00,research,Nie,f,0,,,
+87,v3_CSM,CSM,2026-05-11 11:49:28+00,templates,Seltener,t,1,,,
+88,v3_CSM,CSM,2026-05-11 12:27:02+00,editor,Einmal im Monat,t,2,,,
+88,v3_CSM,CSM,2026-05-11 12:27:02+00,matrix,,,,,,
+88,v3_CSM,CSM,2026-05-11 12:27:02+00,research,Mehrmals pro Woche,t,4,2.0,4.0,4.0
+88,v3_CSM,CSM,2026-05-11 12:27:02+00,templates,Nie,f,0,,,
+91,v3_CSM,CSM,2026-05-11 14:43:17+00,editor,Seltener,t,1,,,
+91,v3_CSM,CSM,2026-05-11 14:43:17+00,matrix,Nie,f,0,,,
+91,v3_CSM,CSM,2026-05-11 14:43:17+00,research,Täglich,t,5,5.0,4.0,6.0
+91,v3_CSM,CSM,2026-05-11 14:43:17+00,templates,Nie,f,0,,,
+92,v3_CSM,CSM,2026-05-11 15:05:19+00,editor,Mehrmals pro Woche,t,4,7.0,4.0,4.0
+92,v3_CSM,CSM,2026-05-11 15:05:19+00,matrix,Nie,f,0,,,
+92,v3_CSM,CSM,2026-05-11 15:05:19+00,research,Täglich,t,5,6.0,4.0,4.0
+92,v3_CSM,CSM,2026-05-11 15:05:19+00,templates,Nie,f,0,,,
+93,v3_CSM,CSM,2026-05-12 11:55:59+00,editor,Nie,f,0,,,
+93,v3_CSM,CSM,2026-05-12 11:55:59+00,matrix,Nie,f,0,,,
+93,v3_CSM,CSM,2026-05-12 11:55:59+00,research,Täglich,t,5,8.0,10.0,8.0
+93,v3_CSM,CSM,2026-05-12 11:55:59+00,templates,Nie,f,0,,,
+94,v3_CSM,CSM,2026-05-12 12:17:52+00,editor,Nie,f,0,,,
+94,v3_CSM,CSM,2026-05-12 12:17:52+00,matrix,Nie,f,0,,,
+94,v3_CSM,CSM,2026-05-12 12:17:52+00,research,Mehrmals pro Woche,t,4,8.0,8.0,8.0
+94,v3_CSM,CSM,2026-05-12 12:17:52+00,templates,Nie,f,0,,,
+95,v3_CSM,CSM,2026-05-12 13:28:30+00,editor,Mehrmals pro Woche,t,4,6.0,4.0,6.0
+95,v3_CSM,CSM,2026-05-12 13:28:30+00,matrix,Nie,f,0,,,
+95,v3_CSM,CSM,2026-05-12 13:28:30+00,research,Täglich,t,5,7.0,8.0,6.0
+95,v3_CSM,CSM,2026-05-12 13:28:30+00,templates,Seltener,t,1,,,
+97,v3_CSM,CSM,2026-05-12 14:36:00+00,editor,Seltener,t,1,,,
+97,v3_CSM,CSM,2026-05-12 14:36:00+00,matrix,Nie,f,0,,,
+97,v3_CSM,CSM,2026-05-12 14:36:00+00,research,Mehrmals pro Woche,t,4,8.0,8.0,8.0
+97,v3_CSM,CSM,2026-05-12 14:36:00+00,templates,Nie,f,0,,,
+99,v3_CSM,CSM,2026-05-12 15:36:32+00,editor,Einmal pro Woche,t,3,7.0,8.0,8.0
+99,v3_CSM,CSM,2026-05-12 15:36:32+00,matrix,Nie,f,0,,,
+99,v3_CSM,CSM,2026-05-12 15:36:32+00,research,Täglich,t,5,10.0,10.0,8.0
+99,v3_CSM,CSM,2026-05-12 15:36:32+00,templates,Einmal pro Woche,t,3,8.0,8.0,
+101,v3_CSM,CSM,2026-05-13 05:50:20+00,editor,Einmal im Monat,t,2,,,
+101,v3_CSM,CSM,2026-05-13 05:50:20+00,matrix,Nie,f,0,,,
+101,v3_CSM,CSM,2026-05-13 05:50:20+00,research,Täglich,t,5,10.0,,
+101,v3_CSM,CSM,2026-05-13 05:50:20+00,templates,Nie,f,0,,,
+102,v3_CSM,CSM,2026-05-13 07:54:13+00,editor,Mehrmals pro Woche,t,4,7.0,8.0,8.0
+102,v3_CSM,CSM,2026-05-13 07:54:13+00,matrix,,,,,,
+102,v3_CSM,CSM,2026-05-13 07:54:13+00,research,Mehrmals pro Woche,t,4,8.0,8.0,8.0
+102,v3_CSM,CSM,2026-05-13 07:54:13+00,templates,Einmal im Monat,t,2,,,
+104,v3_CSM,CSM,2026-05-15 09:59:50+00,editor,Seltener,t,1,,,
+104,v3_CSM,CSM,2026-05-15 09:59:50+00,matrix,,,,,,
+104,v3_CSM,CSM,2026-05-15 09:59:50+00,research,Mehrmals pro Woche,t,4,7.0,6.0,4.0
+104,v3_CSM,CSM,2026-05-15 09:59:50+00,templates,,,,,,
+105,v3_CSM,CSM,2026-05-18 11:21:59+00,editor,Seltener,t,1,,,
+105,v3_CSM,CSM,2026-05-18 11:21:59+00,matrix,Nie,f,0,,,
+105,v3_CSM,CSM,2026-05-18 11:21:59+00,research,Mehrmals pro Woche,t,4,7.0,8.0,8.0
+105,v3_CSM,CSM,2026-05-18 11:21:59+00,templates,Nie,f,0,,,
+106,v3_CSM,CSM,2026-05-19 07:45:25+00,editor,,,,,,
+106,v3_CSM,CSM,2026-05-19 07:45:25+00,matrix,,,,,,
+106,v3_CSM,CSM,2026-05-19 07:45:25+00,research,,,,,,
+106,v3_CSM,CSM,2026-05-19 07:45:25+00,templates,,,,,,
+108,v3_CSM,CSM,2026-05-20 07:11:15+00,editor,Seltener,t,1,,,
+108,v3_CSM,CSM,2026-05-20 07:11:15+00,matrix,Nie,f,0,,,
+108,v3_CSM,CSM,2026-05-20 07:11:15+00,research,Mehrmals pro Woche,t,4,7.0,10.0,8.0
+108,v3_CSM,CSM,2026-05-20 07:11:15+00,templates,Einmal pro Woche,t,3,8.0,10.0,
+109,v3_CSM,CSM,2026-05-22 08:56:23+00,editor,Einmal pro Woche,t,3,8.0,8.0,
+109,v3_CSM,CSM,2026-05-22 08:56:23+00,matrix,Nie,f,0,,,
+109,v3_CSM,CSM,2026-05-22 08:56:23+00,research,Mehrmals pro Woche,t,4,6.0,8.0,6.0
+109,v3_CSM,CSM,2026-05-22 08:56:23+00,templates,Nie,f,0,,,
+35,v3_CSM,CSM,,editor,Täglich,t,5,,,
+36,v3_CSM,CSM,,editor,,,,,,
+13,v3_CSM,CSM,,editor,,,,,,
+37,v3_CSM,CSM,,editor,,,,,,
+38,v3_CSM,CSM,,editor,Täglich,t,5,,,
+41,v3_CSM,CSM,,editor,,,,,,
+47,v3_CSM,CSM,,editor,Mehrmals pro Woche,t,4,,,
+48,v3_CSM,CSM,,editor,,,,,,
+69,v3_CSM,CSM,,editor,Täglich,t,5,,10.0,
+53,v3_CSM,CSM,,editor,Mehrmals pro Woche,t,4,,,
+54,v3_CSM,CSM,,editor,,,,,,
+58,v3_CSM,CSM,,editor,,,,,,
+98,v3_CSM,CSM,,editor,,,,,,
+96,v3_CSM,CSM,,editor,,,,,,
+60,v3_CSM,CSM,,editor,,,,,,
+11,v3_CSM,CSM,,editor,Mehrmals pro Woche,t,4,,,
+100,v3_CSM,CSM,,editor,Mehrmals pro Woche,t,4,,,
+90,v3_CSM,CSM,,editor,,,,,,
+107,v3_CSM,CSM,,editor,,,,,,
+62,v3_CSM,CSM,,editor,,,,,,
+67,v3_CSM,CSM,,editor,,,,,,
+63,v3_CSM,CSM,,editor,,,,,,
+64,v3_CSM,CSM,,editor,Nie,f,0,,,
+89,v3_CSM,CSM,,editor,,,,,,
+52,v3_CSM,CSM,,editor,,,,,,
+66,v3_CSM,CSM,,editor,,,,,,
+17,v3_CSM,CSM,,editor,Einmal pro Woche,t,3,6.0,8.0,4.0
+12,v3_CSM,CSM,,editor,,,,,,
+24,v3_CSM,CSM,,editor,,,,,,
+103,v3_CSM,CSM,,editor,Einmal im Monat,t,2,,,
+66,v3_CSM,CSM,,matrix,,,,,,
+100,v3_CSM,CSM,,matrix,Mehrmals pro Woche,t,4,,,
+103,v3_CSM,CSM,,matrix,Einmal im Monat,t,2,7.0,8.0,
+98,v3_CSM,CSM,,matrix,,,,,,
+107,v3_CSM,CSM,,matrix,,,,,,
+13,v3_CSM,CSM,,matrix,,,,,,
+17,v3_CSM,CSM,,matrix,Nie,f,0,,,
+24,v3_CSM,CSM,,matrix,,,,,,
+35,v3_CSM,CSM,,matrix,Nie,f,0,,,
+36,v3_CSM,CSM,,matrix,,,,,,
+37,v3_CSM,CSM,,matrix,,,,,,
+38,v3_CSM,CSM,,matrix,Einmal pro Woche,t,3,,,
+41,v3_CSM,CSM,,matrix,,,,,,
+47,v3_CSM,CSM,,matrix,Nie,f,0,,,
+48,v3_CSM,CSM,,matrix,,,,,,
+52,v3_CSM,CSM,,matrix,,,,,,
+53,v3_CSM,CSM,,matrix,Nie,f,0,,,
+54,v3_CSM,CSM,,matrix,,,,,,
+58,v3_CSM,CSM,,matrix,,,,,,
+11,v3_CSM,CSM,,matrix,Mehrmals pro Woche,t,4,,,
+96,v3_CSM,CSM,,matrix,,,,,,
+60,v3_CSM,CSM,,matrix,,,,,,
+90,v3_CSM,CSM,,matrix,,,,,,
+89,v3_CSM,CSM,,matrix,,,,,,
+62,v3_CSM,CSM,,matrix,,,,,,
+63,v3_CSM,CSM,,matrix,,,,,,
+64,v3_CSM,CSM,,matrix,Nie,f,0,,,
+69,v3_CSM,CSM,,matrix,,,,,,
+67,v3_CSM,CSM,,matrix,,,,,,
+12,v3_CSM,CSM,,matrix,,,,,,
+11,v3_CSM,CSM,,research,Mehrmals pro Woche,t,4,,,
+89,v3_CSM,CSM,,research,,,,,,
+90,v3_CSM,CSM,,research,,,,,,
+96,v3_CSM,CSM,,research,,,,,,
+98,v3_CSM,CSM,,research,,,,,,
+100,v3_CSM,CSM,,research,Mehrmals pro Woche,t,4,,,
+103,v3_CSM,CSM,,research,Einmal pro Woche,t,3,6.0,8.0,8.0
+107,v3_CSM,CSM,,research,Seltener,t,1,,,
+69,v3_CSM,CSM,,research,,,,,,
+67,v3_CSM,CSM,,research,,,,,,
+66,v3_CSM,CSM,,research,,,,,,
+64,v3_CSM,CSM,,research,Täglich,t,5,9.0,8.0,8.0
+63,v3_CSM,CSM,,research,Täglich,t,5,,8.0,8.0
+62,v3_CSM,CSM,,research,,,,,,
+60,v3_CSM,CSM,,research,,,,,,
+58,v3_CSM,CSM,,research,,,,,,
+54,v3_CSM,CSM,,research,,,,,,
+53,v3_CSM,CSM,,research,Täglich,t,5,8.0,8.0,10.0
+52,v3_CSM,CSM,,research,,,,,,
+48,v3_CSM,CSM,,research,,,,,,
+47,v3_CSM,CSM,,research,Täglich,t,5,,,
+41,v3_CSM,CSM,,research,,,,,,
+38,v3_CSM,CSM,,research,Täglich,t,5,,,
+37,v3_CSM,CSM,,research,,,,,,
+36,v3_CSM,CSM,,research,,,,,,
+35,v3_CSM,CSM,,research,Täglich,t,5,8.0,8.0,6.0
+24,v3_CSM,CSM,,research,,,,,,
+17,v3_CSM,CSM,,research,Täglich,t,5,8.0,8.0,10.0
+13,v3_CSM,CSM,,research,,,,,,
+12,v3_CSM,CSM,,research,,,,,,
+47,v3_CSM,CSM,,templates,Seltener,t,1,,,
+58,v3_CSM,CSM,,templates,,,,,,
+69,v3_CSM,CSM,,templates,,,,,,
+67,v3_CSM,CSM,,templates,,,,,,
+89,v3_CSM,CSM,,templates,,,,,,
+66,v3_CSM,CSM,,templates,,,,,,
+24,v3_CSM,CSM,,templates,,,,,,
+64,v3_CSM,CSM,,templates,Nie,f,0,,,
+63,v3_CSM,CSM,,templates,Nie,f,0,,,
+62,v3_CSM,CSM,,templates,,,,,,
+11,v3_CSM,CSM,,templates,Mehrmals pro Woche,t,4,,,
+54,v3_CSM,CSM,,templates,,,,,,
+53,v3_CSM,CSM,,templates,Seltener,t,1,,,
+96,v3_CSM,CSM,,templates,,,,,,
+52,v3_CSM,CSM,,templates,,,,,,
+60,v3_CSM,CSM,,templates,,,,,,
+35,v3_CSM,CSM,,templates,Seltener,t,1,,,
+98,v3_CSM,CSM,,templates,,,,,,
+13,v3_CSM,CSM,,templates,,,,,,
+48,v3_CSM,CSM,,templates,,,,,,
+17,v3_CSM,CSM,,templates,Seltener,t,1,,,
+107,v3_CSM,CSM,,templates,,,,,,
+36,v3_CSM,CSM,,templates,,,,,,
+100,v3_CSM,CSM,,templates,Mehrmals pro Woche,t,4,,,
+37,v3_CSM,CSM,,templates,,,,,,
+12,v3_CSM,CSM,,templates,,,,,,
+38,v3_CSM,CSM,,templates,Mehrmals pro Woche,t,4,,,
+90,v3_CSM,CSM,,templates,,,,,,
+41,v3_CSM,CSM,,templates,,,,,,
+103,v3_CSM,CSM,,templates,Einmal im Monat,t,2,7.0,8.0,
+8,v3_SS,SelfService,2026-04-21 09:51:37+00,editor,Mehrmals pro Woche,t,4,5.0,4.0,4.0
+8,v3_SS,SelfService,2026-04-21 09:51:37+00,matrix,Einmal im Monat,t,2,3.0,6.0,
+8,v3_SS,SelfService,2026-04-21 09:51:37+00,research,Täglich,t,5,2.0,2.0,4.0
+8,v3_SS,SelfService,2026-04-21 09:51:37+00,templates,Seltener,t,1,,,
+8,v3_SS,SelfService,2026-04-21 09:51:37+00,word_addin,Nie,f,0,,,
+9,v3_SS,SelfService,2026-04-21 12:36:01+00,editor,Täglich,t,5,1.0,,
+9,v3_SS,SelfService,2026-04-21 12:36:01+00,matrix,Seltener,t,1,,,
+9,v3_SS,SelfService,2026-04-21 12:36:01+00,research,Täglich,t,5,8.0,10.0,10.0
+9,v3_SS,SelfService,2026-04-21 12:36:01+00,templates,,,,,,
+9,v3_SS,SelfService,2026-04-21 12:36:01+00,word_addin,Nie,f,0,,,
+16,v3_SS,SelfService,2026-04-25 21:24:17+00,editor,Einmal pro Woche,t,3,,,
+16,v3_SS,SelfService,2026-04-25 21:24:17+00,matrix,Nie,f,0,,,
+16,v3_SS,SelfService,2026-04-25 21:24:17+00,research,Nie,f,0,,,
+16,v3_SS,SelfService,2026-04-25 21:24:17+00,templates,Nie,f,0,,,
+16,v3_SS,SelfService,2026-04-25 21:24:17+00,word_addin,Nie,f,0,,,
+19,v3_SS,SelfService,2026-05-02 10:55:59+00,editor,Mehrmals pro Woche,t,4,,6.0,
+19,v3_SS,SelfService,2026-05-02 10:55:59+00,matrix,Nie,f,0,,,
+19,v3_SS,SelfService,2026-05-02 10:55:59+00,research,Mehrmals pro Woche,t,4,3.0,4.0,4.0
+19,v3_SS,SelfService,2026-05-02 10:55:59+00,templates,Nie,f,0,,,
+19,v3_SS,SelfService,2026-05-02 10:55:59+00,word_addin,Nie,f,0,,,
+20,v3_SS,SelfService,2026-05-04 08:38:38+00,editor,Täglich,t,5,8.0,8.0,8.0
+20,v3_SS,SelfService,2026-05-04 08:38:38+00,matrix,Nie,f,0,,,
+20,v3_SS,SelfService,2026-05-04 08:38:38+00,research,Täglich,t,5,7.0,8.0,8.0
+20,v3_SS,SelfService,2026-05-04 08:38:38+00,templates,Seltener,t,1,,,
+20,v3_SS,SelfService,2026-05-04 08:38:38+00,word_addin,Nie,f,0,,,
+21,v3_SS,SelfService,2026-05-04 09:51:01+00,editor,Täglich,t,5,7.0,8.0,
+21,v3_SS,SelfService,2026-05-04 09:51:01+00,matrix,Nie,f,0,,,
+21,v3_SS,SelfService,2026-05-04 09:51:01+00,research,Täglich,t,5,6.0,8.0,10.0
+21,v3_SS,SelfService,2026-05-04 09:51:01+00,templates,Täglich,t,5,5.0,,
+21,v3_SS,SelfService,2026-05-04 09:51:01+00,word_addin,Nie,f,0,,,
+25,v3_SS,SelfService,2026-05-05 09:47:35+00,editor,Nie,f,0,,,
+25,v3_SS,SelfService,2026-05-05 09:47:35+00,matrix,Nie,f,0,,,
+25,v3_SS,SelfService,2026-05-05 09:47:35+00,research,Nie,f,0,,,
+25,v3_SS,SelfService,2026-05-05 09:47:35+00,templates,Nie,f,0,,,
+25,v3_SS,SelfService,2026-05-05 09:47:35+00,word_addin,Nie,f,0,,,
+33,v3_SS,SelfService,2026-05-08 10:13:23+00,editor,Mehrmals pro Woche,t,4,7.0,8.0,8.0
+33,v3_SS,SelfService,2026-05-08 10:13:23+00,matrix,Nie,f,0,,,
+33,v3_SS,SelfService,2026-05-08 10:13:23+00,research,Mehrmals pro Woche,t,4,8.0,8.0,10.0
+33,v3_SS,SelfService,2026-05-08 10:13:23+00,templates,Nie,f,0,,,
+33,v3_SS,SelfService,2026-05-08 10:13:23+00,word_addin,Nie,f,0,,,
+36,v3_SS,SelfService,2026-05-11 11:52:53+00,editor,Nie,f,0,,,
+36,v3_SS,SelfService,2026-05-11 11:52:53+00,matrix,Mehrmals pro Woche,t,4,8.0,8.0,
+36,v3_SS,SelfService,2026-05-11 11:52:53+00,research,Nie,f,0,,,
+36,v3_SS,SelfService,2026-05-11 11:52:53+00,templates,Nie,f,0,,,
+36,v3_SS,SelfService,2026-05-11 11:52:53+00,word_addin,Nie,f,0,,,
+37,v3_SS,SelfService,2026-05-12 07:54:29+00,editor,Seltener,t,1,,,
+37,v3_SS,SelfService,2026-05-12 07:54:29+00,matrix,Nie,f,0,,,
+37,v3_SS,SelfService,2026-05-12 07:54:29+00,research,Mehrmals pro Woche,t,4,6.0,6.0,8.0
+37,v3_SS,SelfService,2026-05-12 07:54:29+00,templates,Nie,f,0,,,
+37,v3_SS,SelfService,2026-05-12 07:54:29+00,word_addin,Nie,f,0,,,
+38,v3_SS,SelfService,2026-05-12 10:01:26+00,editor,Täglich,t,5,7.0,8.0,6.0
+38,v3_SS,SelfService,2026-05-12 10:01:26+00,matrix,Nie,f,0,,,
+38,v3_SS,SelfService,2026-05-12 10:01:26+00,research,Täglich,t,5,7.0,8.0,8.0
+38,v3_SS,SelfService,2026-05-12 10:01:26+00,templates,Nie,f,0,,,
+38,v3_SS,SelfService,2026-05-12 10:01:26+00,word_addin,Nie,f,0,,,
+40,v3_SS,SelfService,2026-05-15 17:50:28+00,editor,,,,,,
+40,v3_SS,SelfService,2026-05-15 17:50:28+00,matrix,,,,,,
+40,v3_SS,SelfService,2026-05-15 17:50:28+00,research,Mehrmals pro Woche,t,4,6.0,4.0,2.0
+40,v3_SS,SelfService,2026-05-15 17:50:28+00,templates,,,,,,
+40,v3_SS,SelfService,2026-05-15 17:50:28+00,word_addin,,,,,,
+44,v3_SS,SelfService,2026-05-18 18:11:08+00,editor,Mehrmals pro Woche,t,4,8.0,8.0,8.0
+44,v3_SS,SelfService,2026-05-18 18:11:08+00,matrix,Nie,f,0,,,
+44,v3_SS,SelfService,2026-05-18 18:11:08+00,research,Nie,f,0,,,
+44,v3_SS,SelfService,2026-05-18 18:11:08+00,templates,Mehrmals pro Woche,t,4,8.0,,
+44,v3_SS,SelfService,2026-05-18 18:11:08+00,word_addin,Nie,f,0,,,
+52,v3_SS,SelfService,2026-05-25 15:10:44+00,editor,Nie,f,0,,,
+52,v3_SS,SelfService,2026-05-25 15:10:44+00,matrix,Nie,f,0,,,
+52,v3_SS,SelfService,2026-05-25 15:10:44+00,research,Täglich,t,5,2.0,8.0,2.0
+52,v3_SS,SelfService,2026-05-25 15:10:44+00,templates,Nie,f,0,,,
+52,v3_SS,SelfService,2026-05-25 15:10:44+00,word_addin,Mehrmals pro Woche,t,4,8.0,8.0,2.0
+11,v3_SS,SelfService,,editor,,,,,,
+12,v3_SS,SelfService,,editor,,,,,,
+35,v3_SS,SelfService,,editor,,,,,,
+13,v3_SS,SelfService,,editor,,,,,,
+23,v3_SS,SelfService,,editor,,,,,,
+14,v3_SS,SelfService,,editor,,,,,,
+22,v3_SS,SelfService,,editor,,,,,,
+45,v3_SS,SelfService,,editor,,,,,,
+41,v3_SS,SelfService,,editor,,,,,,
+46,v3_SS,SelfService,,editor,,,,,,
+18,v3_SS,SelfService,,editor,,,,,,
+42,v3_SS,SelfService,,editor,,,,,,
+47,v3_SS,SelfService,,editor,,,,,,
+48,v3_SS,SelfService,,editor,,,,,,
+17,v3_SS,SelfService,,editor,,,,,,
+49,v3_SS,SelfService,,editor,,,,,,
+50,v3_SS,SelfService,,editor,,,,,,
+24,v3_SS,SelfService,,editor,,,,,,
+43,v3_SS,SelfService,,editor,,,,,,
+51,v3_SS,SelfService,,editor,,,,,,
+15,v3_SS,SelfService,,editor,,,,,,
+2,v3_SS,SelfService,,editor,,,,,,
+26,v3_SS,SelfService,,editor,,,,,,
+3,v3_SS,SelfService,,editor,,,,,,
+27,v3_SS,SelfService,,editor,,,,,,
+4,v3_SS,SelfService,,editor,,,,,,
+28,v3_SS,SelfService,,editor,,,,,,
+5,v3_SS,SelfService,,editor,,,,,,
+29,v3_SS,SelfService,,editor,,,,,,
+6,v3_SS,SelfService,,editor,,,,,,
+39,v3_SS,SelfService,,editor,,,,,,
+1,v3_SS,SelfService,,editor,,,,,,
+7,v3_SS,SelfService,,editor,,,,,,
+30,v3_SS,SelfService,,editor,,,,,,
+31,v3_SS,SelfService,,editor,,,,,,
+32,v3_SS,SelfService,,editor,,,,,,
+10,v3_SS,SelfService,,editor,,,,,,
+34,v3_SS,SelfService,,editor,Mehrmals pro Woche,t,4,,,
+46,v3_SS,SelfService,,matrix,,,,,,
+3,v3_SS,SelfService,,matrix,,,,,,
+43,v3_SS,SelfService,,matrix,,,,,,
+31,v3_SS,SelfService,,matrix,,,,,,
+27,v3_SS,SelfService,,matrix,,,,,,
+4,v3_SS,SelfService,,matrix,,,,,,
+11,v3_SS,SelfService,,matrix,,,,,,
+18,v3_SS,SelfService,,matrix,,,,,,
+13,v3_SS,SelfService,,matrix,,,,,,
+28,v3_SS,SelfService,,matrix,,,,,,
+45,v3_SS,SelfService,,matrix,,,,,,
+5,v3_SS,SelfService,,matrix,,,,,,
+39,v3_SS,SelfService,,matrix,,,,,,
+14,v3_SS,SelfService,,matrix,,,,,,
+35,v3_SS,SelfService,,matrix,,,,,,
+29,v3_SS,SelfService,,matrix,,,,,,
+49,v3_SS,SelfService,,matrix,,,,,,
+23,v3_SS,SelfService,,matrix,,,,,,
+41,v3_SS,SelfService,,matrix,,,,,,
+32,v3_SS,SelfService,,matrix,,,,,,
+50,v3_SS,SelfService,,matrix,,,,,,
+6,v3_SS,SelfService,,matrix,,,,,,
+12,v3_SS,SelfService,,matrix,,,,,,
+34,v3_SS,SelfService,,matrix,,,,,,
+51,v3_SS,SelfService,,matrix,,,,,,
+15,v3_SS,SelfService,,matrix,,,,,,
+22,v3_SS,SelfService,,matrix,,,,,,
+48,v3_SS,SelfService,,matrix,,,,,,
+42,v3_SS,SelfService,,matrix,,,,,,
+17,v3_SS,SelfService,,matrix,,,,,,
+7,v3_SS,SelfService,,matrix,,,,,,
+1,v3_SS,SelfService,,matrix,,,,,,
+24,v3_SS,SelfService,,matrix,,,,,,
+2,v3_SS,SelfService,,matrix,,,,,,
+30,v3_SS,SelfService,,matrix,,,,,,
+10,v3_SS,SelfService,,matrix,,,,,,
+26,v3_SS,SelfService,,matrix,,,,,,
+47,v3_SS,SelfService,,matrix,,,,,,
+22,v3_SS,SelfService,,research,,,,,,
+42,v3_SS,SelfService,,research,,,,,,
+43,v3_SS,SelfService,,research,,,,,,
+45,v3_SS,SelfService,,research,,,,,,
+46,v3_SS,SelfService,,research,,,,,,
+47,v3_SS,SelfService,,research,,,,,,
+48,v3_SS,SelfService,,research,,,,,,
+49,v3_SS,SelfService,,research,,,,,,
+50,v3_SS,SelfService,,research,,,,,,
+51,v3_SS,SelfService,,research,,,,,,
+39,v3_SS,SelfService,,research,,,,,,
+2,v3_SS,SelfService,,research,,,,,,
+14,v3_SS,SelfService,,research,,,,,,
+13,v3_SS,SelfService,,research,,,,,,
+35,v3_SS,SelfService,,research,,,,,,
+12,v3_SS,SelfService,,research,,,,,,
+11,v3_SS,SelfService,,research,,,,,,
+34,v3_SS,SelfService,,research,,,,,,
+10,v3_SS,SelfService,,research,,,,,,
+32,v3_SS,SelfService,,research,,,,,,
+31,v3_SS,SelfService,,research,,,,,,
+30,v3_SS,SelfService,,research,,,,,,
+7,v3_SS,SelfService,,research,,,,,,
+1,v3_SS,SelfService,,research,,,,,,
+6,v3_SS,SelfService,,research,,,,,,
+29,v3_SS,SelfService,,research,,,,,,
+5,v3_SS,SelfService,,research,,,,,,
+28,v3_SS,SelfService,,research,,,,,,
+4,v3_SS,SelfService,,research,,,,,,
+27,v3_SS,SelfService,,research,,,,,,
+3,v3_SS,SelfService,,research,,,,,,
+26,v3_SS,SelfService,,research,,,,,,
+15,v3_SS,SelfService,,research,,,,,,
+24,v3_SS,SelfService,,research,,,,,,
+17,v3_SS,SelfService,,research,,,,,,
+18,v3_SS,SelfService,,research,,,,,,
+23,v3_SS,SelfService,,research,,,,,,
+41,v3_SS,SelfService,,research,,,,,,
+42,v3_SS,SelfService,,templates,,,,,,
+49,v3_SS,SelfService,,templates,,,,,,
+46,v3_SS,SelfService,,templates,,,,,,
+3,v3_SS,SelfService,,templates,,,,,,
+7,v3_SS,SelfService,,templates,,,,,,
+26,v3_SS,SelfService,,templates,,,,,,
+50,v3_SS,SelfService,,templates,,,,,,
+22,v3_SS,SelfService,,templates,,,,,,
+45,v3_SS,SelfService,,templates,,,,,,
+41,v3_SS,SelfService,,templates,,,,,,
+18,v3_SS,SelfService,,templates,,,,,,
+2,v3_SS,SelfService,,templates,,,,,,
+48,v3_SS,SelfService,,templates,,,,,,
+13,v3_SS,SelfService,,templates,,,,,,
+14,v3_SS,SelfService,,templates,,,,,,
+35,v3_SS,SelfService,,templates,,,,,,
+24,v3_SS,SelfService,,templates,,,,,,
+5,v3_SS,SelfService,,templates,,,,,,
+39,v3_SS,SelfService,,templates,,,,,,
+12,v3_SS,SelfService,,templates,,,,,,
+28,v3_SS,SelfService,,templates,,,,,,
+34,v3_SS,SelfService,,templates,,,,,,
+30,v3_SS,SelfService,,templates,,,,,,
+23,v3_SS,SelfService,,templates,,,,,,
+11,v3_SS,SelfService,,templates,,,,,,
+47,v3_SS,SelfService,,templates,,,,,,
+15,v3_SS,SelfService,,templates,,,,,,
+17,v3_SS,SelfService,,templates,,,,,,
+43,v3_SS,SelfService,,templates,,,,,,
+1,v3_SS,SelfService,,templates,,,,,,
+4,v3_SS,SelfService,,templates,,,,,,
+10,v3_SS,SelfService,,templates,,,,,,
+29,v3_SS,SelfService,,templates,,,,,,
+27,v3_SS,SelfService,,templates,,,,,,
+6,v3_SS,SelfService,,templates,,,,,,
+31,v3_SS,SelfService,,templates,,,,,,
+51,v3_SS,SelfService,,templates,,,,,,
+32,v3_SS,SelfService,,templates,,,,,,
+5,v3_SS,SelfService,,word_addin,,,,,,
+35,v3_SS,SelfService,,word_addin,,,,,,
+34,v3_SS,SelfService,,word_addin,,,,,,
+32,v3_SS,SelfService,,word_addin,,,,,,
+31,v3_SS,SelfService,,word_addin,,,,,,
+30,v3_SS,SelfService,,word_addin,,,,,,
+29,v3_SS,SelfService,,word_addin,,,,,,
+28,v3_SS,SelfService,,word_addin,,,,,,
+27,v3_SS,SelfService,,word_addin,,,,,,
+26,v3_SS,SelfService,,word_addin,,,,,,
+24,v3_SS,SelfService,,word_addin,,,,,,
+23,v3_SS,SelfService,,word_addin,,,,,,
+22,v3_SS,SelfService,,word_addin,,,,,,
+18,v3_SS,SelfService,,word_addin,,,,,,
+17,v3_SS,SelfService,,word_addin,,,,,,
+15,v3_SS,SelfService,,word_addin,,,,,,
+14,v3_SS,SelfService,,word_addin,,,,,,
+13,v3_SS,SelfService,,word_addin,,,,,,
+12,v3_SS,SelfService,,word_addin,,,,,,
+11,v3_SS,SelfService,,word_addin,,,,,,
+10,v3_SS,SelfService,,word_addin,,,,,,
+7,v3_SS,SelfService,,word_addin,,,,,,
+6,v3_SS,SelfService,,word_addin,,,,,,
+39,v3_SS,SelfService,,word_addin,,,,,,
+4,v3_SS,SelfService,,word_addin,,,,,,
+51,v3_SS,SelfService,,word_addin,,,,,,
+3,v3_SS,SelfService,,word_addin,,,,,,
+50,v3_SS,SelfService,,word_addin,,,,,,
+49,v3_SS,SelfService,,word_addin,,,,,,
+2,v3_SS,SelfService,,word_addin,,,,,,
+48,v3_SS,SelfService,,word_addin,,,,,,
+47,v3_SS,SelfService,,word_addin,,,,,,
+46,v3_SS,SelfService,,word_addin,,,,,,
+45,v3_SS,SelfService,,word_addin,,,,,,
+43,v3_SS,SelfService,,word_addin,,,,,,
+42,v3_SS,SelfService,,word_addin,,,,,,
+1,v3_SS,SelfService,,word_addin,,,,,,
+41,v3_SS,SelfService,,word_addin,,,,,,

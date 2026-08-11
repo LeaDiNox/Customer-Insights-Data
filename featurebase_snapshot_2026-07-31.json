@@ -1,0 +1,2260 @@
+{
+  "snapshot_date": "2026-07-31",
+  "boards": {
+    "Missing Feature": {
+      "board_id": "6a2123630535f655cfaec3cb",
+      "post_count": 39,
+      "posts": [
+        {
+          "id": "6a6cb8c9d1a58cde217aa160",
+          "board": "Missing Feature",
+          "title": "Template Vorlagen",
+          "content": "<ul><li><p>First assement</p></li><li><p>Vertragsreview</p></li></ul><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-31T15:01:29.533Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null,
+            "6a6124132d3424674516c489": null
+          },
+          "author": "Participant_75"
+        },
+        {
+          "id": "6a675bbbcc4b88ca302c1094",
+          "board": "Missing Feature",
+          "title": "Playbooks",
+          "content": "<p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 6,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-27T13:23:07.465Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "238",
+            "6a51229aaa1b56234fed0d94": "The user needs a playbook function for contract comparisons and template contracts.",
+            "6a5122b0a5ec4b37d5773b82": "\"Verträge aus besonderer Perspektive (auftraggeber-/auftragnehmerfreundlich) mit Formularverträgen erstellen.\"",
+            "6a5122df97240c22e0375454": "Big Law Firm, Corporate"
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a51228903cf284364f9d81f",
+          "board": "Missing Feature",
+          "title": "Matrix analysis source citations",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 3,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:49:13.324Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "367",
+            "6a51229aaa1b56234fed0d94": "The user expects the matrix analysis to show the citations from respective documents or sources.",
+            "6a5122b0a5ec4b37d5773b82": "\"Wenn eine Matrix-Analyse durchgeführt wurde, sollte die Quelle für die extrahierte Antwort resp. die extrahierten Daten angezeigt werden. Die Kunden erwarten einen Hover-Effekt, in welchem ein Snippet aus der Original-Quelle angezeigt wird, damit die Daten schnell überprüft werden können.\nVisitenkarten Bild habe ich nur hochgeladen, weil ich keinen Anhang zum hochladen habe (aber der Upload zwingend ist).\"",
+            "6a5122df97240c22e0375454": "Corporate Law Department; Big Law Firm",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a51228392665376ac410d75",
+          "board": "Missing Feature",
+          "title": "Chat history search",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 6,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:49:07.499Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "361",
+            "6a51229aaa1b56234fed0d94": "The user would like to be able to search through the chat to find information in older chats efficiently.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Big Law Firm",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a51227dba59b90f02b8faa2",
+          "board": "Missing Feature",
+          "title": "Purpose-adapted output format",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 6,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:49:01.353Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "346",
+            "6a51229aaa1b56234fed0d94": "The user needs the tool to adjust the output to the purpose that I wanna use it for (e.g. if The user wants to use it in an email, the language and lenght should be adequate).",
+            "6a5122b0a5ec4b37d5773b82": "\"\"Sometimes I need a quick answer\"\n\"you could go more into the concrete work situation\" (Judiciary Personas)\"",
+            "6a5122df97240c22e0375454": "Big Law Firm; Prosecution/ Judges",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a512278f72a9987c36860ab",
+          "board": "Missing Feature",
+          "title": "AI usage documentation support",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 3,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:48:56.951Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "344",
+            "6a51229aaa1b56234fed0d94": "The user needs the tool to support me in documenting my approach and the usage of AI, in order to make sure that I don't run into liability issues.",
+            "6a5122b0a5ec4b37d5773b82": "\"\"Internally nothing for a while, then everything appears at once. Supervisors want to see what we considered, excluded, included - I can use the reasoning to document that\" (Corporate Personas)\"",
+            "6a5122df97240c22e0375454": "Big Law Firm; Corporate Law Department",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5122688dc979d466a82046",
+          "board": "Missing Feature",
+          "title": "Knowledge base file structuring",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 4,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:48:40.419Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "341",
+            "6a51229aaa1b56234fed0d94": "The users would like to be supported in structuring the files within the knowledge base.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Mixed",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a512264ba59b90f02b8ec7e",
+          "board": "Missing Feature",
+          "title": "API integration for DMS Sync",
+          "content": "<p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 3,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:48:36.769Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "340",
+            "6a51229aaa1b56234fed0d94": "The users would like to have an Integration/ API for automation to feed in data from DMS (via vector-based data base) into the knowledge base.",
+            "6a5122b0a5ec4b37d5773b82": "\"\"Copilot is connected to the entire SharePoint, can search all approved internal docs\" (Corporate Personas)\"",
+            "6a5122df97240c22e0375454": "Mixed; Corporate Law Department",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a512261ba59b90f02b8e84f",
+          "board": "Missing Feature",
+          "title": "Knowledge base search",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 3,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:48:33.302Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "332",
+            "6a51229aaa1b56234fed0d94": "The user needs to be able to search through documents within the knowledge base.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Mixed",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a51225dba59b90f02b8a295",
+          "board": "Missing Feature",
+          "title": "Licence-free document upload",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 3,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:48:29.473Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "329",
+            "6a51229aaa1b56234fed0d94": "The user needs also people without license to be able to input documents into a knowledge base as input material.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Mixed; Big Law Firm",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5122595bdcefcb1e77d4d6",
+          "board": "Missing Feature",
+          "title": "Knowledge base metadata",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 3,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:48:25.375Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "324",
+            "6a51229aaa1b56234fed0d94": "The user needs documents within the knowledge base to have meta data available to them.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Mixed",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5122548dc979d466a70d6f",
+          "board": "Missing Feature",
+          "title": "Knowledge base document overview",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 5,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:48:20.064Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "323",
+            "6a51229aaa1b56234fed0d94": "The user needs to be able to get an overview of existing documents within the knowledge base.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Mixed",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a51224d8dc979d466a6aa7b",
+          "board": "Missing Feature",
+          "title": "Collaborative workflow editing",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 5,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:48:13.072Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "304",
+            "6a51229aaa1b56234fed0d94": "The user needs to be able to collaborate within workflows, i.e. not only one person can give input/ review steps in the workflow.",
+            "6a5122b0a5ec4b37d5773b82": "\"\"If multiple participants could input into the workflow, that's a universal tool\" (Corporate Personas)\"",
+            "6a5122df97240c22e0375454": "Mixed; Corporate Law Department",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a51224703cf284364f8720f",
+          "board": "Missing Feature",
+          "title": "Workflow sharing between users",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 6,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:48:07.273Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "300",
+            "6a51229aaa1b56234fed0d94": "The user needs to be able to share workflows with other users individually.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Mixed",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5122418dc979d466a69ff1",
+          "board": "Missing Feature",
+          "title": "Custom workflow creation",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 5,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:48:01.213Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "281",
+            "6a51229aaa1b56234fed0d94": "The user would like to be able to create workflows in cooperation with the tool by e.g. prompting an intial workflow that is set up by the tool.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Mixed",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a51223b8dc979d466a691cf",
+          "board": "Missing Feature",
+          "title": "Additional external data sources",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 6,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:47:55.469Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "276",
+            "6a51229aaa1b56234fed0d94": "The user needs the tool to use further external data sources.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Big Law Firm; Mixed; Corporate Law Department; Prosecution/ Judges",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5122375bdcefcb1e76fdfb",
+          "board": "Missing Feature",
+          "title": "Admin usage analytics view",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 3,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:47:51.507Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "275",
+            "6a51229aaa1b56234fed0d94": "User would like to have an admin view where they can see metrics of usage behaviour in their company in order to target trainings and licenses accordingly.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Big Law Firm",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a51222fba59b90f02b72e4a",
+          "board": "Missing Feature",
+          "title": "Individual drafting style adaptation",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 6,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:47:43.018Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "268",
+            "6a51229aaa1b56234fed0d94": "The user expects the tool to adjust the drafting to individual style and preferences.",
+            "6a5122b0a5ec4b37d5773b82": "\"Nutzer möchten Eigenschaften (Rolle, Zitierweise, Textaufbau) generell festlegen, statt jedes Mal zu prompten.\"",
+            "6a5122df97240c22e0375454": "Big Law Firm",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a512229f72a9987c36503ef",
+          "board": "Missing Feature",
+          "title": "Lock document sections from AI",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 3,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:47:37.845Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "266",
+            "6a51229aaa1b56234fed0d94": "The user needs to be able to lock parts of a document so that they are not edited by the AI anymore.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Mixed; Corporate Law Department",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5122255bdcefcb1e760a90",
+          "board": "Missing Feature",
+          "title": "Full chat export",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 4,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:47:33.336Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "247",
+            "6a51229aaa1b56234fed0d94": "The user needs to be able to export the entire chat, including all sub-questions.",
+            "6a5122b0a5ec4b37d5773b82": "\"\"I want to download externally but reload easily, with reasoning included\" (Corporate Personas)\"",
+            "6a5122df97240c22e0375454": "Small Law Firm; Big Law Firm; Corporate Law Department",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5122208dc979d466a51ee2",
+          "board": "Missing Feature",
+          "title": "File storage system integration",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 3,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:47:28.278Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "239",
+            "6a51229aaa1b56234fed0d94": "The users want the tool to integrate into existing systems for file storage.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Big Law Firm",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5122088dc979d466a50abf",
+          "board": "Missing Feature",
+          "title": "User identity awareness",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 9,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:47:04.145Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "223",
+            "6a51229aaa1b56234fed0d94": "The users expect the tool to know who they are or who they work for and consider that for answer generation.",
+            "6a5122b0a5ec4b37d5773b82": "\"| No user- or context memory\"\n\"each request starts at zero\"",
+            "6a5122df97240c22e0375454": "Corporate Law Department; Mixed; Government Institutions",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5121f5f72a9987c3649e57",
+          "board": "Missing Feature",
+          "title": "Format templates for documents",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 19,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:46:45.732Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "212",
+            "6a51229aaa1b56234fed0d94": "The users would like to be able to use format templates, that can be accessed to draft documents in order to match individual, company or law firm style.",
+            "6a5122b0a5ec4b37d5773b82": "\"Template/Funktion, mit der der Gutachtenstil erzwungen werden kann (Obersatz, Definition, Subsumtion).\"",
+            "6a5122df97240c22e0375454": "Mixed; Big Law Firm",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5121f06b0eabd446a6996d",
+          "board": "Missing Feature",
+          "title": "Excel and database integration",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 6,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:46:40.032Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "211",
+            "6a51229aaa1b56234fed0d94": "The users expect the tool to seamlessly integrate into their current database tools (ie. Excel).",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Mixed; Corporate Law Department; Big Law Firm",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5121ea6b0eabd446a69714",
+          "board": "Missing Feature",
+          "title": "Customisable working preferences",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 5,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:46:34.958Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "204",
+            "6a51229aaa1b56234fed0d94": "The user wants to be able to customize they way of working of the system more to their needs.",
+            "6a5122b0a5ec4b37d5773b82": "\"They would like to customize their \"own agents\".\"",
+            "6a5122df97240c22e0375454": "Mixed; Big Law Firm; Government Institutions; Corporate Law Department",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5121e2ba59b90f02b67712",
+          "board": "Missing Feature",
+          "title": "Source filtering for answers",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 7,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:46:26.855Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "203",
+            "6a51229aaa1b56234fed0d94": "The users want to be able to filter the sources used for their answer generation, in order to remove non relevant sources from consideration.",
+            "6a5122b0a5ec4b37d5773b82": "\"Mehr Primärquellen\"\n\"Filter-/Einstellungsmöglichkeit für mehr oder weniger Quellen.\"",
+            "6a5122df97240c22e0375454": "Big Law Firm; Corporate Law Department; Government Institutions",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5121d6ba59b90f02b661af",
+          "board": "Missing Feature",
+          "title": "Collaborative editing environment",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 13,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:46:14.922Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "164",
+            "6a51229aaa1b56234fed0d94": "The users expect the tool to offer a collaborative environment in which they can comment and work at the same time in order to exchange with colleagues.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Mixed; Corporate Law Department; Big Law Firm",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5121c08dc979d466a46f86",
+          "board": "Missing Feature",
+          "title": "Document version history",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 4,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:45:52.032Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "159",
+            "6a51229aaa1b56234fed0d94": "The user would like documents in noxtua to have a version history in order to be able to revert to specific state in time.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Mixed; Corporate Law Department",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5121a25bdcefcb1e752d8e",
+          "board": "Missing Feature",
+          "title": "Content templates for drafting",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 36,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:45:22.821Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "151",
+            "6a51229aaa1b56234fed0d94": "The users would like to be able to use content templates, that can be accessed to draft documents.",
+            "6a5122b0a5ec4b37d5773b82": "\"Verträge aus besonderer Perspektive (auftraggeber-/auftragnehmerfreundlich) mit Formularverträgen erstellen. | Template/Funktion, mit der der Gutachtenstil erzwungen werden kann (Obersatz, Definition, Subsumtion).\"",
+            "6a5122df97240c22e0375454": "Mixed; Big Law Firm; Corporate Law Department",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a512199f72a9987c363e191",
+          "board": "Missing Feature",
+          "title": "Reusable clause snippets",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 11,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:45:13.854Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "150",
+            "6a51229aaa1b56234fed0d94": "The users wish to store their own standard snippets (clauses, as a “Baukasten”) that can be accessed through the system.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Mixed",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a512194926d6521f6453727",
+          "board": "Missing Feature",
+          "title": "Document comparison workflow",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 6,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:45:08.489Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "133",
+            "6a51229aaa1b56234fed0d94": "The user wants to be able to set up a workflow that compares a document in the Canvas with an uploaded document and trigger changes so that both of them are matching.",
+            "6a5122b0a5ec4b37d5773b82": "\"\"Compare and produce Word/PDF markup directly in one file with the changes visible\" (Corporate Personas)\"",
+            "6a5122df97240c22e0375454": "Corporate Law Department",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a512190926d6521f6453078",
+          "board": "Missing Feature",
+          "title": "Time tracking for cases",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 4,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:45:04.160Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "120",
+            "6a51229aaa1b56234fed0d94": "The user needs a date/time tracker for the product in order to work on cases, where time matters.",
+            "6a5122b0a5ec4b37d5773b82": "\"\"It should know today is 19.2.26 and assume the question refers to today's legal situation\" (Corporate Personas) | No awareness of current time status ('Today is...')\"",
+            "6a5122df97240c22e0375454": "Corporate Law Department; Big Law Firm",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a51218592665376ac3eea1b",
+          "board": "Missing Feature",
+          "title": "Source passage highlighting",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 11,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:44:53.477Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "78",
+            "6a51229aaa1b56234fed0d94": "The user would like to be able to see exactly from which part of a source the model derived the answer.",
+            "6a5122b0a5ec4b37d5773b82": "\"“Direkt Quellen an der Seite einzusehen wäre natürlich noch besser.”\"",
+            "6a5122df97240c22e0375454": "Big Law Firm; Mixed; Publisher",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a51217dba59b90f02b5f59c",
+          "board": "Missing Feature",
+          "title": "Adjustable answer detail level",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 8,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:44:45.993Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "77",
+            "6a51229aaa1b56234fed0d94": "The users have different needs for the level of detail of the answer.",
+            "6a5122b0a5ec4b37d5773b82": "\"“Wäre toll, wenn man einstellen könnte, wie ausführlich die Antworten sind”\n\"I want to prompt that I want a topic detailed, or simply broken down\" (Corporate Personas)\"",
+            "6a5122df97240c22e0375454": "Big Law Firm; Corporate Law Department",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a51217403cf284364f61214",
+          "board": "Missing Feature",
+          "title": "Personalised tool customization",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 11,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:44:36.686Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "75",
+            "6a51229aaa1b56234fed0d94": "The user needs to be able to customize the tool to fit to their individual or company internal policies or preferences.",
+            "6a5122b0a5ec4b37d5773b82": "\"Nutzer möchten Eigenschaften (Rolle, Zitierweise, Textaufbau) generell festlegen, statt jedes Mal zu prompten.\"",
+            "6a5122df97240c22e0375454": "Corporate Law Department; Mixed; Big Law Firm",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5121618dc979d466a3ce4f",
+          "board": "Missing Feature",
+          "title": "Custom data integration",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 23,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:44:17.769Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "74",
+            "6a51229aaa1b56234fed0d94": "The user wants to be able to add additional (e.g. internal) data and cases to the tool, so that it can integrate this data as well.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Corporate Law Department; Big Law Firm; Mixed",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a51215e92665376ac3e8ec0",
+          "board": "Missing Feature",
+          "title": "Search result translation",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 3,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:44:14.306Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "43",
+            "6a51229aaa1b56234fed0d94": "The user needs the tool to translate search results into their preferred language.",
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": "Corporate Law Department",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a51215392665376ac3e33d0",
+          "board": "Missing Feature",
+          "title": "Prompt writing guidance",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 11,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:44:03.696Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a5122786ae5db6317c6f29b": "41",
+            "6a51229aaa1b56234fed0d94": "The user needs support in writing successful prompts.",
+            "6a5122b0a5ec4b37d5773b82": "\"Prompt-Techniken als Schablone im Chat-Fenster einblenden.\"",
+            "6a5122df97240c22e0375454": "Corporate Law Department; Mixed; Big Law Firm",
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a213f849868d0f26c4bc20c",
+          "board": "Missing Feature",
+          "title": "Matrix Export is ugly",
+          "content": "<p>The export is not user-friendly to read.</p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-06-04T09:04:04.912Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Lea Dingler"
+        }
+      ]
+    },
+    "Feedback": {
+      "board_id": "6a213f3998f1621c64f747fb",
+      "post_count": 1,
+      "posts": [
+        {
+          "id": "6a561100713b89e0f6593431",
+          "board": "Feedback",
+          "title": "Issue with Excel export",
+          "content": "<p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-14T10:35:44.388Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Jan L"
+        }
+      ]
+    },
+    "Product": {
+      "board_id": "6a422f49728db77bced50b63",
+      "post_count": 51,
+      "posts": [
+        {
+          "id": "6a6a1d6ceafe4332ffba3ba0",
+          "board": "Product",
+          "title": "Improve Accesssibility",
+          "content": "<h3>What is the new functionality about?</h3><p>We aim to make Noxtua’s website and applications accessible for as many users as possible. This includes reducing limitations and increasing accessibility for example for screen reader or keyboard navigation using visitors. </p><p></p><h3>How does it work?</h3><p>We have conducted a gap analysis with an external agency and are currently tackling highlighted issues in design and development.</p><p></p><h3>How do customers benefit?</h3><p class=\"whitespace-pre-wrap break-words\" style=\"text-align: start\">Increasing accessibility of our website and applications will help guide as many users as possible through our applications. </p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-29T15:34:04.235Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null,
+            "6a6124132d3424674516c489": null
+          },
+          "author": "Heba Ledwon"
+        },
+        {
+          "id": "6a6a1ae908bfd6593e5ae83b",
+          "board": "Product",
+          "title": "Tracking Consent Banner",
+          "content": "<h3 style=\"text-align: start\"><strong>What is the new functionality about?</strong></h3><p>To help improve the performance of the product for our users, we're introducing a <strong>tracking consent banner</strong> that gives users and organizations explicit, transparent control over whether they share pseudonymised&nbsp;usage/tracking data with us.</p><p style=\"text-align: start\"></p><h3 style=\"text-align: start\"><strong>How does it work?</strong></h3><ul><li><p><strong>Trigger point</strong>: The banner appears the first time a user or an organisation admin logs in (or after a policy update), before any tracking data is collected.</p></li><li><p><strong>Clear disclosure</strong>: It explains the actual scope of what's being tracked.</p></li><li><p><strong>Org-level vs user-level consent</strong>: For B2B products, an organisation admin can set a default policy for their whole org. If consented, the users are presented with the Tracking Consent Banner.</p></li><li><p><strong>Persisted preference</strong>: Once a choice is made, it's stored in the user/org profile, and the preference can be changed later from settings.</p></li></ul><p class=\"noSpacingAbove spacingBelow\" style=\"text-align: start\"></p><h3 style=\"text-align: start\"><strong>How do customers benefit?</strong></h3><p class=\"noSpacingAbove spacingBelow\" style=\"text-align: start\">Organisations and users can help improve the performance of the product at full transparency and control over their selection. All data protected under EU GDPR.</p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-29T15:23:21.485Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null,
+            "6a6124132d3424674516c489": null
+          },
+          "author": "Heba Ledwon"
+        },
+        {
+          "id": "6a6a0db793371e5bd0441c9c",
+          "board": "Product",
+          "title": "AI Act Art. 50 Compliance",
+          "content": "<p>Obligations to be implemented:</p><ul><li><p>clear indication in footer of interaction with an AI system</p></li><li><p>metadata in file exports indicated AI-generated content</p></li></ul><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 2,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-29T14:27:03.004Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": -1,
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null,
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ]
+          },
+          "author": "Niklas Possinger"
+        },
+        {
+          "id": "6a69ec40c45bb1a254f6bf7e",
+          "board": "Product",
+          "title": "Improvements to the Excel export (Chat & Matrix analysis)",
+          "content": "<h3 style=\"text-align: start\"><strong>What is the new functionality about?</strong></h3><p style=\"text-align: start\">With the new improvement, basic formatting is applied to the Excel export from Tables in Chat &amp; Matrix analysis. </p><p style=\"text-align: start\"></p><p style=\"text-align: start\"></p><h3 style=\"text-align: start\"><strong>How does it work?</strong></h3><p style=\"text-align: start\">Users get a formatted Excel export when they export Tables in Chat &amp; Matrix analysis. </p><ul><li><p style=\"text-align: start\">Cell content is wrapped</p></li><li><p style=\"text-align: start\">Header row and column are formatted with colour</p></li><li><p style=\"text-align: start\">Header column is formatted in bold text</p><p class=\"noSpacingAbove spacingBelow\" style=\"text-align: start\"></p><img data-width=\"100%\" data-align=\"center\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a69ec40c45bb1a254f6bf7e/019fadb9-a16c-7773-89e8-6854998a4c25/b64u-aW1hZ2UucG5n.png\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a69ec40c45bb1a254f6bf7e/019fadb9-a16c-7773-89e8-6854998a4c25/b64u-aW1hZ2UucG5n.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=34c090ffcd896dc7986f237d95436ae7df089b07fd13f80911f43eba1be788dc\" data-featurebase-content-filename=\"image.png\"></li></ul><img data-width=\"75%\" data-align=\"center\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a69ec40c45bb1a254f6bf7e/019fadbb-c4ae-79e3-be02-0625213d5b49/b64u-aW1hZ2UucG5n.png\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a69ec40c45bb1a254f6bf7e/019fadbb-c4ae-79e3-be02-0625213d5b49/b64u-aW1hZ2UucG5n.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d38615a8a5b9295408e5dbe46e37580ab45af04929db1c70bb809ba786c455d6\" data-featurebase-content-filename=\"image.png\"><h3 style=\"text-align: start\"><strong><br></strong><br><strong>How do customers benefit?</strong></h3><ul><li><p class=\"noSpacingAbove spacingBelow\">Users can use the Excel export directly without needing to do any additional formatting </p></li></ul><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-29T12:04:16.846Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Balaji Alagu"
+        },
+        {
+          "id": "6a69df123668e7e25ce09417",
+          "board": "Product",
+          "title": "Citations from the current Word document (Word add-in)",
+          "content": "<h3><br><strong>What is the new functionality about?</strong></h3><p>With the new functionality, the answers from Noxtua now include citations that point directly to the exact location in the current Word document. </p><p></p><p></p><h3><strong>How does it work?</strong></h3><p class=\"noSpacingAbove spacingBelow\">Clicking the citation takes the user to the relevant section and highlights the text cited. </p><p class=\"noSpacingAbove spacingBelow\"></p><img data-width=\"75%\" data-align=\"center\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a69df123668e7e25ce09417/019fad78-4b82-76a1-ad8d-fd717e0107f4/b64u-Q2l0YXRpb25zIGZyb20gdGhlIGN1cnJlbnQgV29yZCBkb2N1bWVudCAoV29yZCBhZGQtaW4pLmdpZg.gif\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a69df123668e7e25ce09417/019fad78-4b82-76a1-ad8d-fd717e0107f4/b64u-Q2l0YXRpb25zIGZyb20gdGhlIGN1cnJlbnQgV29yZCBkb2N1bWVudCAoV29yZCBhZGQtaW4pLmdpZg.gif?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e58940f79f69085b59dfea6926e3704f6ea6745eef3282782bcdeacee11e709b\" data-featurebase-content-filename=\"Citations from the current Word document (Word add-in).gif\"><p class=\"noSpacingAbove spacingBelow\"></p><h3><br><br><strong>How do customers benefit?</strong></h3><ul><li><p class=\"noSpacingAbove spacingBelow\">No manual searching </p></li><li><p class=\"noSpacingAbove spacingBelow\">Faster verifications</p></li></ul><p class=\"noSpacingAbove spacingBelow\"></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-29T11:08:03.141Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Balaji Alagu"
+        },
+        {
+          "id": "6a5e35cd240fff60331d4d81",
+          "board": "Product",
+          "title": "Implement UI language selector",
+          "content": "<p>The user can change the language of the UI via selection in the webapp. </p>",
+          "status": "",
+          "status_type": "",
+          "votes": 4,
+          "commentCount": 1,
+          "category": "",
+          "createdAt": "2026-07-20T14:50:53.263Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55422993af4acf42bfea76"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": "106",
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Heba Ledwon"
+        },
+        {
+          "id": "6a5e356c351b8b21543c2bc7",
+          "board": "Product",
+          "title": "Stop answer generation and enable prompt re-editing",
+          "content": "<p></p><ul><li><p>Control &amp; recovery:</p><ul><li><p>stop button,</p></li><li><p>re-editing of prompts</p><p></p></li></ul></li></ul><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 12,
+          "commentCount": 1,
+          "category": "",
+          "createdAt": "2026-07-20T14:49:16.793Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55422993af4acf42bfea76"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": "231",
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Heba Ledwon"
+        },
+        {
+          "id": "6a5e254a29a2dbaa970a37ad",
+          "board": "Product",
+          "title": "Folder Upload in Matrix Analysis",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 3,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-20T13:40:26.742Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5e1bafc9a5d459aeb03edc",
+          "board": "Product",
+          "title": "Make Template User Input Optional",
+          "content": "<p>User input for templates can be optional </p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-20T12:59:27.408Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Niklas"
+        },
+        {
+          "id": "6a5e1b4e9efb5cbda845b993",
+          "board": "Product",
+          "title": "Template Organisation",
+          "content": "<ul><li><p>public and private collections</p></li><li><p>grouping via areas of the law</p></li><li><p>grouping and filtering via tags</p></li></ul><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-20T12:57:50.069Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55422993af4acf42bfea76"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Niklas"
+        },
+        {
+          "id": "6a5a7b97c99d8a14aed47a5e",
+          "board": "Product",
+          "title": "Upload more than 10 files for comparison in Matrix",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 7,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-17T18:59:35.610Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5a7b8fc99d8a14aed4715b",
+          "board": "Product",
+          "title": "Higher recognition rate for documents in Matrix",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 8,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-17T18:59:27.927Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5a7b8c9cf794746ea846ce",
+          "board": "Product",
+          "title": "Upload times need to be reliably fast in Matrix",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 3,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-17T18:59:24.918Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5a74c367c5c6a11aaea1ae",
+          "board": "Product",
+          "title": "Manual Language Selection",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 3,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-17T18:30:27.839Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5a73d067c5c6a11aacceea",
+          "board": "Product",
+          "title": "Clear user-facing error handling",
+          "content": "<p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 16,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-17T18:26:24.043Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5a724a67c5c6a11aa95b77",
+          "board": "Product",
+          "title": "Persistent Files in Project Spaces",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 3,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-17T18:19:54.603Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5a689ab26c313c254f6005",
+          "board": "Product",
+          "title": "Voice Input for Prompting",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 15,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-17T17:38:34.661Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a58a91ef4645e58a53ebb53",
+          "board": "Product",
+          "title": "Europe License (Beta)",
+          "content": "<p>Multiple European jurisdictions in one license</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Work across multiple European jurisdictions without switching platforms or licenses.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a91ef4645e58a53ebb53/019f6a54-3dd1-71d0-9e48-2c6279aa347a/b64u-MDE5ZjZhNTQtM2M5Yy03NjM0LWI0ZjQtM2ZjOGVkZjI1NmE4.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=72c08ec33ac22933add76fc3d26acb04bafba2846c072009947e489be9ecfbf0\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a91ef4645e58a53ebb53/019f6a54-3dd1-71d0-9e48-2c6279aa347a/b64u-MDE5ZjZhNTQtM2M5Yy03NjM0LWI0ZjQtM2ZjOGVkZjI1NmE4.webp\" data-featurebase-content-filename=\"019f6a54-3c9c-7634-b4f4-3fc8edf256a8\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Whether you handle cross-border issues or need occasional access to legal sources from other European countries, the Europe License integrates curated content from leading publishers across the continent into your familiar Noxtua interface.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">This new licensing model builds on Noxtua's established partnerships with leading legal publishers from the continent, such as <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://rsw.beck.de/publishers\">C.H.BECK</a> (Germany), <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://www.manz.at/\">MANZ</a> (Austria), <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://www.helbing.ch/de/home\">Helbing Lichtenhahn</a> (Switzerland), <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://www.beck.pl/\">Wydawnictwo C.H.Beck</a> (Poland), <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://www.beck.cz/\">Nakladatelství C. H. Beck</a> (Czech Republic), and <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://www.beck.sk/\">Nakladateľstvo C. H. Beck</a> (Slovakia), with additional publishing partners across Europe to follow.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">You can conduct research, analysis, and document drafting across multiple European jurisdictions in one interface (starting with the DACH-region of Germany, Austria, and Switzerland), a capability previously unavailable in the market.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>The Europe License allows you to</strong></p><ul><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Work across multiple European jurisdictions with a single license</p></li><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Access jurisdiction-specific and exclusive legal data and expertise in one consistent interface</p></li><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Rely on the same data security and sovereignty standards you're used to</p></li></ul><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Please note:</strong> The Europe License is now available in beta at no additional cost to existing Noxtua users and will be activated for your workspace over the coming days.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Learn more about the Europe License in <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://academy.noxtua.com/posts/europe-license\">this article</a>.</p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:49:18.875Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a8ea6601b932388a3a0d",
+          "board": "Product",
+          "title": "Document citations",
+          "content": "<p>Review documents with AI answers linked directly to source passages</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Review legal documents with answers that include clickable citations highlighting the exact passages in your original document.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a8ea6601b932388a3a0d/019f6a53-9883-7f3c-93a1-c91fe44b01b3/b64u-MDE5ZjZhNTMtOTVjOC03YTFmLThjNWYtMDgzY2ViYzM2OTEz.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ebd4958d460a17ba5c76f4f1307700d51842c0be7c0272a419edabe28223a675\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a8ea6601b932388a3a0d/019f6a53-9883-7f3c-93a1-c91fe44b01b3/b64u-MDE5ZjZhNTMtOTVjOC03YTFmLThjNWYtMDgzY2ViYzM2OTEz.webp\" data-featurebase-content-filename=\"019f6a53-95c8-7a1f-8c5f-083cebc36913\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Reviewing documents with AI tools often means constantly switching between AI answers and the original document to verify information – breaking your focus and slowing down your work.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">With document citations, Noxtua puts you back in focus mode. Upload your PDF or Word document and enter your prompt to review or summarize the document or extract information from it. Noxtua analyzes the file and provides answers with direct citations from the document. Click any citation to open the document with the exact passage highlighted.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Learn more about document citations in <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://academy.noxtua.com/posts/document-citations\">this article</a>.</p><p class=\"framer-text framer-styles-preset-1uarwlm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:48:26.661Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a8c5bf5f0e47e3d5589d",
+          "board": "Product",
+          "title": "To-do list",
+          "content": "<p>Structured approach to solve complex, multi-step tasks</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Get more precise results for multi-step requests as Noxtua breaks complex tasks into a structured to-do list.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a8c5bf5f0e47e3d5589d/019f6a53-05a3-74e3-8c4f-e5d3a6f40710/b64u-MDE5ZjZhNTMtMDRkNS03OWI4LTljNTgtMmVjM2NlZmRjMTE2.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=eae40cbe675e8f63d5cc188761484b03823ad664bb8faa4099f8e5c96d09e743\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a8c5bf5f0e47e3d5589d/019f6a53-05a3-74e3-8c4f-e5d3a6f40710/b64u-MDE5ZjZhNTMtMDRkNS03OWI4LTljNTgtMmVjM2NlZmRjMTE2.webp\" data-featurebase-content-filename=\"019f6a53-04d5-79b8-9c58-2ec3cefdc116\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">When you give Noxtua a complex job with multiple steps, tracking progress and maintaining consistent quality can be challenging.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">To deliver you more precise results for complex, multi-step tasks, Noxtua now uses a to-do list approach that structures your request into manageable steps you can follow along with.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Activate the to-do list mode by asking \"Use to-do tool for [your task]\" or by providing a list of multiple tasks in your prompt. Noxtua then works through each step systematically.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">This structured approach ensures nothing gets overlooked and each part of your request receives focused attention, improving overall answer quality.</p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:47:49.205Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a89b80ef1ccb50804bef",
+          "board": "Product",
+          "title": "Custom chat titles",
+          "content": "<p>Rename your chats’ titles for faster retrieval</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Give your chats meaningful names to find past results quickly and keep your workspace organized.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a89b80ef1ccb50804bef/019f6a52-7e01-72bf-8231-226155acdacf/b64u-MDE5ZjZhNTItN2M4OC03ZmM5LWI1NTQtODcyZjMxMjhlOWM1.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=3e6ca03df3482798e1e0fd12678c30a0ddd88bbf4e358fda49ac057598e9d681\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a89b80ef1ccb50804bef/019f6a52-7e01-72bf-8231-226155acdacf/b64u-MDE5ZjZhNTItN2M4OC03ZmM5LWI1NTQtODcyZjMxMjhlOWM1.webp\" data-featurebase-content-filename=\"019f6a52-7c88-7fc9-b554-872f3128e9c5\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Finding specific conversations in a long chat history can be challenging when titles aren't self-explanatory. The new ability to rename chat titles solves this problem.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Simply click on the three dots next to any chat title, select \"Rename,\" and give your chat a descriptive name. This keeps your workspace organized so you can find past chats and results more quickly.</p><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:47:07.576Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a87a7aed84556ee7dae8",
+          "board": "Product",
+          "title": "The Editor",
+          "content": "<p>Draft and refine legal documents with AI assistance</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Explore legal ideas, create structured memos from research results, and refine documents iteratively.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a87a7aed84556ee7dae8/019f6a51-f2c4-7e61-ba36-3bf72cee1b3c/b64u-MDE5ZjZhNTEtZWI2Ny03ZTYzLTk2MmMtMmZjMGY1Y2ZiM2Vm.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=1d2e227714190448e90bc3206abc3c06b25a8336fd09e9c6431928b939a69168\" data-width=\"100%\" data-align=\"left\" alt=\"gray and black laptop computer on surface\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a87a7aed84556ee7dae8/019f6a51-f2c4-7e61-ba36-3bf72cee1b3c/b64u-MDE5ZjZhNTEtZWI2Ny03ZTYzLTk2MmMtMmZjMGY1Y2ZiM2Vm.webp\" data-featurebase-content-filename=\"019f6a51-eb67-7e63-962c-2fc0f5cfb3ef\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Creating documents is fundamental to legal work, but also enormously time-consuming. Research results need structuring, initial drafts require formulation, and texts need iterative refinement.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">That's where the new Editor comes in: an AI-powered workspace that helps you create initial drafts and refine text passages with smart improvement suggestions while tracking all changes throughout the process.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Use it to explore initial ideas, organize unstructured information, or create new documents based on reference materials. Once your document reaches the desired quality, simply export it as a .docx file including all source references for further processing.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Learn all about the Editor in <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://academy.noxtua.com/posts/editor\">this Academy article.</a></p><p class=\"framer-text framer-styles-preset-1uarwlm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:46:34.462Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a8534137baa454ed3a3e",
+          "board": "Product",
+          "title": "Template Library",
+          "content": "<p>Pre-built prompt templates for faster, more consistent results</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Access ready-to-use prompt templates to streamline routine work while driving quality and consistency across your team.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a8534137baa454ed3a3e/019f6a50-fc33-75dd-b9d3-be89ea98ac73/b64u-MDE5ZjZhNTAtZmJhMy03NjI1LWJmNDktYWNkNWFhMjAzMDhj.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=13b49c06e869582cad97ba30353448326960c7081a9ac9873dd740ec3b2a169c\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a8534137baa454ed3a3e/019f6a50-fc33-75dd-b9d3-be89ea98ac73/b64u-MDE5ZjZhNTAtZmJhMy03NjI1LWJmNDktYWNkNWFhMjAzMDhj.png\" data-featurebase-content-filename=\"019f6a50-fba3-7625-bf49-acd5aa20308c\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">When using Noxtua, you don't need to start from scratch with every new task. Templates help you streamline routine work: Simply save a proven prompt as a template and apply it to similar tasks going forward.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Rather than developing each template yourself, we've launched the Template Library – a centralized collection of pre-built templates for common legal tasks that your entire team can access and use.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><h5 style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Here's what the template library can do for you:</h5><p style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Faster results:</strong> Ready-to-use prompts for common legal tasks, such as contract reviews, summaries, or document drafting.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Consistent quality:</strong> Ensure uniform formatting, language, and quality standards across all team members' work.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Customizability:</strong> Use templates as a solid starting point that you can adapt to your specific use case.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Clear structure: </strong>Find the right template quickly with clear categorization by document type and use case.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">The template library transforms time-consuming routine tasks into streamlined workflows, letting you focus on the aspects of legal work that matter most to you.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Learn more about the template library in <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://academy.noxtua.com/posts/templates-usage\">this article</a>.</p><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:45:55.840Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a8169e1a0a9b294aff56",
+          "board": "Product",
+          "title": "Role management: Template manager role",
+          "content": "<p>Stay in control of templates within your organization</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Account admins can now assign and revoke Template Manager roles independently to ensure coordinated template management within your organization.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a8169e1a0a9b294aff56/019f6a50-650c-7bd1-955b-81496aaf23f0/b64u-MDE5ZjZhNTAtNjNmNS03ZmQyLWJiM2YtMjk3NjBlZmRjZWQx.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=5b4f3c2f3b3bcd6c8e212e65bc2fb8fcd24fb70033a9a722294e9e31d3c1ab84\" data-width=\"100%\" data-align=\"left\" alt=\"gray and black laptop computer on surface\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a8169e1a0a9b294aff56/019f6a50-650c-7bd1-955b-81496aaf23f0/b64u-MDE5ZjZhNTAtNjNmNS03ZmQyLWJiM2YtMjk3NjBlZmRjZWQx.webp\" data-featurebase-content-filename=\"019f6a50-63f5-7fd2-bb3f-29760efdced1\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">To precisely manage which users are allowed to create, edit, and delete templates within your organization, we have introduced role management capabilities.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Account Admins, which are users with the \"self-admin\" role in beck-online, can now independently grant or revoke the Template Manager role directly in Beck-Noxtua. Template Managers can create, edit, and delete templates for the entire organization, while regular users can use existing templates.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">If you want to learn more how to apply this to your organization, visit our<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://academy.noxtua.com/posts/role-management\"> Academy article.</a></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:44:54.725Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a7ec9eff01821ac4bb3e",
+          "board": "Product",
+          "title": "Trust Center",
+          "content": "<p>Transparent security and compliance information</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Access Noxtua’s security certificates, compliance frameworks, and policies in one central location – making audits faster and procurement smoother.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a7ec9eff01821ac4bb3e/019f6a4f-c1e4-7a79-8923-d5efbc60a6d0/b64u-MDE5ZjZhNGYtYmY2MS03MTMwLTkwN2ItMmRhNTZiODRmNzVm.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=22dc777140e3c257d137a04585d1ca3bc3270bbad9dbd17b52d5d5326fc27545\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a7ec9eff01821ac4bb3e/019f6a4f-c1e4-7a79-8923-d5efbc60a6d0/b64u-MDE5ZjZhNGYtYmY2MS03MTMwLTkwN2ItMmRhNTZiODRmNzVm.webp\" data-featurebase-content-filename=\"019f6a4f-bf61-7130-907b-2da56b84f75f\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Cumbersome security and compliance questionnaires can significantly slow down procurement and audit processes. That's why we've launched our Trust Center – a central space where you can access all of Noxtua's security certificates, compliance frameworks, and policies.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Here's a brief overview of what you'll find:</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Security certificates: </strong>BSI C5, ISO 27001, ISO 9001, TISAX, and many more.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Compliance frameworks:</strong> Documentation for ten digital regulation frameworks, including GDPR and the AI Act.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Security controls:</strong> Transparent overview of our technical and organizational security measures.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Visit our Trust Center at <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"link\" href=\"https://trust.noxtua.com/\">https://trust.noxtua.com/</a> and see our commitment to security and compliance for yourself.</p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:44:13.113Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a7b32ef2b48eea008847",
+          "board": "Product",
+          "title": "Noxtua Academy",
+          "content": "<p>Get more out of Noxtua with expert knowledge</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Your learning hub for mastering Noxtua – with learning videos, step-by-step tutorials, and thought leadership on Legal AI.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a7b32ef2b48eea008847/019f6a4e-dd7a-772d-af56-cc0c9004b72c/b64u-MDE5ZjZhNGUtZDg1YS03MjJhLTkwODAtNGI5ZWJlNzZkNGRh.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=cd1179e01b284f805b2746cccde3728aa1a69c77240f4e513d7c706d00f37078\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a7b32ef2b48eea008847/019f6a4e-dd7a-772d-af56-cc0c9004b72c/b64u-MDE5ZjZhNGUtZDg1YS03MjJhLTkwODAtNGI5ZWJlNzZkNGRh.webp\" data-featurebase-content-filename=\"019f6a4e-d85a-722a-9080-4b9ebe76d4da\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Whether you're getting started with Noxtua or looking to deepen your expertise, you need a reliable place to learn how to get the most out of your Legal AI in your daily work.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">That's why we've launched the Noxtua Academy – an educational platform built specifically for legal professionals who want to work effectively with Beck-Noxtua.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><h5 style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Here's what you'll find in the Academy:</h5><p style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Learning videos:</strong> Short, valuable videos help you to understand how to best use Noxtua and how the AI system works.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Support articles:</strong> Concrete, step-by-step tutorials on how to use specific features and accomplish common tasks.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Blog articles:</strong> Thought leadership and industry insights on Legal AI, helping you understand the broader landscape and best practices.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">The Academy is accessible at <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"link\" href=\"https://academy.noxtua.com\">https://academy.noxtua.com</a> to explore the topics most relevant to you. You'll also find it linked directly from <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"link\" href=\"http://noxtua.com\">noxtua.com</a> and within the Noxtua app itself.</p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:43:15.266Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a78815a8515a41ebab33",
+          "board": "Product",
+          "title": "Enhanced Agentic AI",
+          "content": "<p>Get better results faster</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Simple prompts, systematic thinking, and transparent literature research quickly provide you with practical results.</p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a78815a8515a41ebab33/019f6a4e-2af2-7bab-b810-d0d8ff6b2cff/b64u-MDE5ZjZhNGUtMjc4NS03ZjcyLWIxMjgtOTYxMjZiNjMwNTRh.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=da301f2ab9c64e5420c9e955d282a03a17ba00ac1c5c7d1779aa89c69bf562c0\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a78815a8515a41ebab33/019f6a4e-2af2-7bab-b810-d0d8ff6b2cff/b64u-MDE5ZjZhNGUtMjc4NS03ZjcyLWIxMjgtOTYxMjZiNjMwNTRh.webp\" data-featurebase-content-filename=\"019f6a4e-2785-7f72-b128-96126b63054a\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Whenever you use Noxtua for any legal task, you want to formulate a simple prompt, trust the generated information, and get practical results you can work with.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">It's a high bar for Legal AI systems, but by strengthening Noxtua's Agentic AI capabilities, we've made a significant leap forward. Whenever you enter a prompt, Noxtua analyzes your request, identifies the best approach and legal sources to solve it, and executes step by step to generate high-quality results.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><h5 style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Here's what Noxtua can do for you now:</h5><p style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Simple prompts for complex tasks:</strong> No need to spend time crafting the perfect prompt or breaking it down into different steps. Simply enter your query as it comes to mind and Noxtua understands what needs to be done.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Deep insights into the solution process:</strong> Noxtua now shares its thought process and the sources it uses with you, so you can follow along as it works through your request and validate the answer quality.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Better answer quality:</strong> Through systematic planning and specialized research capabilities for legal literature, you'll get better structured and comprehensively researched results.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Keep using Noxtua normally and you'll see the improvements right away. But feel free to challenge it with more complex tasks now. It's ready.</p><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:42:32.675Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a6c4ab066bad9f9b915c",
+          "board": "Product",
+          "title": "Word Add-in (Beta)",
+          "content": "<p>AI-powered document editing – directly in Word</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Refine and finalize documents faster, with legal intelligence in your familiar environment.</p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a6c4ab066bad9f9b915c/019f6a4b-3f9f-7ced-bfba-cd4e3b6ecb41/b64u-MDE5ZjZhNGItM2NmOC03NTFlLTgxMjktNjllZjg3MTFjNDI3.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=bed4f20d01bceae66aca7fec0c1b5b2a45c85a10cb7cedd34093550fdc15b67b\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a6c4ab066bad9f9b915c/019f6a4b-3f9f-7ced-bfba-cd4e3b6ecb41/b64u-MDE5ZjZhNGItM2NmOC03NTFlLTgxMjktNjllZjg3MTFjNDI3.webp\" data-featurebase-content-filename=\"019f6a4b-3cf8-751e-8129-69ef8711c427\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Legal professionals spend a significant portion of their day editing documents in Microsoft Word. While AI can accelerate much of this manual work, constantly switching between Word and a separate AI tool disrupts your workflow.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">The new Word Add-in brings Noxtua's Legal AI directly into your familiar Word environment. Working in split-screen mode, you edit your document on the left while Noxtua provides improvement suggestions and researches legal questions on the right – without interruption, without switching context.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Ask Noxtua to make comprehensive changes to the entire document or target a specific passage, and decide for yourself which suggestions make it into the document – with every accepted change tracked directly in the document.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">The Word Add-in can be installed via the <a target=\"_blank\" rel=\"noopener\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://marketplace.microsoft.com/en-gb/product/WA200010107?tab=Overview\">Microsoft Marketplace</a> or directly in Microsoft Word.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">It is currently in beta phase and optimized for the desktop application of Microsoft Word. It does not support the online version that runs in your browser.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Learn everything about the Word Add-in in<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://academy.noxtua.com/posts/word-add-in\"> this article</a>.</p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:39:16.549Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a68592bd4a633f52e1a2",
+          "board": "Product",
+          "title": "Cleaner AI thought process",
+          "content": "<p>Stay focused on Noxtua’s answer without losing sight of how it got there.</p><p></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Noxtua's thought process now appears in a compact, collapsible area that automatically closes once your answer is ready.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Before generating a response, Noxtua works through a thought process that helps the AI analyze your request and develop a structured solution — giving you the transparency to follow along and evaluate the results.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Until now, this thought process could take up a lot of screen space, making it harder to focus on the answer itself.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">The thought process is now displayed in a fixed, collapsible area that shows the latest activity and automatically collapses once your answer is ready. You can still expand it at any time to review the full reasoning.</p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:38:13.146Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a650f9f6f1c7e4ded01e",
+          "board": "Product",
+          "title": "@ Mentions for documents",
+          "content": "<p>Reference specific files for precise and faster answers</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Type @ to tag a document and give Noxtua the exact context it needs.</p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a650f9f6f1c7e4ded01e/019f6a49-9907-74ab-9fcb-7b1a7c484c29/b64u-MDE5ZjZhNDktOThkYy03NjY5LTk3ZGEtZTFiYzY5MGExYzI4.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=1a095ff8de3b50388b8b9a256e4e2726df513fd6ee8007fb56f75c9a6696e649\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a650f9f6f1c7e4ded01e/019f6a49-9907-74ab-9fcb-7b1a7c484c29/b64u-MDE5ZjZhNDktOThkYy03NjY5LTk3ZGEtZTFiYzY5MGExYzI4.png\" data-featurebase-content-filename=\"019f6a49-98dc-7669-97da-e1bc690a1c28\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">When working with multiple uploaded documents, it isn't always clear to the AI which file a question relates to which can lead to imprecise answers and unnecessary iterations.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">@ mentions fix this directly: Simply type \"@\" in the chat field, select the document you mean, and keep writing your prompt. Noxtua will pick up the reference precisely, so there is no manual naming needed. Mentions stay visible in your thread, so context remains clear as the conversation develops.</p><p class=\"framer-text framer-styles-preset-1uarwlm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:37:20.868Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a620280035f2b9e85648",
+          "board": "Product",
+          "title": "EU data (DE)",
+          "content": "<h1 style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></h1><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-9to16y\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Legal research backed by EUR-Lex</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Ask legal questions touching EU law and get answers backed by official EUR-Lex data.</p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a620280035f2b9e85648/019f6a48-94c4-752c-8707-090f324db06c/b64u-MDE5ZjZhNDgtOTQ1NS03Y2ZlLTgzYjItNmNmOWEyY2MyZDcy.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=3804927deb1d4d03f7b437ae2c0c4044e5d20a258ce0db2b866a61cb7ca43b81\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a620280035f2b9e85648/019f6a48-94c4-752c-8707-090f324db06c/b64u-MDE5ZjZhNDgtOTQ1NS03Y2ZlLTgzYjItNmNmOWEyY2MyZDcy.png\" data-featurebase-content-filename=\"019f6a48-9455-7cfe-83b2-6cf9a2cc2d72\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">On top of the exclusive legal publisher data you already work with, Noxtua now integrates EU data directly from EUR-Lex, the official EU law database. Whenever your query touches EU law, Noxtua will automatically draw on the relevant EU data and cite specific sources.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">The integrated EU data covers the following document categories:</p><ul><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Sector 3: Legal acts</p></li><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Sector 6: EU case-law</p></li></ul><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><em>Please note that EU data will currently only be shown when Germany is selected as the jurisdiction.</em></p><p class=\"framer-text\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:36:32.223Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123ae3356df380a250055"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a5de92bd4a633f519d29",
+          "board": "Product",
+          "title": "Word Add-in: Citations, chat history, and more",
+          "content": "<p>A smoother Noxtua experience inside Word</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Pick up past chats, preview sources in the sidebar, and work faster with Noxtua in Word.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Working with Noxtua in Word should not give you any reason that sends you back to the web version. We are closing that gap with these three updates:</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Chat history and new chat:</strong> Start a new chat or return to an earlier one without leaving your document. Your full chat history stays available, so context carries across sessions.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Cleaner citations:</strong> Use citations as you know them from the web – shown as badges that take you to the source in the sidebar. The previous inline links are gone.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Performance improvements:</strong> Work on documents noticeably faster and use Track Changes without distractions. We made several performance improvements for you.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1uarwlm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:35:26.695Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a5b2cb41f0e2c155996d",
+          "board": "Product",
+          "title": "Word Add-in: Add reference documents",
+          "content": "<p class=\"framer-text framer-styles-preset-9to16y\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Reference material that support document work in Word</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Upload documents to the Word Add-in and use them as reference material in your chat while drafting or editing.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Drafting or reviewing a contract often works best with a precedent, a sample clause, or an existing agreement at hand. Until now, this was only possible in Noxtua's web Editor.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">You can now upload documents directly in the Word Add-in and reference them in your chat. Ask Noxtua to draft a clause based on a precedent, align wording with an existing agreement, or pull specific passages from your uploaded file – all within Word.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Every uploaded document is available as a citation source, so any passage Noxtua draws on remains traceable and verifiable in the sidebar.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1uarwlm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:34:42.254Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a57e280035f2b9e7073d",
+          "board": "Product",
+          "title": "Smart Templates",
+          "content": "<p class=\"framer-text framer-styles-preset-9to16y\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Consistent and faster results with standardizable templates</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Standardize recurring legal tasks with guided prompt templates using dynamic user input and knowledge sources.</p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a57e280035f2b9e7073d/019f6a45-7d60-710f-a7da-d6444809c63d/b64u-MDE5ZjZhNDUtN2Q0MS03YmZlLTk3NTQtYzZjN2MzMTk1MTU3.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7b47ff2de99f44846879db07de44307a92e6223ac19b4275e48408db4552ac01\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a57e280035f2b9e7073d/019f6a45-7d60-710f-a7da-d6444809c63d/b64u-MDE5ZjZhNDUtN2Q0MS03YmZlLTk3NTQtYzZjN2MzMTk1MTU3.png\" data-featurebase-content-filename=\"019f6a45-7d41-7bfe-9754-c6c7c3195157\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Legal teams rely on Noxtua for routine work such as document reviews, memo drafting, and legal research. But when every team member crafts and uses their own prompts, output quality varies and valuable time is lost.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Smart Templates lets legal teams handle recurring tasks at scale – with consistent quality and greater speed. In a redesigned experience, template managers can package proven prompts into protected, guided workflows, while template users get a turn-key solution to complete their work.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><h4 style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>What's new for template managers:</strong></h4><ul><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Template editor: </strong>Design templates in a new interface with contextual user input to standardize Legal AI usage across your team.</p></li><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>User input:</strong> Define text fields or file upload fields that users fill in when running the template.</p></li><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Knowledge sources:</strong> Embed reference documents such as checklists or review criteria, so Noxtua always has the right guidance at hand without users uploading them each time.</p></li></ul><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><h4 style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>What's new for template users:</strong></h4><ul><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Template application:</strong> Select a template and it appears as a compact box above the chat field.</p></li><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Guided input:</strong> Get prompted for the case-specific information needed before running the template.</p></li></ul><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Please note:</strong> Templates created before April 15, 2026 must be migrated to the new template experience by users with the template manager role.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Learn more about <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://academy.noxtua.com/posts/templates-setup\"><strong>migrating existing and setting up new templates</strong></a> or <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://academy.noxtua.com/posts/templates-usage\"><strong>how to use templates</strong></a>.</p><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:33:50.958Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a4dd868d46e929ebc249",
+          "board": "Product",
+          "title": "The complete, current C.H. BECK knowledge from beck-online in Beck-Noxtua",
+          "content": "<p>All current C.H. BECK content from beck-online now available in Beck-Noxtua</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Use our Legal AI based on all current C.H. BECK content from beck-online across all German legal areas.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">By integrating further modules, Beck-Noxtua now accesses the entire current C.H. BECK knowledge from beck-online across all German legal areas. Thanks to this comprehensive database, you receive precise answers from Beck-Noxtua based on the most relevant sources for the task at hand.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">For the full list of modules integrated into Beck-Noxtua, see <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"link\" href=\"https://www.beck-noxtua.de/en/data-foundation/\">https://www.beck-noxtua.de/en/data-foundation/</a></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 2,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:31:09.105Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a4abb0f587f126146701",
+          "board": "Product",
+          "title": "Workflows in Templates",
+          "content": "<p>Multi-step templates with live progress tracking</p><p></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Break down legal tasks into ordered steps and follow progress as Noxtua works through each one.</p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a4abb0f587f126146701/019f6a44-c7a8-703d-9ac6-00401b931cab/b64u-MDE5ZjZhNDQtYzc1ZS03ZTk4LTllOTItYTZmNzVhZTRmZmJm.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=1d817aa7c1ba08d5752d4b65c999973296d5b31a4cb645bc573a588b21069cf9\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a4abb0f587f126146701/019f6a44-c7a8-703d-9ac6-00401b931cab/b64u-MDE5ZjZhNDQtYzc1ZS03ZTk4LTllOTItYTZmNzVhZTRmZmJm.png\" data-featurebase-content-filename=\"019f6a44-c75e-7e98-9e92-a6f75ae4ffbf\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Legal work often involves several distinct actions: analyzing a clause, checking it against precedent, and drafting an alternative. Squeezing them into a single prompt tends to produce imprecise output and obscures the path to the result.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">In the Template editor, creators can now break a task into a sequence of up to five steps that form a workflow. For each step, you can define user input fields and reference documents.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">When you run a multi-step template, a progress tracker shows you which step Noxtua is currently working on, so you always know where things stand.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Please note: Existing single-step templates keep working as before.</p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:30:19.470Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a1defa9808e93bf4a9ec",
+          "board": "Product",
+          "title": "Knowledge Graph for DE",
+          "content": "<p>a live, self-updating knowledge graph for the DE market that demonstrably outperforms plain search - positioning us ahead of competitors on a differentiating feature</p><ul><li><p>release of KG for DE with automated updates</p></li><li><p>Investigate regular search vs. knowledge graph (currently one benchmark favoring KG)</p></li><li><p>Build an evaluation set for the KG; assess scaling to 100K users</p></li><li><p>timing tbd: rollout of KG for PL, based on learnings from DE</p></li></ul><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 3,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:18:22.306Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123ae3356df380a250055"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a17167941633fe416561",
+          "board": "Product",
+          "title": "Holistic Concept for Onboarding & Feature Adoption",
+          "content": "<p>Improved User Onboarding &amp; Feature Announcements</p><p></p><p>Improve Chat Interaction</p><ul><li><p>error handling /user instructions</p><p></p></li></ul><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 12,
+          "commentCount": 1,
+          "category": "",
+          "createdAt": "2026-07-16T09:16:33.972Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55422993af4acf42bfea76"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": "116",
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a0ae2ef2b48eeaf36643",
+          "board": "Product",
+          "title": "Matrix Upgrade",
+          "content": "<p>Matrix can process around 1000 documents in a stable way, enabled by</p><ul><li><p>queuing</p></li><li><p>migration to cloud storage</p></li><li><p>migration to AI Puppy</p></li></ul><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 21,
+          "commentCount": 4,
+          "category": "",
+          "createdAt": "2026-07-16T09:13:18.543Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55422993af4acf42bfea76"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": "208",
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a58a04efc26897bb8106971",
+          "board": "Product",
+          "title": "Word Add-in Stabilisation",
+          "content": "<p style=\"text-align: start\">we stabilize the Word Add-in and align it’s feature-set with the web-app (@mentioning, EU License, Voice Input)</p><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 1,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:11:42.009Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a589fd719151076e460475a",
+          "board": "Product",
+          "title": "UI/UX Template Improvements",
+          "content": "<p>We will rework the template UI to simplify usage and increase adoption. This contains </p><ul><li><p>Reworking UI/UX</p></li><li><p>Possibility to duplicate templates</p></li><li><p>Private / per user Templates </p><p></p></li></ul><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 2,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-16T09:09:43.683Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55422993af4acf42bfea76"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a548c5552b294a48e51603e",
+          "board": "Product",
+          "title": "Improved Document Processing",
+          "content": "<p>Performance &amp; UX improvements: faster, cheaper and more reliable document processing that scales to 100K users without losing extraction quality</p>",
+          "status": "",
+          "status_type": "",
+          "votes": 2,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-13T06:57:25.857Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a548beda41fa80e49bba420",
+          "board": "Product",
+          "title": "DMS Integration concept: first integration",
+          "content": "<p>we will integrate the first DMS provider, either iManage <strong>or</strong> Sharepoint (decision depends on technical investigaion)</p>",
+          "status": "",
+          "status_type": "",
+          "votes": 13,
+          "commentCount": 1,
+          "category": "",
+          "createdAt": "2026-07-13T06:55:41.425Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": "342",
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a51226c926d6521f648e2c7",
+          "board": "Product",
+          "title": "File management system integration",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 12,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:48:44.768Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a512219f72a9987c364c4c3",
+          "board": "Product",
+          "title": "Cross-device chat access",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 7,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:47:21.696Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a512210ba59b90f02b6b06f",
+          "board": "Product",
+          "title": "Stop or cancel running generation",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 9,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:47:12.461Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a5121c45bdcefcb1e755de0",
+          "board": "Product",
+          "title": "Email program integration",
+          "content": "",
+          "status": "",
+          "status_type": "",
+          "votes": 20,
+          "commentCount": 0,
+          "category": "",
+          "createdAt": "2026-07-10T16:45:56.362Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": null,
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Lea Dingler"
+        },
+        {
+          "id": "6a4e65a4060dbd7bed7b5ee2",
+          "board": "Product",
+          "title": "Cloud Storage",
+          "content": "<h3><strong>What is the new functionality about?</strong></h3><p>Chats of users will be stored in our cloud and encrypted by project per user. Encryption keys are user-specific so that no one else can decrypt chat histories. For technical details please reach out. The storage architecture is called LECS.</p><p></p><h3><strong>How does it work?</strong></h3><p class=\"noSpacingAbove spacingBelow\">For Beck-Noxtua Germany: Customers have to accept the new DPA, and Beck will hand-over a handle (a datapoint) to Beck-Noxtua so that the system auto-updated a customer to LECS-Storage. For Self-Service Customers, the process still has to be finalized but will be more manual.</p><p class=\"noSpacingAbove spacingBelow\">For all other markets: LECS will be activated for a market with the respective Go Live.</p><p class=\"noSpacingAbove spacingBelow\"></p><h3><strong>How do customers benefit?</strong></h3><p class=\"noSpacingAbove spacingBelow\">Storing data in the cloud has the upside of having chat history, files and other settings device and browser independent so users can work seamlessly. Additionally, newer features such as projects can be rolled out.</p><p class=\"noSpacingAbove spacingBelow\"></p><h3><strong>Are there next steps planned?</strong></h3><p class=\"noSpacingAbove spacingBelow\">Matrix and Templates are yet to be brought to LECS which is currently under way.</p>",
+          "status": "",
+          "status_type": "",
+          "votes": 8,
+          "commentCount": 2,
+          "category": "",
+          "createdAt": "2026-07-08T14:58:44.480Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55422993af4acf42bfea76"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123ae3356df380a250055",
+              "6a6123bb3356df380a250057",
+              "6a6123d23356df380a25005a",
+              "6a6123ca3356df380a250059",
+              "6a6123c43356df380a250058",
+              "6a6123b43356df380a250056",
+              "6a6a16ef93b2ff04fc7c0c7c"
+            ],
+            "6a5122786ae5db6317c6f29b": "236",
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a4e64e62ca522f7d1337576",
+          "board": "Product",
+          "title": "Projects for LECS users",
+          "content": "<h3><strong>What is the new functionality about?</strong></h3><p>With the introduction of LECS we will leverage the capability to create projects for individual users, where they can give context and files that persist across chats within a project.</p><p></p><h3><strong>How does it work?</strong></h3><p class=\"noSpacingAbove spacingBelow\">Users need to go to projects and set it up. All new chats that are created from within a project get the context and files that were added automatically considered in the answer generation.</p><p class=\"noSpacingAbove spacingBelow\"></p><h3><strong>How do customers benefit?</strong></h3><p class=\"noSpacingAbove spacingBelow\">Customers will benefit from enhanced user experience by making sure answers to multiple topics that are related to the same initiative/project/case have the same context.</p><p class=\"noSpacingAbove spacingBelow\"></p><h3>Release plan</h3><p class=\"noSpacingAbove spacingBelow\">We will release Projects to production behind feature flag on the 29th of July 2026. Following that, the feature will be rolled out to all LECS-enabled markets on the 4th of August 2026. <br><br>Remark: This functionality is cloud storage/LECS-dependent. Tenants/Organisations/Users who are not LECS-enabled cannot use the feature.</p><p class=\"noSpacingAbove spacingBelow\"></p><p class=\"noSpacingAbove spacingBelow\">Preview Noxtua’s support article for Projects:</p><p class=\"noSpacingAbove spacingBelow\"></p><file-preview-component data-featurebase-content-filename=\"Noxtua - Projects - Support Article EN V1 26.pdf\" data-featurebase-content-filesize=\"1092712\" data-featurebase-content-filetype=\"application/pdf\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a4e64e62ca522f7d1337576/019faa28-4d77-7039-ba2b-e51648d4c205/b64u-Tm94dHVhIC0gUHJvamVjdHMgLSBTdXBwb3J0IEFydGljbGUgRU4gVjEgMjYucGRm.pdf\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a4e64e62ca522f7d1337576/019faa28-4d77-7039-ba2b-e51648d4c205/b64u-Tm94dHVhIC0gUHJvamVjdHMgLSBTdXBwb3J0IEFydGljbGUgRU4gVjEgMjYucGRm.pdf?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=39190fe4bb76ccf9317141e7641d0899e034fee6336c687c5dab5dc55b4bf518\"></file-preview-component><p class=\"noSpacingAbove spacingBelow\"></p><file-preview-component data-featurebase-content-filename=\"Noxtua - Projects - Support Article DE V1 26.pdf\" data-featurebase-content-filesize=\"1095655\" data-featurebase-content-filetype=\"application/pdf\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a4e64e62ca522f7d1337576/019facf3-0ea2-7dd5-befd-08cdcf12a1f1/b64u-Tm94dHVhIC0gUHJvamVjdHMgLSBTdXBwb3J0IEFydGljbGUgREUgVjEgMjYucGRm.pdf\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a4e64e62ca522f7d1337576/019facf3-0ea2-7dd5-befd-08cdcf12a1f1/b64u-Tm94dHVhIC0gUHJvamVjdHMgLSBTdXBwb3J0IEFydGljbGUgREUgVjEgMjYucGRm.pdf?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e573ff40c56a875d711c537bb3b8a9567818a739e34465b917e5aa7d19887931\"></file-preview-component><p class=\"noSpacingAbove spacingBelow\"></p><p class=\"noSpacingAbove spacingBelow\">Walk-through video of Projects:</p><video data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvYmplY3RLZXkiOiIwMTlmYTg4Yi03YWY3LTc3NDEtYTgxMC0wMTdiZTYyNWM5YmEiLCJ0eXBlIjoidmlkZW8tdXJsIiwicmVzb3VyY2VJZCI6IjZhNGU2NGU2MmNhNTIyZjdkMTMzNzU3NiIsInJlc291cmNlVHlwZSI6InBvc3QiLCJvcmdJZCI6IjZhMjEyMzYzMDUzNWY2NTVjZmFlYzNjMyIsImlhdCI6MTc4NTIzOTE0M30.MvXNvK1JVtKMIxXpD_s9ns0sgm6Grvcn_PXMMP5BE3I\" controls=\"controls\" playsinline=\"playsinline\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/videos/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvYmplY3RLZXkiOiIwMTlmYTg4Yi03YWY3LTc3NDEtYTgxMC0wMTdiZTYyNWM5YmEiLCJleHAiOjE3ODU1MTcyMDAsInR5cGUiOiJ2aWRlby11cmwiLCJvcmdJZCI6IjZhMjEyMzYzMDUzNWY2NTVjZmFlYzNjMyIsInJlc291cmNlSWQiOiI2YTRlNjRlNjJjYTUyMmY3ZDEzMzc1NzYiLCJyZXNvdXJjZVR5cGUiOiJwb3N0In0.T93RINwwvKheTsTOHQQXEhlyG6p193EJ2gJg8FRg1T4/manifest.mpd\"></video><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 6,
+          "commentCount": 1,
+          "category": "",
+          "createdAt": "2026-07-08T14:55:34.637Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55422993af4acf42bfea76"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": "205",
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a4e64213210992d27b054eb",
+          "board": "Product",
+          "title": "Voice Transcription",
+          "content": "<h3><strong>What is the new functionality about?</strong></h3><p></p><p>The voice transcription functionality enables the user to dictate their input via voice without losing accuracy on legal terminology.</p><p class=\"noSpacingAbove noSpacingBelow\">Noxtua-ai-voice-1.0 is a self-hosted automatic speech recognition (ASR) model behind the functionality, used in Noxtua to enable the user to interact with the application handsfree. This increases accessibility and saves time.</p><p class=\"noSpacingAbove noSpacingBelow\"></p><h3><strong>How does it work?</strong></h3><p class=\"noSpacingAbove spacingBelow\">The model transcribes speech-to-text. It preprocess the audio to remove noice and background sounds. It furthermore post-processes to ensure accuracy, punctuation and casing are in place. Transcribed text is (equivalent to typed text) visible in the input field and is ready to be fine-tuned or edited by the user.</p><p class=\"noSpacingAbove spacingBelow\"></p><h3><strong>How do customers benefit?</strong></h3><p class=\"noSpacingAbove spacingBelow\">The new functionality improves the user experience:</p><ul><li><p class=\"noSpacingAbove spacingBelow\">Increases accessibility</p></li><li><p class=\"noSpacingAbove spacingBelow\">Saves time</p></li><li><p class=\"noSpacingAbove spacingBelow\">Improving mobile accessibility</p></li></ul><p class=\"noSpacingAbove spacingBelow\"></p><h3><strong>Are there next steps planned?</strong></h3><p class=\"noSpacingAbove spacingBelow\">We will release the functionality to production on the 1st of July 2026. Our user interviews with testing customers start 6th of July 2026 to learn more about how customers interact with the functionality and how to scale the development. Following that: We will rollout the feature to the different markets.</p><p class=\"noSpacingAbove spacingBelow\"></p><p></p><img data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a4e64213210992d27b054eb/019f4231-d5fc-751d-a900-4930bce9252e/b64u-U2NyZWVuc2hvdCAyMDI2LTA3LTA4IGF0IDE2LjQyLjI4LnBuZw.png\" data-featurebase-content-filename=\"Screenshot 2026-07-08 at 16.42.28.png\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a4e64213210992d27b054eb/019f4231-d5fc-751d-a900-4930bce9252e/b64u-U2NyZWVuc2hvdCAyMDI2LTA3LTA4IGF0IDE2LjQyLjI4LnBuZw.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=602ed435a00b99c82111947bcdecd97352b2027d4dba5a390e44bc4bc9878201\"><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 16,
+          "commentCount": 2,
+          "category": "",
+          "createdAt": "2026-07-08T14:52:17.284Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55427b93af4acf42bfea77"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123bb3356df380a250057",
+              "6a6123c43356df380a250058",
+              "6a6123d23356df380a25005a",
+              "6a6123ca3356df380a250059",
+              "6a6123ae3356df380a250055"
+            ],
+            "6a5122786ae5db6317c6f29b": "170",
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        },
+        {
+          "id": "6a42320646a7b5cd434b5f08",
+          "board": "Product",
+          "title": "Outlook Add-In",
+          "content": "<h3><strong>What is the new functionality about?</strong></h3><p></p><p>The Noxtua Outlook Add-in brings Noxtua's AI assistant directly into Microsoft Outlook. Legal professionals can summarise emails, analyse attachments, and draft replies without leaving the email they're reading – the same Noxtua intelligence already trusted in Word, now right in the Outlook inbox.</p><p></p><h3><strong>How does it work?</strong></h3><p></p><p class=\"noSpacingAbove noSpacingBelow\">In Outlook, open the Noxtua add-in pane and the assistant has context on the message, such as sender, subject, body, attachments. You decide which attachments Noxtua processes. Reply requests render as an Email Draft card you review before inserting into your compose window. Drag local PDFs, DOCX, or TXT files into the chat to cross-reference against incoming mail. Noxtua never sends email on its own, the user has to press Send.<br></p><p class=\"noSpacingAbove noSpacingBelow\">Supported on Outlook Web, Outlook for Windows (M365), and Outlook for Mac v16.38.506+.</p><p class=\"noSpacingAbove noSpacingBelow\"></p><h3><strong>How do customers benefit?</strong></h3><p></p><p class=\"noSpacingAbove noSpacingBelow\">Legal professionals spend much of their day in Outlook to receive incoming requests and lead correspondence. Until now, using AI in this context required a tool switch: download the attachment, open the Web app, paste, copy back.</p><p class=\"noSpacingAbove noSpacingBelow\">The Outlook Add-in removes that friction. Users can summarise emails in seconds, ask about an attachment without downloading it, draft a reply in their own style and insert it with one click, and verify every claim through the citation drawer. <br>This way, Noxtua becomes their Legal AI assistant across Web, Word, and Outlook.</p><p class=\"noSpacingAbove noSpacingBelow\"></p><h3><strong>Are there next steps planned?</strong></h3><p class=\"noSpacingAbove spacingBelow\">The first version ships as a focused MVP: reading, AI-drafted replies, attachment analysis, local document upload.</p><p class=\"noSpacingAbove spacingBelow\">Planned for later: Citations for E-Mail content, from workflow triggers received emails, broader compose-mode capabilities, add tone and style as preference</p><h3></h3><img data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a42320646a7b5cd434b5f08/019f375c-6e9b-77f0-9577-98f4891d69a7/b64u-U2NyZWVuc2hvdCAyMDI2LTA2LTI5IGF0IDEwLjUwLjA2LnBuZw.png\" data-featurebase-content-filename=\"Screenshot 2026-06-29 at 10.50.06.png\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a42320646a7b5cd434b5f08/019f375c-6e9b-77f0-9577-98f4891d69a7/b64u-U2NyZWVuc2hvdCAyMDI2LTA2LTI5IGF0IDEwLjUwLjA2LnBuZw.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=50cd07e78c4d61c960beaa2e236ac12a932a85f017f5707a8a1a8550e29f8a13\"><p></p><img data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a42320646a7b5cd434b5f08/019f375d-126e-7466-a905-5f62a879b9f0/b64u-U2NyZWVuc2hvdCAyMDI2LTA2LTI5IGF0IDEwLjUwLjIyLnBuZw.png\" data-featurebase-content-filename=\"Screenshot 2026-06-29 at 10.50.22.png\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a42320646a7b5cd434b5f08/019f375d-126e-7466-a905-5f62a879b9f0/b64u-U2NyZWVuc2hvdCAyMDI2LTA2LTI5IGF0IDEwLjUwLjIyLnBuZw.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=cbea06cda5419de98be71e405d6f3e56dd21899ec6fe161ec149275b2b300abe\"><p></p><img data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a42320646a7b5cd434b5f08/019f375d-aef9-7a54-84c9-9a1c2e5045f3/b64u-U2NyZWVuc2hvdCAyMDI2LTA2LTI5IGF0IDEwLjUwLjM2LnBuZw.png\" data-featurebase-content-filename=\"Screenshot 2026-06-29 at 10.50.36.png\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a42320646a7b5cd434b5f08/019f375d-aef9-7a54-84c9-9a1c2e5045f3/b64u-U2NyZWVuc2hvdCAyMDI2LTA2LTI5IGF0IDEwLjUwLjM2LnBuZw.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260731T160000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260731%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=9ada578f52a7bbbe447bb5a8edd6ee9202b0fddc66598b46e6683e8fcf8bd6c2\"><p></p>",
+          "status": "",
+          "status_type": "",
+          "votes": 28,
+          "commentCount": 2,
+          "category": "",
+          "createdAt": "2026-06-29T08:51:18.171Z",
+          "lastActivityAt": "",
+          "customFields": {
+            "6a21432630b586a602b5c3cd": null,
+            "6a5542c1b8872091d6a355e2": [
+              "6a55422993af4acf42bfea76"
+            ],
+            "6a6124132d3424674516c489": [
+              "6a6123fa3356df380a25005b"
+            ],
+            "6a5122786ae5db6317c6f29b": "162",
+            "6a51229aaa1b56234fed0d94": null,
+            "6a5122b0a5ec4b37d5773b82": null,
+            "6a5122df97240c22e0375454": null
+          },
+          "author": "Ruth Rothmaler"
+        }
+      ]
+    }
+  },
+  "total_posts": 91
+}

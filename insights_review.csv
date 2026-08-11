@@ -1,0 +1,409 @@
+id,insight,status,type,mentions,notes_for_reviewer,reviewed
+30,Users don't understand how to set up workflow automations within the tool.,Identified - JIRA ticket exists,Idea,1,,true
+41,The user needs support in writing successful prompts.,Planned for development,Missing Feature,13,,true
+42,The user needs a choice between different versions of the LLM.,Identified - JIRA ticket exists,Idea,2,,true
+43,The user needs the tool to translate search results into their preferred language.,Identified - JIRA ticket exists,Missing Feature,3,,true
+44,The user needs the the answers and citations to be matching.,Well done - positive feedback outweighs negative,General Feedback,25,,true
+45,The user needs the tool to take over at least parts of his or associates tasks reliably so that he has the biggest benefit of using the tool.,New – Not yet discussed,General Feedback,2,,true
+46,The user needs the answers to be precise and on point so that his time is efficiently used.,Identified - JIRA ticket exists,General Feedback,21,,true
+47,The user needs also information for very specific topics to be available so that he can use the tool for their tasks.,New – Not yet discussed,General Feedback,1,,true
+50,The user needs to know which data is available in the system so that they can be sure that the right sources can be used.,Identified - JIRA ticket exists,Improvement,4,,true
+53,"The user needs the answers to be adapted to their level of expertise, that they can work best with the answers.",New – Not yet discussed,Improvement,2,,true
+55,The user needs to be able to use the tool to draft text snippets so that they can save time.,Well done - positive feedback outweighs negative,General Feedback,3,,true
+58,The user needs the tool to be transparent if it does not have any sources available.,Identified - JIRA ticket exists,Improvement,5,,true
+60,The user needs the tool to chose the sources based on the nature of the question. E.g. Formularhandbücher used as a substitute source: unsuitable for doctrinal questions.,New – Not yet discussed,General Feedback,1,,true
+62,The user needs a complete list of the sources additionally to synthesized results.,Identified - JIRA ticket exists,Improvement,3,,true
+69,The user needs the direct citations and no indirect ones of a secondary source.,Identified - JIRA ticket exists,Improvement,4,,true
+70,The user needs to be able to give feedback regarding the quality of the task fulfillment.,New – Not yet discussed,Missing Feature,2,,true
+71,The user needs the tool to make own deductions beyond the provision and integration of feedback.,Identified - JIRA ticket exists,Improvement,4,,true
+72,The user needs the tool to also provide them with alternative perspectives not only e.g. with the predominant one.,Identified - JIRA ticket exists,Improvement,5,,true
+74,"The user wants to be able to add additional (e.g. internal) data and cases to the tool, so that it can integrate this data as well.",Planned for development,Missing Feature,21,,true
+75,The user needs to be able to customize the tool to fit to their individual or company internal policies or preferences.,Identified - JIRA ticket exists,Missing Feature,13,,true
+76,The user needs to have insights into the sources of the provided answer in order to verify results easier.,Well done - positive feedback outweighs negative,General Feedback,67,,true
+77,The users have different needs for the level of detail of the answer.,Identified - JIRA ticket exists,Missing Feature,8,,true
+78,The user would like to be able to see exactly from which part of a source the model derived the answer.,Identified - JIRA ticket exists,Missing Feature,11,,true
+79,The user needs to be able to understand which steps the AI takes to derive the results.,Well done - positive feedback outweighs negative,General Feedback,28,,true
+80,The user would like to be able to integrate their thoughts with the official information from the provided sources.,New – Not yet discussed,Improvement,2,,true
+81,"The user needs transparency about data security measures to be sure that their data is being treated confidentially and is not distributed, but only locally on their machine.",Implemented - a solution is released,General Feedback,7,,true
+82,The user wants to be able to share generated matrixes with their colleagues.,New – Not yet discussed,Missing Feature,1,,true
+83,The user needs to be able to generate customized workflows in order to handle complex tasks.,Implemented - a solution is released,Missing Feature,13,,true
+84,The user needs to be able to import on Matrixes to provide the system with more information.,Implemented - a solution is released,Missing Feature,1,,true
+86,The user needs to be able to access templates from the word-add-in in order to have everything in one place.,Planned for development,Missing Feature,1,,true
+87,The user needs help in optimizing the content of a document regarding their needs.,Planned for development,Idea,5,,true
+88,The user wants to be able to see and decide on proposed changes in order to stay in control.,Implemented - a solution is released,General Feedback,2,,true
+90,The user wants to be supported in taking the right measures to a request.,New – Not yet discussed,Idea,2,,true
+93,"The user needs the tool to be accessible and usable within their familiar working environment, especially if they have less technical proficiency.",Implemented - a solution is released,General Feedback,8,,true
+94,"The user needs to be able to stick with their custom formatting and fonts, in order not having to reformat their document.",Implemented - a solution is released,Improvement,3,,true
+96,The user needs a general workflow to check the different types of documents.,New – Not yet discussed,General Feedback,1,,true
+97,The user needs the AI to support him to be quicker with their task.,Well done - positive feedback outweighs negative,General Feedback,12,,true
+98,The user needs help in gaining an initial overview of a (complex) topic.,Well done - positive feedback outweighs negative,General Feedback,25,,true
+99,The user needs a clear structure of answers in order to easily understand it.,Well done - positive feedback outweighs negative,General Feedback,37,,true
+101,The user needs the system to provide answers in appropriate language.,Identified - JIRA ticket exists,General Feedback,19,,true
+102,The user needs the answers to have a high accuracy to be beneficial to him.,Identified - JIRA ticket exists,General Feedback,85,,true
+103,The users need to have a reliable data base as the source of the answers.,Well done - positive feedback outweighs negative,General Feedback,71,,true
+104,The user wants to be able to work with their own (existing) documents.,Planned for development,General Feedback,5,,true
+105,The user needs to be able to get a summary in order to get a quick overview.,Well done - positive feedback outweighs negative,General Feedback,9,,true
+106,The user needs to be able to set the interface language of the app in Noxtua.,New – Not yet discussed,Missing Feature,1,,true
+107,The user needs to be able to upload files larger than 10 MB.,Identified - JIRA ticket exists,Improvement,11,,true
+108,The user expects to get (in itself and for the same request) consistent answers.,Identified - JIRA ticket exists,General Feedback,8,,true
+109,The user needs all relevant sources to be available and used for the answer.,Identified - JIRA ticket exists,General Feedback,23,,true
+110,The user needs to get feedback regarding the completion of the file upload.,Implemented - a solution is released,Improvement,6,,true
+111,The user expects the answer to be updated with the information from follow-up prompting instead of just appending it at the end.,New – Not yet discussed,Improvement,1,,true
+112,The user doesn't want to see the interim results but only the final result.,New – Not yet discussed,General Feedback,1,,true
+113,The user needs the most recent version of a source to be used instead of an outdated version.,Identified - JIRA ticket exists,General Feedback,23,,true
+114,The user needs to be able to compare different legislations easily.,New – Not yet discussed,Idea,2,,true
+115,The user needs to be able to continue the chat even after longer times of inactivity.,Implemented - a solution is released,General Feedback,4,,true
+116,The user needs guidance in case of occuring errors in order to be able to understand what is going wrong.,Identified - JIRA ticket exists,Improvement,15,,true
+119,The user needs to be able to see which chat was about which topic in order to easily navigate to the right chat.,Implemented - a solution is released,Missing Feature,4,,true
+120,"The user needs a date/time tracker for the product in order to work on cases, where time matters.",Identified - JIRA ticket exists,Missing Feature,4,,true
+121,User wants to upload a whole folder with many documents in it - into the Matrix Analysis.,Identified - JIRA ticket exists,Improvement,2,,true
+122,The user wants to be able to ask questions back and further process created matrices in the chat.,Identified - JIRA ticket exists,Improvement,5,,true
+124,The user needs to be able to create new criteria and matrices in Matrix Analysis quickly and easily.,Well done - positive feedback outweighs negative,General Feedback,2,,true
+126,The user needs Matrix Analysis to evaluate large amounts of data simultaneously with speed and efficiency.,Well done - positive feedback outweighs negative,General Feedback,5,,true
+127,"The user expects an easy to understand interface for the Matrix, with appropriate sizing of input fields and self-explanatory guidance through the UI.",Identified - JIRA ticket exists,Improvement,6,,true
+128,The user needs upload times in Matrix Analysis to be reliably fast and always return a result.,New – Not yet discussed,Improvement,2,,true
+129,"The user needs Matrix Analysis results to be reliable and expects the tool to handle law updates clearly, without requiring manual review.",New – Not yet discussed,Improvement,2,,true
+130,The user needs Matrix Analysis to apply consistent logic between columns and across rows.,New – Not yet discussed,Improvement,1,,true
+132,The users want higher recognition rate of relevant information within uploaded documents.,Identified - JIRA ticket exists,General Feedback,8,,true
+133,The user wants to be able to set up a workflow that compares a document in the Canvas with an uploaded document and trigger changes so that both of them are matching.,Identified - JIRA ticket exists,Missing Feature,5,,true
+134,"The user doesn't want to have to differentiate beforehand between Canvas and Chat, but being able to open the canvas retrospectively for interactive editing, when they want to change sections and or do manual editing.",Implemented - a solution is released,General Feedback,2,,true
+135,User want to be able to insert line breaks in prompts easily with one click.,New – Not yet discussed,Improvement,2,,true
+136,Users want to be able to ask questions to specific sections & prompt changes based on specific sections.,Implemented - a solution is released,Missing Feature,12,,true
+137,The user needs the compare-changes feature to be intuitive and its icon to be self-explanatory.,Implemented - a solution is released,Improvement,2,,true
+138,Users want the ability to turn on/off numbering in a document.,Implemented - a solution is released,Idea,1,,true
+139,Users want to be able to mark up (color highlights) documents for clarity and emphasis.,New – Not yet discussed,Idea,2,,true
+140,Users expect the Editor to open automatically when a draft is prompted.,New – Not yet discussed,Improvement,14,,true
+141,The users struggle and wish for help when interacting with the canvas.,Implemented - a solution is released,Missing Feature,15,,true
+142,"User highlight that, familiar document editing and review features (like e.g. tracked changes) are important for adoption of the Editor.",Well done - positive feedback outweighs negative,General Feedback,4,,true
+143,The users would like to be able to store prompts and share with other users for usage.,Implemented - a solution is released,Missing Feature,8,,true
+144,The users expect the tool to seamlessly integrate into their current text editing tools (i.e. word).,Implemented - a solution is released,Improvement,32,,true
+145,"The users would like to see the content mapped to specific pages, i.e. page breaks and page numbering.",New – Not yet discussed,Improvement,2,,true
+146,The users appreciate that the export keeps the tracked changes just like in word.,Well done - positive feedback outweighs negative,General Feedback,24,,true
+147,"The users would like the tool to prioritize accuracy over convenience, i.e. they rather prefer an ""I don't know"" or ""I'm not sure"" over a false response or incorrect sources.",Planned for development,General Feedback,5,,true
+148,"The users would like to interact with the system more conversation like, getting questions and hints back from the system.",Identified - JIRA ticket exists,Improvement,16,,true
+149,User want a customizable layout in order to not need multiple displays when interacting with the tool.,Identified - JIRA ticket exists,Idea,8,,true
+150,"The users wish to store their own standard snippets (clauses, as a “Baukasten”) that can be accessed through the system.",Planned for development,Missing Feature,11,,true
+151,"The users would like to be able to use content templates, that can be accessed to draft documents.",Planned for development,Missing Feature,33,,true
+153,The user needs the tool to differentiate between document content and annotations and only add the content into their document.,Identified - JIRA ticket exists,Improvement,8,,true
+154,"The user expects to be able to use simple, Google-style prompts effectively without needing to learn complex multi-step prompting.",Identified - JIRA ticket exists,General Feedback,4,,true
+155,The users want the tool to be able to handle tables and diagrams within their documents.,New – Not yet discussed,Improvement,3,,true
+156,"The user expects the Editor interface to be intuitive, with a layout and button design familiar from other tools.",Well done - positive feedback outweighs negative,General Feedback,10,,true
+157,The user wants to be able to only get a high-level overview of the thinking process and only dig deeper on demand.,Implemented - a solution is released,Improvement,15,,true
+158,The users would like to be able to revert changes that they or the tool made.,Well done - positive feedback outweighs negative,Improvement,4,,true
+159,The user would like documents in noxtua to have a version history in order to be able to revert to specific state in time.,Identified - JIRA ticket exists,Missing Feature,4,,true
+160,"The users want to have granular control over which changes they accept, by seeing which part is the currently accepted part.",Identified - JIRA ticket exists,Improvement,3,,true
+161,The users expect the tool to stick to the language of an uploaded document and not to e.g. switch to German just because the prompt was German.,New – Not yet discussed,Improvement,2,,true
+162,The users would like to be able to seamlessly use the tool with their email program.,Planned for development,Missing Feature,21,,true
+163,The users have trouble differentiating the upload function in the Canvas from the one in the chat.,Well done - positive feedback outweighs negative,General Feedback,4,,true
+164,The users expect the tool to offer a collaborative environment in which they can comment and work at the same time in order to exchange with colleagues.,Identified - JIRA ticket exists,Missing Feature,14,,true
+165,The users expect the tool to ask questions back if the input provided is ambiguous.,Identified - JIRA ticket exists,Improvement,7,,true
+167,Users wanna be able to customize the layout particularly for having an Editor only view.,Identified - JIRA ticket exists,Improvement,6,,true
+168,Users want to replace prompting by filling Dropdowns in order to avoid having to write prompts.,New – Not yet discussed,Idea,1,,true
+169,"The user expects the tool to identify non-lawful clauses and clauses that could be to their disadvantage automatically after upload, without the user needed to prompt it.",Identified - JIRA ticket exists,Idea,3,,true
+170,"The users would like to be able to interact with the tool via voice input, in order to work more efficiently.",Implemented - a solution is released,Missing Feature,19,,true
+171,The users expect the tool to do automatic consistency checks across the document.,Identified - JIRA ticket exists,Idea,3,,true
+172,The user expects the tool to offer both structured (decision-tree-like) and flexible (more creative) editing of documents to accommodate both standard but also exceptional cases.,New – Not yet discussed,Idea,2,,true
+173,The users would like to be able to intervene if they see the modal is thinking in a wrong direction in order to adjust the result to what they actually need.,Identified - JIRA ticket exists,Idea,4,,true
+174,The user wants the tool to highlight significant changes to them in order to easier navigate especially big edits that the tool makes to documents.,New – Not yet discussed,Idea,1,,true
+175,The users find the presence of change buttons before any edits were made confusing.,New – Not yet discussed,Improvement,2,,true
+176,"The users don't want the citation panel to pop-up automatically, particularly when Editor is open.",New – Not yet discussed,Improvement,3,,true
+187,The users expect an intuitive handling and interface.,Well done - positive feedback outweighs negative,General Feedback,36,,true
+189,"The tool produces very good results with contract drafts, particularly in the IT sector (e.g. hardware maintenance contracts including SLA and schedules of services).",Well done - positive feedback outweighs negative,General Feedback,6,,true
+191,The user needs direct links to Beck-Online sources to be included in the output.,New – Not yet discussed,Improvement,1,,true
+192,User needs to be able to name the export to be able to continue working efficiently.,Implemented - a solution is released,Improvement,1,,true
+193,User need the chat export to be able to work efficiently.,Well done - positive feedback outweighs negative,General Feedback,1,,true
+194,User need to get all relevant sources linked to their answer in order to get the full picture.,New – Not yet discussed,Improvement,2,,true
+196,"The user needs the tool to provide accurate answers on the first attempt, without requiring multiple follow-up queries to reach the correct solution.",New – Not yet discussed,Improvement,3,,true
+197,The users need the reponses to be available within reasonable time.,Identified - JIRA ticket exists,Improvement,6,,true
+203,"The users want to be able to filter the sources used for their answer generation, in order to remove non relevant sources from consideration.",Identified - JIRA ticket exists,Missing Feature,7,,true
+204,The user wants to be able to customize they way of working of the system more to their needs.,Identified - JIRA ticket exists,Missing Feature,5,,true
+205,"The users want to be able to store documents in project based structure, in order to be able to better work with them.",New – Not yet discussed,Missing Feature,3,,true
+208,The user wants to be able to upload more than 10 files in order to compare more files into one table or use them as input.,Identified - JIRA ticket exists,Improvement,6,,true
+209,"The user does not want to see citations that are not wrong, but granted in order to avoid having too many sources.",New – Not yet discussed,Improvement,1,,true
+210,The user needs the tool to weigh sources accordingly to avoid contradicting or wrong information.,Identified - JIRA ticket exists,Improvement,28,,true
+211,The users expect the tool to seamlessly integrate into their current database tools (ie. Excel).,Identified - JIRA ticket exists,Missing Feature,6,,true
+212,"The users would like to be able to use format templates, that can be accessed to draft documents in order to match individual, company or law firm style.",Identified - JIRA ticket exists,Missing Feature,27,,true
+213,"The user needs to be able to look into the fulltext of the provided answer, in order to make sure that the context also fits the legal case.",Well done - positive feedback outweighs negative,General Feedback,41,,true
+214,"The user needs the system to stick with one language within a chat (unless prompted otherwise), in order to reduce mental load and needing to translate.",Identified - JIRA ticket exists,Improvement,12,,true
+215,"The users want to be able to select only parts of the answer to copy for further usage, e.g. excluding thinking or certain detailed explanations.",New – Not yet discussed,Improvement,2,,true
+216,The user wants to be able to use Powerpoint as an Input Document in order to be able to use all their usually used documents as input.,Well done - positive feedback outweighs negative,General Feedback,4,,true
+218,The user needs the system to be able to process PDF content as input for the answer.,Implemented - a solution is released,General Feedback,1,,true
+219,The user needs more onboarding for the matrix analysis in order to work with it.,Planned for development,Improvement,3,,true
+220,The user needs the system to be more resistant to upper and lower case writing.,New – Not yet discussed,Improvement,1,,true
+221,The user needs legislations of different countries to be used for cases that involve international parties.,Implemented - a solution is released,General Feedback,6,,true
+222,"The user expects the tool to be able to translate legal findings into technical/product implications, in order to communicate them efficiently to other (non-legal) parties.",New – Not yet discussed,Missing Feature,1,,true
+223,The users expect the tool to know who they are or who they work for and consider that for answer generation.,Identified - JIRA ticket exists,Missing Feature,9,,true
+224,The users need to be able to easily understand the research output.,New – Not yet discussed,Improvement,1,,true
+225,The user needs the system to indicate legal uncertainty if there are alternative viewpoints or if there are ongoing debates.,New – Not yet discussed,Improvement,1,,true
+226,The user would like to be able to create slide and speaker bulletpoints for a specific topic to transfer that to powerpoint for speeches.,New – Not yet discussed,Improvement,1,,true
+227,The user needs the system to be resistant to the way a prompt is worded.,Well done - positive feedback outweighs negative,General Feedback,2,,true
+228,The users need more onboarding on how to prompt best.,Implemented - a solution is released,Missing Feature,5,,true
+229,The user wants the system to automatically update matrices with new decisions.,New – Not yet discussed,Missing Feature,1,,true
+230,The user would like to be able to work in another chat while the prompt is running.,New – Not yet discussed,Missing Feature,1,,true
+231,The user needs to be able to stop the tool from running in order to correct mistakes.,Planned for development,Missing Feature,15,,true
+232,"The user needs the tool to comply with data security measures necessary for the data that they work with and to comply with their ""Berufsrecht"".",Well done - positive feedback outweighs negative,General Feedback,12,,true
+234,The user expects Beck-Noxtua to be competitive with comparable tools such as Libra and Legora.,New – Not yet discussed,General Feedback,4,,true
+236,"The user needs to be able to access chats over time and from different devices and browsers, so that the history is always accessible.",Planned for development,Missing Feature,15,,true
+238,The user needs a playbook function for contract comparisons and template contracts.,Planned for development,Missing Feature,2,,true
+240,The user needs a prompt library as a central working resource.,New – Not yet discussed,Missing Feature,1,,true
+241,"The user needs clear guidance options for controlled AI deployment, similar to a data room approach.",New – Not yet discussed,Missing Feature,1,,true
+242,The user needs references in pleadings or contracts to be more strongly and reliably linked.,New – Not yet discussed,General Feedback,1,,true
+244,The user needs to be able to compare different documents uploaded within a matrix.,Implemented - a solution is released,Missing Feature,1,,true
+245,The user expects matrix functions to be self-explanatory and displays to be well-structured.,Well done - positive feedback outweighs negative,General Feedback,3,,true
+246,The user needs the tool to be able to process also scanned documents.,Implemented - a solution is released,Improvement,2,,true
+247,"The user needs to be able to export the entire chat, including all sub-questions.",Identified - JIRA ticket exists,Missing Feature,5,,true
+249,"The user needs to not be limited by context window size constraints when working with large documents or complex tasks. (Proposed solution: option to set context window to 250,000 tokens or higher.)",New – Not yet discussed,Improvement,1,,true
+250,The user needs the tool to support visual language (VL) capabilities so that floor plans can be used for rental agreement tasks.,New – Not yet discussed,Improvement,1,,true
+251,The users want to be able to have the reasoning directly at the changed clause in order to have full transparency for themselves and others.,Implemented - a solution is released,Missing Feature,3,,true
+252,The user needs the AI to seamlessly integrate into word by inserting and prompting directly in the word environment without additional manual effort on their end.,Implemented - a solution is released,Improvement,9,,true
+253,The user wants to be able to see the sources of the generated content directly in word in order to have full transparency.,Implemented - a solution is released,General Feedback,7,,true
+254,The users want to be able to mark sections within a word document and prompt referring only the selected content.,Implemented - a solution is released,Missing Feature,7,,true
+255,"The user expects the tool to directly use the words tracked changes feature, so that they themselves keep the overview of the changes and can send it to other parties.",Implemented - a solution is released,Improvement,8,,true
+256,"The users expect by using the word add in that the formatting templates they use and the formatting that the document has is obeyed by the AI when changes and insertions are made, so that they don't have to fix formatting.",Identified - JIRA ticket exists,General Feedback,7,,true
+257,The users expect the word-add-in to be intuitive and offer guidance so that they don't have to watch tutorials to be able to use it.,Identified - JIRA ticket exists,General Feedback,5,,true
+259,"The user expects each change suggestion to come with a reasoning, why it should be changed in this way, in order to make an informed decision on the change.",Implemented - a solution is released,Missing Feature,4,,true
+260,"The user expects change suggestions to come with the supporting law of the reason for the change, to see which source it was derived from.",Implemented - a solution is released,Missing Feature,1,,true
+261,"The user needs to be able to get an overview of all changes to evaluate them in context, to be able to make a decision on each of the changes.",New – Not yet discussed,Missing Feature,2,,true
+262,The user needs to be able to preview changes before they are applied in the document in order to feel in control and be able to individually review them.,Implemented - a solution is released,Idea,5,,true
+263,The users wish to be able to have transparency of why changes have been made even after inserting them into the document in order to allow themselves or another party to have full transparency into reasoning.,Implemented - a solution is released,Missing Feature,3,,true
+264,"The user would like to be able to apply all changes after reviewing them, in order to not have to approve each one individually.",New – Not yet discussed,Improvement,3,,true
+265,The user needs the tool to be able to offer automatic insertion or preview of changes for manual approval in order to be able to work efficiently in all cases.,Implemented - a solution is released,Missing Feature,4,,true
+266,The user needs to be able to lock parts of a document so that they are not edited by the AI anymore.,New – Not yet discussed,Missing Feature,3,,true
+267,The user would like to be able to tell the tool how harsh or lenient the AI should be when reviewing and suggesting changes to a document.,New – Not yet discussed,Missing Feature,1,,true
+268,The user expects the tool to adjust the drafting to individual style and preferences.,Identified - JIRA ticket exists,Missing Feature,8,,true
+269,The user needs to be able disable tracking changes so that they can quickly iterate from scratch until they have a solid state from which they then want to track the essentiell changes being made.,Implemented - a solution is released,General Feedback,4,,true
+270,The user wants to know which file is affected if one of the files can't be read.,New – Not yet discussed,Improvement,1,,true
+271,The user expects a clear distinction between thinking process and content output in order to navigate the result.,Implemented - a solution is released,Improvement,5,,true
+272,The user need the document drafting to be more detailed in order to be able to continue working with the generated document.,New – Not yet discussed,Improvement,2,,true
+273,The user would like to be supported in drafting answers to a request in understandable language.,Well done - positive feedback outweighs negative,General Feedback,2,,true
+274,"Users wish for a seamless integration of all features within the tool (e.g. Workflows, matrix, Chat).",Identified - JIRA ticket exists,Improvement,15,,true
+275,User would like to have an admin view where they can see metrics of usage behaviour in their company in order to target trainings and licenses accordingly.,Identified - JIRA ticket exists,Missing Feature,3,,true
+276,The user needs the tool to use further external data sources.,Identified - JIRA ticket exists,Missing Feature,6,,true
+277,The user needs a possibility to connect the individual steps of a workflow with each other or with decision points.,Implemented - a solution is released,General Feedback,4,,true
+278,The user wants a tool case that already involves example e.g. prompts / steps which they can reuse or adjust to their needs.,Implemented - a solution is released,Missing Feature,3,,true
+279,The user wants to be able to add prompts to a tool case which they can reuse or adjust to their needs.,New – Not yet discussed,General Feedback,2,,true
+280,The user would like to be able to assign specific documents to a workflow/ step within a workflow.,Implemented - a solution is released,Missing Feature,5,,true
+281,The user would like to be able to create workflows in cooperation with the tool by e.g. prompting an intial workflow that is set up by the tool.,Identified - JIRA ticket exists,Missing Feature,5,,true
+282,The user would like to be able to improve an existing workflow in cooperation with noxtua by active prompting.,New – Not yet discussed,Idea,2,,true
+284,The user needs to be able to create decision points for their workflows.,Implemented - a solution is released,General Feedback,2,,true
+285,The user needs a dashboard or a whiteboard on which I can insert single prompts which all can be integrated into one workflow.,New – Not yet discussed,General Feedback,2,,true
+286,The user needs to be able to (re-)name the individual workflows.,Implemented - a solution is released,General Feedback,2,,true
+287,"The user would like to be able to define triggers, which would lead to starting the workflow.",New – Not yet discussed,General Feedback,2,,true
+288,The user would like to have the option to set the trigger for the workflow to manual.,Implemented - a solution is released,General Feedback,1,,true
+289,The user would like to be able to create/ adjust a workflow using drag & drop to make it es effortless as possible.,New – Not yet discussed,General Feedback,2,,true
+290,The user would like to predefine in the workflow which specific parts of a template should be adjusted/ filled based on the input.,New – Not yet discussed,General Feedback,1,,true
+291,The user would like to get suggestions for new workflows based on his usage of the AI.,New – Not yet discussed,Missing Feature,2,,true
+292,The user would like the AI to suggest next logical steps based on the already existing ones in a workflow.,New – Not yet discussed,General Feedback,1,,true
+293,The user would like to stay in control and decide whether they want suggestions for workflow improvements from the AI or not.,New – Not yet discussed,General Feedback,1,,true
+294,The user would like to only provide the input for the workflow and then to have it run autonomously.,Implemented - a solution is released,General Feedback,4,,true
+295,"The user needs to be able to retrace the results of every step of the workflow, in order to double check results.",Implemented - a solution is released,General Feedback,3,,true
+296,The user needs to be able to check used sources in a workflow easily (i.e. one click).,Implemented - a solution is released,General Feedback,2,,true
+297,The user would like to be actively involved if multiple options to proceed arise.,New – Not yet discussed,General Feedback,1,,true
+298,The user would like to be able to adjust an existing workflow based on their needs (e.g. changing parameters).,New – Not yet discussed,General Feedback,2,,true
+299,The user would like to be able to also run parts of workflows only.,New – Not yet discussed,General Feedback,1,,true
+300,The user needs to be able to share workflows with other users individually.,Identified - JIRA ticket exists,Missing Feature,6,,true
+301,"The user needs to be able to share workflows/ templates with certain user groups (e.g. department, legal area).",Identified - JIRA ticket exists,General Feedback,5,,true
+302,"The user wants to be able to provide access to workflows not only for individual workflows but also by workflow groups, that they can set up .",New – Not yet discussed,General Feedback,1,,true
+303,"The user wants other users to only be able to use the workflow not edit it, so that their workflow is not ruined.",Implemented - a solution is released,General Feedback,3,,true
+304,"The user needs to be able to collaborate within workflows, i.e. not only one person can give input/ review steps in the workflow.",Identified - JIRA ticket exists,Missing Feature,5,,true
+305,The user needs to be able to export the final result that a workflow produced for documentation/ sharing purposes.,New – Not yet discussed,Missing Feature,2,,true
+306,"The user needs to be able to use his own documents (e.g. files, folders) within workflows.",Identified - JIRA ticket exists,Improvement,6,,true
+307,The user would like to be able to use matrices in workflows.,Identified - JIRA ticket exists,General Feedback,4,,true
+308,"The user would like the workflows to be able to use the drafting tools (i.e. canvas, word-add-in) for text creation.",Identified - JIRA ticket exists,General Feedback,4,,true
+309,The user wants to be able to store and use word documents within a knowledge base.,Planned for development,General Feedback,7,,true
+310,The user wants to be able to store and use PDF documents within a knowledge base.,Planned for development,General Feedback,5,,true
+311,The user wants to be able to store and use Excel documents within a knowledge base.,Planned for development,General Feedback,3,,true
+312,The user wants to be able to store and use Email documents within a knowledge base.,Planned for development,General Feedback,4,,true
+313,The user wants to be able to store and use Powerpoint documents within a knowledge base.,New – Not yet discussed,General Feedback,4,,true
+314,The user wants to be able to store and use format templates from a knowledge base.,Identified - JIRA ticket exists,General Feedback,6,,true
+315,"The users would like to be able to use old files, that can be accessed to draft documents.",Identified - JIRA ticket exists,General Feedback,9,,true
+316,The user wants to be able to store and use pleadings in a knowledge base.,Planned for development,General Feedback,3,,true
+317,The user wants to be able to store and use rulings/ judgements in a knowledge base.,Planned for development,General Feedback,2,,true
+318,The user wants to be able to store and use internal guidelines in a knowledge base.,Planned for development,General Feedback,3,,true
+319,The user wants to be able to store and use additional legal commentary in a knowledge base.,Planned for development,General Feedback,1,,true
+320,The user wants to be able to store and use additional external data sources (e.g. laws from other countries) in a knowledge base.,Planned for development,General Feedback,1,,true
+321,The user wants to be able to manually select documents from the knowledge base for a prompt.,Implemented - a solution is released,General Feedback,6,,true
+322,The user needs the solution to work really well to be able to let the solution choose relevant documents from within the knowledge base on its own for a case.,Identified - JIRA ticket exists,General Feedback,7,,true
+323,The user needs to be able to get an overview of existing documents within the knowledge base.,Identified - JIRA ticket exists,Missing Feature,5,,true
+324,The user needs documents within the knowledge base to have meta data available to them.,Planned for development,Missing Feature,3,,true
+325,The user needs to create folders within the knowledge base in order to be able to structure their documents.,Planned for development,General Feedback,2,,true
+326,The user needs to be able to share files in the knowledge base with individual users.,Identified - JIRA ticket exists,General Feedback,3,,true
+327,The user needs to be able to share files in the knowledge base with ceratin teams.,New – Not yet discussed,Missing Feature,2,,true
+328,The user needs to be able to share files in the knowledge base with all users.,Planned for development,General Feedback,3,,true
+329,The user needs also people without license to be able to input documents into a knowledge base as input material.,Identified - JIRA ticket exists,Missing Feature,3,,true
+330,The user needs content from the documents within the knowledge base to be cited precisely word by word.,Planned for development,General Feedback,7,,true
+331,The user needs content from the documents within the knowledge base to be used only as reference (not exact matching of phrasing).,Identified - JIRA ticket exists,General Feedback,8,,true
+332,The user needs to be able to search through documents within the knowledge base.,Identified - JIRA ticket exists,Missing Feature,3,,true
+333,The user needs to be able to manually add and edit meta information of a file stored in the knowledge base.,New – Not yet discussed,General Feedback,3,,true
+334,The user wants to be able to retrace from which document a information orginiated from.,Implemented - a solution is released,General Feedback,5,,true
+335,The user wants to be able to add tags in the knowledge base to improve filtering and searchability.,New – Not yet discussed,General Feedback,2,,true
+336,The user wants to be able to ask questions to documents within their knowledge base in order to identify the answer.,New – Not yet discussed,General Feedback,2,,true
+337,The user wants the AI to automatically update the information in the knowledge base based on changes in the law or commentaries.,New – Not yet discussed,Missing Feature,1,,true
+338,The user needs the knowledge base and especially editing and uploading of documents to be retricted in order to make sure information is correct and not everybody can change documents or upload them publicly without review.,New – Not yet discussed,General Feedback,2,,true
+339,The user wants to be able to seleting whole folders for usage in a prompt in order to not have select all documents manually.,New – Not yet discussed,General Feedback,1,,true
+340,The users would like to have an Integration/ API for automation to feed in data from DMS (via vector-based data base) into the knowledge base.,Identified - JIRA ticket exists,Missing Feature,5,,true
+341,The users would like to be supported in structuring the files within the knowledge base.,Identified - JIRA ticket exists,Missing Feature,4,,true
+342,The users would like to be able to seamlessly use the tool with their file management system.,Planned for development,Missing Feature,16,,true
+343,"The user would like to enable clients to take over parts of their work supported by AI, so that they are more the reviewing and strategic instance.",New – Not yet discussed,Missing Feature,1,,true
+344,"The user needs the tool to support me in documenting my approach and the usage of AI, in order to make sure that I don't run into liability issues.",Identified - JIRA ticket exists,Missing Feature,3,,true
+345,The user needs to be able to give access to their files on a case-by-case basis in order to ensure control.,Identified - JIRA ticket exists,General Feedback,8,,true
+346,"The user needs the tool to adjust the output to the purpose that I wanna use it for (e.g. if The user wants to use it in an email, the language and lenght should be adequate).",Identified - JIRA ticket exists,Missing Feature,6,,true
+347,The user needs the tool to provide them with practical usage examples and explains it step-by-step to me so that I can learn how to best use the tool.,Identified - JIRA ticket exists,General Feedback,4,,true
+348,"The user needs a digital ""Schmierzettel"" in order to organize my thoughts and findings to put it together later.",New – Not yet discussed,Idea,1,,true
+349,"The user needs to be able to restrict certain features (such as file or outlook integration) for certain user groups, that work on highly confidential topics or are too junior to judge what can be shared.",New – Not yet discussed,Missing Feature,1,,true
+350,"The user needs to be always the one controlling where information is send by the tool (colleagues, clients etc.).",Well done - positive feedback outweighs negative,General Feedback,1,,true
+351,The user needs the AI to help me find uncertainties or potential errors by evaluating its own performance/ certainty.,New – Not yet discussed,General Feedback,2,,true
+352,"The user needs the tool to monitor sources (newsletters, databases etc.) and provide me with an overview of recent changes and what they imply regularly.",New – Not yet discussed,General Feedback,2,,true
+353,"The user needs a quick overview of what the tool can and can not do, in order to start working with it and learning on the go.",New – Not yet discussed,General Feedback,1,,true
+354,The user needs the tool to support using gender neutral/ inclusive speech or at least give me the opportunity to enable it.,New – Not yet discussed,General Feedback,1,,true
+355,The user needs the tool to be able to work with documents in different languages.,Implemented - a solution is released,General Feedback,1,,true
+356,"The user needs the tool to be approved by the ""Anwältekammer"" in order to be able to trust it with confidential information.",New – Not yet discussed,General Feedback,1,,true
+357,The user needs the producers of the AI to commit to ethical training of the AI to avoid bias and offer the option to notify them if a bias is encountered.,New – Not yet discussed,General Feedback,1,,true
+358,The user needs to be able to do legal research directly in the word-add-in in order to avoid switching between tools.,Planned for development,General Feedback,6,,true
+359,The user needs the settings to be easily discoverable in order to configure the tool to their needs.,New – Not yet discussed,Missing Feature,2,,true
+360,The user would like to be supported in answering questions about their own document.,Implemented - a solution is released,General Feedback,2,,true
+361,The user would like to be able to search through the chat to find information in older chats efficiently.,Identified - JIRA ticket exists,Missing Feature,6,,true
+362,The user would like to be supported in prioritzing currently running workflows (and their results) to be able to know which one to focus on first.,New – Not yet discussed,General Feedback,1,,true
+363,The user would like to be supported in identifying who else needs to be involved in a specific case in a workflow to give them access to the case.,New – Not yet discussed,General Feedback,1,,true
+364,The user would like to be able to set company specific elements for workflows that can be shared and reused.,New – Not yet discussed,General Feedback,1,,true
+365,The user would like to have some guidance on how much information they need to provide to set up a workflow (step).,New – Not yet discussed,General Feedback,1,,true
+366,The user would like to be able to get an overview of which documents have been processed or involved in a workflow in order to check that nothing was missing.,Implemented - a solution is released,General Feedback,1,,true
+367,The user expects the matrix analysis to show the citations from respective documents or sources.,Planned for development,Missing Feature,3,,true
+368,The user expects the chat to display the correct date at all times.,New – Not yet discussed,Improvement,1,,true
+369,The user wants onboarding ressources (like videos) to be available for them to learn how to use the tools.,Well done - positive feedback outweighs negative,General Feedback,1,,true
+370,"The user wants the chat to be structured like legal case files, in order to fit their usual structures.",New – Not yet discussed,General Feedback,1,,true
+371,The user needs a clearer structure of the sources overview in order to be able to work with it.,New – Not yet discussed,Improvement,1,,true
+372,The user needs the chat export to have sources inserted in order to use it for documentation and sharing purposes.,Implemented - a solution is released,Improvement,3,,true
+373,The user needs to be able to upload documents from DATEV DMS directly without encountering file format errors.,New – Not yet discussed,Missing Feature,1,,true
+374,The user needs the tool to automatically generate documents pre-populated with employee names in the Editor.,New – Not yet discussed,Missing Feature,1,,true
+375,The user expects the tool to not be biased by context that is given in a chat beforehand to stay objective.,New – Not yet discussed,Improvement,1,,true
+376,"The user needs the exact marginal numbers to be cited, so that the citations can be used directly in e.g. documents.",New – Not yet discussed,Improvement,13,,true
+377,The user needs to be able to mark a section in the chat and prompt referring to this section in order to work more efficiently.,New – Not yet discussed,Idea,2,,true
+378,The user needs to be able to organize their (prompt) templates e.g. into folders to improve organization and finding specific templates more easily.,Implemented - a solution is released,Improvement,9,,true
+379,"The user needs to be able to differentiate fine granularly what other users can do to templates/ workflows (i.e. creating, using, modifying, and deleting them), in order to have control over quality and access.",New – Not yet discussed,Missing Feature,2,,true
+380,The user needs the sources to be linked (clickable) in the export and not only in the chat.,New – Not yet discussed,Improvement,2,,true
+381,The user needs the tool to use smaller headlines for better readability of the export.,New – Not yet discussed,Improvement,2,,true
+383,The user needs the snippets of the citations to give them all context needed.,New – Not yet discussed,Improvement,1,,true
+384,The user needs the chat overview to include when the chat happened.,In development,Improvement,1,,true
+385,"The user expects that when a column prompt is subsequently changed, the response is automatically updated.",Well done - positive feedback outweighs negative,General Feedback,1,,true
+386,"The user needs clear transparency on existing limitations, e.g. upload limitations.",New – Not yet discussed,Missing Feature,1,,true
+387,The user wishes the export of the matrix to keep the well-structured overview.,New – Not yet discussed,Improvement,2,,true
+388,The users need the possibility to structure the data within the matrix in different ways.,Well done - positive feedback outweighs negative,General Feedback,1,,true
+389,The users need a structured way to review multiple documents.,Well done - positive feedback outweighs negative,General Feedback,7,,true
+391,The user would like to be able to comment on matrixes in order to communicate with team members or other parties.,New – Not yet discussed,Missing Feature,1,,true
+392,Users need to be able to add supporting documents to the Word-Add-In in order to adjust the document based on further info.,Implemented - a solution is released,Missing Feature,3,,true
+393,The user needs to be able to see and access old chats (within the Word-Add-In) in order to have access to all necessary information.,Implemented - a solution is released,Missing Feature,1,,true
+394,The User needs to be able to start a new chat (within the Word-Add-In) in order to start clean for a new topic.,Implemented - a solution is released,Missing Feature,1,,true
+395,"The user needs the editor to save all made changes, when they change to another chat to avoid data loss.",New – Not yet discussed,Improvement,2,,true
+396,The user needs the Word-Add-In to be able to work with footnotes in order to have sources less prominent in the document.,New – Not yet discussed,Missing Feature,2,,true
+397,The user needs the tool to automatically select the right way of working (i.e. selecting the right templates or features) in order to avoid having to do it manually.,New – Not yet discussed,Improvement,1,,true
+398,The user needs the login to be smooth an easy and ideally not happen too often.,New – Not yet discussed,Improvement,1,,true
+399,"The user needs the last engaged chat to be at the top, not the last newly created one.",New – Not yet discussed,Improvement,1,,true
+401,"Users find that legal reasoning and subsumption in answers is too shallow, with alternative solutions, risk assessments, and minority views often missing.",New – Not yet discussed,Improvement,5,,true
+402,"Users cannot clearly tell whether the system is still processing or has already finished, due to missing or unclear progress indicators.",In development,Improvement,4,,true
+403,The user needs multi-step reasoning to be maintained consistently across more than 5 conversation turns.,New – Not yet discussed,Improvement,1,,true
+406,"The user needs Matrix Analysis prompts to be preserved when re-opening ""Spalte bearbeiten"".",New – Not yet discussed,General Feedback,1,,true
+408,User should be able to collapse the Thinking Process with one click after it is generated.,Well done - positive feedback outweighs negative,Improvement,5,,true
+411,The user needs to have cantonal jurisprudence and laws integrated into the database.,New – Not yet discussed,Missing Feature,1,,true
+414,The user needs the tool to practice multilingual source matching: French-language questions should also surface German/Italian/English references (and reverse).,New – Not yet discussed,Improvement,1,,true
+419,The user expects the preview to be optimzed for reading even when there are many footnotes in the source.,New – Not yet discussed,Improvement,1,,true
+420,The user expects the thinking process to work with human-readable labels instead of surfacing technical terms in order to understand it more easily.,New – Not yet discussed,Improvement,1,,true
+422,The user needs the Thinking Process to always be displayed in the language of the prompt.,New – Not yet discussed,Improvement,5,,true
+425,"The user needs an indicator of how current/outdated the content is, e.g. showing the document date directly with each source",New – Not yet discussed,Improvement,1,,true
+428,The user expects a source to only be listed once in a paragraph to improve readability.,New – Not yet discussed,Improvement,2,,true
+429,The user expects prior question's context to be taken into account for follow-up questions(e.g. the previously named statute).,New – Not yet discussed,Improvement,1,,true
+430,"The user needs explanations across all areas of Swiss law to be legally accurate, with correct court citations and sound reasoning.",Identified - JIRA ticket exists,Improvement,23,DELETE,true
+431,"The user needs the tool to automatically detect deadlines and urgency from incoming items and proactively create calendar entries, tasks, and reminders.",New – Not yet discussed,Missing Feature,2,,true
+432,"The user needs AI self-service surfaces per business unit so non-legal users can self-serve, with legal teams curating the knowledge base and human-in-the-loop escalation available when needed.",New – Not yet discussed,Missing Feature,2,,true
+433,The user needs the tool to help decode unfamiliar business-unit jargon so they can quickly understand what a case is about.,New – Not yet discussed,General Feedback,1,,true
+434,"The user needs the tool to accept and consolidate requests from multiple input channels (email, intranet form, voice/phone) into one unified system.",New – Not yet discussed,Missing Feature,1,,true
+435,The user needs the tool to balance workload across team members based on current capacity.,New – Not yet discussed,Missing Feature,1,,true
+436,The user needs the tool to automatically keep requesters informed of the progress of their request.,New – Not yet discussed,Missing Feature,1,,true
+437,"The user needs motivational features (e.g. streaks, daily nudges) to encourage consistent tool use.",New – Not yet discussed,Missing Feature,1,,true
+438,The user needs the tool to redline an existing Word document with minimal changes rather than regenerating a new document from scratch.,New – Not yet discussed,Missing Feature,1,,true
+439,"The user needs the tool to flag cross-clause and cross-domain impacts (e.g. tax, antitrust) automatically when one clause is changed.",New – Not yet discussed,Missing Feature,1,,true
+440,The user needs the tool to generate visual diagrams (Schaubilder) of contractual relationships from large contracts.,New – Not yet discussed,Missing Feature,1,,true
+441,"The user needs the tool to extract and present a tabular overview of contractual obligations, rights, and termination notice periods from a contract.",New – Not yet discussed,Missing Feature,1,,true
+442,The user needs the tool to optimise their English drafting on demand into proper legal English.,New – Not yet discussed,Missing Feature,1,,true
+443,The user needs the tool to cover EU regulations and EU case law alongside national law in one unified tool.,New – Not yet discussed,Missing Feature,1,,true
+444,The user needs unlimited input and output length for template-filling tasks.,New – Not yet discussed,Missing Feature,1,,true
+445,The user needs the vendor to proactively curate and maintain templates and checklists within the tool over time.,New – Not yet discussed,Missing Feature,1,,true
+446,The user needs the tool to automatically suggest relevant case law and judgments in the background when a case file is opened.,New – Not yet discussed,Missing Feature,1,,true
+447,"The user needs the tool to automatically extract procedural data (admissibility, deadlines, time limits) from case files.",New – Not yet discussed,Missing Feature,1,,true
+448,The user needs the tool to support cross-border procedural comparison (e.g. covert seizure in Austria) for trans-national cases.,New – Not yet discussed,Missing Feature,1,,true
+449,"The user needs the tool to keep track of what has already been read or written in a long-running case, so they do not duplicate work.",New – Not yet discussed,Missing Feature,1,,true
+450,The user needs the tool to flag contradictions between submissions and suggest fact-finding gaps for offence elements.,New – Not yet discussed,Missing Feature,1,,true
+451,The user needs the tool to verify and correctly link cited rulings and sources within incoming submissions from parties.,New – Not yet discussed,Missing Feature,1,,true
+452,"The user needs the tool to conduct autonomous research and tool calls, rather than requiring the user to provide context manually.",New – Not yet discussed,Missing Feature,2,,true
+453,The user needs the tool to automate routine administrative steps (e.g. dispatching decrees to attorneys whose addresses are already known).,New – Not yet discussed,Missing Feature,1,,true
+454,The user needs inline AI clause suggestions directly in Word while drafting a contract.,New – Not yet discussed,Missing Feature,2,,true
+456,The user needs access to answers from previous sessions in order to maintain continuity across chats.,New – Not yet discussed,Missing Feature,2,,true
+457,"The user needs copied text to preserve citation references correctly, without leaving stray spaces behind.",New – Not yet discussed,Improvement,2,,true
+458,The citation function is broken in Firefox - raw placeholder tokens are emitted into the text instead of formatted citations.,New – Not yet discussed,Bug,1,DELETE,true
+459,Users want configurable citation style; the default citation format is unusual in German legal scholarship and practice.,New – Not yet discussed,Missing Feature,6,,true
+460,"The user needs the tool to make full use of the available publisher content corpus and insert sufficient literature and commentary references, even when explicitly prompted to do so.",New – Not yet discussed,Improvement,2,DELETE - merged into ID 109,true
+461,"The users need the tool to produce prose-based, running-text output by default and avoid excessive use of bullet points.",New – Not yet discussed,Improvement,1,,true
+462,"The user needs court decisions to be findable and accessible directly within the tool, without requiring manual download and re-upload workflows.",New – Not yet discussed,Improvement,1,DELETE,true
+463,Users want template generation that consolidates overlaps across similar documents and surfaces differences as optional text blocks.,New – Not yet discussed,Missing Feature,1,,true
+464,"Users want to reference documents inline in the editor via @ mentions, and reference existing chats via @ to pull documents and results from them.",New – Not yet discussed,Missing Feature,2,,true
+465,The user needs edits on one side of a two-column bilingual document to propagate automatically to the other side across the entire document.,New – Not yet discussed,Missing Feature,2,,true
+467,The user expects the Matrix Analysis layout to be well-structured and easy to navigate.,Well done - positive feedback outweighs negative,General Feedback,4,,true
+468,The tool produces good results with first drafts of white papers and other documents.,Well done - positive feedback outweighs negative,General Feedback,1,,true
+469,The user finds support in preparing presentations and structuring content very helpful.,Well done - positive feedback outweighs negative,General Feedback,1,,true
+470,The user finds that answer quality increases significantly with follow-up prompting.,Well done - positive feedback outweighs negative,General Feedback,4,,true
+471,The user needs Matrix Analysis Excel exports to include the column prompts on a separate sheet for documentation purposes.,New – Not yet discussed,Improvement,1,,true
+472,The users need a persisting login - currently users are auto-logged-out after a short time and a fresh login is required for every Word document.,New – Not yet discussed,Improvement,5,,true
+473,Storage limit is too low — 30 MB is insufficient; ~50 MB is workable.,New – Not yet discussed,Improvement,2,DELETE - merged into ID 107,true
+474,The user expects a faster response / generation speed at the moment its rated as too slow.,New – Not yet discussed,Improvement,2,,true
+475,"Recurring system errors / crashes — 'Es ist ein interner Fehler aufgetreten' appears repeatedly, especially when reviewing documents in the Editor.",New – Not yet discussed,Bug,3,DELETE,true
+476,"Users would like memory / learning across sessions, and want the tool to engage with counter-arguments when they present a differing result.",New – Not yet discussed,Idea,1,,true
+477,The users need generated output delivered as a downloadable PPTX file.,New – Not yet discussed,Missing Feature,1,,true
+478,"Users need project workspaces / collaboration, including editing two interdependent contracts together.",New – Not yet discussed,Missing Feature,1,,true
+479,Users want in-product support — a phone line or live chat directly in the interface.,New – Not yet discussed,Missing Feature,1,,true
+480,"The users need to be able to work on their mobile phone, e.g. through an iOS app.",New – Not yet discussed,Missing Feature,1,,true
+481,"The user expects for pleadings/briefs that the structure is met, currently its often missing required legal formalities (e.g. Rechtsbehelfsbelehrung, Anrede, Grußformel).",New – Not yet discussed,Improvement,2,,true
+482,The visible thinking process / step-by-step reasoning is highly valued — it helps users verify results and spot imprecise prompts.,New – Not yet discussed,General Feedback,7,DELETE - merged into ID 79,true
+483,"Source and citation quality is a highlight — precise references, working Fundstellen links, and access to commentary/journal literature.",Well done - positive feedback outweighs negative,General Feedback,7,DELETE,true
+484,"Users value the fast, useful first assessment and the resulting time savings.",New – Not yet discussed,General Feedback,4,DELETE,true
+485,"The user needs to be able to fully clear or delete the Editor content in one action, instead of the tool overwriting, appending to, or being unable to rebuild it.",New – Not yet discussed,Improvement,4,,true
+487,"The user needs comments/annotations placed directly at the relevant location in the document, with a settable commenter name and clearer colour coding, for direct hand-off into Word.",New – Not yet discussed,Missing Feature,1,,true
+488,The user needs to be able to save their own prompts for reuse.,New – Not yet discussed,Missing Feature,1,DELETE - merged into ID 514,true
+489,"The user needs a copy button in the Editor, like the one available in the chat.",New – Not yet discussed,Missing Feature,1,,true
+490,"The user needs the tool to preserve and fill a user-provided outline (Gliederung) instead of deleting it, and to respect legal heading-level structure.",New – Not yet discussed,Improvement,4,DELETE - merged into ID 212,true
+491,The user finds the pricing too high for solo practitioners / small firms and would like a more economical offer.,New – Not yet discussed,General Feedback,2,,true
+492,"The user needs to be able to accept only a selected part of a proposed clause/suggestion into the document, rather than the whole suggestion.",New – Not yet discussed,Missing Feature,1,,true
+493,The user needs the Word-Add-In to be able to add comments addressed to the other contracting party / a third party who receives the revised version.,New – Not yet discussed,Missing Feature,2,DELETE - merged into ID 487,true
+494,The user wants to be able to correct the AI's errors directly so that the correction feeds back into improving the model.,New – Not yet discussed,Idea,1,DELETE - merged into ID 476,true
+495,"The user needs a unified, standard citation style (e.g. Bearbeiter/MüKo, § x Rn.) applied consistently, so that source references are directly usable in legal documents.",New – Not yet discussed,Improvement,1,DELETE - merged into ID 376,true
+496,The user wants underlying sources inserted as clickable links (not only footnotes) directly in the document.,New – Not yet discussed,Improvement,1,,true
+497,The tool hallucinates court judgments that do not exist.,New – Not yet discussed,Bug,2,DELETE,true
+498,The template naming field should be more prominent.,New – Not yet discussed,Improvement,1,,true
+499,"The template description should be optional — when mandatory, users just paste prompt fragments.",New – Not yet discussed,Improvement,1,,true
+500,"The template description character limit is not communicated at creation, so users write text that gets truncated.",New – Not yet discussed,Improvement,1,,true
+501,"The users find it unclear during template creation whether defining and referencing user inputs is mandatory or optional, and whether it improves output.",New – Not yet discussed,General Feedback,1,,true
+502,"The user-input feature should allow both text and file input, not either/or.",New – Not yet discussed,Missing Feature,1,,true
+503,"User-input instructions are not displayed for file inputs, even when essential.",New – Not yet discussed,Improvement,1,,true
+504,Required user input is not visible when applying a template — the user must click 'edit' to see it.,New – Not yet discussed,Improvement,1,,true
+505,RVG and court-cost calculations are wildly wrong — amounts are not correctly taken from the tables.,New – Not yet discussed,Improvement,1,,true
+506,"Date/deadline calculations are almost always wrong when reference dates are entered (weekdays, week-based deadlines).",New – Not yet discussed,Improvement,1,,true
+507,Marginal numbers (Randziffern) in responses are often too long to be usable.,New – Not yet discussed,Improvement,1,,true
+508,Users want color/bold highlighting of the exact citation so they can relocate it after returning to a topic weeks later.,New – Not yet discussed,Idea,1,DELETE - merged into ID 78,true
+509,"The user needs the tool to not be influenced by an arguing user unless the tool actually uncovers new information in the system, that changes the result.",New – Not yet discussed,General Feedback,1,,true
+510,"The user needs conditional formatting (e.g. colour, bold, flags) in Matrix Analysis cells, triggered by prompt results.",New – Not yet discussed,Missing Feature,1,,true
+511,The user needs to be able to duplicate existing templates for reuse in similar use cases with slight variations.,New – Not yet discussed,Missing Feature,1,,true
+512,The user needs to be able to resize Matrix Analysis column widths.,New – Not yet discussed,Missing Feature,1,,true
+513,"The user needs Swiss court decisions to be chunked and cited at the ""Erwägung"" level rather than by fixed size, matching the court's own reasoning structure.",New – Not yet discussed,Missing Feature,1,,true
+514,The (non-admin) user needs to be able to create private templates for themselves.,New – Not yet discussed,Missing Feature,3,,true
+515,The user needs to be able to duplicate an existing Matrix Analysis.,New – Not yet discussed,Missing Feature,1,,true
+516,The user needs to be able to create templates for Matrix Analysis.,New – Not yet discussed,Missing Feature,1,,true
+517,The user expects the tool to adhere to his instructions (e.g. limitations to sources of interest).,New – Not yet discussed,General Feedback,1,,true
+518,"The user needs an ""Artefakte"" section that surfaces uploaded documents alongside citations, and eventually the playbook used.",New – Not yet discussed,Idea,1,,true
+519,The user needs voice input for long transcription of dictated text or meetings.,New – Not yet discussed,Improvement,1,,true
+520,The user needs to be able to collapse or minimize the question box so answers get more screen space.,New – Not yet discussed,Missing Feature,1,,true
+521,The user needs to be able to create and use templates in multiple languages without creating a template per language.,New – Not yet discussed,Missing Feature,1,,true
+522,The user needs configurable citation length — shorter inline citations while keeping full-length citations available elsewhere.,New – Not yet discussed,Missing Feature,1,,true
+523,"The user needs custom, savable agents (""Gems"") for recurring tasks.",New – Not yet discussed,Idea,1,,true
+524,"The user needs a single, unambiguous login entry point instead of two confusing options (publisher portal vs. direct app link).",New – Not yet discussed,Improvement,1,,true
+525,The user needs to have document citations for relevant passages not for the full document only.,New – Not yet discussed,Missing Feature,1,,true
+526,The user needs an option to prevent accidental message submission when pressing Enter.,New – Not yet discussed,Improvement,1,,true
+527,The user needs transparency on how to add user input to a template.,New – Not yet discussed,Improvement,1,,true
