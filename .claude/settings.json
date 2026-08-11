@@ -5,8 +5,8 @@
   },
   "network": {
     "outbound": {
-      "allowedHosts": ["example.com", "api.example.com"],
-      "blockedHosts": ["malicious.example.com"]
+      "allowedHosts": ["do.featurebase.app"],
+      "blockedHosts": []
     }
   }
 
