@@ -2,5 +2,12 @@
   "env": {
     "API_TIMEOUT_MS": "1200000",
     "FEATUREBASE_API_KEY": "sk_WGTDSHFxeu2VafB7oYIoB00KUO7wW2U_4a9fhQ7n6IEkOOsIY5bZ_LBhDWxR0UYl"
+  },
+  "network": {
+    "outbound": {
+      "allowedHosts": ["example.com", "api.example.com"],
+      "blockedHosts": ["malicious.example.com"]
+    }
   }
+
 }
