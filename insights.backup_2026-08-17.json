@@ -121,9 +121,7 @@
   "featurebase_title": "Prompt writing guidance",
   "featurebase_id": "6a51215392665376ac3e33d0",
   "featurebase_synced_at": "2026-07-10T17:25:23.054421Z",
-  "featurebase_votes": 11,
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  "featurebase_votes": 11
  },
  {
   "id": 42,
@@ -280,9 +278,7 @@
     "date": "2026-06-22",
     "status": "Well done - positive feedback outweighs negative"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 45,
@@ -970,9 +966,7 @@
     "date": "2026-07-08",
     "status": "Identified - JIRA ticket exists"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 74,
@@ -1479,9 +1473,7 @@
     "date": "2026-06-22",
     "status": "New – Not yet discussed"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 83,
@@ -2272,9 +2264,7 @@
     "date": "2026-06-22",
     "status": "Identified - JIRA ticket exists"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 103,
@@ -2659,9 +2649,7 @@
     "date": "2026-06-22",
     "status": "Identified - JIRA ticket exists"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 110,
@@ -3206,9 +3194,7 @@
   "featurebase_title": "Folder Upload in Matrix Analysis",
   "featurebase_id": "6a5e254a29a2dbaa970a37ad",
   "featurebase_synced_at": "2026-07-20T13:40:26.593981Z",
-  "featurebase_votes": 2,
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  "featurebase_votes": 2
  },
  {
   "id": 122,
@@ -3256,9 +3242,7 @@
     "date": "2026-06-22",
     "status": "Identified - JIRA ticket exists"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 124,
@@ -3305,9 +3289,7 @@
     "date": "2026-06-22",
     "status": "Well done - positive feedback outweighs negative"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 126,
@@ -3354,9 +3336,7 @@
     "date": "2026-06-22",
     "status": "Well done - positive feedback outweighs negative"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 127,
@@ -3403,9 +3383,7 @@
     "date": "2026-06-22",
     "status": "Identified - JIRA ticket exists"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 128,
@@ -3456,9 +3434,7 @@
   "featurebase_title": "Upload times need to be reliably fast in Matrix",
   "featurebase_id": "6a5a7b8c9cf794746ea846ce",
   "featurebase_synced_at": "2026-07-20T13:40:30.590465Z",
-  "featurebase_votes": 2,
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  "featurebase_votes": 2
  },
  {
   "id": 129,
@@ -3505,9 +3481,7 @@
     "date": "2026-06-22",
     "status": "New – Not yet discussed"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 130,
@@ -3554,9 +3528,7 @@
     "date": "2026-06-22",
     "status": "New – Not yet discussed"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 132,
@@ -3612,9 +3584,7 @@
   "featurebase_title": "Higher recognition rate for documents in Matrix",
   "featurebase_id": "6a5a7b8fc99d8a14aed4715b",
   "featurebase_synced_at": "2026-07-20T13:40:32.591998Z",
-  "featurebase_votes": 7,
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  "featurebase_votes": 7
  },
  {
   "id": 133,
@@ -4884,9 +4854,7 @@
     "date": "2026-08-10",
     "status": "Identified - JIRA ticket exists"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 156,
@@ -6016,9 +5984,7 @@
     "date": "2026-06-22",
     "status": "Well done - positive feedback outweighs negative"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 189,
@@ -6372,9 +6338,7 @@
     "date": "2026-06-22",
     "status": "Identified - JIRA ticket exists"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 203,
@@ -6723,9 +6687,7 @@
     "date": "2026-06-22",
     "status": "Identified - JIRA ticket exists"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 211,
@@ -6964,9 +6926,7 @@
     "date": "2026-06-22",
     "status": "Identified - JIRA ticket exists"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 215,
@@ -7177,9 +7137,7 @@
     "date": "2026-07-08",
     "status": "Planned for development"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 220,
@@ -7336,9 +7294,7 @@
     "date": "2026-06-22",
     "status": "New – Not yet discussed"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 223,
@@ -7699,9 +7655,7 @@
     "date": "2026-06-22",
     "status": "New – Not yet discussed"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 230,
@@ -8300,9 +8254,7 @@
     "date": "2026-06-22",
     "status": "Well done - positive feedback outweighs negative"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 246,
@@ -8901,9 +8853,7 @@
     "date": "2026-07-08",
     "status": "Identified - JIRA ticket exists"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 259,
@@ -9792,9 +9742,7 @@
     "date": "2026-06-22",
     "status": "Identified - JIRA ticket exists"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 275,
@@ -13312,9 +13260,7 @@
   "featurebase_title": "File management system integration",
   "featurebase_id": "6a51226c926d6521f648e2c7",
   "featurebase_synced_at": "2026-07-10T17:26:02.346740Z",
-  "featurebase_votes": 12,
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  "featurebase_votes": 12
  },
  {
   "id": 343,
@@ -13468,9 +13414,7 @@
     "date": "2026-06-22",
     "status": "Identified - JIRA ticket exists"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 346,
@@ -15456,9 +15400,7 @@
     "date": "2026-06-22",
     "status": "Well done - positive feedback outweighs negative"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 386,
@@ -15507,9 +15449,7 @@
     "date": "2026-06-22",
     "status": "New – Not yet discussed"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 387,
@@ -15558,9 +15498,7 @@
     "date": "2026-06-22",
     "status": "New – Not yet discussed"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 388,
@@ -15609,9 +15547,7 @@
     "date": "2026-06-22",
     "status": "Well done - positive feedback outweighs negative"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 389,
@@ -15665,9 +15601,7 @@
     "date": "2026-06-22",
     "status": "Well done - positive feedback outweighs negative"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 391,
@@ -15716,9 +15650,7 @@
     "date": "2026-06-22",
     "status": "New – Not yet discussed"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 392,
@@ -18617,9 +18549,7 @@
     "date": "2026-07-09",
     "status": "Well done - positive feedback outweighs negative"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 468,
@@ -20047,9 +19977,7 @@
     "date": "2026-08-10",
     "status": "New – Not yet discussed"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 498,
@@ -20098,9 +20026,7 @@
     "date": "2026-08-10",
     "status": "New – Not yet discussed"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 499,
@@ -20145,9 +20071,7 @@
     "date": "2026-08-10",
     "status": "New – Not yet discussed"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 500,
@@ -20192,9 +20116,7 @@
     "date": "2026-08-10",
     "status": "New – Not yet discussed"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 501,
@@ -20241,9 +20163,7 @@
     "date": "2026-08-10",
     "status": "New – Not yet discussed"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  },
  {
   "id": 502,
@@ -20290,8 +20210,6 @@
     "date": "2026-07-13",
     "status": "New – Not yet discussed"
    }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-08-17"
+  ]
  }
 ]
