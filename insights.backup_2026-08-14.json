@@ -1264,7 +1264,7 @@
       "Direct Feedback",
       "Interview Study"
     ],
-    "source": "Continous_Direct_Feedback_big_law_firm,2026_01_Workflow_Expectations_Interview,2025_12_KnowledgeBase_UCs_Interviews,Continous_Publisher_Swiss_Noxtua,Publisher Feedback – Ciela,Publisher Feedback – Beck Czech",
+    "source": "Continous_Direct_Feedback_big_law_firm,2026_01_Workflow_Expectations_Interview,2025_12_KnowledgeBase_UCs_Interviews,Continous_Publisher_Swiss_Noxtua",
     "userGroup": "Big Law Firm; Mixed; Publisher",
     "squads": [
       "Platform Squad"
@@ -1275,20 +1275,20 @@
     ],
     "country": "All",
     "status": "Identified - JIRA ticket exists",
-    "mentions": 12,
-    "quotes": "“Direkt Quellen an der Seite einzusehen wäre natürlich noch besser.”\nCS-1816: \"it is not clear which specific part of the judicial act the answer is referring to. As a result, the user has to read through the entire act to locate the relevant passage. The same issue applies to... long legal procedures and normative acts.\"\nCS-1812: \"the relevant part of the source material used for drawing the particular conclusion in the response, be highlighted... This should help users to faster review / validate the conclusion.\"",
+    "mentions": 11,
+    "quotes": "“Direkt Quellen an der Seite einzusehen wäre natürlich noch besser.”",
     "notes": "Study to be planned",
     "created": "2025-10-14",
-    "lastModified": "2026-08-14",
+    "lastModified": "2026-07-08",
     "sentiment": "Negative",
     "publisher": "Swiss",
-    "jira": "CS-1816;CS-1812",
+    "jira": "",
     "isNew": false,
     "unclassified": false,
     "core_insight": "The user would like to be able to see exactly from which part of a source the model derived the answer.",
     "insight_type": "Missing Feature",
-    "mention_count": 12,
-    "source_label": "Continous_Direct_Feedback_big_law_firm,2026_01_Workflow_Expectations_Interview,2025_12_KnowledgeBase_UCs_Interviews,Continous_Publisher_Swiss_Noxtua,Publisher Feedback – Ciela,Publisher Feedback – Beck Czech",
+    "mention_count": 11,
+    "source_label": "Continous_Direct_Feedback_big_law_firm,2026_01_Workflow_Expectations_Interview,2025_12_KnowledgeBase_UCs_Interviews,Continous_Publisher_Swiss_Noxtua",
     "customer_segment": "Big Law Firm; Mixed; Publisher",
     "affected_squads": "Platform Squad",
     "affected_features": "Research;Knowledge Base",
@@ -1308,11 +1308,6 @@
         "date": "2026-07-08",
         "count": 11,
         "source": "merged from ID 424 (+1)"
-      },
-      {
-        "date": "2026-08-14",
-        "count": 12,
-        "source": "CS-1816;CS-1812 (JIRA batch 2026-08-14, +1)"
       }
     ],
     "statusHistory": [
@@ -15024,26 +15019,26 @@
     "sourceTypes": [
       "Direct Feedback"
     ],
-    "source": "Continous_Direct_Feedback_corporate,Continous_Direct_Feedback_big_law_firm,Publisher Feedback – Beck Poland",
+    "source": "Continous_Direct_Feedback_corporate,Continous_Direct_Feedback_big_law_firm",
     "userGroup": "Corporate Law Department; Big Law Firm",
     "squads": [],
     "features": [],
     "country": "All",
     "status": "Planned for development",
-    "mentions": 5,
-    "quotes": "Wenn eine Matrix-Analyse durchgeführt wurde, sollte die Quelle für die extrahierte Antwort resp. die extrahierten Daten angezeigt werden. Die Kunden erwarten einen Hover-Effekt, in welchem ein Snippet aus der Original-Quelle angezeigt wird, damit die Daten schnell überprüft werden können.\nVisitenkarten Bild habe ich nur hochgeladen, weil ich keinen Anhang zum hochladen habe (aber der Upload zwingend ist).\nCS-1808 (point 4): \"No direct link between a result and the source document. From within a cell, it is not easy to verify where, for example, an amount or percentage comes from or to navigate directly to the relevant section of the agreement... negates much of the benefit gained from the analysis.\"\nCS-1808 (point 5): \"No ability to verify 'Yes/No' cells. For binary results, the user can only see the indication but cannot open the cell and verify the basis for the answer. A quotation showing why the system concluded 'Yes' or 'No' would be very helpful.\"",
+    "mentions": 3,
+    "quotes": "Wenn eine Matrix-Analyse durchgeführt wurde, sollte die Quelle für die extrahierte Antwort resp. die extrahierten Daten angezeigt werden. Die Kunden erwarten einen Hover-Effekt, in welchem ein Snippet aus der Original-Quelle angezeigt wird, damit die Daten schnell überprüft werden können.\nVisitenkarten Bild habe ich nur hochgeladen, weil ich keinen Anhang zum hochladen habe (aber der Upload zwingend ist).",
     "notes": "",
     "created": "2026-02-11",
-    "lastModified": "2026-08-14",
+    "lastModified": "2026-04-08",
     "sentiment": "Negative",
     "publisher": "",
-    "jira": "CS-1808",
+    "jira": "",
     "isNew": true,
     "unclassified": true,
     "core_insight": "The user expects the matrix analysis to show the citations from respective documents or sources.",
     "insight_type": "Missing Feature",
-    "mention_count": 5,
-    "source_label": "Continous_Direct_Feedback_corporate,Continous_Direct_Feedback_big_law_firm,Publisher Feedback – Beck Poland",
+    "mention_count": 3,
+    "source_label": "Continous_Direct_Feedback_corporate,Continous_Direct_Feedback_big_law_firm",
     "customer_segment": "Corporate Law Department; Big Law Firm",
     "affected_squads": "",
     "affected_features": "",
@@ -15053,16 +15048,6 @@
         "count": 3,
         "source": "baseline",
         "status": "New – Not yet discussed"
-      },
-      {
-        "date": "2026-08-14",
-        "count": 4,
-        "source": "CS-1808 point 4 (JIRA batch 2026-08-14, +1)"
-      },
-      {
-        "date": "2026-08-14",
-        "count": 5,
-        "source": "CS-1808 point 5 (JIRA batch 2026-08-14, +1)"
       }
     ],
     "statusHistory": [
@@ -17250,7 +17235,7 @@
     "sourceTypes": [
       "Direct Feedback"
     ],
-    "source": "Publisher Feedback - Manz,Publisher Feedback – Ciela",
+    "source": "Publisher Feedback - Manz",
     "userGroup": "Publisher",
     "squads": [
       "Review Squad"
@@ -17261,20 +17246,20 @@
     ],
     "country": "Austria",
     "status": "New – Not yet discussed",
-    "mentions": 2,
-    "quotes": "Das Dokumentdatum ist ein hilfreiches Indiz, ob ein Inhalt noch aktuell oder eher veraltet ist. Es wäre gut, dies direkt bei der Quellenanzeige darzustellen.\nCS-1815: \"without an indication of which redaction (version) is being shown, the user has no way to determine as of what date the displayed text is valid... there are some acts with the same title, applied in different periods.\"",
+    "mentions": 1,
+    "quotes": "Das Dokumentdatum ist ein hilfreiches Indiz, ob ein Inhalt noch aktuell oder eher veraltet ist. Es wäre gut, dies direkt bei der Quellenanzeige darzustellen.",
     "notes": "",
     "created": "2026-04-30",
-    "lastModified": "2026-08-14",
+    "lastModified": "2026-07-08",
     "sentiment": "Negative",
     "publisher": "Manz",
-    "jira": "CS-1095;CS-1815",
+    "jira": "CS-1095",
     "isNew": true,
     "unclassified": false,
     "core_insight": "The user needs an indicator of how current/outdated the content is, e.g. showing the document date directly with each source",
     "insight_type": "Improvement",
-    "mention_count": 2,
-    "source_label": "Publisher Feedback - Manz,Publisher Feedback – Ciela",
+    "mention_count": 1,
+    "source_label": "Publisher Feedback - Manz",
     "customer_segment": "Publisher",
     "affected_squads": "Review Squad",
     "affected_features": "Sources;Citations",
@@ -17284,11 +17269,6 @@
         "count": 1,
         "source": "baseline",
         "status": "New – Not yet discussed"
-      },
-      {
-        "date": "2026-08-14",
-        "count": 2,
-        "source": "CS-1815 (JIRA batch 2026-08-14, +1)"
       }
     ],
     "statusHistory": [
@@ -20997,593 +20977,5 @@
     ],
     "qa_reviewed": true,
     "qa_reviewed_at": "2026-08-11T22:09:14.608489Z"
-  },
-  {
-    "id": 503,
-    "insight": "The user needs the citation interface to show metadata to e.g. distinguish a cited legal procedure from an actual statutory act.",
-    "type": "Improvement",
-    "sourceTypes": [
-      "Direct Feedback"
-    ],
-    "source": "Publisher Feedback – Ciela",
-    "userGroup": "Publisher",
-    "squads": [],
-    "features": [
-      "Citations"
-    ],
-    "country": "Bulgaria",
-    "status": "New – Not yet discussed",
-    "mentions": 1,
-    "quotes": "Legal procedures are stored in a separate directory and already carry metadata identifying them as such - specifically, they belong to the \"Ciela Procedures\" product and are marked with document type 207.",
-    "notes": "",
-    "created": "2026-08-14",
-    "lastModified": "2026-08-14",
-    "sentiment": "Negative",
-    "publisher": "Ciela",
-    "jira": "CS-1823",
-    "isNew": true,
-    "unclassified": false,
-    "core_insight": "The user needs the citation interface to show metadata to e.g. distinguish a cited legal procedure from an actual statutory act.",
-    "insight_type": "Improvement",
-    "mention_count": 1,
-    "source_label": "Publisher Feedback – Ciela",
-    "customer_segment": "Publisher",
-    "affected_squads": "",
-    "affected_features": "Citations",
-    "mentionHistory": [
-      {
-        "date": "2026-08-14",
-        "count": 1,
-        "source": "CS-1823",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "statusHistory": [
-      {
-        "date": "2026-08-14",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "qa_reviewed": false,
-    "qa_reviewed_at": ""
-  },
-  {
-    "id": 504,
-    "insight": "The user needs the source preview to always show the cited part of the source.",
-    "type": "Missing Feature",
-    "sourceTypes": [
-      "Direct Feedback"
-    ],
-    "source": "Publisher Feedback – Ciela",
-    "userGroup": "Publisher",
-    "squads": [],
-    "features": [
-      "Citations"
-    ],
-    "country": "Bulgaria",
-    "status": "New – Not yet discussed",
-    "mentions": 1,
-    "quotes": "the response cites Art. 5, para. 5, but the preview window cuts off the text before that point (it stops at para. 4)",
-    "notes": "",
-    "created": "2026-08-14",
-    "lastModified": "2026-08-14",
-    "sentiment": "Negative",
-    "publisher": "Ciela",
-    "jira": "CS-1821",
-    "isNew": true,
-    "unclassified": false,
-    "core_insight": "The user needs the source preview to always show the cited part of the source.",
-    "insight_type": "Missing Feature",
-    "mention_count": 1,
-    "source_label": "Publisher Feedback – Ciela",
-    "customer_segment": "Publisher",
-    "affected_squads": "",
-    "affected_features": "Citations",
-    "mentionHistory": [
-      {
-        "date": "2026-08-14",
-        "count": 1,
-        "source": "CS-1821",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "statusHistory": [
-      {
-        "date": "2026-08-14",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "qa_reviewed": false,
-    "qa_reviewed_at": ""
-  },
-  {
-    "id": 505,
-    "insight": "Users want timestamps shown on chat messages so they can review when a question was asked/answered.",
-    "type": "Missing Feature",
-    "sourceTypes": [
-      "Direct Feedback"
-    ],
-    "source": "Publisher Feedback – Beck Czech",
-    "userGroup": "Publisher",
-    "squads": [],
-    "features": [
-      "Chat"
-    ],
-    "country": "Czech Republic",
-    "status": "New – Not yet discussed",
-    "mentions": 1,
-    "quotes": "",
-    "notes": "",
-    "created": "2026-08-14",
-    "lastModified": "2026-08-14",
-    "sentiment": "Mixed",
-    "publisher": "Beck Czech",
-    "jira": "CS-1813",
-    "isNew": true,
-    "unclassified": false,
-    "core_insight": "Users want timestamps shown on chat messages so they can review when a question was asked/answered.",
-    "insight_type": "Missing Feature",
-    "mention_count": 1,
-    "source_label": "Publisher Feedback – Beck Czech",
-    "customer_segment": "Publisher",
-    "affected_squads": "",
-    "affected_features": "Chat",
-    "mentionHistory": [
-      {
-        "date": "2026-08-14",
-        "count": 1,
-        "source": "CS-1813",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "statusHistory": [
-      {
-        "date": "2026-08-14",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "qa_reviewed": false,
-    "qa_reviewed_at": ""
-  },
-  {
-    "id": 506,
-    "insight": "The user independent of rights within the tool needs to be enabled to create private individual templates.",
-    "type": "Missing Feature",
-    "sourceTypes": [
-      "Direct Feedback"
-    ],
-    "source": "Publisher Feedback – Beck Czech",
-    "userGroup": "Publisher",
-    "squads": [],
-    "features": [
-      "Templates"
-    ],
-    "country": "Czech Republic",
-    "status": "New – Not yet discussed",
-    "mentions": 1,
-    "quotes": "",
-    "notes": "",
-    "created": "2026-08-14",
-    "lastModified": "2026-08-14",
-    "sentiment": "Mixed",
-    "publisher": "Beck Czech",
-    "jira": "CS-1811",
-    "isNew": true,
-    "unclassified": false,
-    "core_insight": "The user independent of rights within the tool needs to be enabled to create private individual templates.",
-    "insight_type": "Missing Feature",
-    "mention_count": 1,
-    "source_label": "Publisher Feedback – Beck Czech",
-    "customer_segment": "Publisher",
-    "affected_squads": "",
-    "affected_features": "Templates",
-    "mentionHistory": [
-      {
-        "date": "2026-08-14",
-        "count": 1,
-        "source": "CS-1811",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "statusHistory": [
-      {
-        "date": "2026-08-14",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "qa_reviewed": false,
-    "qa_reviewed_at": ""
-  },
-  {
-    "id": 507,
-    "insight": "The user needs to be able to assign chats to a project retrospectively.",
-    "type": "Missing Feature",
-    "sourceTypes": [
-      "Direct Feedback"
-    ],
-    "source": "Publisher Feedback – Manz",
-    "userGroup": "Publisher",
-    "squads": [],
-    "features": [],
-    "country": "Austria",
-    "status": "New – Not yet discussed",
-    "mentions": 1,
-    "quotes": "",
-    "notes": "",
-    "created": "2026-08-14",
-    "lastModified": "2026-08-14",
-    "sentiment": "Mixed",
-    "publisher": "Manz",
-    "jira": "CS-1804",
-    "isNew": true,
-    "unclassified": true,
-    "core_insight": "The user needs to be able to assign chats to a project retrospectively.",
-    "insight_type": "Missing Feature",
-    "mention_count": 1,
-    "source_label": "Publisher Feedback – Manz",
-    "customer_segment": "Publisher",
-    "affected_squads": "",
-    "affected_features": "",
-    "mentionHistory": [
-      {
-        "date": "2026-08-14",
-        "count": 1,
-        "source": "CS-1804",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "statusHistory": [
-      {
-        "date": "2026-08-14",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "qa_reviewed": false,
-    "qa_reviewed_at": ""
-  },
-  {
-    "id": 508,
-    "insight": "The user needs the chats that are in projects not to be shown in the general chat history in order to keep the history free of clutter.",
-    "type": "Improvement",
-    "sourceTypes": [
-      "Direct Feedback"
-    ],
-    "source": "Publisher Feedback – Manz",
-    "userGroup": "Publisher",
-    "squads": [],
-    "features": [],
-    "country": "Austria",
-    "status": "New – Not yet discussed",
-    "mentions": 1,
-    "quotes": "",
-    "notes": "",
-    "created": "2026-08-14",
-    "lastModified": "2026-08-14",
-    "sentiment": "Mixed",
-    "publisher": "Manz",
-    "jira": "CS-1804",
-    "isNew": true,
-    "unclassified": true,
-    "core_insight": "The user needs the chats that are in projects not to be shown in the general chat history in order to keep the history free of clutter.",
-    "insight_type": "Improvement",
-    "mention_count": 1,
-    "source_label": "Publisher Feedback – Manz",
-    "customer_segment": "Publisher",
-    "affected_squads": "",
-    "affected_features": "",
-    "mentionHistory": [
-      {
-        "date": "2026-08-14",
-        "count": 1,
-        "source": "CS-1804",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "statusHistory": [
-      {
-        "date": "2026-08-14",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "qa_reviewed": false,
-    "qa_reviewed_at": ""
-  },
-  {
-    "id": 509,
-    "insight": "The user should be able to upload files via drag and drop into the matrix.",
-    "type": "Missing Feature",
-    "sourceTypes": [
-      "Direct Feedback"
-    ],
-    "source": "Publisher Feedback – Beck Poland",
-    "userGroup": "Publisher",
-    "squads": [],
-    "features": [
-      "Matrix Analysis",
-      "Document Upload"
-    ],
-    "country": "Poland",
-    "status": "New – Not yet discussed",
-    "mentions": 1,
-    "quotes": "",
-    "notes": "",
-    "created": "2026-08-14",
-    "lastModified": "2026-08-14",
-    "sentiment": "Negative",
-    "publisher": "Beck Poland",
-    "jira": "CS-1808",
-    "isNew": true,
-    "unclassified": false,
-    "core_insight": "The user should be able to upload files via drag and drop into the matrix.",
-    "insight_type": "Missing Feature",
-    "mention_count": 1,
-    "source_label": "Publisher Feedback – Beck Poland",
-    "customer_segment": "Publisher",
-    "affected_squads": "",
-    "affected_features": "Matrix Analysis;Document Upload",
-    "mentionHistory": [
-      {
-        "date": "2026-08-14",
-        "count": 1,
-        "source": "CS-1808",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "statusHistory": [
-      {
-        "date": "2026-08-14",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "qa_reviewed": false,
-    "qa_reviewed_at": ""
-  },
-  {
-    "id": 510,
-    "insight": "The user needs to be able to wrap text and widen columns so that they can read content easily without opening it separately.",
-    "type": "Missing Feature",
-    "sourceTypes": [
-      "Direct Feedback"
-    ],
-    "source": "Publisher Feedback – Beck Poland",
-    "userGroup": "Publisher",
-    "squads": [],
-    "features": [
-      "Matrix Analysis"
-    ],
-    "country": "Poland",
-    "status": "New – Not yet discussed",
-    "mentions": 1,
-    "quotes": "",
-    "notes": "",
-    "created": "2026-08-14",
-    "lastModified": "2026-08-14",
-    "sentiment": "Negative",
-    "publisher": "Beck Poland",
-    "jira": "CS-1808",
-    "isNew": true,
-    "unclassified": false,
-    "core_insight": "The user needs to be able to wrap text and widen columns so that they can read content easily without opening it separately.",
-    "insight_type": "Missing Feature",
-    "mention_count": 1,
-    "source_label": "Publisher Feedback – Beck Poland",
-    "customer_segment": "Publisher",
-    "affected_squads": "",
-    "affected_features": "Matrix Analysis",
-    "mentionHistory": [
-      {
-        "date": "2026-08-14",
-        "count": 1,
-        "source": "CS-1808",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "statusHistory": [
-      {
-        "date": "2026-08-14",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "qa_reviewed": false,
-    "qa_reviewed_at": ""
-  },
-  {
-    "id": 511,
-    "insight": "The user needs to be able to navigate directly from one opened matrix cell to the next result or category.",
-    "type": "Missing Feature",
-    "sourceTypes": [
-      "Direct Feedback"
-    ],
-    "source": "Publisher Feedback – Beck Poland",
-    "userGroup": "Publisher",
-    "squads": [],
-    "features": [
-      "Matrix Analysis"
-    ],
-    "country": "Poland",
-    "status": "New – Not yet discussed",
-    "mentions": 1,
-    "quotes": "",
-    "notes": "",
-    "created": "2026-08-14",
-    "lastModified": "2026-08-14",
-    "sentiment": "Mixed",
-    "publisher": "Beck Poland",
-    "jira": "CS-1808",
-    "isNew": true,
-    "unclassified": false,
-    "core_insight": "The user needs to be able to navigate directly from one opened matrix cell to the next result or category.",
-    "insight_type": "Missing Feature",
-    "mention_count": 1,
-    "source_label": "Publisher Feedback – Beck Poland",
-    "customer_segment": "Publisher",
-    "affected_squads": "",
-    "affected_features": "Matrix Analysis",
-    "mentionHistory": [
-      {
-        "date": "2026-08-14",
-        "count": 1,
-        "source": "CS-1808",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "statusHistory": [
-      {
-        "date": "2026-08-14",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "qa_reviewed": false,
-    "qa_reviewed_at": ""
-  },
-  {
-    "id": 512,
-    "insight": "The user - that might be visually impaired - needs yes/no in matrix evaluation to not only rely on color, but clearly flag yes/no as text.",
-    "type": "Improvement",
-    "sourceTypes": [
-      "Direct Feedback"
-    ],
-    "source": "Publisher Feedback – Beck Poland",
-    "userGroup": "Publisher",
-    "squads": [],
-    "features": [
-      "Matrix Analysis",
-      "Export"
-    ],
-    "country": "Poland",
-    "status": "New – Not yet discussed",
-    "mentions": 1,
-    "quotes": "",
-    "notes": "",
-    "created": "2026-08-14",
-    "lastModified": "2026-08-14",
-    "sentiment": "Negative",
-    "publisher": "Beck Poland",
-    "jira": "CS-1808",
-    "isNew": true,
-    "unclassified": false,
-    "core_insight": "The user - that might be visually impaired - needs yes/no in matrix evaluation to not only rely on color, but clearly flag yes/no as text.",
-    "insight_type": "Improvement",
-    "mention_count": 1,
-    "source_label": "Publisher Feedback – Beck Poland",
-    "customer_segment": "Publisher",
-    "affected_squads": "",
-    "affected_features": "Matrix Analysis;Export",
-    "mentionHistory": [
-      {
-        "date": "2026-08-14",
-        "count": 1,
-        "source": "CS-1808",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "statusHistory": [
-      {
-        "date": "2026-08-14",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "qa_reviewed": false,
-    "qa_reviewed_at": ""
-  },
-  {
-    "id": 513,
-    "insight": "The user should be able to see the matrix analysis prompt without entering edit mode and running the risk of accidental editing.",
-    "type": "Improvement",
-    "sourceTypes": [
-      "Direct Feedback"
-    ],
-    "source": "Publisher Feedback – Beck Poland",
-    "userGroup": "Publisher",
-    "squads": [],
-    "features": [
-      "Matrix Analysis",
-      "Prompting"
-    ],
-    "country": "Poland",
-    "status": "New – Not yet discussed",
-    "mentions": 1,
-    "quotes": "",
-    "notes": "",
-    "created": "2026-08-14",
-    "lastModified": "2026-08-14",
-    "sentiment": "Mixed",
-    "publisher": "Beck Poland",
-    "jira": "CS-1808",
-    "isNew": true,
-    "unclassified": false,
-    "core_insight": "The user should be able to see the matrix analysis prompt without entering edit mode and running the risk of accidental editing.",
-    "insight_type": "Improvement",
-    "mention_count": 1,
-    "source_label": "Publisher Feedback – Beck Poland",
-    "customer_segment": "Publisher",
-    "affected_squads": "",
-    "affected_features": "Matrix Analysis;Prompting",
-    "mentionHistory": [
-      {
-        "date": "2026-08-14",
-        "count": 1,
-        "source": "CS-1808",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "statusHistory": [
-      {
-        "date": "2026-08-14",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "qa_reviewed": false,
-    "qa_reviewed_at": ""
-  },
-  {
-    "id": 514,
-    "insight": "The user needs to be able to update only certain columns in the cell via a follow-up prompt in order to not touch all cells, that might already have been reviewed.",
-    "type": "Missing Feature",
-    "sourceTypes": [
-      "Direct Feedback"
-    ],
-    "source": "Publisher Feedback – Beck Poland",
-    "userGroup": "Publisher",
-    "squads": [],
-    "features": [
-      "Matrix Analysis",
-      "Prompting"
-    ],
-    "country": "Poland",
-    "status": "New – Not yet discussed",
-    "mentions": 1,
-    "quotes": "",
-    "notes": "",
-    "created": "2026-08-14",
-    "lastModified": "2026-08-14",
-    "sentiment": "Negative",
-    "publisher": "Beck Poland",
-    "jira": "CS-1808",
-    "isNew": true,
-    "unclassified": false,
-    "core_insight": "The user needs to be able to update only certain columns in the cell via a follow-up prompt in order to not touch all cells, that might already have been reviewed.",
-    "insight_type": "Missing Feature",
-    "mention_count": 1,
-    "source_label": "Publisher Feedback – Beck Poland",
-    "customer_segment": "Publisher",
-    "affected_squads": "",
-    "affected_features": "Matrix Analysis;Prompting",
-    "mentionHistory": [
-      {
-        "date": "2026-08-14",
-        "count": 1,
-        "source": "CS-1808",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "statusHistory": [
-      {
-        "date": "2026-08-14",
-        "status": "New – Not yet discussed"
-      }
-    ],
-    "qa_reviewed": false,
-    "qa_reviewed_at": ""
   }
 ]
