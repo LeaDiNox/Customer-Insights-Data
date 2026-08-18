@@ -50,6 +50,20 @@ KEEP_EXTRA = {
 }
 
 
+def detect_style(raw):
+    """
+    Match the formatting insights.json already uses, so a restore shows up as
+    the records it added and nothing else. The repo is not consistent here —
+    featurebase_sync.save_insights() writes indent=2 while the committed file
+    is indent=1 — and re-indenting the whole file buries the diff.
+    """
+    second = raw.split("\n", 2)[1] if "\n" in raw else " {"
+    return {
+        "indent": len(second) - len(second.lstrip(" ")) or 1,
+        "trailing": "\n" if raw.endswith("\n") else "",
+    }
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true",
@@ -58,7 +72,9 @@ def main():
                     help="Write the restored records into insights.json")
     args = ap.parse_args()
 
-    current = json.loads(TARGET.read_text(encoding="utf-8"))
+    raw = TARGET.read_text(encoding="utf-8")
+    current = json.loads(raw)
+    style = detect_style(raw)
     source = {i["id"]: i for i in json.loads(SOURCE.read_text(encoding="utf-8"))}
 
     have = {i["id"] for i in current}
@@ -102,7 +118,8 @@ def main():
 
     merged = sorted(current + restored, key=lambda i: i["id"])
     TARGET.write_text(
-        json.dumps(merged, indent=2, ensure_ascii=False) + "\n",
+        json.dumps(merged, indent=style["indent"], ensure_ascii=False)
+        + style["trailing"],
         encoding="utf-8",
     )
     print(f"✓ Wrote {len(merged)} insights to {TARGET.name}")
