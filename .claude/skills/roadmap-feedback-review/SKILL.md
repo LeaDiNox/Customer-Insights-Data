@@ -156,7 +156,7 @@ Replicate the reference page exactly, in this order:
 4. `<hr>` — **🚩 NOT (YET) IN FEATUREBASE** — same + Suggested action
 5. `<hr>` — **🧾 BROADER SCOPE IN LEGAL WORKFLOW** — free text, but **derived from the
    insights database, not inferred** (see below)
-6. `<hr>` — **🔍 OPEN RESEARCH QUESTIONS** — Question | Category | Recommended Approach | Risk without / Expected Impact with Research | Status
+6. `<hr>` — **🔍 OPEN RESEARCH QUESTIONS** — Question | Category | Recommended Approach | Risk without / Expected Impact with Research | Status (also mirrored to the consolidated backlog page — see Step 7)
 7. `<hr>` — **Review log** note panel
 
 Horizontal rules between sections; **no expander macros** (Lea finds them harder to
@@ -225,9 +225,48 @@ keep the existing Review log line, and append the refresh to it. Use a
 Never silently drop a row Lea already reviewed — if it no longer belongs, move it and
 say why.
 
+## Step 7 — mirror the research questions
+
+Every question from every roadmap page is consolidated onto one page, and exported as CSV
+for the Confluence database.
+
+**Consolidated page:** [Research Questions — consolidated backlog](https://xainag.atlassian.net/wiki/spaces/Product/pages/4906844212)
+(`4906844212`), a child of Roadmap x Research. One full-width table, columns:
+
+`Question | Category | Recommended Approach | Risk without / Expected Impact with Research | Status | Roadmap item | First seen | Last seen`
+
+On each run: append questions that are new, update ones whose wording or risk text
+changed, and refresh `Last seen` on every question still present on its source page. A
+question that has disappeared from its source page is **marked, not deleted** — set its
+Status to `Dropped` and leave `Last seen` at the date it was last present. `First seen`
+never changes once set; it is what tells Lea how long a question has been waiting.
+
+**CSV export:** write `research_questions_<date>.csv` to the repo root with the same
+columns, and surface it in the run report as the paste-ready block for the database.
+
+### Why a page and not the database
+
+The [Research Question Backlog](https://xainag.atlassian.net/wiki/spaces/Product/database/4843601928)
+database (`4843601928`) **cannot be written to** — verified 2026-08-19:
+
+- CQL *reads* it fine (`id = 4843601928` returns `type: database`, and the summary even
+  exposes row text), so you can check for duplicates before proposing new rows;
+- `getConfluencePage` and `fetch` both 404 on the ID — it is not a page;
+- its rows are not child pages either (`parent = 4843601928` is empty), so they are
+  native database records;
+- no database/row tool exists in the Atlassian connector, and direct HTTP to
+  `xainag.atlassian.net` is blocked by the network policy.
+
+`createConfluencePage` does accept a database as `parentId`, but there is no way to set
+the column values, so a page nested there would be a title-only entry — not a mirror.
+Don't create one.
+
+Read the database before each export and note which questions already exist, so Lea's
+paste doesn't duplicate rows.
+
 ## Strict review order
 
-1. Draft the classification, the new pages, and the refreshes to existing pages.
+1. Draft the classification, the new pages, the refreshes to existing pages, and the consolidated question backlog.
 2. **Lea reviews and approves or corrects each page.**
 3. Only then, per approved page:
    - execute the merges — `POST /v2/posts/merge` with
