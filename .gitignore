@@ -4,6 +4,9 @@
 *.pem
 *.key
 
+# Personal Claude Code settings — holds FEATUREBASE_API_KEY, never commit
+.claude/settings.local.json
+
 # Python
 __pycache__/
 *.pyc
