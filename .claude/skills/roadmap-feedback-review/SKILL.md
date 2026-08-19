@@ -154,7 +154,8 @@ Replicate the reference page exactly, in this order:
 2. `<hr>` — **✅ SOLVES** — Insight ID | Description | Mentions (votes) | Citation | User group(s)
 3. `<hr>` — **🔗 RELATES TO** — same + Featurebase link
 4. `<hr>` — **🚩 NOT (YET) IN FEATUREBASE** — same + Suggested action
-5. `<hr>` — **🧾 BROADER SCOPE IN LEGAL WORKFLOW** — free text
+5. `<hr>` — **🧾 BROADER SCOPE IN LEGAL WORKFLOW** — free text, but **derived from the
+   insights database, not inferred** (see below)
 6. `<hr>` — **🔍 OPEN RESEARCH QUESTIONS** — Question | Category | Recommended Approach | Risk without / Expected Impact with Research | Status
 7. `<hr>` — **Review log** note panel
 
@@ -164,6 +165,37 @@ read). Do not try to wrap tables in a Panel — Confluence rejects it.
 Coverage and Priority are judged from how many open questions the topic raises and the
 risk/impact of researching vs. not. Be honest: a topic with no feedback at all is
 *Insufficient* coverage, not *Adequate*.
+
+### Deriving Broader scope from the database
+
+This section used to be written from judgment. Don't — the database answers it, and the
+answer is usually wider than the roadmap item. For the topic of the item, run a keyword
+sweep across `insight`, `core_insight`, `quotes` and `notes` (include German terms), then
+aggregate over the hits:
+
+| Field | What it tells you |
+|---|---|
+| `squads`, `features` | how many parts of the product the topic actually touches |
+| `userGroup` / `customer_segment` | which segments carry the demand |
+| `country` | jurisdiction-specific needs — a `Germany` or `Switzerland` value on a topic that is otherwise `All` is a signal, not noise |
+| `mentions` | the weight of the topic as a whole vs. the roadmap item alone |
+| `quotes` | the actual workflow moment, in the user's words — quote it |
+| `type`, `sentiment` | whether the cluster is a missing feature, an improvement or a complaint |
+
+Then write the section as **numbered workflow contexts**, each one carrying its insight
+IDs, mention counts, segments and a verbatim quote, and close with what it implies for
+the item's scope. Compare the topic total against the roadmap item's own mention count —
+that contrast is usually the point.
+
+Worked example: on the language-selector page the sweep returned 15 insights / 60
+mentions / 4 squads / 8 features, against the roadmap item's own single mention with no
+feature or squad assigned. That reframed the item from "a setting" to "four distinct
+workflows", and produced two research questions that judgment alone had missed —
+including that a UI language setting must not narrow retrieval for Swiss users, where a
+French question needs German and Italian sources to be complete research.
+
+Exclude false friends the keyword sweep drags in (e.g. "visual language", "voice input"
+matching a language pattern) and say how many hits you kept.
 
 `references/build_page.py` renders this markup; `references/api_recipes.md` holds the
 request shapes.
