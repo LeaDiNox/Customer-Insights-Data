@@ -3,7 +3,11 @@
 How to set up a Claude Code on the web session so it can reach the Featurebase
 API and run `featurebase_sync.py`.
 
-Two things have to be true. Miss either one and the sync fails:
+The repo lives at **https://github.com/LeaDiNox/Customer-Insights-Data**
+(default branch `main`). Step 0 below covers getting Claude access to it.
+
+Once you have the repo, two more things have to be true. Miss either one and the
+sync fails:
 
 1. **`do.featurebase.app` is on the session's outbound allowlist** — otherwise the
    egress proxy blocks the connection.
@@ -29,6 +33,35 @@ Use `.claude/settings.local.json` (untracked) for your key, as described below.
 Never `.claude/settings.json` (tracked).
 
 ---
+
+## Step 0 — The repo, and letting Claude reach it
+
+```
+https://github.com/LeaDiNox/Customer-Insights-Data
+git clone https://github.com/LeaDiNox/Customer-Insights-Data.git
+```
+
+The repo is public, so anyone can clone it. **Pushing** needs write access — ask
+Lea to add you as a collaborator if you don't have it.
+
+To let a Claude Code cloud session clone and push, connect your GitHub account
+once, either way:
+
+- **Claude GitHub App** — authorize it during onboarding at
+  [claude.ai/code](https://claude.ai/code), or install it from
+  [github.com/apps/claude](https://github.com/apps/claude).
+- **`/web-setup`** — run it in your terminal to sync your existing `gh` CLI
+  token to your Claude account. Easier if you already use `gh`.
+
+Either is enough. Worth knowing: a cloud session can reach **any repository your
+connected GitHub account can see** — installing the App on a specific repo is not
+a per-repo access control. What App installation adds is PR webhooks, which is
+what powers auto-fixing CI failures and review comments.
+
+Then start a session at [claude.ai/code](https://claude.ai/code) and pick this
+repo. The session clones it fresh into an isolated container.
+
+Branch convention here: work on a branch, never push straight to `main`.
 
 ## Step 1 — Get a Featurebase API key
 
