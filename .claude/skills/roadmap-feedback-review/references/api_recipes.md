@@ -83,3 +83,19 @@ Omit `data-local-id` on new nodes. Do not put a table inside a panel — it is r
 converter sets the text colour to the same value, so the text disappears. Adding an
 explicit `color` does not survive either, and `background-color` on the `<h2>` element
 is dropped. Status badges inside headings *do* work — use those instead.
+
+## Excluding already-delivered insights
+
+```python
+EXCLUDED_STATUSES = {
+    "Implemented - a solution is released",
+    "Well done - positive feedback outweighs negative",
+}
+
+def may_be_pushed(insight):
+    """False -> never goes in the Not-yet-in-Featurebase table, never merged."""
+    return insight.get("status") not in EXCLUDED_STATUSES
+```
+
+Same set as `featurebase_sync.py`. Apply it before building any table, and remember it
+cannot be evaluated for Insight IDs >= 497 (absent from the local snapshot).

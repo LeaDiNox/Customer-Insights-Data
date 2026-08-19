@@ -1,6 +1,6 @@
 ---
 name: roadmap-feedback-review
-description: Run the weekly Roadmap ↔ Feedback review — for every "Next up" roadmap item in Featurebase, match the feedback boards and the Noxtua insights database against it, classify into Solves / Relates to / Not yet in Featurebase, and draft one Confluence page per item for Lea's review. Use when Lea says "run the roadmap review", "weekly roadmap x research", "check Next up against feedback", or when the weekly Routine fires. Also use for a single item ("run the review for the DMS item"). Never merges or comments without Lea's explicit per-page approval.
+description: Run the weekly Roadmap ↔ Feedback review — for every "Next up" roadmap item in Featurebase, match the feedback boards and the Noxtua insights database against it, classify into Solves / Relates to / Not yet in Featurebase, draft one Confluence page per item, and refresh the pages that already exist against current vote counts and newly created posts, for Lea's review. Use when Lea says "run the roadmap review", "weekly roadmap x research", "check Next up against feedback", or when the weekly Routine fires. Also use for a single item ("run the review for the DMS item"). Never merges or comments without Lea's explicit per-page approval.
 ---
 
 # Weekly Roadmap ↔ Feedback Review
@@ -112,6 +112,34 @@ post, so those use `insights.json` `mentions`.
 
 Mismatches are dropped silently — there is no "wrongly flagged" section.
 
+### Never push or merge an insight that is already delivered
+
+An insight whose `status` in `insights.json` is
+
+- `Implemented - a solution is released`, or
+- `Well done - positive feedback outweighs negative`
+
+is **deliberately absent from Featurebase and must stay that way.** It never goes in
+the *Not (yet) in Featurebase* table, it never gets a "→ Push insight X" action, and
+it is never merged. (This is the same exclusion `featurebase_sync.py` applies on push —
+`EXCLUDED_STATUSES`.)
+
+Such an insight may still be listed under **Relates to** as context, with the last
+column reading:
+
+> ⚠️ Not in Featurebase — insight already marked implemented; do not push or merge
+
+Check this *before* filling any table — on the first run it moved 8 of 9 rows off the
+Word Add-in page and 3 of 4 off the Templates page.
+
+**Where it gets interesting:** an insight marked implemented whose complaint still
+appears in a *recent* Featurebase quote means the release did not land, or did not
+cover the case. Say so in Broader scope and raise it as a research question — that
+contradiction is usually the most valuable thing a run produces.
+
+Insight IDs ≥ 497 carry no status in the local snapshot, so this check cannot be
+applied to them; note that rather than assuming they are open.
+
 When a bucket comes out empty, say so in the table rather than omitting it; an empty
 Solves table is itself a finding about research coverage.
 
@@ -140,9 +168,34 @@ risk/impact of researching vs. not. Be honest: a topic with no feedback at all i
 `references/build_page.py` renders this markup; `references/api_recipes.md` holds the
 request shapes.
 
+## Step 6 — refresh the pages that already exist
+
+The review is not only about new items. On every run, re-check each existing page under
+the parent against live data and update it in place:
+
+- **Counts and metadata** — the roadmap item's `upvotes`, `status`, `assigneeId`, and
+  the votes on every post already listed. Vote counts move week to week.
+- **New posts** — anything created since the page was written that now matches the item.
+  Add it to Solves or Relates.
+- **Rows that changed bucket** — an insight in *Not (yet) in Featurebase* that now has a
+  post moves to Relates (or Solves) with its live vote count; one that has since been
+  marked implemented moves to Relates with the warning marker above.
+- **Implications** — do not just swap numbers. If the balance of evidence shifted, say
+  what it means in Broader scope, adjust Coverage/Priority, and update or add research
+  questions. On the 2026-08-19 refresh the reference page's related answer-language
+  insights had grown to 33 votes against the selector's 6, which changes the scope
+  question materially.
+
+Put a short `panel-info` at the top of a refreshed page stating what changed and when,
+keep the existing Review log line, and append the refresh to it. Use a
+`versionMessage` on the update so the page history is readable.
+
+Never silently drop a row Lea already reviewed — if it no longer belongs, move it and
+say why.
+
 ## Strict review order
 
-1. Draft the classification and the pages.
+1. Draft the classification, the new pages, and the refreshes to existing pages.
 2. **Lea reviews and approves or corrects each page.**
 3. Only then, per approved page:
    - execute the merges — `POST /v2/posts/merge` with
