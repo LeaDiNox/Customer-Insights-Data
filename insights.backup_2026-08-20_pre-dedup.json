@@ -1248,7 +1248,7 @@
    "Direct Feedback",
    "Interview Study"
   ],
-  "source": "Continous_Direct_Feedback_big_law_firm,2026_01_Workflow_Expectations_Interview,2025_12_KnowledgeBase_UCs_Interviews,Continous_Publisher_Swiss_Noxtua,Publisher Feedback – Manz",
+  "source": "Continous_Direct_Feedback_big_law_firm,2026_01_Workflow_Expectations_Interview,2025_12_KnowledgeBase_UCs_Interviews,Continous_Publisher_Swiss_Noxtua",
   "userGroup": "Big Law Firm; Mixed; Publisher",
   "squads": [
    "Platform Squad"
@@ -1259,20 +1259,20 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 13,
-  "quotes": "“Direkt Quellen an der Seite einzusehen wäre natürlich noch besser.”\n\nin den Referenzen für die Passagen wird der gesamte Dokumenttext übermittelt, nicht mehr nur die passende Textpassagen.",
+  "mentions": 12,
+  "quotes": "“Direkt Quellen an der Seite einzusehen wäre natürlich noch besser.”",
   "notes": "Study to be planned",
   "created": "2025-10-14",
   "lastModified": "2026-08-20",
   "sentiment": "Negative",
   "publisher": "Swiss",
-  "jira": "CS-1686",
+  "jira": "",
   "isNew": false,
   "unclassified": false,
   "core_insight": "The user would like to be able to see exactly from which part of a source the model derived the answer.",
   "insight_type": "Missing Feature",
-  "mention_count": 13,
-  "source_label": "Continous_Direct_Feedback_big_law_firm,2026_01_Workflow_Expectations_Interview,2025_12_KnowledgeBase_UCs_Interviews,Continous_Publisher_Swiss_Noxtua,Publisher Feedback – Manz",
+  "mention_count": 12,
+  "source_label": "Continous_Direct_Feedback_big_law_firm,2026_01_Workflow_Expectations_Interview,2025_12_KnowledgeBase_UCs_Interviews,Continous_Publisher_Swiss_Noxtua",
   "customer_segment": "Big Law Firm; Mixed; Publisher",
   "affected_squads": "Platform Squad",
   "affected_features": "Research;Knowledge Base",
@@ -1297,11 +1297,6 @@
     "date": "2026-08-20",
     "count": 12,
     "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 13,
-    "source": "merged from ID 525 (+1)"
    }
   ],
   "statusHistory": [
@@ -20477,6 +20472,61 @@
   ]
  },
  {
+  "id": 503,
+  "insight": "User-input instructions are not displayed for file inputs, even when essential.",
+  "type": "Improvement",
+  "sourceTypes": [
+   "Direct Feedback"
+  ],
+  "source": "Continous_Direct_Feedback_corporate",
+  "userGroup": "Corporate Law Department",
+  "squads": [
+   "Drafting Squad"
+  ],
+  "features": [
+   "Templates"
+  ],
+  "country": "Germany",
+  "status": "New – Not yet discussed",
+  "mentions": 1,
+  "quotes": "When creating user inputs you add instructions, but these aren't displayed at all for file input.",
+  "notes": "",
+  "created": "2026-07-27",
+  "lastModified": "2026-07-28",
+  "sentiment": "Negative",
+  "publisher": "",
+  "jira": "",
+  "isNew": true,
+  "unclassified": false,
+  "core_insight": "User-input instructions are not displayed for file inputs, even when essential.",
+  "insight_type": "Improvement",
+  "mention_count": 1,
+  "source_label": "Continous_Direct_Feedback_corporate",
+  "customer_segment": "Corporate Law Department",
+  "affected_squads": "Drafting Squad",
+  "affected_features": "Templates",
+  "mentionHistory": [
+   {
+    "date": "2026-07-27",
+    "count": 1,
+    "source": "feedback_batch_20260727",
+    "status": "New – Not yet discussed"
+   }
+  ],
+  "statusHistory": [
+   {
+    "date": "2026-07-27",
+    "status": "New – Not yet discussed"
+   }
+  ],
+  "qa_reviewed": true,
+  "qa_reviewed_at": "2026-07-28",
+  "featurebase_id": "6a6ccb9194e73d44a215110a",
+  "featurebase_board_id": "6a213f3998f1621c64f747fb",
+  "featurebase_synced_at": "2026-07-31T17:11:55.826834Z",
+  "featurebase_votes": 1
+ },
+ {
   "id": 504,
   "insight": "Required user input is not visible when applying a template — the user must click 'edit' to see it.",
   "type": "Improvement",
@@ -20493,11 +20543,11 @@
   ],
   "country": "Germany",
   "status": "New – Not yet discussed",
-  "mentions": 2,
-  "quotes": "I have to click 'edit' to see what input is required. This should be visible immediately when selecting the template.\n\nWhen creating user inputs you add instructions, but these aren't displayed at all for file input.",
+  "mentions": 1,
+  "quotes": "I have to click 'edit' to see what input is required. This should be visible immediately when selecting the template.",
   "notes": "",
   "created": "2026-07-27",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-27",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -20505,7 +20555,7 @@
   "unclassified": false,
   "core_insight": "Required user input is not visible when applying a template — the user must click 'edit' to see it.",
   "insight_type": "Improvement",
-  "mention_count": 2,
+  "mention_count": 1,
   "source_label": "Continous_Direct_Feedback_corporate",
   "customer_segment": "Corporate Law Department",
   "affected_squads": "Drafting Squad",
@@ -20516,11 +20566,6 @@
     "count": 1,
     "source": "feedback_batch_20260727",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 2,
-    "source": "merged from ID 503 (+1)"
    }
   ],
   "statusHistory": [
@@ -21663,6 +21708,64 @@
   "featurebase_id": "6a6ccbbdd361a8379e2a5af8",
   "featurebase_board_id": "6a213f3998f1621c64f747fb",
   "featurebase_synced_at": "2026-07-31T17:13:01.740294Z",
+  "featurebase_votes": 1
+ },
+ {
+  "id": 525,
+  "insight": "The user needs to have document citations for relevant passages not for the full document only.",
+  "type": "Missing Feature",
+  "sourceTypes": [
+   "Direct Feedback"
+  ],
+  "source": "Publisher Feedback – Manz",
+  "userGroup": "Publisher",
+  "squads": [
+   "AI Squad",
+   "Platform Squad"
+  ],
+  "features": [
+   "Document Upload",
+   "Citations",
+   "Sources"
+  ],
+  "country": "Austria",
+  "status": "New – Not yet discussed",
+  "mentions": 1,
+  "quotes": "in den Referenzen für die Passagen wird der gesamte Dokumenttext übermittelt, nicht mehr nur die passende Textpassagen.",
+  "notes": "",
+  "created": "2026-07-27",
+  "lastModified": "2026-07-27",
+  "sentiment": "Negative",
+  "publisher": "Manz",
+  "jira": "CS-1686",
+  "isNew": true,
+  "unclassified": false,
+  "core_insight": "The user needs to have document citations for relevant passages not for the full document only.",
+  "insight_type": "Missing Feature",
+  "mention_count": 1,
+  "source_label": "Publisher Feedback – Manz",
+  "customer_segment": "Publisher",
+  "affected_squads": "AI Squad;Platform Squad",
+  "affected_features": "Document Upload;Citations;Sources",
+  "mentionHistory": [
+   {
+    "date": "2026-07-27",
+    "count": 1,
+    "source": "feedback_batch_20260727",
+    "status": "New – Not yet discussed"
+   }
+  ],
+  "statusHistory": [
+   {
+    "date": "2026-07-27",
+    "status": "New – Not yet discussed"
+   }
+  ],
+  "qa_reviewed": true,
+  "qa_reviewed_at": "2026-07-28",
+  "featurebase_id": "6a6ccbbf84800d6b14f4c105",
+  "featurebase_board_id": "6a2123630535f655cfaec3cb",
+  "featurebase_synced_at": "2026-07-31T17:13:05.408724Z",
   "featurebase_votes": 1
  },
  {
