@@ -20278,7 +20278,7 @@
   ]
  },
  {
-  "id": 503,
+  "id": 528,
   "insight": "The user needs reusable, agent-style presets that can be configured once and applied to recurring tasks.",
   "type": "Missing Feature",
   "sourceTypes": [
@@ -20327,7 +20327,7 @@
   ]
  },
  {
-  "id": 504,
+  "id": 529,
   "insight": "The user wants several well-reasoned wording alternatives with an explanation of which formulation fits which fact pattern — this worked well for a guideline supplied as an external source carrying annotations from three stakeholders.",
   "type": "General Feedback",
   "sourceTypes": [
@@ -20374,7 +20374,7 @@
   ]
  },
  {
-  "id": 505,
+  "id": 530,
   "insight": "The user needs recent case law that is publicly available to be accessed in the tool in order to not lower the perceived added value over free internet research.",
   "type": "Improvement",
   "sourceTypes": [
