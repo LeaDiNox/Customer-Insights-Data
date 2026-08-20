@@ -20863,7 +20863,9 @@
   ],
   "source": "Publisher Feedback – Beck Poland",
   "userGroup": "Publisher",
-  "squads": [],
+  "squads": [
+   "Review Squad"
+  ],
   "features": [
    "Matrix Analysis"
   ],
@@ -20884,7 +20886,7 @@
   "mention_count": 1,
   "source_label": "Publisher Feedback – Beck Poland",
   "customer_segment": "Publisher",
-  "affected_squads": "",
+  "affected_squads": "Review Squad",
   "affected_features": "Matrix Analysis",
   "mentionHistory": [
    {
@@ -20916,7 +20918,9 @@
   ],
   "source": "Publisher Feedback – Manz",
   "userGroup": "Publisher",
-  "squads": [],
+  "squads": [
+   "Workflow Squad"
+  ],
   "features": [
    "Templates"
   ],
@@ -20937,7 +20941,7 @@
   "mention_count": 1,
   "source_label": "Publisher Feedback – Manz",
   "customer_segment": "Publisher",
-  "affected_squads": "",
+  "affected_squads": "Workflow Squad",
   "affected_features": "Templates",
   "mentionHistory": [
    {
@@ -20969,7 +20973,9 @@
   ],
   "source": "Publisher Feedback – Manz",
   "userGroup": "Publisher",
-  "squads": [],
+  "squads": [
+   "Review Squad"
+  ],
   "features": [
    "Matrix Analysis"
   ],
@@ -20990,7 +20996,7 @@
   "mention_count": 1,
   "source_label": "Publisher Feedback – Manz",
   "customer_segment": "Publisher",
-  "affected_squads": "",
+  "affected_squads": "Review Squad",
   "affected_features": "Matrix Analysis",
   "mentionHistory": [
    {
@@ -21077,7 +21083,9 @@
   ],
   "source": "Publisher Feedback – Beck Czech, CS-1555, CS-1617",
   "userGroup": "Publisher",
-  "squads": [],
+  "squads": [
+   "Workflow Squad"
+  ],
   "features": [
    "Templates",
    "Roles"
@@ -21099,7 +21107,7 @@
   "mention_count": 4,
   "source_label": "Publisher Feedback – Beck Czech, CS-1555, CS-1617",
   "customer_segment": "Publisher",
-  "affected_squads": "",
+  "affected_squads": "Workflow Squad",
   "affected_features": "Templates;Roles",
   "mentionHistory": [
    {
@@ -21147,7 +21155,9 @@
   ],
   "source": "Publisher Feedback – Beck Czech",
   "userGroup": "Publisher",
-  "squads": [],
+  "squads": [
+   "Review Squad"
+  ],
   "features": [
    "Matrix Analysis",
    "Templates"
@@ -21169,7 +21179,7 @@
   "mention_count": 1,
   "source_label": "Publisher Feedback – Beck Czech",
   "customer_segment": "Publisher",
-  "affected_squads": "",
+  "affected_squads": "Review Squad",
   "affected_features": "Matrix Analysis;Templates",
   "mentionHistory": [
    {
@@ -21201,7 +21211,9 @@
   ],
   "source": "Publisher Feedback – Beck Czech",
   "userGroup": "Publisher",
-  "squads": [],
+  "squads": [
+   "Review Squad"
+  ],
   "features": [
    "Matrix Analysis",
    "Templates"
@@ -21223,7 +21235,7 @@
   "mention_count": 1,
   "source_label": "Publisher Feedback – Beck Czech",
   "customer_segment": "Publisher",
-  "affected_squads": "",
+  "affected_squads": "Review Squad",
   "affected_features": "Matrix Analysis;Templates",
   "mentionHistory": [
    {
@@ -21311,8 +21323,12 @@
   ],
   "source": "Publisher Feedback – Swiss",
   "userGroup": "Publisher",
-  "squads": [],
-  "features": [],
+  "squads": [
+   "Platform Squad"
+  ],
+  "features": [
+   "Projects"
+  ],
   "country": "Switzerland",
   "status": "New – Not yet discussed",
   "mentions": 1,
@@ -21330,8 +21346,8 @@
   "mention_count": 1,
   "source_label": "Publisher Feedback – Swiss",
   "customer_segment": "Publisher",
-  "affected_squads": "",
-  "affected_features": "",
+  "affected_squads": "Platform Squad",
+  "affected_features": "Projects",
   "mentionHistory": [
    {
     "date": "2026-07-27",
@@ -21362,7 +21378,9 @@
   ],
   "source": "Publisher Feedback – Swiss",
   "userGroup": "Publisher",
-  "squads": [],
+  "squads": [
+   "AI Interaction"
+  ],
   "features": [
    "Voice Control"
   ],
@@ -21383,7 +21401,7 @@
   "mention_count": 1,
   "source_label": "Publisher Feedback – Swiss",
   "customer_segment": "Publisher",
-  "affected_squads": "",
+  "affected_squads": "AI Interaction",
   "affected_features": "Voice Control",
   "mentionHistory": [
    {
@@ -21471,7 +21489,9 @@
   ],
   "source": "Publisher Feedback – Swiss",
   "userGroup": "Publisher",
-  "squads": [],
+  "squads": [
+   "Workflow Squad"
+  ],
   "features": [
    "Templates",
    "Personalization"
@@ -21493,7 +21513,7 @@
   "mention_count": 1,
   "source_label": "Publisher Feedback – Swiss",
   "customer_segment": "Publisher",
-  "affected_squads": "",
+  "affected_squads": "Workflow Squad",
   "affected_features": "Templates;Personalization",
   "mentionHistory": [
    {
