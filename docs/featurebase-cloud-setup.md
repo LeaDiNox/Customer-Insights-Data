@@ -199,10 +199,13 @@ Useful variants:
 Note that `--push` also **writes back** to `insights.json` (storing
 `featurebase_id` and vote counts). Use `--push-no-save` to skip that.
 
-Which insights qualify to be pushed is gated on `qa_reviewed == true` in
-`insights.json`, set via the QA review flow (`insights_review.html` →
-`apply_qa_review.py`). Insights whose status is "Implemented — a solution is
-released" or "Well done — positive feedback outweighs negative" are excluded.
+Everything in `insights.json` is eligible to push. Review is not gated here — it
+happens upstream, as part of the routine when new feedback is added, so anything
+that reaches `insights.json` has already been reviewed.
+
+Two exclusions still apply: insights whose status is "Implemented — a solution is
+released" or "Well done — positive feedback outweighs negative", and any insight
+explicitly marked `qa_deleted` (a deletion, not a review state).
 
 ---
 

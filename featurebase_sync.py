@@ -70,16 +70,17 @@ CUSTOM_FIELD_IDS = {
 # Path to insights.json (relative to this script)
 INSIGHTS_JSON = Path(__file__).parent / "insights.json"
 
-# Sync filter — QA review gate:
-# An insight must be marked qa_reviewed=true in insights.json (via the QA
-# review flow: insights_review.html -> apply_qa_review.py) before it can be
-# pushed. All insight types qualify; Missing Feature routes to the feature
-# request board, everything else routes to the feedback board.
+# Sync filter:
+# Review is no longer gated here — it happens upstream, as part of the routine
+# when new feedback is added, so by the time an insight reaches insights.json it
+# has already been reviewed. All insight types qualify; Missing Feature routes to
+# the feature request board, everything else routes to the feedback board.
+# Insights explicitly marked qa_deleted are still skipped — that is a deletion,
+# not a review state.
 EXCLUDED_STATUSES = {
     "Implemented - a solution is released",
     "Well done - positive feedback outweighs negative",
 }
-REQUIRE_QA_REVIEWED = True   # gate push on insights.json "qa_reviewed" == true
 MIN_MENTIONS = 0             # no floor — push all qualifying feedback regardless of mention count
 
 
@@ -172,8 +173,6 @@ def qualifying_insights(insights, ids=None):
     results = []
     for ins in insights:
         if ins.get("status", "") in EXCLUDED_STATUSES:
-            continue
-        if REQUIRE_QA_REVIEWED and not ins.get("qa_reviewed"):
             continue
         if ins.get("qa_deleted"):
             continue
@@ -388,7 +387,7 @@ def seed_voters(post_id, mentions):
 
 def push_insights(insights, dry_run=False, ids=None, no_save=False):
     targets = qualifying_insights(insights, ids=ids)
-    label = f"ID(s) {ids}" if ids else "qa_reviewed (all types, not Released/Well done)"
+    label = f"ID(s) {ids}" if ids else "qualifying (all types, not Released/Well done)"
     print(f"\n{'DRY RUN — ' if dry_run else ''}{label} insights to push: {len(targets)}\n")
     if no_save:
         print("  ⚠ --push-no-save mode: insights.json will NOT be updated\n")
