@@ -642,7 +642,11 @@
     "date": "2026-07-08",
     "status": "Identified - JIRA ticket exists"
    }
-  ]
+  ],
+  "featurebase_id": "6a6cc945f8e5d9da850c0c81",
+  "featurebase_board_id": "6a213f3998f1621c64f747fb",
+  "featurebase_votes": 6,
+  "featurebase_synced_at": "2026-08-20T23:19:00.179814Z"
  },
  {
   "id": 60,
@@ -976,7 +980,11 @@
     "date": "2026-07-08",
     "status": "Identified - JIRA ticket exists"
    }
-  ]
+  ],
+  "featurebase_id": "6a6cc96ad361a8379e1ef528",
+  "featurebase_board_id": "6a213f3998f1621c64f747fb",
+  "featurebase_votes": 6,
+  "featurebase_synced_at": "2026-08-20T23:19:00.179833Z"
  },
  {
   "id": 74,
@@ -2674,7 +2682,11 @@
     "date": "2026-06-22",
     "status": "Identified - JIRA ticket exists"
    }
-  ]
+  ],
+  "featurebase_id": "6a6cc9b8a53a5c32831f789f",
+  "featurebase_board_id": "6a213f3998f1621c64f747fb",
+  "featurebase_votes": 26,
+  "featurebase_synced_at": "2026-08-20T23:19:00.179836Z"
  },
  {
   "id": 110,
@@ -4451,7 +4463,11 @@
     "date": "2026-07-08",
     "status": "Planned for development"
    }
-  ]
+  ],
+  "featurebase_id": "6a6cc9d693655bd982aac9ce",
+  "featurebase_board_id": "6a213f3998f1621c64f747fb",
+  "featurebase_votes": 6,
+  "featurebase_synced_at": "2026-08-20T23:19:00.179838Z"
  },
  {
   "id": 148,
@@ -5660,9 +5676,10 @@
    }
   ],
   "featurebase_title": "Voice Input for Prompting",
-  "featurebase_id": "6a5a69e59f40768842aca667",
-  "featurebase_synced_at": "2026-07-17T18:06:19.578479Z",
-  "featurebase_votes": 15
+  "featurebase_id": "6a4e64213210992d27b054eb",
+  "featurebase_synced_at": "2026-08-20T23:19:00.149427Z",
+  "featurebase_votes": 16,
+  "featurebase_board_id": "6a422f49728db77bced50b63"
  },
  {
   "id": 171,
@@ -7503,7 +7520,11 @@
     "date": "2026-06-22",
     "status": "New – Not yet discussed"
    }
-  ]
+  ],
+  "featurebase_id": "6a6cca2095b6184de995621e",
+  "featurebase_board_id": "6a213f3998f1621c64f747fb",
+  "featurebase_votes": 2,
+  "featurebase_synced_at": "2026-08-20T23:19:00.179841Z"
  },
  {
   "id": 226,
@@ -8119,7 +8140,11 @@
     "date": "2026-06-22",
     "status": "New – Not yet discussed"
    }
-  ]
+  ],
+  "featurebase_id": "6a6cca2d84800d6b14ebfd39",
+  "featurebase_board_id": "6a213f3998f1621c64f747fb",
+  "featurebase_votes": 2,
+  "featurebase_synced_at": "2026-08-20T23:19:00.179843Z"
  },
  {
   "id": 241,
@@ -17594,7 +17619,11 @@
     "date": "2026-06-22",
     "status": "New – Not yet discussed"
    }
-  ]
+  ],
+  "featurebase_id": "6a6ccb49d361a8379e266b1f",
+  "featurebase_board_id": "6a2123630535f655cfaec3cb",
+  "featurebase_votes": 2,
+  "featurebase_synced_at": "2026-08-20T23:19:00.179848Z"
  },
  {
   "id": 446,
@@ -20278,7 +20307,7 @@
   ]
  },
  {
-  "id": 528,
+  "id": 531,
   "insight": "The user needs reusable, agent-style presets that can be configured once and applied to recurring tasks.",
   "type": "Missing Feature",
   "sourceTypes": [
@@ -20327,7 +20356,7 @@
   ]
  },
  {
-  "id": 529,
+  "id": 532,
   "insight": "The user wants several well-reasoned wording alternatives with an explanation of which formulation fits which fact pattern — this worked well for a guideline supplied as an external source carrying annotations from three stakeholders.",
   "type": "General Feedback",
   "sourceTypes": [
@@ -20374,7 +20403,7 @@
   ]
  },
  {
-  "id": 530,
+  "id": 533,
   "insight": "The user needs recent case law that is publicly available to be accessed in the tool in order to not lower the perceived added value over free internet research.",
   "type": "Improvement",
   "sourceTypes": [
