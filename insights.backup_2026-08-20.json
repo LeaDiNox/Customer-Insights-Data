@@ -593,7 +593,7 @@
   "sourceTypes": [
    "Direct Feedback"
   ],
-  "source": "Continous_Direct_Feedback_small_law_firm,2025_11_Beck_Feedback_Survey_2,Direct_Feedback_Corp_002_08_2026",
+  "source": "Continous_Direct_Feedback_small_law_firm,2025_11_Beck_Feedback_Survey_2",
   "userGroup": "Small Law Firm; Mixed",
   "squads": [
    "Platform Squad"
@@ -603,11 +603,11 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 5,
-  "quotes": "[2026-08-20] \"hat zugegeben, dass es Zitat nicht gibt, erst auf Nachfrage / klarer machen, wenn es etwas nicht gibt\" (Direct_Feedback_Corp_002_08_2026)",
+  "mentions": 4,
+  "quotes": "",
   "notes": "",
   "created": "2025-10-10",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-08",
   "sentiment": "Negative",
   "publisher": "Beck Germany",
   "jira": "",
@@ -615,8 +615,8 @@
   "unclassified": false,
   "core_insight": "The user needs the tool to be transparent if it does not have any sources available.",
   "insight_type": "Improvement",
-  "mention_count": 5,
-  "source_label": "Continous_Direct_Feedback_small_law_firm,2025_11_Beck_Feedback_Survey_2,Direct_Feedback_Corp_002_08_2026",
+  "mention_count": 4,
+  "source_label": "Continous_Direct_Feedback_small_law_firm,2025_11_Beck_Feedback_Survey_2",
   "customer_segment": "Small Law Firm; Mixed",
   "affected_squads": "Platform Squad",
   "affected_features": "Research",
@@ -626,11 +626,6 @@
     "count": 4,
     "source": "baseline",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 5,
-    "source": "merged from Direct_Feedback_Corp_002_08_2026 (only admitted a citation did not exist on follow-up) (+1)"
    }
   ],
   "statusHistory": [
@@ -917,7 +912,7 @@
    "Direct Feedback",
    "Interview Study"
   ],
-  "source": "Continous_Direct_Feedback_corporate,2026_02_Personas_Corporate,2026_03_Personas_Judiciary,Vattenfall Feedback Call – 2026-07-13,Direct_Feedback_Corp_002_08_2026",
+  "source": "Continous_Direct_Feedback_corporate,2026_02_Personas_Corporate,2026_03_Personas_Judiciary,Vattenfall Feedback Call – 2026-07-13",
   "userGroup": "Corporate Law Department; Prosecution/ Judges",
   "squads": [
    "AI Squad"
@@ -927,11 +922,11 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 8,
-  "quotes": "\"Even positive hallucination leads to a new thought you wouldn't have had alone (Corp6); AI helps me take other perspectives - you only ever think from your own (Justice6)\" (Corporate / Judiciary Personas) | [2026-07-13] \"Fundstellen sehr eingeschränkt aufgelistet und eher exotischer Natur, zB herschende Literatur\" (Vattenfall Feedback Call – 2026-07-13) | [2026-07-13] \"Hinweis auf andere Meinung in Urteilen bzw in nächster \" (Vattenfall Feedback Call – 2026-07-13)\n\n[2026-08-20] \"P: ich kann nicht genau sagen, ob es das Zitat gibt. Ich habe die RsprLinie korrekt wiedergeben\" (Direct_Feedback_Corp_002_08_2026)",
+  "mentions": 7,
+  "quotes": "\"Even positive hallucination leads to a new thought you wouldn't have had alone (Corp6); AI helps me take other perspectives - you only ever think from your own (Justice6)\" (Corporate / Judiciary Personas) | [2026-07-13] \"Fundstellen sehr eingeschränkt aufgelistet und eher exotischer Natur, zB herschende Literatur\" (Vattenfall Feedback Call – 2026-07-13) | [2026-07-13] \"Hinweis auf andere Meinung in Urteilen bzw in nächster \" (Vattenfall Feedback Call – 2026-07-13)",
   "notes": "",
   "created": "2025-10-13",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-08-10",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -939,8 +934,8 @@
   "unclassified": false,
   "core_insight": "The user needs the tool to also provide them with alternative perspectives not only e.g. with the predominant one.",
   "insight_type": "Improvement",
-  "mention_count": 8,
-  "source_label": "Continous_Direct_Feedback_corporate,2026_02_Personas_Corporate,2026_03_Personas_Judiciary,Vattenfall Feedback Call – 2026-07-13,Direct_Feedback_Corp_002_08_2026",
+  "mention_count": 7,
+  "source_label": "Continous_Direct_Feedback_corporate,2026_02_Personas_Corporate,2026_03_Personas_Judiciary,Vattenfall Feedback Call – 2026-07-13",
   "customer_segment": "Corporate Law Department; Prosecution/ Judges",
   "affected_squads": "AI Squad",
   "affected_features": "Research",
@@ -960,11 +955,6 @@
     "date": "2026-08-10",
     "count": 7,
     "source": "merged from Vattenfall Feedback Call – 2026-07-13 (dissenting opinions across instances) (+1)"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 8,
-    "source": "merged from Direct_Feedback_Corp_002_08_2026 (wants opposing legal opinions surfaced) (+1)"
    }
   ],
   "statusHistory": [
@@ -1392,7 +1382,7 @@
   "sourceTypes": [
    "Direct Feedback"
   ],
-  "source": "Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_small_law_firm,Direct_Feedback_Corp_002_08_2026",
+  "source": "Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_small_law_firm",
   "userGroup": "Big Law Firm; Small Law Firm",
   "squads": [
    "Platform Squad"
@@ -1402,11 +1392,11 @@
   ],
   "country": "All",
   "status": "Implemented - a solution is released",
-  "mentions": 7,
-  "quotes": "“Ist das jetzt wirklich lokal oder wird das auf einen Server hochgeladen?”\n\nes reicht, dass ihr versichert und uns überzeugt, dass ihr das auch einhaltet  „glaubhaft machen“, z.B. Verschlüsselungsprozess erklären\n\n[2026-08-20] \"Update zu ISO-Zertifikation Zugang zu Trust für Compliance\" (Direct_Feedback_Corp_002_08_2026)",
+  "mentions": 6,
+  "quotes": "“Ist das jetzt wirklich lokal oder wird das auf einen Server hochgeladen?”\n\nes reicht, dass ihr versichert und uns überzeugt, dass ihr das auch einhaltet  „glaubhaft machen“, z.B. Verschlüsselungsprozess erklären",
   "notes": "3 People mention in the Beck Feedback Survey, that this is already a good thing. However, in the sales call the user still didn't seem to be sure.\n\nShared in Marketing, Onepager for Sales is build. Recheck if that reduces uncertainty.",
   "created": "2025-10-14",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-08",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -1414,8 +1404,8 @@
   "unclassified": false,
   "core_insight": "The user needs transparency about data security measures to be sure that their data is being treated confidentially and is not distributed, but only locally on their machine.",
   "insight_type": "General Feedback",
-  "mention_count": 7,
-  "source_label": "Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_small_law_firm,Direct_Feedback_Corp_002_08_2026",
+  "mention_count": 6,
+  "source_label": "Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_small_law_firm",
   "customer_segment": "Big Law Firm; Small Law Firm",
   "affected_squads": "Platform Squad",
   "affected_features": "All",
@@ -1425,11 +1415,6 @@
     "count": 6,
     "source": "baseline",
     "status": "Identified - JIRA ticket exists"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 7,
-    "source": "merged from Direct_Feedback_Corp_002_08_2026 (compliance needs ISO-certification status and Trust Center access) (+1)"
    }
   ],
   "statusHistory": [
@@ -2012,7 +1997,7 @@
    "Workshop",
    "Interview Study"
   ],
-  "source": "2025_10_Beck_Feedback_Survey,2025_11_Beck_Feedback_Survey_2,2025_11_Zalando_Hackathon,Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_corporate,2025_11_Personas_M_B_Lawfirms,Direct_Feedback_2026_06,BayernLB_Feedback_2026_07,Continous_Direct_Feedback_GovernmentInstitutions,2026_03_Personas_Judiciary,Direct_Feedback_Corp_002_08_2026",
+  "source": "2025_10_Beck_Feedback_Survey, 2025_11_Beck_Feedback_Survey_2, 2025_11_Zalando_Hackathon, Continous_Direct_Feedback_big_law_firm, Continous_Direct_Feedback_corporate, 2025_11_Personas_M_B_Lawfirms, Direct_Feedback_2026_06, BayernLB_Feedback_2026_07, Continous_Direct_Feedback_GovernmentInstitutions, 2026_03_Personas_Judiciary",
   "userGroup": "Mixed; Corporate Law Department; Big Law Firm; Government Institutions; Prosecution/ Judges",
   "squads": [
    "AI Squad"
@@ -2022,11 +2007,11 @@
   ],
   "country": "All",
   "status": "Well done - positive feedback outweighs negative",
-  "mentions": 26,
-  "quotes": "“Man muss nur noch 1 Minute für den Prompt investieren und hat dann schon, was man erstmal braucht.” | Nutzer schätzen den schnellen Einstieg in die Recherche über den Corpus; möchten das nicht mehr missen. | BayernLB 2026-07: \"[Publisher] Noxtua eignet sich gut als Recherche- und Orientierungsinstrument, um sich effizient in neue Rechtsgebiete einzuarbeiten oder eigene vorläufige Einschätzungen abzusichern.\" | \"super Zusammenfassung\"\n\"What works well: getting at least a usable overview of unfamiliar legal areas in very short time, becoming somewhat speaking-fluent\" (Judiciary Personas)\n\n[2026-08-20] \"deutlich besser als Co-Pilot\" (Direct_Feedback_Corp_002_08_2026)",
+  "mentions": 25,
+  "quotes": "“Man muss nur noch 1 Minute für den Prompt investieren und hat dann schon, was man erstmal braucht.” | Nutzer schätzen den schnellen Einstieg in die Recherche über den Corpus; möchten das nicht mehr missen. | BayernLB 2026-07: \"[Publisher] Noxtua eignet sich gut als Recherche- und Orientierungsinstrument, um sich effizient in neue Rechtsgebiete einzuarbeiten oder eigene vorläufige Einschätzungen abzusichern.\" | \"super Zusammenfassung\"\n\"What works well: getting at least a usable overview of unfamiliar legal areas in very short time, becoming somewhat speaking-fluent\" (Judiciary Personas)",
   "notes": "",
   "created": "2025-10-15",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-15",
   "sentiment": "Negative",
   "publisher": "Beck Germany",
   "jira": "",
@@ -2034,8 +2019,8 @@
   "unclassified": false,
   "core_insight": "The user needs help in gaining an initial overview of a (complex) topic.",
   "insight_type": "General Feedback",
-  "mention_count": 26,
-  "source_label": "2025_10_Beck_Feedback_Survey,2025_11_Beck_Feedback_Survey_2,2025_11_Zalando_Hackathon,Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_corporate,2025_11_Personas_M_B_Lawfirms,Direct_Feedback_2026_06,BayernLB_Feedback_2026_07,Continous_Direct_Feedback_GovernmentInstitutions,2026_03_Personas_Judiciary,Direct_Feedback_Corp_002_08_2026",
+  "mention_count": 25,
+  "source_label": "2025_10_Beck_Feedback_Survey, 2025_11_Beck_Feedback_Survey_2, 2025_11_Zalando_Hackathon, Continous_Direct_Feedback_big_law_firm, Continous_Direct_Feedback_corporate, 2025_11_Personas_M_B_Lawfirms, Direct_Feedback_2026_06, BayernLB_Feedback_2026_07, Continous_Direct_Feedback_GovernmentInstitutions, 2026_03_Personas_Judiciary",
   "customer_segment": "Mixed; Corporate Law Department; Big Law Firm; Government Institutions; Prosecution/ Judges",
   "affected_squads": "AI Squad",
   "affected_features": "Research",
@@ -2063,11 +2048,6 @@
     "count": 25,
     "source": "merged from ID 54 (duplicate-check consolidation)",
     "status": "Well done - positive feedback outweighs negative"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 26,
-    "source": "merged from Direct_Feedback_Corp_002_08_2026 (overview of unfamiliar legal area better than Copilot) (+1)"
    }
   ],
   "statusHistory": [
@@ -2614,7 +2594,7 @@
    "Direct Feedback",
    "Interview Study"
   ],
-  "source": "2025_10_Beck_Feedback_Survey,2025_11_Beck_Feedback_Survey_2,Continous_Direct_Feedback_corporate,2025_11_Personas_M_B_Lawfirms,Vattenfall Feedback Call – 2026-07-13,Direct_Feedback_Corp_002_08_2026",
+  "source": "2025_10_Beck_Feedback_Survey,2025_11_Beck_Feedback_Survey_2,Continous_Direct_Feedback_corporate,2025_11_Personas_M_B_Lawfirms,Vattenfall Feedback Call – 2026-07-13",
   "userGroup": "Mixed; Corporate Law Department; Big Law Firm",
   "squads": [
    "AI Squad"
@@ -2624,11 +2604,11 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 19,
-  "quotes": "[2026-07-13] \"Fundstellen sehr eingeschränkt aufgelistet und eher exotischer Natur, zB herschende Literatur\" (Vattenfall Feedback Call – 2026-07-13)\n\n[2026-08-20] \"alte Schriftsätze gechallenged / bei Quellen bisschen verkackt\" (Direct_Feedback_Corp_002_08_2026)",
+  "mentions": 18,
+  "quotes": "[2026-07-13] \"Fundstellen sehr eingeschränkt aufgelistet und eher exotischer Natur, zB herschende Literatur\" (Vattenfall Feedback Call – 2026-07-13)",
   "notes": "Citation: \"Broaden source coverage so multiple commentaries (BSK StGB/JStG, CR CP II, PraxKomm StGB, HK EMRK, etc.) are surfaced rather than a single source per topic.\" (Publisher Feedback — Swiss, merged from ID 415)",
   "created": "2025-10-15",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-08-10",
   "sentiment": "Negative",
   "publisher": "Beck Germany",
   "jira": "",
@@ -2636,8 +2616,8 @@
   "unclassified": false,
   "core_insight": "The user needs all relevant sources to be available and used for the answer.",
   "insight_type": "General Feedback",
-  "mention_count": 19,
-  "source_label": "2025_10_Beck_Feedback_Survey,2025_11_Beck_Feedback_Survey_2,Continous_Direct_Feedback_corporate,2025_11_Personas_M_B_Lawfirms,Vattenfall Feedback Call – 2026-07-13,Direct_Feedback_Corp_002_08_2026",
+  "mention_count": 18,
+  "source_label": "2025_10_Beck_Feedback_Survey,2025_11_Beck_Feedback_Survey_2,Continous_Direct_Feedback_corporate,2025_11_Personas_M_B_Lawfirms,Vattenfall Feedback Call – 2026-07-13",
   "customer_segment": "Mixed; Corporate Law Department; Big Law Firm",
   "affected_squads": "AI Squad",
   "affected_features": "All",
@@ -2662,11 +2642,6 @@
     "date": "2026-08-10",
     "count": 18,
     "source": "merged from Vattenfall Feedback Call – 2026-07-13 (source coverage) (+1)"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 19,
-    "source": "merged from Direct_Feedback_Corp_002_08_2026 (weak source referencing when challenging existing briefs) (+1)"
    }
   ],
   "statusHistory": [
@@ -4401,7 +4376,7 @@
    "Direct Feedback",
    "Usability Testing"
   ],
-  "source": "202510-Canvas-Interview_Testing,Continous_Direct_Feedback_corporate,Direct_Feedback_Corp_002_08_2026",
+  "source": "202510-Canvas-Interview_Testing,Continous_Direct_Feedback_corporate",
   "userGroup": "Mixed; Corporate Law Department",
   "squads": [
    "AI Squad"
@@ -4412,11 +4387,11 @@
   ],
   "country": "All",
   "status": "Planned for development",
-  "mentions": 5,
-  "quotes": "“Then we canceled Libra again, and that was the deciding factor for us... We saw that this [in terms of features] was less well developed or even further behind. But Noxtua is more faithful to the original text because of its connection to Beck-Online and the fact that quoting from it is becoming increasingly important.”\n(Laywer for Civil and Coporate Law, Mid-size Law Firm, 51-60 years)\n\n[2026-08-20] \"hat zugegeben, dass es Zitat nicht gibt, erst auf Nachfrage / klarer machen, wenn es etwas nicht gibt\" (Direct_Feedback_Corp_002_08_2026)",
+  "mentions": 4,
+  "quotes": "“Then we canceled Libra again, and that was the deciding factor for us... We saw that this [in terms of features] was less well developed or even further behind. But Noxtua is more faithful to the original text because of its connection to Beck-Online and the fact that quoting from it is becoming increasingly important.”\n(Laywer for Civil and Coporate Law, Mid-size Law Firm, 51-60 years)\n",
   "notes": "Noxtua is actually also feed backing if it doesn’t know or if results are ambiguous --> once mentioned",
   "created": "2025-11-04",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-08",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -4424,8 +4399,8 @@
   "unclassified": false,
   "core_insight": "The users would like the tool to prioritize accuracy over convenience, i.e. they rather prefer an \"I don't know\" or \"I'm not sure\" over a false response or incorrect sources.",
   "insight_type": "General Feedback",
-  "mention_count": 5,
-  "source_label": "202510-Canvas-Interview_Testing,Continous_Direct_Feedback_corporate,Direct_Feedback_Corp_002_08_2026",
+  "mention_count": 4,
+  "source_label": "202510-Canvas-Interview_Testing,Continous_Direct_Feedback_corporate",
   "customer_segment": "Mixed; Corporate Law Department",
   "affected_squads": "AI Squad",
   "affected_features": "Research;Chat",
@@ -4435,11 +4410,6 @@
     "count": 4,
     "source": "baseline",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 5,
-    "source": "merged from Direct_Feedback_Corp_002_08_2026 (wants a clear statement when something does not exist) (+1)"
    }
   ],
   "statusHistory": [
@@ -4650,7 +4620,7 @@
    "Usability Testing",
    "Workshop"
   ],
-  "source": "202510-Canvas-Interview_Testing,2025_10_Beck_Feedback_Survey,2025_11_Beck_Feedback_Survey_2,Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_corporate,2025_12_KnowledgeBase_UCs_Interviews,2025_11_Personas_M_B_Lawfirms,Workshop_Feedback_2026_06,Direct_Feedback_Corp_002_08_2026",
+  "source": "202510-Canvas-Interview_Testing,2025_10_Beck_Feedback_Survey,2025_11_Beck_Feedback_Survey_2,Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_corporate,2025_12_KnowledgeBase_UCs_Interviews,2025_11_Personas_M_B_Lawfirms,Workshop_Feedback_2026_06",
   "userGroup": "Mixed; Big Law Firm; Corporate Law Department",
   "squads": [
    "Platform Squad",
@@ -4663,11 +4633,11 @@
   ],
   "country": "All",
   "status": "Planned for development",
-  "mentions": 34,
-  "quotes": "Verträge aus besonderer Perspektive (auftraggeber-/auftragnehmerfreundlich) mit Formularverträgen erstellen. | Template/Funktion, mit der der Gutachtenstil erzwungen werden kann (Obersatz, Definition, Subsumtion).\n\n[2026-08-20] \"Template-Bsp: einsehbarkeit? Anschauung / gut für Inspiration\" (Direct_Feedback_Corp_002_08_2026)",
+  "mentions": 33,
+  "quotes": "Verträge aus besonderer Perspektive (auftraggeber-/auftragnehmerfreundlich) mit Formularverträgen erstellen. | Template/Funktion, mit der der Gutachtenstil erzwungen werden kann (Obersatz, Definition, Subsumtion).",
   "notes": "",
   "created": "2025-11-04",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-08",
   "sentiment": "Negative",
   "publisher": "Beck Germany",
   "jira": "",
@@ -4675,8 +4645,8 @@
   "unclassified": false,
   "core_insight": "The users would like to be able to use content templates, that can be accessed to draft documents.",
   "insight_type": "Missing Feature",
-  "mention_count": 34,
-  "source_label": "202510-Canvas-Interview_Testing,2025_10_Beck_Feedback_Survey,2025_11_Beck_Feedback_Survey_2,Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_corporate,2025_12_KnowledgeBase_UCs_Interviews,2025_11_Personas_M_B_Lawfirms,Workshop_Feedback_2026_06,Direct_Feedback_Corp_002_08_2026",
+  "mention_count": 33,
+  "source_label": "202510-Canvas-Interview_Testing,2025_10_Beck_Feedback_Survey,2025_11_Beck_Feedback_Survey_2,Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_corporate,2025_12_KnowledgeBase_UCs_Interviews,2025_11_Personas_M_B_Lawfirms,Workshop_Feedback_2026_06",
   "customer_segment": "Mixed; Big Law Firm; Corporate Law Department",
   "affected_squads": "Platform Squad;Drafting Squad",
   "affected_features": "Canvas;Document Storage;Knowledge Base",
@@ -4703,11 +4673,6 @@
     "date": "2026-07-08",
     "count": 33,
     "source": "merged from ID 48 (+1)"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 34,
-    "source": "merged from Direct_Feedback_Corp_002_08_2026 (wants to view publisher content templates) (+1)"
    }
   ],
   "statusHistory": [
@@ -5591,7 +5556,7 @@
    "Usability Testing",
    "Workshop"
   ],
-  "source": "202510-Canvas-Interview_Testing,Continous_Direct_Feedback_big_law_firm,2025_11_Personas_M_B_Lawfirms,Continous_Direct_Feedback_GovernmentInstitutions,Publisher Feedback - Beck Germany,Workshop_Feedback_2026_06,Direct_Feedback_Corp_002_08_2026",
+  "source": "202510-Canvas-Interview_Testing,Continous_Direct_Feedback_big_law_firm,2025_11_Personas_M_B_Lawfirms,Continous_Direct_Feedback_GovernmentInstitutions,Publisher Feedback - Beck Germany,Workshop_Feedback_2026_06",
   "userGroup": "Mixed; Big Law Firm; Government Institutions; Publisher",
   "squads": [
    "Platform Squad"
@@ -5601,11 +5566,11 @@
   ],
   "country": "All",
   "status": "Implemented - a solution is released",
-  "mentions": 20,
-  "quotes": "Clients often ask whether Noxtua could add a voice recognition feature to allow users to dictate prompts rather than type them. Would save them time. | Sprachausgabe – frühzeitig ins Testing einbinden. | [2026-07-22] \"Für mich wäre eine Diktierfunktion für den Prompt essenziell …\" (CSM 17); \"Texteingabe mit Mikrofon wäre gut\" (SELF 37) | [Lime Survey 2026-07-23, RID 50]: \"[…] muss wie auch bei der Konkurrent ein Mikrofonbutton eingearbeitet werden, damit man die Promis nicht tippen muss sondern direkt in die Anwendung diktieren kann. Ebaso muss ich eigene Promis abspeichern können\"\n\n[2026-08-20] \"FF wünscht sich Diktierfunktion wie bei ChatGPT und Gemini.\" (Direct_Feedback_Corp_002_08_2026)",
+  "mentions": 19,
+  "quotes": "Clients often ask whether Noxtua could add a voice recognition feature to allow users to dictate prompts rather than type them. Would save them time. | Sprachausgabe – frühzeitig ins Testing einbinden. | [2026-07-22] \"Für mich wäre eine Diktierfunktion für den Prompt essenziell …\" (CSM 17); \"Texteingabe mit Mikrofon wäre gut\" (SELF 37) | [Lime Survey 2026-07-23, RID 50]: \"[…] muss wie auch bei der Konkurrent ein Mikrofonbutton eingearbeitet werden, damit man die Promis nicht tippen muss sondern direkt in die Anwendung diktieren kann. Ebaso muss ich eigene Promis abspeichern können\"",
   "notes": "",
   "created": "2025-11-05",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-23",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "CS-1028",
@@ -5613,8 +5578,8 @@
   "unclassified": false,
   "core_insight": "The users would like to be able to interact with the tool via voice input, in order to work more efficiently.",
   "insight_type": "Missing Feature",
-  "mention_count": 20,
-  "source_label": "202510-Canvas-Interview_Testing,Continous_Direct_Feedback_big_law_firm,2025_11_Personas_M_B_Lawfirms,Continous_Direct_Feedback_GovernmentInstitutions,Publisher Feedback - Beck Germany,Workshop_Feedback_2026_06,Direct_Feedback_Corp_002_08_2026",
+  "mention_count": 19,
+  "source_label": "202510-Canvas-Interview_Testing,Continous_Direct_Feedback_big_law_firm,2025_11_Personas_M_B_Lawfirms,Continous_Direct_Feedback_GovernmentInstitutions,Publisher Feedback - Beck Germany,Workshop_Feedback_2026_06",
   "customer_segment": "Mixed; Big Law Firm; Government Institutions; Publisher",
   "affected_squads": "Platform Squad",
   "affected_features": "Voice Control",
@@ -5642,11 +5607,6 @@
     "count": 19,
     "source": "feedback_batch_20260723 (Editor/Canvas survey) (+2)",
     "status": "Implemented - a solution is released"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 20,
-    "source": "merged from Direct_Feedback_Corp_002_08_2026 (dictation / voice input requested) (+1)"
    }
   ],
   "statusHistory": [
@@ -5984,7 +5944,7 @@
   "sourceTypes": [
    "Direct Feedback"
   ],
-  "source": "Continous_Direct_Feedback_small_law_firm,2025_11_Beck_Feedback_Survey_2,2025_10_Beck_Feedback_Survey,Continous_Direct_Feedback_GovernmentInstitutions,Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_corporate,Direct_Feedback_Corp_002_08_2026",
+  "source": "Continous_Direct_Feedback_small_law_firm,2025_11_Beck_Feedback_Survey_2,2025_10_Beck_Feedback_Survey,Continous_Direct_Feedback_GovernmentInstitutions,Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_corporate",
   "userGroup": "Small Law Firm; Mixed; Government Institutions; Big Law Firm; Corporate Law Department",
   "squads": [
    "Platform Squad"
@@ -5994,11 +5954,11 @@
   ],
   "country": "All",
   "status": "Well done - positive feedback outweighs negative",
-  "mentions": 37,
-  "quotes": "[2026-08-20] \"Intutive Bedienung\" (Direct_Feedback_Corp_002_08_2026)",
+  "mentions": 36,
+  "quotes": "",
   "notes": "40 positive\n4 negative",
   "created": "2025-11-07",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-08-10",
   "sentiment": "Positive",
   "publisher": "Beck Germany",
   "jira": "",
@@ -6006,8 +5966,8 @@
   "unclassified": false,
   "core_insight": "The users expect an intuitive handling and interface.",
   "insight_type": "General Feedback",
-  "mention_count": 37,
-  "source_label": "Continous_Direct_Feedback_small_law_firm,2025_11_Beck_Feedback_Survey_2,2025_10_Beck_Feedback_Survey,Continous_Direct_Feedback_GovernmentInstitutions,Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_corporate,Direct_Feedback_Corp_002_08_2026",
+  "mention_count": 36,
+  "source_label": "Continous_Direct_Feedback_small_law_firm,2025_11_Beck_Feedback_Survey_2,2025_10_Beck_Feedback_Survey,Continous_Direct_Feedback_GovernmentInstitutions,Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_corporate",
   "customer_segment": "Small Law Firm; Mixed; Government Institutions; Big Law Firm; Corporate Law Department",
   "affected_squads": "Platform Squad",
   "affected_features": "All",
@@ -6017,11 +5977,6 @@
     "count": 36,
     "source": "baseline",
     "status": "Well done - positive feedback outweighs negative"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 37,
-    "source": "merged from Direct_Feedback_Corp_002_08_2026 (operation experienced as intuitive) (+1)"
    }
   ],
   "statusHistory": [
@@ -7458,7 +7413,7 @@
   "sourceTypes": [
    "Direct Feedback"
   ],
-  "source": "Continous_Direct_Feedback_corporate,Direct_Feedback_Corp_002_08_2026",
+  "source": "Continous_Direct_Feedback_corporate",
   "userGroup": "Corporate Law Department",
   "squads": [
    "AI Squad"
@@ -7468,11 +7423,11 @@
   ],
   "country": "All",
   "status": "New – Not yet discussed",
-  "mentions": 2,
-  "quotes": "[2026-08-20] \"P: ich kann nicht genau sagen, ob es das Zitat gibt. Ich habe die RsprLinie korrekt wiedergeben\" (Direct_Feedback_Corp_002_08_2026)",
+  "mentions": 1,
+  "quotes": "",
   "notes": "",
   "created": "2025-11-20",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-02-02",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -7480,8 +7435,8 @@
   "unclassified": false,
   "core_insight": "The user needs the system to indicate legal uncertainty if there are alternative viewpoints or if there are ongoing debates.",
   "insight_type": "Improvement",
-  "mention_count": 2,
-  "source_label": "Continous_Direct_Feedback_corporate,Direct_Feedback_Corp_002_08_2026",
+  "mention_count": 1,
+  "source_label": "Continous_Direct_Feedback_corporate",
   "customer_segment": "Corporate Law Department",
   "affected_squads": "AI Squad",
   "affected_features": "Research",
@@ -7491,11 +7446,6 @@
     "count": 1,
     "source": "baseline",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 2,
-    "source": "merged from Direct_Feedback_Corp_002_08_2026 (wants Meinungsstreit and unsettled questions marked as contested) (+1)"
    }
   ],
   "statusHistory": [
@@ -8076,7 +8026,7 @@
   "sourceTypes": [
    "Direct Feedback"
   ],
-  "source": "Continous_Direct_Feedback_big_law_firm,Direct_Feedback_Corp_002_08_2026",
+  "source": "Continous_Direct_Feedback_big_law_firm",
   "userGroup": "Big Law Firm",
   "squads": [
    "Platform Squad"
@@ -8084,11 +8034,11 @@
   "features": [],
   "country": "All",
   "status": "New – Not yet discussed",
-  "mentions": 2,
-  "quotes": "[2026-08-20] \"LKS: privat ChatGPT premium, dort gut Agenten bzw PromptBibliothek\" (Direct_Feedback_Corp_002_08_2026)",
+  "mentions": 1,
+  "quotes": "",
   "notes": "",
   "created": "2025-11-30",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-09",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -8096,8 +8046,8 @@
   "unclassified": true,
   "core_insight": "The user needs a prompt library as a central working resource.",
   "insight_type": "Missing Feature",
-  "mention_count": 2,
-  "source_label": "Continous_Direct_Feedback_big_law_firm,Direct_Feedback_Corp_002_08_2026",
+  "mention_count": 1,
+  "source_label": "Continous_Direct_Feedback_big_law_firm",
   "customer_segment": "Big Law Firm",
   "affected_squads": "Platform Squad",
   "affected_features": "",
@@ -8107,11 +8057,6 @@
     "count": 1,
     "source": "baseline",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 2,
-    "source": "merged from Direct_Feedback_Corp_002_08_2026 (reusable prompt library missing) (+1)"
    }
   ],
   "statusHistory": [
@@ -17549,7 +17494,7 @@
   "sourceTypes": [
    "Interview Study"
   ],
-  "source": "2026_02_Personas_Corporate,Direct_Feedback_Corp_002_08_2026",
+  "source": "2026_02_Personas_Corporate",
   "userGroup": "Corporate Law Department",
   "squads": [
    "Drafting Squad"
@@ -17559,11 +17504,11 @@
   ],
   "country": "Germany",
   "status": "New – Not yet discussed",
-  "mentions": 2,
-  "quotes": "\"Functionality fills up - 'they made a template for this, I can use it directly'\" (Corporate Personas)\n\n[2026-08-20] \"Template-Bsp: einsehbarkeit? Anschauung / gut für Inspiration\" (Direct_Feedback_Corp_002_08_2026)",
+  "mentions": 1,
+  "quotes": "\"Functionality fills up - 'they made a template for this, I can use it directly'\" (Corporate Personas)",
   "notes": "",
   "created": "2026-05-01",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-09",
   "sentiment": "",
   "publisher": "",
   "jira": "",
@@ -17571,8 +17516,8 @@
   "unclassified": false,
   "core_insight": "The user needs the vendor to proactively curate and maintain templates and checklists within the tool over time.",
   "insight_type": "Missing Feature",
-  "mention_count": 2,
-  "source_label": "2026_02_Personas_Corporate,Direct_Feedback_Corp_002_08_2026",
+  "mention_count": 1,
+  "source_label": "2026_02_Personas_Corporate",
   "customer_segment": "Corporate Law Department",
   "affected_squads": "Drafting Squad",
   "affected_features": "Templates",
@@ -17582,11 +17527,6 @@
     "count": 1,
     "source": "baseline",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 2,
-    "source": "merged from Direct_Feedback_Corp_002_08_2026 (wants publisher-provided content templates) (+1)"
    }
   ],
   "statusHistory": [
@@ -19361,7 +19301,7 @@
   "sourceTypes": [
    "Survey"
   ],
-  "source": "results-survey789769-CSM-202606,Direct_Feedback_Corp_002_08_2026",
+  "source": "results-survey789769-CSM-202606",
   "userGroup": "Unknown",
   "squads": [
    "AI Squad"
@@ -19372,11 +19312,11 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 7,
-  "quotes": "\"Die exakte Verlinkung der Fundstellen in der Fachliteratur ist sehr hilfreich.\" (CSM 108); \"Kommentar-, Zeitschriften und Lehrbuchzitate …\" (CSM 73)\n\n[2026-08-20] \"sehr stark bei Literatur, auch bei Rspr\" (Direct_Feedback_Corp_002_08_2026)",
+  "mentions": 6,
+  "quotes": "\"Die exakte Verlinkung der Fundstellen in der Fachliteratur ist sehr hilfreich.\" (CSM 108); \"Kommentar-, Zeitschriften und Lehrbuchzitate …\" (CSM 73)",
   "notes": "Complements needs 460/194.",
   "created": "2026-07-22",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-22",
   "sentiment": "Positive",
   "publisher": "",
   "jira": "",
@@ -19384,8 +19324,8 @@
   "unclassified": false,
   "core_insight": "Source and citation quality is a highlight — precise references, working Fundstellen links, and access to commentary/journal literature.",
   "insight_type": "General Feedback",
-  "mention_count": 7,
-  "source_label": "results-survey789769-CSM-202606,Direct_Feedback_Corp_002_08_2026",
+  "mention_count": 6,
+  "source_label": "results-survey789769-CSM-202606",
   "customer_segment": "Unknown",
   "affected_squads": "AI Squad",
   "affected_features": "Sources;Citations",
@@ -19395,11 +19335,6 @@
     "count": 6,
     "source": "feedback_batch_20260722",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 7,
-    "source": "merged from Direct_Feedback_Corp_002_08_2026 (literature and case law coverage rated very strong) (+1)"
    }
   ],
   "statusHistory": [
@@ -20273,152 +20208,6 @@
   "statusHistory": [
    {
     "date": "2026-07-13",
-    "status": "New – Not yet discussed"
-   }
-  ]
- },
- {
-  "id": 503,
-  "insight": "The user needs reusable, agent-style presets that can be configured once and applied to recurring tasks.",
-  "type": "Missing Feature",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Direct_Feedback_Corp_002_08_2026",
-  "userGroup": "Corporate Law Department",
-  "squads": [
-   "Workflow Squad"
-  ],
-  "features": [
-   "Skills"
-  ],
-  "country": "Germany",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "[2026-08-20] \"LKS: privat ChatGPT premium, dort gut Agenten bzw PromptBibliothek\" (Direct_Feedback_Corp_002_08_2026)",
-  "notes": "",
-  "created": "2026-08-20",
-  "lastModified": "2026-08-20",
-  "sentiment": "Mixed",
-  "publisher": "",
-  "jira": "",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs reusable, agent-style presets that can be configured once and applied to recurring tasks.",
-  "insight_type": "Missing Feature",
-  "mention_count": 1,
-  "source_label": "Direct_Feedback_Corp_002_08_2026",
-  "customer_segment": "Corporate Law Department",
-  "affected_squads": "Workflow Squad",
-  "affected_features": "Skills",
-  "mentionHistory": [
-   {
-    "date": "2026-08-20",
-    "count": 1,
-    "source": "Direct_Feedback_Corp_002_08_2026",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-08-20",
-    "status": "New – Not yet discussed"
-   }
-  ]
- },
- {
-  "id": 504,
-  "insight": "The user wants several well-reasoned wording alternatives with an explanation of which formulation fits which fact pattern — this worked well for a guideline supplied as an external source carrying annotations from three stakeholders.",
-  "type": "General Feedback",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Direct_Feedback_Corp_002_08_2026",
-  "userGroup": "Corporate Law Department",
-  "squads": [
-   "Drafting Squad"
-  ],
-  "features": [],
-  "country": "Germany",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "[2026-08-20] \"sehr gute ZusFas mit 5-6 verschiedenen guten Lösungen. Gut begründet, auch warum welche Formulierung für welchen Sachverhalt besser ist, zB Lös1 zum Ausschluss von Willkür\" (Direct_Feedback_Corp_002_08_2026)",
-  "notes": "",
-  "created": "2026-08-20",
-  "lastModified": "2026-08-20",
-  "sentiment": "Positive",
-  "publisher": "",
-  "jira": "",
-  "isNew": true,
-  "unclassified": true,
-  "core_insight": "The user wants several well-reasoned wording alternatives with an explanation of which formulation fits which fact pattern — this worked well for a guideline supplied as an external source carrying annotations from three stakeholders.",
-  "insight_type": "General Feedback",
-  "mention_count": 1,
-  "source_label": "Direct_Feedback_Corp_002_08_2026",
-  "customer_segment": "Corporate Law Department",
-  "affected_squads": "Drafting Squad",
-  "affected_features": "",
-  "mentionHistory": [
-   {
-    "date": "2026-08-20",
-    "count": 1,
-    "source": "Direct_Feedback_Corp_002_08_2026",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-08-20",
-    "status": "New – Not yet discussed"
-   }
-  ]
- },
- {
-  "id": 505,
-  "insight": "The user needs recent case law that is publicly available to be accessed in the tool in order to not lower the perceived added value over free internet research.",
-  "type": "Improvement",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Direct_Feedback_Corp_002_08_2026",
-  "userGroup": "Corporate Law Department",
-  "squads": [
-   "AI Squad"
-  ],
-  "features": [
-   "Research",
-   "Sources"
-  ],
-  "country": "Germany",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "[2026-08-20] \"Ungenauigkeit bei Rspr / aktuelle Rechtssprechung findet man auch im Internet\" (Direct_Feedback_Corp_002_08_2026)",
-  "notes": "",
-  "created": "2026-08-20",
-  "lastModified": "2026-08-20",
-  "sentiment": "Negative",
-  "publisher": "",
-  "jira": "",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs recent case law that is publicly available to be accessed in the tool in order to not lower the perceived added value over free internet research.",
-  "insight_type": "Improvement",
-  "mention_count": 1,
-  "source_label": "Direct_Feedback_Corp_002_08_2026",
-  "customer_segment": "Corporate Law Department",
-  "affected_squads": "AI Squad",
-  "affected_features": "Research;Sources",
-  "mentionHistory": [
-   {
-    "date": "2026-08-20",
-    "count": 1,
-    "source": "Direct_Feedback_Corp_002_08_2026",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-08-20",
     "status": "New – Not yet discussed"
    }
   ]
