@@ -1,0 +1,688 @@
+<title>Accuracy Check — Corp_002 Round</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --paper:#EFEEEA; --surface:#FFFFFF; --surface-2:#F7F6F3; --ink:#200F21; --muted:#5C5450;
+  --rule:#D3D6F2; --rule-soft:#E4E2DC; --accent:#3D1A39; --accent-soft:#DFE9FC;
+  --ok:#1F6B4F; --ok-bg:#E4F0EA; --warn:#8A5A16; --warn-bg:#F6EDDD; --info:#3E5AA8; --info-bg:#E6EAF7;
+  --shadow:0 1px 2px rgba(32,15,33,.06),0 8px 24px rgba(32,15,33,.05);
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --paper:#1A0C1B; --surface:#2B1630; --surface-2:#241228; --ink:#F2F2F2; --muted:#A3AAD0;
+  --rule:#5C406B; --rule-soft:#3D1A39; --accent:#A3AAD0; --accent-soft:#361938;
+  --ok:#7FC7A5; --ok-bg:#1E3A2E; --warn:#E0AC63; --warn-bg:#3A2C17; --info:#9FA1CA; --info-bg:#252748;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.3);
+}}
+:root[data-theme="dark"]{
+  --paper:#1A0C1B; --surface:#2B1630; --surface-2:#241228; --ink:#F2F2F2; --muted:#A3AAD0;
+  --rule:#5C406B; --rule-soft:#3D1A39; --accent:#A3AAD0; --accent-soft:#361938;
+  --ok:#7FC7A5; --ok-bg:#1E3A2E; --warn:#E0AC63; --warn-bg:#3A2C17; --info:#9FA1CA; --info-bg:#252748;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-weight:400;line-height:1.55;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px 96px}
+.k{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10.5px;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--muted);display:block;margin:0 0 4px}
+.hint{text-transform:none;letter-spacing:0;font-family:"DM Sans",sans-serif;font-size:12px;color:var(--muted);font-weight:400}
+/* masthead */
+.mast{padding:44px 0 26px;border-bottom:1px solid var(--rule)}
+.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+h1{font-size:clamp(28px,4.4vw,40px);font-weight:300;letter-spacing:-.02em;margin:0 0 10px;text-wrap:balance}
+h1 b{font-weight:500}
+.sub{margin:0;max-width:62ch;color:var(--muted);font-size:15px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 10px;margin:20px 0 0;padding:0;list-style:none}
+.meta li{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink);background:var(--surface);
+  border:1px solid var(--rule-soft);border-radius:2px;padding:4px 9px}
+/* progress */
+.progress{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--paper) 92%,transparent);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:28px}
+.pinner{max-width:900px;margin:0 auto;padding:0 20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.ticks{display:flex;gap:3px;flex:1;min-width:200px}
+.tick{height:6px;flex:1;background:var(--rule-soft);border-radius:1px}
+.tick[data-s="done"]{background:var(--ok)}
+.tick[data-s="conflict"]{background:var(--warn)}
+.tick[data-s="active"]{background:var(--accent)}
+.pcount{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.pcount b{color:var(--ink);font-weight:500}
+/* cards */
+.cards{display:flex;flex-direction:column;gap:18px}
+.card{background:var(--surface);border:1px solid var(--rule-soft);border-radius:3px;box-shadow:var(--shadow);
+  padding:22px 24px;transition:opacity .18s ease}
+.card.locked{opacity:.42;pointer-events:none;box-shadow:none}
+.card.locked .cbody{display:none}
+.card.done .cbody{display:none}
+.card.done{padding:14px 24px;box-shadow:none;background:var(--surface-2)}
+.chead{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.badge{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+  padding:4px 9px;border-radius:2px;border:1px solid transparent}
+.badge.ok{background:var(--ok-bg);color:var(--ok);border-color:color-mix(in srgb,var(--ok) 30%,transparent)}
+.badge.warn{background:var(--warn-bg);color:var(--warn);border-color:color-mix(in srgb,var(--warn) 30%,transparent)}
+.badge.info{background:var(--info-bg);color:var(--info);border-color:color-mix(in srgb,var(--info) 30%,transparent)}
+.rownum{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:500}
+.state{margin-left:auto;font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted)}
+.reopen{display:none;margin-left:auto;font:inherit;font-size:12px;background:none;border:1px solid var(--rule);
+  color:var(--muted);border-radius:2px;padding:3px 10px;cursor:pointer}
+.card.done .reopen{display:inline-block}
+.card.done .state{margin-left:0}
+.reopen:hover{border-color:var(--accent);color:var(--ink)}
+.cbody{margin-top:16px;display:flex;flex-direction:column;gap:14px}
+.insight{margin:0;font-size:17px;line-height:1.5;border-left:2px solid var(--accent);padding:2px 0 2px 14px;
+  outline-offset:4px;max-width:68ch}
+.insight:focus{outline:2px solid var(--accent)}
+.cite{margin:0;font-style:italic;color:var(--muted);font-size:14.5px;padding:0 0 0 14px;
+  border-left:1px dashed var(--rule);max-width:68ch}
+.scan,.cls,.rejected{margin:0;font-size:13.5px;color:var(--muted);max-width:72ch}
+.cls{color:var(--ink)}
+.proposal{border-top:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft);padding:14px 0;
+  display:flex;flex-direction:column;gap:10px}
+.target{display:flex;gap:11px;align-items:flex-start;padding:11px 12px;border:1px solid var(--rule);
+  border-radius:2px;cursor:pointer;background:var(--surface)}
+.target.optional{border-style:dashed}
+.target:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+.target input{margin-top:3px;accent-color:var(--accent);width:15px;height:15px;flex:none}
+.tbody{display:flex;flex-direction:column;gap:3px}
+.tid{font-family:"IBM Plex Mono",monospace;font-size:12.5px;font-weight:500}
+.tlabel{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.ttext{font-size:14.5px}
+.tmeta{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted)}
+.treason{font-size:13px;color:var(--muted)}
+.newrec{margin:0;font-size:14.5px;padding:11px 12px;border:1px dashed var(--info);border-radius:2px;
+  background:var(--info-bg);color:var(--ink)}
+.rewrite{margin:0;font-size:14px}
+.flag{margin:0;font-size:13.5px;color:var(--warn);background:var(--warn-bg);border-radius:2px;padding:8px 11px}
+.flag code{font-family:"IBM Plex Mono",monospace;font-size:12.5px}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+.btn{font:inherit;font-size:14px;font-weight:500;padding:9px 20px;border-radius:2px;cursor:pointer;border:1px solid var(--accent)}
+.btn.accept{background:var(--accent);color:var(--surface)}
+:root[data-theme="dark"] .btn.accept,
+:root:not([data-theme="light"]) .btn.accept{color:var(--paper)}
+.btn.adjust{background:transparent;color:var(--ink)}
+.btn:hover{opacity:.86}
+.btn:focus-visible,.reopen:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn.small{font-size:13px;padding:6px 14px;align-self:flex-start}
+.adjustbox{display:none;flex-direction:column;gap:8px;background:var(--surface-2);padding:14px;border-radius:2px}
+.card[data-local-adjusting="true"] .adjustbox{display:flex}
+.commentbox{display:flex;flex-direction:column;gap:6px}
+textarea{font:inherit;font-size:14px;background:var(--surface);color:var(--ink);border:1px solid var(--rule);
+  border-radius:2px;padding:9px 11px;resize:vertical;width:100%}
+.conflict{margin:0;display:none;font-size:13.5px;color:var(--warn);background:var(--warn-bg);
+  border-left:2px solid var(--warn);padding:9px 12px}
+.card[data-conflict="true"] .conflict{display:block}
+/* summary */
+.summary{margin-top:34px;background:var(--surface);border:1px solid var(--rule);border-radius:3px;padding:22px 24px}
+.summary h2{font-size:20px;font-weight:500;margin:0 0 4px}
+.tally{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0;padding:0;list-style:none}
+.tally li{font-family:"IBM Plex Mono",monospace;font-size:12px;border:1px solid var(--rule-soft);
+  border-radius:2px;padding:5px 10px;font-variant-numeric:tabular-nums}
+#payload{margin-top:14px;font-family:"IBM Plex Mono",monospace;font-size:12px;min-height:150px;white-space:pre;overflow-x:auto}
+.srow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:14px}
+.said{font-size:13.5px;color:var(--muted);max-width:70ch;margin:10px 0 0}
+body[data-submitted="true"] .finalnote{display:block}
+.finalnote{display:none;margin:14px 0 0;font-size:14px;color:var(--ok);background:var(--ok-bg);
+  border-left:2px solid var(--ok);padding:11px 13px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+<style>
+.issuecount{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted)}
+.tablewrap{overflow-x:auto;border:1px solid var(--rule-soft);border-radius:2px}
+table.rec{border-collapse:collapse;width:100%;font-size:13px}
+table.rec th{text-align:left;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--muted);font-weight:400;white-space:nowrap;
+  padding:6px 12px;border-bottom:1px solid var(--rule-soft);vertical-align:top;width:1%}
+table.rec td{padding:6px 12px;border-bottom:1px solid var(--rule-soft);vertical-align:top;
+  word-break:break-word;max-width:60ch}
+table.rec tr:last-child th,table.rec tr:last-child td{border-bottom:none}
+.issue{border-left:2px solid var(--warn);background:var(--warn-bg);padding:12px 14px;border-radius:2px;
+  display:flex;flex-direction:column;gap:7px}
+.icat{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--warn);align-self:flex-start;border:1px solid color-mix(in srgb,var(--warn) 35%,transparent);
+  padding:3px 8px;border-radius:2px}
+.irow,.ifield{margin:0;font-size:13.5px;color:var(--ink)}
+.alias{margin:0;font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted)}
+.edits{border-top:1px solid var(--rule-soft);padding-top:14px;display:flex;flex-direction:column;gap:12px}
+.fieldrow{display:flex;flex-direction:column;gap:6px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:13px;border:1px solid var(--rule);
+  border-radius:2px;padding:5px 10px;cursor:pointer;background:var(--surface)}
+.chip:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+.chip input{accent-color:var(--accent)}
+select,input[type=number]{font:inherit;font-size:14px;background:var(--surface);color:var(--ink);
+  border:1px solid var(--rule);border-radius:2px;padding:8px 10px;align-self:flex-start;min-width:180px}
+.card.done{background:var(--surface-2)}
+.card.done .cbody{display:none}
+.notice{margin:16px 0 0;font-size:14px;color:var(--ok);background:var(--ok-bg);border-left:2px solid var(--ok);padding:10px 13px}
+</style>
+<div class="progress">
+  <div class="pinner">
+    <div class="ticks" id="ticks"></div>
+    <span class="pcount" id="pcount">0 of 9 resolved</span>
+  </div>
+</div>
+<div class="wrap">
+  <header class="mast">
+    <p class="eyebrow">Noxtua Accuracy &amp; Data Quality Check · round 1</p>
+    <h1>41 records audited — <b>9 need a decision</b></h1>
+    <p class="sub">Scope: the 16 records today's Corp_002 batch touched, plus the 26 records restored from the 2026-08-07 backup. Every issue below is a demonstrable contradiction inside the record — no stylistic rewrites, no inferred values, sentiment ignored entirely.</p>
+    <ul class="meta">
+      <li>411 records in file</li><li>ids 30–533, unique</li><li>41 in scope</li><li>32 clean</li>
+      <li>9 issue cards</li><li>10 issues</li><li>No database changes have been made</li>
+    </ul>
+  </header>
+  <main class="cards" id="cards">
+    <article class="card" id="ACC-001" data-card="ACC-001" data-record="510" data-action="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge info">ACC-001</span>
+        <span class="rownum">record 510</span>
+        <span class="issuecount">1 issue</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen decision</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+        <p class="k">Current record <span class="hint">— live values, sentiment omitted</span></p>
+        <div class="tablewrap"><table class="rec"><tr><th>id</th><td>510</td></tr><tr><th>insight</th><td>The user needs conditional formatting (e.g. colour, bold, flags) in Matrix Analysis cells, triggered by prompt results.</td></tr><tr><th>type</th><td>Missing Feature</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>source</th><td>Publisher Feedback – Beck Poland</td></tr><tr><th>userGroup</th><td>Publisher</td></tr><tr><th>squads</th><td>[]</td></tr><tr><th>features</th><td>[&quot;Matrix Analysis&quot;]</td></tr><tr><th>country</th><td>Poland</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>quotes</th><td>Individual cells within a matrix could be subject to conditional formatting... as a result of a prompt execution.</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-27</td></tr><tr><th>publisher</th><td>Beck Poland</td></tr><tr><th>jira</th><td>CS-1526</td></tr><tr><th>isNew</th><td>True</td></tr><tr><th>unclassified</th><td>False</td></tr></table></div>
+        <div class="issue">
+        <span class="icat">Internal inconsistency</span>
+        <p class="ifield"><span class="k">field</span>unclassified / squads</p>
+        <p class="irow"><span class="k">current</span>unclassified = false · squads = [] · features = [&#x27;Matrix Analysis&#x27;]</p>
+        <p class="irow"><span class="k">problem</span>squads is empty, yet the record is flagged as classified.</p>
+        <p class="irow"><span class="k">basis</span>Internal contradiction between the flag and the classification fields. Note: the convention is not uniformly applied — 31 of 411 records DB-wide contradict it, so keeping the current value is a legitimate decision.</p>
+        <p class="irow"><span class="k">proposal</span>Either set unclassified = true, or assign the squad(s) that own this. No squad is proposed — the record gives no basis for choosing one.</p>
+        <p class="alias">Editing squads also updates affected_squads.</p>
+      </div>
+        <div class="edits">
+          <p class="k">Direct corrections <span class="hint">— only applied if you choose “Use my edits”</span></p>
+          <div class="fieldrow"><span class="k">squads / affected_squads</span><div class="chips"><label class="chip"><input type="checkbox" data-edit="squads" value="AI Interaction" /> AI Interaction</label><label class="chip"><input type="checkbox" data-edit="squads" value="AI Squad" /> AI Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Drafting Squad" /> Drafting Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Platform Squad" /> Platform Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Review Squad" /> Review Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Workflow Squad" /> Workflow Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Design" /> Design</label><label class="chip"><input type="checkbox" data-edit="squads" value="Marketing" /> Marketing</label><label class="chip"><input type="checkbox" data-edit="squads" value="All" /> All</label></div></div>
+          <div class="fieldrow"><label class="k" for="u-510">unclassified</label>
+            <select data-edit="unclassified" id="u-510">
+              <option value="">— unchanged —</option><option value="true">true</option><option value="false">false</option>
+            </select></div>
+          
+        </div>
+        <div class="actions">
+          <button class="btn accept" data-act="approve" type="button">Approve proposal</button>
+          <button class="btn adjust" data-act="keep" type="button">Keep current value</button>
+          <button class="btn adjust" data-act="edits" type="button">Use my edits</button>
+          <button class="btn adjust" data-act="unresolved" type="button">Mark unresolved</button>
+          <button class="btn adjust" data-act="source" type="button">Requires source review</button>
+          <button class="btn adjust" data-act="later" type="button">Remember for later</button>
+        </div>
+        <div class="commentbox">
+          <label class="k" for="c-510">Comment or question <span class="hint">— answered in the next round; not an approval</span></label>
+          <textarea id="c-510" data-edit="comment" rows="2" placeholder="Ask me something about this record"></textarea>
+        </div>
+        <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="ACC-002" data-card="ACC-002" data-record="511" data-action="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge info">ACC-002</span>
+        <span class="rownum">record 511</span>
+        <span class="issuecount">1 issue</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen decision</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+        <p class="k">Current record <span class="hint">— live values, sentiment omitted</span></p>
+        <div class="tablewrap"><table class="rec"><tr><th>id</th><td>511</td></tr><tr><th>insight</th><td>The user needs to be able to duplicate existing templates for reuse in similar use cases with slight variations.</td></tr><tr><th>type</th><td>Missing Feature</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>source</th><td>Publisher Feedback – Manz</td></tr><tr><th>userGroup</th><td>Publisher</td></tr><tr><th>squads</th><td>[]</td></tr><tr><th>features</th><td>[&quot;Templates&quot;]</td></tr><tr><th>country</th><td>Austria</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>quotes</th><td>It could be beneficial/useful to be able to create duplicates of existing templates... for same-ish use cases with slight differences</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-27</td></tr><tr><th>publisher</th><td>Manz</td></tr><tr><th>jira</th><td>CS-1538</td></tr><tr><th>isNew</th><td>True</td></tr><tr><th>unclassified</th><td>False</td></tr></table></div>
+        <div class="issue">
+        <span class="icat">Internal inconsistency</span>
+        <p class="ifield"><span class="k">field</span>unclassified / squads</p>
+        <p class="irow"><span class="k">current</span>unclassified = false · squads = [] · features = [&#x27;Templates&#x27;]</p>
+        <p class="irow"><span class="k">problem</span>squads is empty, yet the record is flagged as classified.</p>
+        <p class="irow"><span class="k">basis</span>Internal contradiction between the flag and the classification fields. Note: the convention is not uniformly applied — 31 of 411 records DB-wide contradict it, so keeping the current value is a legitimate decision.</p>
+        <p class="irow"><span class="k">proposal</span>Either set unclassified = true, or assign the squad(s) that own this. No squad is proposed — the record gives no basis for choosing one.</p>
+        <p class="alias">Editing squads also updates affected_squads.</p>
+      </div>
+        <div class="edits">
+          <p class="k">Direct corrections <span class="hint">— only applied if you choose “Use my edits”</span></p>
+          <div class="fieldrow"><span class="k">squads / affected_squads</span><div class="chips"><label class="chip"><input type="checkbox" data-edit="squads" value="AI Interaction" /> AI Interaction</label><label class="chip"><input type="checkbox" data-edit="squads" value="AI Squad" /> AI Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Drafting Squad" /> Drafting Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Platform Squad" /> Platform Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Review Squad" /> Review Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Workflow Squad" /> Workflow Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Design" /> Design</label><label class="chip"><input type="checkbox" data-edit="squads" value="Marketing" /> Marketing</label><label class="chip"><input type="checkbox" data-edit="squads" value="All" /> All</label></div></div>
+          <div class="fieldrow"><label class="k" for="u-511">unclassified</label>
+            <select data-edit="unclassified" id="u-511">
+              <option value="">— unchanged —</option><option value="true">true</option><option value="false">false</option>
+            </select></div>
+          
+        </div>
+        <div class="actions">
+          <button class="btn accept" data-act="approve" type="button">Approve proposal</button>
+          <button class="btn adjust" data-act="keep" type="button">Keep current value</button>
+          <button class="btn adjust" data-act="edits" type="button">Use my edits</button>
+          <button class="btn adjust" data-act="unresolved" type="button">Mark unresolved</button>
+          <button class="btn adjust" data-act="source" type="button">Requires source review</button>
+          <button class="btn adjust" data-act="later" type="button">Remember for later</button>
+        </div>
+        <div class="commentbox">
+          <label class="k" for="c-511">Comment or question <span class="hint">— answered in the next round; not an approval</span></label>
+          <textarea id="c-511" data-edit="comment" rows="2" placeholder="Ask me something about this record"></textarea>
+        </div>
+        <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="ACC-003" data-card="ACC-003" data-record="512" data-action="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge info">ACC-003</span>
+        <span class="rownum">record 512</span>
+        <span class="issuecount">1 issue</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen decision</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+        <p class="k">Current record <span class="hint">— live values, sentiment omitted</span></p>
+        <div class="tablewrap"><table class="rec"><tr><th>id</th><td>512</td></tr><tr><th>insight</th><td>The user needs to be able to resize Matrix Analysis column widths.</td></tr><tr><th>type</th><td>Missing Feature</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>source</th><td>Publisher Feedback – Manz</td></tr><tr><th>userGroup</th><td>Publisher</td></tr><tr><th>squads</th><td>[]</td></tr><tr><th>features</th><td>[&quot;Matrix Analysis&quot;]</td></tr><tr><th>country</th><td>Austria</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>quotes</th><td>—</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-27</td></tr><tr><th>publisher</th><td>Manz</td></tr><tr><th>jira</th><td>CS-1587</td></tr><tr><th>isNew</th><td>True</td></tr><tr><th>unclassified</th><td>False</td></tr></table></div>
+        <div class="issue">
+        <span class="icat">Internal inconsistency</span>
+        <p class="ifield"><span class="k">field</span>unclassified / squads</p>
+        <p class="irow"><span class="k">current</span>unclassified = false · squads = [] · features = [&#x27;Matrix Analysis&#x27;]</p>
+        <p class="irow"><span class="k">problem</span>squads is empty, yet the record is flagged as classified.</p>
+        <p class="irow"><span class="k">basis</span>Internal contradiction between the flag and the classification fields. Note: the convention is not uniformly applied — 31 of 411 records DB-wide contradict it, so keeping the current value is a legitimate decision.</p>
+        <p class="irow"><span class="k">proposal</span>Either set unclassified = true, or assign the squad(s) that own this. No squad is proposed — the record gives no basis for choosing one.</p>
+        <p class="alias">Editing squads also updates affected_squads.</p>
+      </div>
+        <div class="edits">
+          <p class="k">Direct corrections <span class="hint">— only applied if you choose “Use my edits”</span></p>
+          <div class="fieldrow"><span class="k">squads / affected_squads</span><div class="chips"><label class="chip"><input type="checkbox" data-edit="squads" value="AI Interaction" /> AI Interaction</label><label class="chip"><input type="checkbox" data-edit="squads" value="AI Squad" /> AI Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Drafting Squad" /> Drafting Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Platform Squad" /> Platform Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Review Squad" /> Review Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Workflow Squad" /> Workflow Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Design" /> Design</label><label class="chip"><input type="checkbox" data-edit="squads" value="Marketing" /> Marketing</label><label class="chip"><input type="checkbox" data-edit="squads" value="All" /> All</label></div></div>
+          <div class="fieldrow"><label class="k" for="u-512">unclassified</label>
+            <select data-edit="unclassified" id="u-512">
+              <option value="">— unchanged —</option><option value="true">true</option><option value="false">false</option>
+            </select></div>
+          
+        </div>
+        <div class="actions">
+          <button class="btn accept" data-act="approve" type="button">Approve proposal</button>
+          <button class="btn adjust" data-act="keep" type="button">Keep current value</button>
+          <button class="btn adjust" data-act="edits" type="button">Use my edits</button>
+          <button class="btn adjust" data-act="unresolved" type="button">Mark unresolved</button>
+          <button class="btn adjust" data-act="source" type="button">Requires source review</button>
+          <button class="btn adjust" data-act="later" type="button">Remember for later</button>
+        </div>
+        <div class="commentbox">
+          <label class="k" for="c-512">Comment or question <span class="hint">— answered in the next round; not an approval</span></label>
+          <textarea id="c-512" data-edit="comment" rows="2" placeholder="Ask me something about this record"></textarea>
+        </div>
+        <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="ACC-004" data-card="ACC-004" data-record="514" data-action="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge info">ACC-004</span>
+        <span class="rownum">record 514</span>
+        <span class="issuecount">2 issues</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen decision</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+        <p class="k">Current record <span class="hint">— live values, sentiment omitted</span></p>
+        <div class="tablewrap"><table class="rec"><tr><th>id</th><td>514</td></tr><tr><th>insight</th><td>The (non-admin) user needs to be able to create private templates for themselves.</td></tr><tr><th>type</th><td>Missing Feature</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>source</th><td>Publisher Feedback – Beck Czech, CS-1555, CS-1617</td></tr><tr><th>userGroup</th><td>Publisher</td></tr><tr><th>squads</th><td>[]</td></tr><tr><th>features</th><td>[&quot;Templates&quot;, &quot;Roles&quot;]</td></tr><tr><th>country</th><td>Czech Republic</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>mentions</th><td>4</td></tr><tr><th>quotes</th><td>We suggest that all users have the option to create their private template without such templates being shared. | [2026-06-12] &quot;In order to access and create templates, you will first need to grant the appropriate permissions to yourself and any other employees who require access by using the administrator account.&quot; (CS-1555) | [2026-06-25] &quot;Ich kann keine eigenen Template speichern. Programmierun</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-28</td></tr><tr><th>publisher</th><td>Beck Czech</td></tr><tr><th>jira</th><td>CS-1598; CS-1555; CS-1617</td></tr><tr><th>isNew</th><td>True</td></tr><tr><th>unclassified</th><td>False</td></tr></table></div>
+        <div class="issue">
+        <span class="icat">Mention-count/history issue</span>
+        <p class="ifield"><span class="k">field</span>mentionHistory / mentions</p>
+        <p class="irow"><span class="k">current</span>mentions 4 · last history entry count 1</p>
+        <p class="irow"><span class="k">problem</span>The record carries 4 mentions but its mention history records only one event with count 1, so the current total cannot be traced through the history.</p>
+        <p class="irow"><span class="k">basis</span>Demonstrable from the record. Inherited from insights.backup_2026-08-07.json — this session only re-added the record, it did not change the count.</p>
+        <p class="irow"><span class="k">proposal</span>No correction proposed: the missing events cannot be reconstructed without the source batches. Requires source review, or enter the correct count with an explanation.</p>
+        <p class="alias">Editing mentions also updates mention_count.</p>
+      </div><div class="issue">
+        <span class="icat">Internal inconsistency</span>
+        <p class="ifield"><span class="k">field</span>unclassified / squads</p>
+        <p class="irow"><span class="k">current</span>unclassified = false · squads = [] · features = [&#x27;Templates&#x27;, &#x27;Roles&#x27;]</p>
+        <p class="irow"><span class="k">problem</span>squads is empty, yet the record is flagged as classified.</p>
+        <p class="irow"><span class="k">basis</span>Internal contradiction between the flag and the classification fields. Note: the convention is not uniformly applied — 31 of 411 records DB-wide contradict it, so keeping the current value is a legitimate decision.</p>
+        <p class="irow"><span class="k">proposal</span>Either set unclassified = true, or assign the squad(s) that own this. No squad is proposed — the record gives no basis for choosing one.</p>
+        <p class="alias">Editing squads also updates affected_squads.</p>
+      </div>
+        <div class="edits">
+          <p class="k">Direct corrections <span class="hint">— only applied if you choose “Use my edits”</span></p>
+          <div class="fieldrow"><span class="k">squads / affected_squads</span><div class="chips"><label class="chip"><input type="checkbox" data-edit="squads" value="AI Interaction" /> AI Interaction</label><label class="chip"><input type="checkbox" data-edit="squads" value="AI Squad" /> AI Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Drafting Squad" /> Drafting Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Platform Squad" /> Platform Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Review Squad" /> Review Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Workflow Squad" /> Workflow Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Design" /> Design</label><label class="chip"><input type="checkbox" data-edit="squads" value="Marketing" /> Marketing</label><label class="chip"><input type="checkbox" data-edit="squads" value="All" /> All</label></div></div>
+          <div class="fieldrow"><label class="k" for="u-514">unclassified</label>
+            <select data-edit="unclassified" id="u-514">
+              <option value="">— unchanged —</option><option value="true">true</option><option value="false">false</option>
+            </select></div>
+          <div class="fieldrow"><label class="k" for="m-514">mentions — enter a corrected count (an explanation is required)</label>
+        <input id="m-514" type="number" min="0" data-edit="mentions" placeholder="4" />
+        <textarea data-edit="mentions_reason" rows="2" placeholder="Basis for the corrected count"></textarea></div>
+        </div>
+        <div class="actions">
+          <button class="btn accept" data-act="approve" type="button">Approve proposal</button>
+          <button class="btn adjust" data-act="keep" type="button">Keep current value</button>
+          <button class="btn adjust" data-act="edits" type="button">Use my edits</button>
+          <button class="btn adjust" data-act="unresolved" type="button">Mark unresolved</button>
+          <button class="btn adjust" data-act="source" type="button">Requires source review</button>
+          <button class="btn adjust" data-act="later" type="button">Remember for later</button>
+        </div>
+        <div class="commentbox">
+          <label class="k" for="c-514">Comment or question <span class="hint">— answered in the next round; not an approval</span></label>
+          <textarea id="c-514" data-edit="comment" rows="2" placeholder="Ask me something about this record"></textarea>
+        </div>
+        <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="ACC-005" data-card="ACC-005" data-record="515" data-action="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge info">ACC-005</span>
+        <span class="rownum">record 515</span>
+        <span class="issuecount">1 issue</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen decision</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+        <p class="k">Current record <span class="hint">— live values, sentiment omitted</span></p>
+        <div class="tablewrap"><table class="rec"><tr><th>id</th><td>515</td></tr><tr><th>insight</th><td>The user needs to be able to duplicate an existing Matrix Analysis.</td></tr><tr><th>type</th><td>Missing Feature</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>source</th><td>Publisher Feedback – Beck Czech</td></tr><tr><th>userGroup</th><td>Publisher</td></tr><tr><th>squads</th><td>[]</td></tr><tr><th>features</th><td>[&quot;Matrix Analysis&quot;, &quot;Templates&quot;]</td></tr><tr><th>country</th><td>Czech Republic</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>quotes</th><td>users cannot copy / duplicate existing Matrix analysis; whereas it could be useful to have this option so that the users can use the existing matrix analysis setup for different set of documents</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-27</td></tr><tr><th>publisher</th><td>Beck Czech</td></tr><tr><th>jira</th><td>CS-1599</td></tr><tr><th>isNew</th><td>True</td></tr><tr><th>unclassified</th><td>False</td></tr></table></div>
+        <div class="issue">
+        <span class="icat">Internal inconsistency</span>
+        <p class="ifield"><span class="k">field</span>unclassified / squads</p>
+        <p class="irow"><span class="k">current</span>unclassified = false · squads = [] · features = [&#x27;Matrix Analysis&#x27;, &#x27;Templates&#x27;]</p>
+        <p class="irow"><span class="k">problem</span>squads is empty, yet the record is flagged as classified.</p>
+        <p class="irow"><span class="k">basis</span>Internal contradiction between the flag and the classification fields. Note: the convention is not uniformly applied — 31 of 411 records DB-wide contradict it, so keeping the current value is a legitimate decision.</p>
+        <p class="irow"><span class="k">proposal</span>Either set unclassified = true, or assign the squad(s) that own this. No squad is proposed — the record gives no basis for choosing one.</p>
+        <p class="alias">Editing squads also updates affected_squads.</p>
+      </div>
+        <div class="edits">
+          <p class="k">Direct corrections <span class="hint">— only applied if you choose “Use my edits”</span></p>
+          <div class="fieldrow"><span class="k">squads / affected_squads</span><div class="chips"><label class="chip"><input type="checkbox" data-edit="squads" value="AI Interaction" /> AI Interaction</label><label class="chip"><input type="checkbox" data-edit="squads" value="AI Squad" /> AI Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Drafting Squad" /> Drafting Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Platform Squad" /> Platform Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Review Squad" /> Review Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Workflow Squad" /> Workflow Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Design" /> Design</label><label class="chip"><input type="checkbox" data-edit="squads" value="Marketing" /> Marketing</label><label class="chip"><input type="checkbox" data-edit="squads" value="All" /> All</label></div></div>
+          <div class="fieldrow"><label class="k" for="u-515">unclassified</label>
+            <select data-edit="unclassified" id="u-515">
+              <option value="">— unchanged —</option><option value="true">true</option><option value="false">false</option>
+            </select></div>
+          
+        </div>
+        <div class="actions">
+          <button class="btn accept" data-act="approve" type="button">Approve proposal</button>
+          <button class="btn adjust" data-act="keep" type="button">Keep current value</button>
+          <button class="btn adjust" data-act="edits" type="button">Use my edits</button>
+          <button class="btn adjust" data-act="unresolved" type="button">Mark unresolved</button>
+          <button class="btn adjust" data-act="source" type="button">Requires source review</button>
+          <button class="btn adjust" data-act="later" type="button">Remember for later</button>
+        </div>
+        <div class="commentbox">
+          <label class="k" for="c-515">Comment or question <span class="hint">— answered in the next round; not an approval</span></label>
+          <textarea id="c-515" data-edit="comment" rows="2" placeholder="Ask me something about this record"></textarea>
+        </div>
+        <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="ACC-006" data-card="ACC-006" data-record="516" data-action="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge info">ACC-006</span>
+        <span class="rownum">record 516</span>
+        <span class="issuecount">1 issue</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen decision</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+        <p class="k">Current record <span class="hint">— live values, sentiment omitted</span></p>
+        <div class="tablewrap"><table class="rec"><tr><th>id</th><td>516</td></tr><tr><th>insight</th><td>The user needs to be able to create templates for Matrix Analysis.</td></tr><tr><th>type</th><td>Missing Feature</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>source</th><td>Publisher Feedback – Beck Czech</td></tr><tr><th>userGroup</th><td>Publisher</td></tr><tr><th>squads</th><td>[]</td></tr><tr><th>features</th><td>[&quot;Matrix Analysis&quot;, &quot;Templates&quot;]</td></tr><tr><th>country</th><td>Czech Republic</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>quotes</th><td>users cannot copy / duplicate existing Matrix analysis; whereas it could be useful to have this option so that the users can use the existing matrix analysis setup for different set of documents</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-27</td></tr><tr><th>publisher</th><td>Beck Czech</td></tr><tr><th>jira</th><td>CS-1599</td></tr><tr><th>isNew</th><td>True</td></tr><tr><th>unclassified</th><td>False</td></tr></table></div>
+        <div class="issue">
+        <span class="icat">Internal inconsistency</span>
+        <p class="ifield"><span class="k">field</span>unclassified / squads</p>
+        <p class="irow"><span class="k">current</span>unclassified = false · squads = [] · features = [&#x27;Matrix Analysis&#x27;, &#x27;Templates&#x27;]</p>
+        <p class="irow"><span class="k">problem</span>squads is empty, yet the record is flagged as classified.</p>
+        <p class="irow"><span class="k">basis</span>Internal contradiction between the flag and the classification fields. Note: the convention is not uniformly applied — 31 of 411 records DB-wide contradict it, so keeping the current value is a legitimate decision.</p>
+        <p class="irow"><span class="k">proposal</span>Either set unclassified = true, or assign the squad(s) that own this. No squad is proposed — the record gives no basis for choosing one.</p>
+        <p class="alias">Editing squads also updates affected_squads.</p>
+      </div>
+        <div class="edits">
+          <p class="k">Direct corrections <span class="hint">— only applied if you choose “Use my edits”</span></p>
+          <div class="fieldrow"><span class="k">squads / affected_squads</span><div class="chips"><label class="chip"><input type="checkbox" data-edit="squads" value="AI Interaction" /> AI Interaction</label><label class="chip"><input type="checkbox" data-edit="squads" value="AI Squad" /> AI Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Drafting Squad" /> Drafting Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Platform Squad" /> Platform Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Review Squad" /> Review Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Workflow Squad" /> Workflow Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Design" /> Design</label><label class="chip"><input type="checkbox" data-edit="squads" value="Marketing" /> Marketing</label><label class="chip"><input type="checkbox" data-edit="squads" value="All" /> All</label></div></div>
+          <div class="fieldrow"><label class="k" for="u-516">unclassified</label>
+            <select data-edit="unclassified" id="u-516">
+              <option value="">— unchanged —</option><option value="true">true</option><option value="false">false</option>
+            </select></div>
+          
+        </div>
+        <div class="actions">
+          <button class="btn accept" data-act="approve" type="button">Approve proposal</button>
+          <button class="btn adjust" data-act="keep" type="button">Keep current value</button>
+          <button class="btn adjust" data-act="edits" type="button">Use my edits</button>
+          <button class="btn adjust" data-act="unresolved" type="button">Mark unresolved</button>
+          <button class="btn adjust" data-act="source" type="button">Requires source review</button>
+          <button class="btn adjust" data-act="later" type="button">Remember for later</button>
+        </div>
+        <div class="commentbox">
+          <label class="k" for="c-516">Comment or question <span class="hint">— answered in the next round; not an approval</span></label>
+          <textarea id="c-516" data-edit="comment" rows="2" placeholder="Ask me something about this record"></textarea>
+        </div>
+        <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="ACC-007" data-card="ACC-007" data-record="518" data-action="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge info">ACC-007</span>
+        <span class="rownum">record 518</span>
+        <span class="issuecount">1 issue</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen decision</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+        <p class="k">Current record <span class="hint">— live values, sentiment omitted</span></p>
+        <div class="tablewrap"><table class="rec"><tr><th>id</th><td>518</td></tr><tr><th>insight</th><td>The user needs an &quot;Artefakte&quot; section that surfaces uploaded documents alongside citations, and eventually the playbook used.</td></tr><tr><th>type</th><td>Idea</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>source</th><td>Publisher Feedback – Swiss</td></tr><tr><th>userGroup</th><td>Publisher</td></tr><tr><th>squads</th><td>[]</td></tr><tr><th>features</th><td>[]</td></tr><tr><th>country</th><td>Switzerland</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>quotes</th><td>Currently, we only support a single editor file, not multiple. One option would be to surface the uploaded documents here, alongside citations</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-27</td></tr><tr><th>publisher</th><td>Swiss</td></tr><tr><th>jira</th><td>CS-1666</td></tr><tr><th>isNew</th><td>True</td></tr><tr><th>unclassified</th><td>False</td></tr></table></div>
+        <div class="issue">
+        <span class="icat">Internal inconsistency</span>
+        <p class="ifield"><span class="k">field</span>unclassified / squads</p>
+        <p class="irow"><span class="k">current</span>unclassified = false · squads = [] · features = []</p>
+        <p class="irow"><span class="k">problem</span>Both squads and features are empty, yet the record is flagged as classified.</p>
+        <p class="irow"><span class="k">basis</span>Internal contradiction between the flag and the classification fields. Note: the convention is not uniformly applied — 31 of 411 records DB-wide contradict it, so keeping the current value is a legitimate decision.</p>
+        <p class="irow"><span class="k">proposal</span>Either set unclassified = true, or assign the squad(s) that own this. No squad is proposed — the record gives no basis for choosing one.</p>
+        <p class="alias">Editing squads also updates affected_squads.</p>
+      </div>
+        <div class="edits">
+          <p class="k">Direct corrections <span class="hint">— only applied if you choose “Use my edits”</span></p>
+          <div class="fieldrow"><span class="k">squads / affected_squads</span><div class="chips"><label class="chip"><input type="checkbox" data-edit="squads" value="AI Interaction" /> AI Interaction</label><label class="chip"><input type="checkbox" data-edit="squads" value="AI Squad" /> AI Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Drafting Squad" /> Drafting Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Platform Squad" /> Platform Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Review Squad" /> Review Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Workflow Squad" /> Workflow Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Design" /> Design</label><label class="chip"><input type="checkbox" data-edit="squads" value="Marketing" /> Marketing</label><label class="chip"><input type="checkbox" data-edit="squads" value="All" /> All</label></div></div>
+          <div class="fieldrow"><label class="k" for="u-518">unclassified</label>
+            <select data-edit="unclassified" id="u-518">
+              <option value="">— unchanged —</option><option value="true">true</option><option value="false">false</option>
+            </select></div>
+          
+        </div>
+        <div class="actions">
+          <button class="btn accept" data-act="approve" type="button">Approve proposal</button>
+          <button class="btn adjust" data-act="keep" type="button">Keep current value</button>
+          <button class="btn adjust" data-act="edits" type="button">Use my edits</button>
+          <button class="btn adjust" data-act="unresolved" type="button">Mark unresolved</button>
+          <button class="btn adjust" data-act="source" type="button">Requires source review</button>
+          <button class="btn adjust" data-act="later" type="button">Remember for later</button>
+        </div>
+        <div class="commentbox">
+          <label class="k" for="c-518">Comment or question <span class="hint">— answered in the next round; not an approval</span></label>
+          <textarea id="c-518" data-edit="comment" rows="2" placeholder="Ask me something about this record"></textarea>
+        </div>
+        <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="ACC-008" data-card="ACC-008" data-record="519" data-action="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge info">ACC-008</span>
+        <span class="rownum">record 519</span>
+        <span class="issuecount">1 issue</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen decision</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+        <p class="k">Current record <span class="hint">— live values, sentiment omitted</span></p>
+        <div class="tablewrap"><table class="rec"><tr><th>id</th><td>519</td></tr><tr><th>insight</th><td>The user needs voice input for long transcription of dictated text or meetings.</td></tr><tr><th>type</th><td>Improvement</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>source</th><td>Publisher Feedback – Swiss</td></tr><tr><th>userGroup</th><td>Publisher</td></tr><tr><th>squads</th><td>[]</td></tr><tr><th>features</th><td>[&quot;Voice Control&quot;]</td></tr><tr><th>country</th><td>Switzerland</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>quotes</th><td>These models are optimized for an ideal use case of an 30 seconds input. It is not a classical speech-to-text dictation that lawyers use to write documents.</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-27</td></tr><tr><th>publisher</th><td>Swiss</td></tr><tr><th>jira</th><td>CS-1681</td></tr><tr><th>isNew</th><td>True</td></tr><tr><th>unclassified</th><td>False</td></tr></table></div>
+        <div class="issue">
+        <span class="icat">Internal inconsistency</span>
+        <p class="ifield"><span class="k">field</span>unclassified / squads</p>
+        <p class="irow"><span class="k">current</span>unclassified = false · squads = [] · features = [&#x27;Voice Control&#x27;]</p>
+        <p class="irow"><span class="k">problem</span>squads is empty, yet the record is flagged as classified.</p>
+        <p class="irow"><span class="k">basis</span>Internal contradiction between the flag and the classification fields. Note: the convention is not uniformly applied — 31 of 411 records DB-wide contradict it, so keeping the current value is a legitimate decision.</p>
+        <p class="irow"><span class="k">proposal</span>Either set unclassified = true, or assign the squad(s) that own this. No squad is proposed — the record gives no basis for choosing one.</p>
+        <p class="alias">Editing squads also updates affected_squads.</p>
+      </div>
+        <div class="edits">
+          <p class="k">Direct corrections <span class="hint">— only applied if you choose “Use my edits”</span></p>
+          <div class="fieldrow"><span class="k">squads / affected_squads</span><div class="chips"><label class="chip"><input type="checkbox" data-edit="squads" value="AI Interaction" /> AI Interaction</label><label class="chip"><input type="checkbox" data-edit="squads" value="AI Squad" /> AI Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Drafting Squad" /> Drafting Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Platform Squad" /> Platform Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Review Squad" /> Review Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Workflow Squad" /> Workflow Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Design" /> Design</label><label class="chip"><input type="checkbox" data-edit="squads" value="Marketing" /> Marketing</label><label class="chip"><input type="checkbox" data-edit="squads" value="All" /> All</label></div></div>
+          <div class="fieldrow"><label class="k" for="u-519">unclassified</label>
+            <select data-edit="unclassified" id="u-519">
+              <option value="">— unchanged —</option><option value="true">true</option><option value="false">false</option>
+            </select></div>
+          
+        </div>
+        <div class="actions">
+          <button class="btn accept" data-act="approve" type="button">Approve proposal</button>
+          <button class="btn adjust" data-act="keep" type="button">Keep current value</button>
+          <button class="btn adjust" data-act="edits" type="button">Use my edits</button>
+          <button class="btn adjust" data-act="unresolved" type="button">Mark unresolved</button>
+          <button class="btn adjust" data-act="source" type="button">Requires source review</button>
+          <button class="btn adjust" data-act="later" type="button">Remember for later</button>
+        </div>
+        <div class="commentbox">
+          <label class="k" for="c-519">Comment or question <span class="hint">— answered in the next round; not an approval</span></label>
+          <textarea id="c-519" data-edit="comment" rows="2" placeholder="Ask me something about this record"></textarea>
+        </div>
+        <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="ACC-009" data-card="ACC-009" data-record="521" data-action="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge info">ACC-009</span>
+        <span class="rownum">record 521</span>
+        <span class="issuecount">1 issue</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen decision</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+        <p class="k">Current record <span class="hint">— live values, sentiment omitted</span></p>
+        <div class="tablewrap"><table class="rec"><tr><th>id</th><td>521</td></tr><tr><th>insight</th><td>The user needs to be able to create and use templates in multiple languages without creating a template per language.</td></tr><tr><th>type</th><td>Missing Feature</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>source</th><td>Publisher Feedback – Swiss</td></tr><tr><th>userGroup</th><td>Publisher</td></tr><tr><th>squads</th><td>[]</td></tr><tr><th>features</th><td>[&quot;Templates&quot;, &quot;Personalization&quot;]</td></tr><tr><th>country</th><td>Switzerland</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>quotes</th><td>If there is a possibility for the user to select the language in which he wants the template to be shown to them, it would be great, instead of having twice the template, one in each language.</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-27</td></tr><tr><th>publisher</th><td>Swiss</td></tr><tr><th>jira</th><td>CS-1722</td></tr><tr><th>isNew</th><td>True</td></tr><tr><th>unclassified</th><td>False</td></tr></table></div>
+        <div class="issue">
+        <span class="icat">Internal inconsistency</span>
+        <p class="ifield"><span class="k">field</span>unclassified / squads</p>
+        <p class="irow"><span class="k">current</span>unclassified = false · squads = [] · features = [&#x27;Templates&#x27;, &#x27;Personalization&#x27;]</p>
+        <p class="irow"><span class="k">problem</span>squads is empty, yet the record is flagged as classified.</p>
+        <p class="irow"><span class="k">basis</span>Internal contradiction between the flag and the classification fields. Note: the convention is not uniformly applied — 31 of 411 records DB-wide contradict it, so keeping the current value is a legitimate decision.</p>
+        <p class="irow"><span class="k">proposal</span>Either set unclassified = true, or assign the squad(s) that own this. No squad is proposed — the record gives no basis for choosing one.</p>
+        <p class="alias">Editing squads also updates affected_squads.</p>
+      </div>
+        <div class="edits">
+          <p class="k">Direct corrections <span class="hint">— only applied if you choose “Use my edits”</span></p>
+          <div class="fieldrow"><span class="k">squads / affected_squads</span><div class="chips"><label class="chip"><input type="checkbox" data-edit="squads" value="AI Interaction" /> AI Interaction</label><label class="chip"><input type="checkbox" data-edit="squads" value="AI Squad" /> AI Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Drafting Squad" /> Drafting Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Platform Squad" /> Platform Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Review Squad" /> Review Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Workflow Squad" /> Workflow Squad</label><label class="chip"><input type="checkbox" data-edit="squads" value="Design" /> Design</label><label class="chip"><input type="checkbox" data-edit="squads" value="Marketing" /> Marketing</label><label class="chip"><input type="checkbox" data-edit="squads" value="All" /> All</label></div></div>
+          <div class="fieldrow"><label class="k" for="u-521">unclassified</label>
+            <select data-edit="unclassified" id="u-521">
+              <option value="">— unchanged —</option><option value="true">true</option><option value="false">false</option>
+            </select></div>
+          
+        </div>
+        <div class="actions">
+          <button class="btn accept" data-act="approve" type="button">Approve proposal</button>
+          <button class="btn adjust" data-act="keep" type="button">Keep current value</button>
+          <button class="btn adjust" data-act="edits" type="button">Use my edits</button>
+          <button class="btn adjust" data-act="unresolved" type="button">Mark unresolved</button>
+          <button class="btn adjust" data-act="source" type="button">Requires source review</button>
+          <button class="btn adjust" data-act="later" type="button">Remember for later</button>
+        </div>
+        <div class="commentbox">
+          <label class="k" for="c-521">Comment or question <span class="hint">— answered in the next round; not an approval</span></label>
+          <textarea id="c-521" data-edit="comment" rows="2" placeholder="Ask me something about this record"></textarea>
+        </div>
+        <p class="conflict"></p>
+      </div>
+    </article>
+  </main>
+  <section class="summary">
+    <h2>Review state</h2>
+    <p class="said">Decisions save into this page as you make them. If I can't read them back, use Copy payload and paste it to me — that worked last time.</p>
+    <ul class="tally" id="tally"></ul>
+    <textarea id="payload" readonly aria-label="Decision payload"></textarea>
+    <div class="srow">
+      <button class="btn accept" id="final" type="button">Mark round complete</button>
+      <button class="btn adjust" id="copy" type="button">Copy payload</button>
+      <span class="pcount" id="copystate"></span>
+    </div>
+    <p class="notice finalnote">Round marked complete. Nothing is written until you approve the final pre-write preview I'll show you next.</p>
+  </section>
+</div>
+<script>
+(function(){
+  var cards=[].slice.call(document.querySelectorAll('.card'));
+  var ticks=document.getElementById('ticks'), pcount=document.getElementById('pcount');
+  var tally=document.getElementById('tally'), payload=document.getElementById('payload');
+  var LABEL={approve:'APPROVE PROPOSAL',keep:'KEEP CURRENT',edits:'USE MY EDITS',
+             unresolved:'MARK UNRESOLVED',source:'REQUIRES SOURCE REVIEW',later:'REMEMBER FOR LATER'};
+  cards.forEach(function(){var d=document.createElement('span');d.className='tick';ticks.appendChild(d);});
+  function val(el){ return el ? (el.getAttribute('data-value')||el.value||'').trim() : ''; }
+  function editsOf(c){
+    var o={};
+    var sq=[].slice.call(c.querySelectorAll('[data-edit="squads"]')).filter(function(i){return i.hasAttribute('checked');}).map(function(i){return i.value;});
+    if(sq.length) o.squads=sq;
+    ['unclassified','mentions','mentions_reason','comment'].forEach(function(k){
+      var el=c.querySelector('[data-edit="'+k+'"]'); var v=val(el); if(v) o[k]=v; });
+    return o;
+  }
+  function resolved(c){
+    var a=c.getAttribute('data-action');
+    return a && a!=='later' && a!=='unresolved' && c.getAttribute('data-conflict')!=='true';
+  }
+  function checkConflict(c){
+    var a=c.getAttribute('data-action'), e=editsOf(c), msg='';
+    var hasEdit=e.squads||e.unclassified||e.mentions;
+    if(a==='keep' && hasEdit) msg='Conflict: “Keep current value” is selected but you also entered a replacement. Nothing is applied. Clear the edit, or choose “Use my edits”.';
+    if(a==='edits' && !hasEdit) msg='Conflict: “Use my edits” is selected but no field was changed. Enter a value, or choose another action.';
+    if(a==='edits' && e.mentions && !e.mentions_reason) msg='Conflict: a corrected mention count needs a stated basis — counts are never estimated.';
+    c.setAttribute('data-conflict', msg?'true':'false');
+    c.querySelector('.conflict').textContent=msg;
+  }
+  function render(){
+    var done=0,parked=0,unres=0,src=0,conf=0,edited=0;
+    cards.forEach(function(c,i){
+      var a=c.getAttribute('data-action'), cf=c.getAttribute('data-conflict')==='true', st=c.querySelector('.state');
+      c.classList.toggle('done', resolved(c));
+      if(cf){ st.textContent='conflict — unresolved'; conf++; }
+      else if(a){ st.textContent=LABEL[a]+' · round '+(c.getAttribute('data-round')||1);
+        if(a==='later'){parked++;} else if(a==='unresolved'){unres++;} else {done++; if(a==='source')src++;} }
+      else st.textContent='pending';
+      if(Object.keys(editsOf(c)).some(function(k){return k!=='comment';})) edited++;
+      ticks.children[i].setAttribute('data-s', cf?'conflict':(resolved(c)?'done':(a?'active':'')));
+    });
+    pcount.innerHTML='<b>'+done+'</b> of '+cards.length+' resolved'+(conf?' · '+conf+' conflict':'')+(parked?' · '+parked+' parked':'');
+    tally.innerHTML='';
+    [['resolved',done],['parked',parked],['unresolved',unres],['source review',src],
+     ['conflicts',conf],['records with edits',edited],['pending',cards.length-done-parked-unres-conf]]
+     .forEach(function(p){var li=document.createElement('li');li.textContent=p[0]+': '+p[1];tally.appendChild(li);});
+    var lines=['Accuracy check round 1 decisions:'];
+    cards.forEach(function(c){
+      var a=c.getAttribute('data-action'); if(!a) return;
+      var e=editsOf(c), line=c.getAttribute('data-card')+' (record '+c.getAttribute('data-record')+'): '+LABEL[a];
+      if(e.squads) line+=' | squads='+e.squads.join(';');
+      if(e.unclassified) line+=' | unclassified='+e.unclassified;
+      if(e.mentions) line+=' | mentions='+e.mentions+' (basis: '+(e.mentions_reason||'MISSING')+')';
+      if(e.comment) line+=' | comment: '+e.comment;
+      if(c.getAttribute('data-conflict')==='true') line+='  [CONFLICT]';
+      lines.push(line);
+    });
+    cards.forEach(function(c){ if(!c.getAttribute('data-action')){ var e=editsOf(c);
+      if(e.comment) lines.push(c.getAttribute('data-card')+' (record '+c.getAttribute('data-record')+'): pending, comment: '+e.comment); }});
+    lines.push('Please apply these and show the final pre-write preview.');
+    payload.value=lines.join('\n');
+  }
+  document.addEventListener('click', function(ev){
+    var b=ev.target.closest('[data-act]');
+    if(b){ var c=b.closest('.card'), a=b.getAttribute('data-act');
+      if(a==='reopen'){ c.setAttribute('data-action',''); c.setAttribute('data-conflict','false'); }
+      else { c.setAttribute('data-action',a); c.setAttribute('data-round','1'); }
+      checkConflict(c); render(); return; }
+    var box=ev.target.closest('[data-edit="squads"]');
+    if(box){ if(box.checked) box.setAttribute('checked',''); else box.removeAttribute('checked');
+      checkConflict(box.closest('.card')); render(); }
+  });
+  document.addEventListener('change', function(ev){
+    var t=ev.target;
+    if(t.tagName==='SELECT'||t.type==='number'){ t.setAttribute('data-value', t.value);
+      checkConflict(t.closest('.card')); render(); }
+  });
+  document.addEventListener('input', function(ev){
+    var t=ev.target;
+    if(t.tagName==='TEXTAREA'||t.type==='number'){ t.setAttribute('data-value', t.value);
+      checkConflict(t.closest('.card')); render(); }
+  });
+  document.getElementById('final').addEventListener('click', function(){
+    document.body.setAttribute('data-submitted','true'); render(); });
+  document.getElementById('copy').addEventListener('click', function(){
+    payload.select(); navigator.clipboard.writeText(payload.value).then(
+      function(){document.getElementById('copystate').textContent='copied';},
+      function(){document.getElementById('copystate').textContent='select the text above and copy manually';}); });
+  render();
+})();
+</script>

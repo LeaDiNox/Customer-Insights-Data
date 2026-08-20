@@ -21580,7 +21580,7 @@
   "sourceTypes": [
    "Direct Feedback"
   ],
-  "source": "CS-1621",
+  "source": "CS-1621,Direct_Feedback_Corp_002_08_2026",
   "userGroup": "Big Law Firm",
   "squads": [
    "AI Squad"
@@ -21591,11 +21591,11 @@
   ],
   "country": "Germany",
   "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "Kann ich bei Noxtua auch Agenten bzw. Gems einrichten um diese für wiederkehrende Aufgaben zu nutzen?",
+  "mentions": 2,
+  "quotes": "Kann ich bei Noxtua auch Agenten bzw. Gems einrichten um diese für wiederkehrende Aufgaben zu nutzen?\n\n[2026-08-20] \"LKS: privat ChatGPT premium, dort gut Agenten bzw PromptBibliothek\" (Direct_Feedback_Corp_002_08_2026)",
   "notes": "",
   "created": "2026-07-27",
-  "lastModified": "2026-07-27",
+  "lastModified": "2026-08-20",
   "sentiment": "Positive",
   "publisher": "",
   "jira": "CS-1621",
@@ -21603,8 +21603,8 @@
   "unclassified": false,
   "core_insight": "The user needs custom, savable agents (\"Gems\") for recurring tasks.",
   "insight_type": "Idea",
-  "mention_count": 1,
-  "source_label": "CS-1621",
+  "mention_count": 2,
+  "source_label": "CS-1621,Direct_Feedback_Corp_002_08_2026",
   "customer_segment": "Big Law Firm",
   "affected_squads": "AI Squad",
   "affected_features": "Prompting;Customization",
@@ -21614,6 +21614,11 @@
     "count": 1,
     "source": "feedback_batch_20260727",
     "status": "New – Not yet discussed"
+   },
+   {
+    "date": "2026-08-20",
+    "count": 2,
+    "source": "merged from Direct_Feedback_Corp_002_08_2026 (agent-style presets, was new record 531) (+1)"
    }
   ],
   "statusHistory": [
@@ -21908,55 +21913,6 @@
   "featurebase_board_id": "",
   "featurebase_synced_at": "",
   "featurebase_votes": 0
- },
- {
-  "id": 531,
-  "insight": "The user needs reusable, agent-style presets that can be configured once and applied to recurring tasks.",
-  "type": "Missing Feature",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Direct_Feedback_Corp_002_08_2026",
-  "userGroup": "Corporate Law Department",
-  "squads": [
-   "Workflow Squad"
-  ],
-  "features": [
-   "Skills"
-  ],
-  "country": "Germany",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "[2026-08-20] \"LKS: privat ChatGPT premium, dort gut Agenten bzw PromptBibliothek\" (Direct_Feedback_Corp_002_08_2026)",
-  "notes": "",
-  "created": "2026-08-20",
-  "lastModified": "2026-08-20",
-  "sentiment": "Mixed",
-  "publisher": "",
-  "jira": "",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs reusable, agent-style presets that can be configured once and applied to recurring tasks.",
-  "insight_type": "Missing Feature",
-  "mention_count": 1,
-  "source_label": "Direct_Feedback_Corp_002_08_2026",
-  "customer_segment": "Corporate Law Department",
-  "affected_squads": "Workflow Squad",
-  "affected_features": "Skills",
-  "mentionHistory": [
-   {
-    "date": "2026-08-20",
-    "count": 1,
-    "source": "Direct_Feedback_Corp_002_08_2026",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-08-20",
-    "status": "New – Not yet discussed"
-   }
-  ]
  },
  {
   "id": 532,
