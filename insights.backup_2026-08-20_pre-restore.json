@@ -603,7 +603,7 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 6,
+  "mentions": 5,
   "quotes": "[2026-08-20] \"hat zugegeben, dass es Zitat nicht gibt, erst auf Nachfrage / klarer machen, wenn es etwas nicht gibt\" (Direct_Feedback_Corp_002_08_2026)",
   "notes": "",
   "created": "2025-10-10",
@@ -615,7 +615,7 @@
   "unclassified": false,
   "core_insight": "The user needs the tool to be transparent if it does not have any sources available.",
   "insight_type": "Improvement",
-  "mention_count": 6,
+  "mention_count": 5,
   "source_label": "Continous_Direct_Feedback_small_law_firm,2025_11_Beck_Feedback_Survey_2,Direct_Feedback_Corp_002_08_2026",
   "customer_segment": "Small Law Firm; Mixed",
   "affected_squads": "Platform Squad",
@@ -631,11 +631,6 @@
     "date": "2026-08-20",
     "count": 5,
     "source": "merged from Direct_Feedback_Corp_002_08_2026 (only admitted a citation did not exist on follow-up) (+1)"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 6,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -1136,11 +1131,11 @@
   ],
   "country": "All",
   "status": "Well done - positive feedback outweighs negative",
-  "mentions": 67,
+  "mentions": 66,
   "quotes": "BayernLB 2026-07: \"Die Angabe zitierfähiger Fundstellen sowie die Möglichkeit, relevante Textstellen unmittelbar im Kontext zu prüfen, wird als großer Vorteil gegenüber anderen KI-Systemen hervorgehoben.\"",
   "notes": "",
   "created": "2025-10-14",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-06",
   "sentiment": "Positive",
   "publisher": "Beck Germany",
   "jira": "",
@@ -1148,7 +1143,7 @@
   "unclassified": false,
   "core_insight": "The user needs to have insights into the sources of the provided answer in order to verify results easier.",
   "insight_type": "General Feedback",
-  "mention_count": 67,
+  "mention_count": 66,
   "source_label": "Continous_Direct_Feedback_big_law_firm, 2025_11_Beck_Feedback_Survey_2, 2025_11_Zalando_Hackathon, 2025_11_Personas_M_B_Lawfirms, Continous_Direct_Feedback_GovernmentInstitutions, Continous_Direct_Feedback_corporate, Bayrische_Landesbank_042026, BayernLB_Feedback_2026_07",
   "customer_segment": "Big Law Firm; Mixed; Corporate Law Department; Government Institutions",
   "affected_squads": "Platform Squad",
@@ -1165,11 +1160,6 @@
     "count": 66,
     "source": "BayernLB_Feedback_2026_07",
     "status": "Well done - positive feedback outweighs negative"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 67,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -1259,11 +1249,11 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 12,
+  "mentions": 11,
   "quotes": "“Direkt Quellen an der Seite einzusehen wäre natürlich noch besser.”",
   "notes": "Study to be planned",
   "created": "2025-10-14",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-08",
   "sentiment": "Negative",
   "publisher": "Swiss",
   "jira": "",
@@ -1271,7 +1261,7 @@
   "unclassified": false,
   "core_insight": "The user would like to be able to see exactly from which part of a source the model derived the answer.",
   "insight_type": "Missing Feature",
-  "mention_count": 12,
+  "mention_count": 11,
   "source_label": "Continous_Direct_Feedback_big_law_firm,2026_01_Workflow_Expectations_Interview,2025_12_KnowledgeBase_UCs_Interviews,Continous_Publisher_Swiss_Noxtua",
   "customer_segment": "Big Law Firm; Mixed; Publisher",
   "affected_squads": "Platform Squad",
@@ -1292,11 +1282,6 @@
     "date": "2026-07-08",
     "count": 11,
     "source": "merged from ID 424 (+1)"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 12,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -1329,11 +1314,11 @@
   ],
   "country": "All",
   "status": "Well done - positive feedback outweighs negative",
-  "mentions": 35,
+  "mentions": 28,
   "quotes": "",
   "notes": "",
   "created": "2025-10-14",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-03-02",
   "sentiment": "Negative",
   "publisher": "Beck Germany",
   "jira": "",
@@ -1341,7 +1326,7 @@
   "unclassified": false,
   "core_insight": "The user needs to be able to understand which steps the AI takes to derive the results.",
   "insight_type": "General Feedback",
-  "mention_count": 35,
+  "mention_count": 28,
   "source_label": "Continous_Direct_Feedback_big_law_firm,202510-Canvas-Interview,2025_11_Beck_Feedback_Survey_2,Continous_Direct_Feedback_corporate,Continous_Direct_Feedback_small_law_firm,2025_11_Personas_M_B_Lawfirms,Continous_Direct_Feedback_GovernmentInstitutions",
   "customer_segment": "Big Law Firm; Corporate Law Department; Mixed; Small Law Firm; Government Institutions",
   "affected_squads": "Platform Squad",
@@ -1352,11 +1337,6 @@
     "count": 28,
     "source": "baseline",
     "status": "Well done - positive feedback outweighs negative"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 35,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -1430,7 +1410,7 @@
   ],
   "country": "All",
   "status": "Implemented - a solution is released",
-  "mentions": 8,
+  "mentions": 7,
   "quotes": "“Ist das jetzt wirklich lokal oder wird das auf einen Server hochgeladen?”\n\nes reicht, dass ihr versichert und uns überzeugt, dass ihr das auch einhaltet  „glaubhaft machen“, z.B. Verschlüsselungsprozess erklären\n\n[2026-08-20] \"Update zu ISO-Zertifikation Zugang zu Trust für Compliance\" (Direct_Feedback_Corp_002_08_2026)",
   "notes": "3 People mention in the Beck Feedback Survey, that this is already a good thing. However, in the sales call the user still didn't seem to be sure.\n\nShared in Marketing, Onepager for Sales is build. Recheck if that reduces uncertainty.",
   "created": "2025-10-14",
@@ -1442,7 +1422,7 @@
   "unclassified": false,
   "core_insight": "The user needs transparency about data security measures to be sure that their data is being treated confidentially and is not distributed, but only locally on their machine.",
   "insight_type": "General Feedback",
-  "mention_count": 8,
+  "mention_count": 7,
   "source_label": "Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_small_law_firm,Direct_Feedback_Corp_002_08_2026",
   "customer_segment": "Big Law Firm; Small Law Firm",
   "affected_squads": "Platform Squad",
@@ -1458,11 +1438,6 @@
     "date": "2026-08-20",
     "count": 7,
     "source": "merged from Direct_Feedback_Corp_002_08_2026 (compliance needs ISO-certification status and Trust Center access) (+1)"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 8,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -2176,11 +2151,11 @@
   "features": [],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 19,
+  "mentions": 18,
   "quotes": "Der Output entsprach sprachlich nicht ganz dem Duktus eines Anwalts. | [Lime Survey 2026-07-23, RID 31]: \"[…] wenn ich ehrlich bin. Ich erwarte von Noxtua, das es weiß, wie Rubrum und Anschreiben eines Gerichtsschriftsatzes lauten. Hier sind etliche Fehler, die einem während des Referendariats für Punktabzug angedroht wurden. Beispiele: \"An das…\"",
   "notes": "",
   "created": "2025-10-15",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-23",
   "sentiment": "Negative",
   "publisher": "Beck Germany",
   "jira": "",
@@ -2188,7 +2163,7 @@
   "unclassified": true,
   "core_insight": "The user needs the system to provide answers in appropriate language.",
   "insight_type": "General Feedback",
-  "mention_count": 19,
+  "mention_count": 18,
   "source_label": "2025_10_Beck_Feedback_Survey,2025_11_Zalando_Hackathon,Continous_Direct_Feedback_small_law_firm,Continous_Direct_Feedback_big_law_firm,2025_11_Personas_M_B_Lawfirms,Direct_Feedback_2026_06",
   "customer_segment": "Mixed; Corporate Law Department; Small Law Firm; Big Law Firm",
   "affected_squads": "",
@@ -2211,11 +2186,6 @@
     "count": 18,
     "source": "feedback_batch_20260723 (Editor/Canvas survey) (+4)",
     "status": "Identified - JIRA ticket exists"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 19,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -2245,11 +2215,11 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 85,
+  "mentions": 80,
   "quotes": "Grds. sind wir von der KI angetan. Man bekommt im Researchbereich Antworten, die juristisch auf viel hoeherem Niveau als bei Konkurrenten sein duerften. ... Teilweise fantasieren die Antworten aber ziemlich. | Partially materially incorrect statements (e.g. Remark is incorrectly located in section III of the land register; GbR-Register requirement for easements unknown; Declaration of equal priority protects against foreclosure) | Halluzinationen an einigen Stellen, obwohl relevante Passagen in den Quellen enthalten waren. | Beeindruckende Ergebnisse bei komplexen, aufeinander aufbauenden Recherchen; je komplexer, desto schwieriger. | Verlässlichkeit bei Grammatik nicht gegeben; juristische Fehler (z.B. TB vs. Entscheidungsgründe). | BayernLB 2026-07: \"Dokumentenanalyse und Drafting: die Ergebnisqualität wurde uneinheitlich bewertet, teilweise blieben Analysen oberflächlich.\" | Halluzinationen 2026-07: \"Wie ist es möglich, dass du diese Halluzinationen mit den Gesetzestexten hast, wenn du doch unmittelbaren Zugriff darauf hast und nimmst?\" | [2026-07-22] \"In diesem Fall halluziniert die KI …\" (CSM 33); \"die Quellen tragen nicht immer das Ergebnis …\" (CSM 18) | [2026-07-22] \"wurden … die Vertragspartner vertauscht … Interessenlage … nicht ausreichend berücksichtigt … Formulierungsvorschläge … sehr sperrig\" (CSM 49) | [2026-08-10] \"Zuverlässigkeit eingeschränkt über \"false positives\" im Vgl zu eigener Recherche in bo, va Steuer, HR\" (Direct_Vattenfall_08_2026)",
   "notes": "In Beck Survey before agentic release\n20 say its good\n39 say it needs improvement\n\nIn Beck Survey after agentic release\n13 say its good\n22 say it needs improvement\n\n67 (bad) - 34 (good) = 32\n\nAccuracy after release: \n2 good 9 bad",
   "created": "2025-10-15",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-08-10",
   "sentiment": "Negative",
   "publisher": "Beck Germany",
   "jira": "CS-1073; CS-1074; CS-1075; CS-1076; CS-1077; CS-1078; CS-1079; CS-1080; CS-1081; CS-1082; CS-1083; CS-1084; CS-1085; CS-1086; CS-1087; CS-1088; CS-1089; CS-1090; CS-1091; CS-1092; CS-1106; CS-1107",
@@ -2257,7 +2227,7 @@
   "unclassified": true,
   "core_insight": "The user needs the answers to have a high accuracy to be beneficial to him.",
   "insight_type": "General Feedback",
-  "mention_count": 85,
+  "mention_count": 80,
   "source_label": "2025_10_Beck_Feedback_Survey,2025_11_Zalando_Hackathon,Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_GovernmentInstitutions,Continous_Direct_Feedback_Prosecution_Judges,Publisher Feedback - Swiss,Publisher Feedback - Beck Germany,Direct_Feedback_2026_06,BayernLB_Feedback_2026_07,Halluzinationen,Direct_Vattenfall_08_2026",
   "customer_segment": "Mixed; Corporate Law Department; Big Law Firm; Government Institutions; Prosecution/ Judges; Publisher",
   "affected_squads": "AI Squad",
@@ -2315,11 +2285,6 @@
     "count": 80,
     "source": "feedback_batch_20260810",
     "status": "Identified - JIRA ticket exists"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 85,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -2564,11 +2529,11 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 13,
+  "mentions": 11,
   "quotes": "I’m currently using CoPilot. It can evaluate the document and help me compile the information for third-party procurement management. Unfortunately, I don’t have a PDF smaller than 10 MB available for Noxtua that I could meaningfully analyze. Therefore, I won’t be continuing this topic with Noxtua’s AI; I simply don’t have the time.” || Grds. sind wir von der KI angetan. Man bekommt im Researchbereich Antworten, die juristisch auf viel höherem Niveau als bei Konkurrenten sein dürften. Das ist sicherlich mit dem Zugriff auf Ihre Datenbank ein USP. Teilweise fantasieren die Antworten aber ziemlich. | [Lime Survey 2026-07-23, RID 67]: \"Ich weiß nicht, ob das zum Editor gehört. Aber es wäre sehr hilfreich, wenn man nicht nur 15 Dokumente hochladen könnte, sondern Ordner mit einigen hundert erstellen könnte, die dann dauerhaft zur Verfügung stehen bei größeren […] time: 235…\"",
   "notes": "",
   "created": "2025-10-15",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-23",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "CS-1107",
@@ -2576,7 +2541,7 @@
   "unclassified": false,
   "core_insight": "The user needs to be able to upload files larger than 10 MB.",
   "insight_type": "Improvement",
-  "mention_count": 13,
+  "mention_count": 11,
   "source_label": "Continous_Direct_Feedback_corporate,Continous_Direct_Feedback_big_law_firm,Publisher Feedback - Beck Germany",
   "customer_segment": "Corporate Law Department; Big Law Firm; Publisher",
   "affected_squads": "Platform Squad",
@@ -2593,11 +2558,6 @@
     "count": 11,
     "source": "feedback_batch_20260723 (Editor/Canvas survey) (+3)",
     "status": "Identified - JIRA ticket exists"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 13,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -2672,7 +2632,7 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 26,
+  "mentions": 19,
   "quotes": "[2026-07-13] \"Fundstellen sehr eingeschränkt aufgelistet und eher exotischer Natur, zB herschende Literatur\" (Vattenfall Feedback Call – 2026-07-13)\n\n[2026-08-20] \"alte Schriftsätze gechallenged / bei Quellen bisschen verkackt\" (Direct_Feedback_Corp_002_08_2026)",
   "notes": "Citation: \"Broaden source coverage so multiple commentaries (BSK StGB/JStG, CR CP II, PraxKomm StGB, HK EMRK, etc.) are surfaced rather than a single source per topic.\" (Publisher Feedback — Swiss, merged from ID 415)",
   "created": "2025-10-15",
@@ -2684,7 +2644,7 @@
   "unclassified": false,
   "core_insight": "The user needs all relevant sources to be available and used for the answer.",
   "insight_type": "General Feedback",
-  "mention_count": 26,
+  "mention_count": 19,
   "source_label": "2025_10_Beck_Feedback_Survey,2025_11_Beck_Feedback_Survey_2,Continous_Direct_Feedback_corporate,2025_11_Personas_M_B_Lawfirms,Vattenfall Feedback Call – 2026-07-13,Direct_Feedback_Corp_002_08_2026",
   "customer_segment": "Mixed; Corporate Law Department; Big Law Firm",
   "affected_squads": "AI Squad",
@@ -2715,11 +2675,6 @@
     "date": "2026-08-20",
     "count": 19,
     "source": "merged from Direct_Feedback_Corp_002_08_2026 (weak source referencing when challenging existing briefs) (+1)"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 26,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -3627,11 +3582,11 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 8,
+  "mentions": 7,
   "quotes": "Recognition rate of relevant information and processing speed below the competition (especially Legora) and our internal system",
   "notes": "preAgentic",
   "created": "2025-10-20",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-08-10",
   "sentiment": "Negative",
   "publisher": "Beck Germany",
   "jira": "",
@@ -3639,7 +3594,7 @@
   "unclassified": true,
   "core_insight": "The users want higher recognition rate of relevant information within uploaded documents.",
   "insight_type": "General Feedback",
-  "mention_count": 8,
+  "mention_count": 7,
   "source_label": "2025_10_Beck_Feedback_Survey,2025_11_Beck_Feedback_Survey_2",
   "customer_segment": "Mixed",
   "affected_squads": "",
@@ -3655,11 +3610,6 @@
     "date": "2026-07-08",
     "count": 7,
     "source": "merged from ID 455 (+2)"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 8,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -4474,7 +4424,7 @@
   ],
   "country": "All",
   "status": "Planned for development",
-  "mentions": 6,
+  "mentions": 5,
   "quotes": "“Then we canceled Libra again, and that was the deciding factor for us... We saw that this [in terms of features] was less well developed or even further behind. But Noxtua is more faithful to the original text because of its connection to Beck-Online and the fact that quoting from it is becoming increasingly important.”\n(Laywer for Civil and Coporate Law, Mid-size Law Firm, 51-60 years)\n\n[2026-08-20] \"hat zugegeben, dass es Zitat nicht gibt, erst auf Nachfrage / klarer machen, wenn es etwas nicht gibt\" (Direct_Feedback_Corp_002_08_2026)",
   "notes": "Noxtua is actually also feed backing if it doesn’t know or if results are ambiguous --> once mentioned",
   "created": "2025-11-04",
@@ -4486,7 +4436,7 @@
   "unclassified": false,
   "core_insight": "The users would like the tool to prioritize accuracy over convenience, i.e. they rather prefer an \"I don't know\" or \"I'm not sure\" over a false response or incorrect sources.",
   "insight_type": "General Feedback",
-  "mention_count": 6,
+  "mention_count": 5,
   "source_label": "202510-Canvas-Interview_Testing,Continous_Direct_Feedback_corporate,Direct_Feedback_Corp_002_08_2026",
   "customer_segment": "Mixed; Corporate Law Department",
   "affected_squads": "AI Squad",
@@ -4502,11 +4452,6 @@
     "date": "2026-08-20",
     "count": 5,
     "source": "merged from Direct_Feedback_Corp_002_08_2026 (wants a clear statement when something does not exist) (+1)"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 6,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -5294,11 +5239,11 @@
   ],
   "country": "All",
   "status": "Planned for development",
-  "mentions": 21,
+  "mentions": 20,
   "quotes": "\"A mini-assistant in the background that drafts emails - handles basic queries, flags complex ones\" (Corporate Personas)",
   "notes": "",
   "created": "2025-11-04",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-08",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -5306,7 +5251,7 @@
   "unclassified": false,
   "core_insight": "The users would like to be able to seamlessly use the tool with their email program.",
   "insight_type": "Missing Feature",
-  "mention_count": 21,
+  "mention_count": 20,
   "source_label": "202510-Canvas-Interview_Testing,Continous_Direct_Feedback_corporate,2026_01_Workflow_Expectations_Interview,2025_11_Personas_M_B_Lawfirms,2025_12_Word_Expectations_Usability,2026_02_Personas_Corporate",
   "customer_segment": "Mixed; Corporate Law Department; Big Law Firm",
   "affected_squads": "Platform Squad;Drafting Squad",
@@ -5317,11 +5262,6 @@
     "count": 20,
     "source": "baseline",
     "status": "Identified - JIRA ticket exists"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 21,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -5417,11 +5357,11 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 15,
+  "mentions": 13,
   "quotes": "",
   "notes": "",
   "created": "2025-11-04",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-08",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -5429,7 +5369,7 @@
   "unclassified": false,
   "core_insight": "The users expect the tool to offer a collaborative environment in which they can comment and work at the same time in order to exchange with colleagues.",
   "insight_type": "Missing Feature",
-  "mention_count": 15,
+  "mention_count": 13,
   "source_label": "202510-Canvas-Interview_Testing,202510-Canvas-Interview,Continous_Direct_Feedback_corporate,Continous_Direct_Feedback_big_law_firm,2025_11_Personas_M_B_Lawfirms",
   "customer_segment": "Mixed; Corporate Law Department; Big Law Firm",
   "affected_squads": "Drafting Squad;Platform Squad",
@@ -5440,11 +5380,6 @@
     "count": 13,
     "source": "baseline",
     "status": "Identified - JIRA ticket exists"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 15,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -6611,11 +6546,11 @@
   ],
   "country": "All",
   "status": "New – Not yet discussed",
-  "mentions": 4,
+  "mentions": 2,
   "quotes": "",
   "notes": "",
   "created": "2025-11-07",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-03-04",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -6623,7 +6558,7 @@
   "unclassified": false,
   "core_insight": "The users want to be able to store documents in project based structure, in order to be able to better work with them.",
   "insight_type": "Missing Feature",
-  "mention_count": 4,
+  "mention_count": 2,
   "source_label": "Continous_Direct_Feedback_corporate,Continous_Direct_Feedback_GovernmentInstitutions",
   "customer_segment": "Corporate Law Department; Government Institutions",
   "affected_squads": "Platform Squad",
@@ -6634,11 +6569,6 @@
     "count": 2,
     "source": "baseline",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 4,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -6669,11 +6599,11 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 18,
+  "mentions": 6,
   "quotes": "maximal 15 Dokumente beigefügt werden können – störend bei umfangreichen Schriftsätzen mit vielen Anlagen.",
   "notes": "",
   "created": "2025-11-12",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-06",
   "sentiment": "Negative",
   "publisher": "Beck Germany",
   "jira": "",
@@ -6681,7 +6611,7 @@
   "unclassified": false,
   "core_insight": "The user wants to be able to upload more than 10 files in order to compare more files into one table or use them as input.",
   "insight_type": "Improvement",
-  "mention_count": 18,
+  "mention_count": 6,
   "source_label": "2025_11_Beck_Feedback_Survey_2,Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_corporate,Direct_Feedback_2026_06",
   "customer_segment": "Mixed; Big Law Firm; Corporate Law Department",
   "affected_squads": "Platform Squad",
@@ -6698,11 +6628,6 @@
     "date": "2026-06-29",
     "source": "feedback_batch_20260629",
     "status": "Identified - JIRA ticket exists"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 18,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -6784,11 +6709,11 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 28,
+  "mentions": 27,
   "quotes": "",
   "notes": "",
   "created": "2025-11-14",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-08-10",
   "sentiment": "Negative",
   "publisher": "Beck Germany",
   "jira": "",
@@ -6796,7 +6721,7 @@
   "unclassified": false,
   "core_insight": "The user needs the tool to weigh sources accordingly to avoid contradicting or wrong information.",
   "insight_type": "Improvement",
-  "mention_count": 28,
+  "mention_count": 27,
   "source_label": "2025_11_Beck_Feedback_Survey_2,2025_10_Beck_Feedback_Survey,Continous_Direct_Feedback_corporate,Continous_Direct_Feedback_small_law_firm,2025_11_Personas_M_B_Lawfirms,Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_GovernmentInstitutions,Continous_Direct_Feedback_Prosecution_Judges",
   "customer_segment": "Mixed; Corporate Law Department; Small Law Firm; Big Law Firm; Government Institutions; Prosecution/ Judges",
   "affected_squads": "AI Squad",
@@ -6817,11 +6742,6 @@
     "date": "2026-07-08",
     "count": 27,
     "source": "merged from ID 412 (+1)"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 28,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -6907,11 +6827,11 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 31,
+  "mentions": 26,
   "quotes": "Template/Funktion, mit der der Gutachtenstil erzwungen werden kann (Obersatz, Definition, Subsumtion). | [Lime Survey 2026-07-23, RID 181]: \"Optimalerweise könnte ich unsere Standardformatierung in Noxtua eingeben und im Editor würde dies beachtet werden.\"",
   "notes": "",
   "created": "2025-11-17",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-23",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -6919,7 +6839,7 @@
   "unclassified": false,
   "core_insight": "The users would like to be able to use format templates, that can be accessed to draft documents in order to match individual, company or law firm style.",
   "insight_type": "Missing Feature",
-  "mention_count": 31,
+  "mention_count": 26,
   "source_label": "202510-Canvas-Interview_Testing,Continous_Direct_Feedback_big_law_firm,2025_12_KnowledgeBase_UCs_Interviews,Workshop_Feedback_2026_06",
   "customer_segment": "Mixed; Big Law Firm",
   "affected_squads": "Drafting Squad",
@@ -6952,11 +6872,6 @@
     "count": 26,
     "source": "feedback_batch_20260723 (Editor/Canvas survey) (+7)",
     "status": "Identified - JIRA ticket exists"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 31,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -6987,11 +6902,11 @@
   ],
   "country": "All",
   "status": "Well done - positive feedback outweighs negative",
-  "mentions": 41,
+  "mentions": 40,
   "quotes": "",
   "notes": "",
   "created": "2025-11-17",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-03-02",
   "sentiment": "Negative",
   "publisher": "Beck Germany",
   "jira": "",
@@ -6999,7 +6914,7 @@
   "unclassified": false,
   "core_insight": "The user needs to be able to look into the fulltext of the provided answer, in order to make sure that the context also fits the legal case.",
   "insight_type": "General Feedback",
-  "mention_count": 41,
+  "mention_count": 40,
   "source_label": "2025_11_Beck_Feedback_Survey_2,2025_10_Beck_Feedback_Survey,Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_GovernmentInstitutions",
   "customer_segment": "Mixed; Big Law Firm; Government Institutions",
   "affected_squads": "Platform Squad",
@@ -7010,11 +6925,6 @@
     "count": 40,
     "source": "baseline",
     "status": "Well done - positive feedback outweighs negative"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 41,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -7042,11 +6952,11 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 12,
+  "mentions": 9,
   "quotes": "[2026-07-22] \"mischt es Englisch in die Antworten … oder in chinesischen Zeichen …\" (CSM 29)",
   "notes": "",
   "created": "2025-11-17",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-08-10",
   "sentiment": "Negative",
   "publisher": "Beck Germany",
   "jira": "",
@@ -7054,7 +6964,7 @@
   "unclassified": false,
   "core_insight": "The user needs the system to stick with one language within a chat (unless prompted otherwise), in order to reduce mental load and needing to translate.",
   "insight_type": "Improvement",
-  "mention_count": 12,
+  "mention_count": 9,
   "source_label": "2025_11_Beck_Feedback_Survey_2,Continous_Direct_Feedback_corporate,2025_11_Zalando_Hackathon,Continous_Direct_Feedback_small_law_firm,Continous_Direct_Feedback_big_law_firm",
   "customer_segment": "Mixed; Corporate Law Department; Small Law Firm; Big Law Firm",
   "affected_squads": "AI Squad",
@@ -7071,11 +6981,6 @@
     "count": 9,
     "source": "feedback_batch_20260722",
     "status": "Identified - JIRA ticket exists"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 12,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -8078,11 +7983,11 @@
   ],
   "country": "All",
   "status": "Planned for development",
-  "mentions": 15,
+  "mentions": 9,
   "quotes": "[Lime Survey 2026-07-23, RID 129]: \"die Speicherung der einzelnen Recherchen könnte übersichtlicher sein; wir arbeiten alle in der [[…] Firm] und mobil, die Recherche des jeweiligen nutzers wird aber nicht Nutzerbezogen, sondern Endgerätebezogen gespeichert, Das erfordert wei…\"",
   "notes": "",
   "created": "2025-11-30",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-23",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -8090,7 +7995,7 @@
   "unclassified": false,
   "core_insight": "The user needs to be able to access chats over time and from different devices and browsers, so that the history is always accessible.",
   "insight_type": "Missing Feature",
-  "mention_count": 15,
+  "mention_count": 9,
   "source_label": "Continous_Direct_Feedback_big_law_firm,Continous_Direct_Feedback_GovernmentInstitutions",
   "customer_segment": "Big Law Firm; Government Institutions",
   "affected_squads": "Platform Squad",
@@ -8112,11 +8017,6 @@
     "count": 9,
     "source": "feedback_batch_20260723 (Editor/Canvas survey) (+2)",
     "status": "Planned for development"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 15,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -15119,11 +15019,11 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 14,
+  "mentions": 13,
   "quotes": "[2026-07-22] \"Quellen können präziser, d.h. mit Seiten und Rn, angegeben werden … klappt … bisher nicht.\" (SELF 40) | [Lime Survey 2026-07-23, RID 149]: \"[…] von Az blieb fehlerhaft (Zahlendreher und falsche Aktenzeichen, die trotz weiterer Prompts nicht korrigiert wurden, obwohl genau darauf hingewiesen wurde.\"",
   "notes": "",
   "created": "2026-03-02",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-23",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -15131,7 +15031,7 @@
   "unclassified": false,
   "core_insight": "The user needs the exact marginal numbers to be cited, so that the citations can be used directly in e.g. documents.",
   "insight_type": "Improvement",
-  "mention_count": 14,
+  "mention_count": 13,
   "source_label": "Continous_Direct_Feedback_big_law_firm",
   "customer_segment": "Big Law Firm",
   "affected_squads": "AI Squad;Platform Squad",
@@ -15154,11 +15054,6 @@
     "count": 13,
     "source": "feedback_batch_20260723 (Editor/Canvas survey) (+8)",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 14,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -16267,11 +16162,11 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 5,
+  "mentions": 4,
   "quotes": "Einzelne Antworten wirkten in der Herleitung zu kurz oder ohne alternative Lösungsansätze sowie ohne Risiken ausreichend darzustellen | BayernLB 2026-07: \"Einzelne Antworten wirkten in der Herleitung zu kurz oder ohne alternative Lösungsansätze sowie ohne Risiken ausreichend darzustellen.\" | [2026-07-22] \"im Sinne der Relationstechnik … Trennung von streitigem und unstreitigem Sachverhalt – … trotz aufwändigem Promptens nicht möglich\" (CSM 75)",
   "notes": "Sentiment: Negative. Customer segment: Unknown (corporate/banking). Batch: feedback_batch_20260423.",
   "created": "2026-04-23",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-22",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -16279,7 +16174,7 @@
   "unclassified": false,
   "core_insight": "Users find that legal reasoning and subsumption in answers is too shallow, with alternative solutions, risk assessments, and minority views often missing.",
   "insight_type": "Improvement",
-  "mention_count": 5,
+  "mention_count": 4,
   "source_label": "Bayrische_Landesbank_042026, BayernLB_Feedback_2026_07",
   "customer_segment": "Unknown",
   "affected_squads": "AI Squad",
@@ -16302,11 +16197,6 @@
     "count": 4,
     "source": "feedback_batch_20260722",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 5,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -16338,11 +16228,11 @@
   ],
   "country": "All",
   "status": "Implemented - a solution is released",
-  "mentions": 4,
+  "mentions": 3,
   "quotes": "nicht immer klare Rückmeldung, ob ein Verarbeitungsvorgang noch läuft oder bereits abgeschlossen ist | BayernLB 2026-07: \"… eine nicht immer klare Rückmeldung, ob ein Verarbeitungsvorgang noch läuft oder bereits abgeschlossen ist.\"",
   "notes": "",
   "created": "2026-04-23",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-09",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -16350,7 +16240,7 @@
   "unclassified": false,
   "core_insight": "Users cannot clearly tell whether the system is still processing or has already finished, due to missing or unclear progress indicators.",
   "insight_type": "Improvement",
-  "mention_count": 4,
+  "mention_count": 3,
   "source_label": "Bayrische_Landesbank_042026, BayernLB_Feedback_2026_07",
   "customer_segment": "Corporate Law Department",
   "affected_squads": "Platform Squad;AI Squad",
@@ -16367,11 +16257,6 @@
     "count": 3,
     "source": "BayernLB_Feedback_2026_07",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 4,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -16766,11 +16651,11 @@
   ],
   "country": "Switzerland",
   "status": "New – Not yet discussed",
-  "mentions": 5,
+  "mentions": 2,
   "quotes": "Ich weiss, dass ihr daran bereits arbeitet. Das Ticket dient nur dem Status-Tracking.",
   "notes": "",
   "created": "2026-04-30",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-09",
   "sentiment": "Mixed",
   "publisher": "Swiss",
   "jira": "CS-1069",
@@ -16778,7 +16663,7 @@
   "unclassified": false,
   "core_insight": "The user needs the Thinking Process to always be displayed in the language of the prompt.",
   "insight_type": "Improvement",
-  "mention_count": 5,
+  "mention_count": 2,
   "source_label": "Publisher Feedback - Swiss",
   "customer_segment": "Publisher",
   "affected_squads": "AI Squad",
@@ -16794,11 +16679,6 @@
     "date": "2026-07-08",
     "count": 2,
     "source": "merged from ID 405 (+1)"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 5,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -16875,11 +16755,11 @@
   ],
   "country": "Switzerland",
   "status": "New – Not yet discussed",
-  "mentions": 2,
+  "mentions": 1,
   "quotes": "",
   "notes": "",
   "created": "2026-04-30",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-08",
   "sentiment": "Negative",
   "publisher": "Swiss",
   "jira": "CS-1111",
@@ -16887,7 +16767,7 @@
   "unclassified": false,
   "core_insight": "The user expects a source to only be listed once in a paragraph to improve readability.",
   "insight_type": "Improvement",
-  "mention_count": 2,
+  "mention_count": 1,
   "source_label": "Publisher Feedback - Swiss",
   "customer_segment": "Publisher",
   "affected_squads": "AI Squad",
@@ -16898,11 +16778,6 @@
     "count": 1,
     "source": "baseline",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 2,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -16981,11 +16856,11 @@
   ],
   "country": "Switzerland; Germany",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 23,
+  "mentions": 22,
   "quotes": "Grds. sind wir von der KI angetan. Man bekommt im Researchbereich Antworten, die juristisch auf viel hoeherem Niveau als bei Konkurrenten sein duerften. ... Teilweise fantasieren die Antworten aber ziemlich.",
   "notes": "",
   "created": "2026-01-15",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-09",
   "sentiment": "Negative",
   "publisher": "Swiss",
   "jira": "CS-1073; CS-1074; CS-1075; CS-1076; CS-1077; CS-1078; CS-1079; CS-1080; CS-1081; CS-1082; CS-1083; CS-1084; CS-1085; CS-1086; CS-1087; CS-1088; CS-1089; CS-1090; CS-1091; CS-1092; CS-1106; CS-1107",
@@ -16993,7 +16868,7 @@
   "unclassified": false,
   "core_insight": "The user needs explanations across all areas of Swiss law to be legally accurate, with correct court citations and sound reasoning.",
   "insight_type": "Improvement",
-  "mention_count": 23,
+  "mention_count": 22,
   "source_label": "Publisher Feedback - Swiss; Publisher Feedback - Beck Germany",
   "customer_segment": "Publisher",
   "affected_squads": "AI Squad",
@@ -17004,11 +16879,6 @@
     "count": 22,
     "source": "baseline",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 23,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -18376,11 +18246,11 @@
   ],
   "country": "Germany",
   "status": "New – Not yet discussed",
-  "mentions": 6,
+  "mentions": 5,
   "quotes": "Voreingestellte Zitations-Darstellung unüblich; Wunsch nach einstellbarer Zitierweise (Autor, in: Werk, Auflage Jahr, Rn.). | \"Source citations don't follow the standard citation style used in briefs - I always have to go into Beck Online again to fix them\" (Corporate Personas)",
   "notes": "",
   "created": "2026-07-06",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-15",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -18388,7 +18258,7 @@
   "unclassified": false,
   "core_insight": "Users want configurable citation style; the default citation format is unusual in German legal scholarship and practice.",
   "insight_type": "Missing Feature",
-  "mention_count": 6,
+  "mention_count": 5,
   "source_label": "Direct_Feedback_2026_06, Continous_Direct_Feedback_small_law_firm, 2026_02_Personas_Corporate",
   "customer_segment": "Small Law Firm; Corporate Law Department",
   "affected_squads": "Review Squad;Platform Squad",
@@ -18405,11 +18275,6 @@
     "count": 5,
     "source": "merged from ID 64 (duplicate-check consolidation)",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 6,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -18437,11 +18302,11 @@
   ],
   "country": "Germany",
   "status": "New – Not yet discussed",
-  "mentions": 2,
+  "mentions": 1,
   "quotes": "Trotz Prompt werden Literatur-/Rechtsprechungszitate teils nicht eingefügt; Zugriff auf Corpus nicht voll genutzt.",
   "notes": "",
   "created": "2026-07-06",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-09",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -18449,7 +18314,7 @@
   "unclassified": false,
   "core_insight": "The user needs the tool to make full use of the available publisher content corpus and insert sufficient literature and commentary references, even when explicitly prompted to do so.",
   "insight_type": "Improvement",
-  "mention_count": 2,
+  "mention_count": 1,
   "source_label": "Direct_Feedback_2026_06",
   "customer_segment": "",
   "affected_squads": "AI Squad",
@@ -18460,11 +18325,6 @@
     "date": "2026-06-29",
     "source": "feedback_batch_20260629",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 2,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -19198,11 +19058,11 @@
   ],
   "country": "All",
   "status": "New – Not yet discussed",
-  "mentions": 2,
+  "mentions": 1,
   "quotes": "\"Es wäre sehr schön, wenn es eine Lernentwicklung gäbe … bei … abweichendem Ergebnis eine Auseinandersetzung mit den Argumenten\" (CSM 82)",
   "notes": "",
   "created": "2026-07-22",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-22",
   "sentiment": "Mixed",
   "publisher": "",
   "jira": "",
@@ -19210,7 +19070,7 @@
   "unclassified": false,
   "core_insight": "Users would like memory / learning across sessions, and want the tool to engage with counter-arguments when they present a differing result.",
   "insight_type": "Idea",
-  "mention_count": 2,
+  "mention_count": 1,
   "source_label": "results-survey789769-CSM-202606",
   "customer_segment": "Unknown",
   "affected_squads": "AI Squad",
@@ -19221,11 +19081,6 @@
     "count": 1,
     "source": "feedback_batch_20260722",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 2,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -19443,11 +19298,11 @@
   ],
   "country": "All",
   "status": "New – Not yet discussed",
-  "mentions": 2,
+  "mentions": 1,
   "quotes": "\"Schriftsätze entsprechen häufig nicht den … erforderlichen Formalien (z.B. Rechtsbehelfsbelehrung …; persönliche Anrede und Grußformel)\" (CSM 95)",
   "notes": "",
   "created": "2026-07-22",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-22",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -19455,7 +19310,7 @@
   "unclassified": false,
   "core_insight": "Generated pleadings/briefs often miss required legal formalities (e.g. Rechtsbehelfsbelehrung, Anrede, Grußformel).",
   "insight_type": "Improvement",
-  "mention_count": 2,
+  "mention_count": 1,
   "source_label": "results-survey789769-CSM-202606",
   "customer_segment": "Unknown",
   "affected_squads": "Drafting Squad",
@@ -19466,11 +19321,6 @@
     "count": 1,
     "source": "feedback_batch_20260722",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 2,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -19551,7 +19401,7 @@
   ],
   "country": "All",
   "status": "Identified - JIRA ticket exists",
-  "mentions": 8,
+  "mentions": 7,
   "quotes": "\"Die exakte Verlinkung der Fundstellen in der Fachliteratur ist sehr hilfreich.\" (CSM 108); \"Kommentar-, Zeitschriften und Lehrbuchzitate …\" (CSM 73)\n\n[2026-08-20] \"sehr stark bei Literatur, auch bei Rspr\" (Direct_Feedback_Corp_002_08_2026)",
   "notes": "Complements needs 460/194.",
   "created": "2026-07-22",
@@ -19563,7 +19413,7 @@
   "unclassified": false,
   "core_insight": "Source and citation quality is a highlight — precise references, working Fundstellen links, and access to commentary/journal literature.",
   "insight_type": "General Feedback",
-  "mention_count": 8,
+  "mention_count": 7,
   "source_label": "results-survey789769-CSM-202606,Direct_Feedback_Corp_002_08_2026",
   "customer_segment": "Unknown",
   "affected_squads": "AI Squad",
@@ -19579,11 +19429,6 @@
     "date": "2026-08-20",
     "count": 7,
     "source": "merged from Direct_Feedback_Corp_002_08_2026 (literature and case law coverage rated very strong) (+1)"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 8,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -19713,11 +19558,11 @@
   ],
   "country": "All",
   "status": "New – Not yet discussed",
-  "mentions": 3,
+  "mentions": 1,
   "quotes": "[Lime Survey 2026-07-23, RID 166]: \"Leider funktioniert die für mich wesentliche Funktion zum Nachverfolgen von Änderungen nicht zuverlässig. Zum einen erkennt der […], die in einem hochgeladenen Worddokument im Nachverfolgenmodus gemacht wurden, nicht und nimmt dann fälschli…\"",
   "notes": "",
   "created": "2026-07-23",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-07-23",
   "sentiment": "Mixed",
   "publisher": "",
   "jira": "",
@@ -19725,7 +19570,7 @@
   "unclassified": true,
   "core_insight": "The user needs comments/annotations placed directly at the relevant location in the document, with a settable commenter name and clearer colour coding, for direct hand-off into Word.",
   "insight_type": "Missing Feature",
-  "mention_count": 3,
+  "mention_count": 1,
   "source_label": "Lime Survey questionaire",
   "customer_segment": "Unknown",
   "affected_squads": "",
@@ -19736,11 +19581,6 @@
     "count": 1,
     "source": "feedback_batch_20260723 (Editor/Canvas survey)",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 3,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -20201,11 +20041,11 @@
   ],
   "country": "Germany",
   "status": "New – Not yet discussed",
-  "mentions": 2,
+  "mentions": 1,
   "quotes": "[2026-08-10] \"Mehrwert auf umfangreiches Archiv/Datenschatz zahlt sich nicht aus\" (Direct_Vattenfall_08_2026)",
   "notes": "",
   "created": "2026-08-10",
-  "lastModified": "2026-08-20",
+  "lastModified": "2026-08-10",
   "sentiment": "Negative",
   "publisher": "",
   "jira": "",
@@ -20213,7 +20053,7 @@
   "unclassified": true,
   "core_insight": "Users felt the added value of Noxtua's large archive/data volume did not justify the cost or effort of keeping it versus switching to the competitor.",
   "insight_type": "General Feedback",
-  "mention_count": 2,
+  "mention_count": 1,
   "source_label": "Direct_Vattenfall_08_2026",
   "customer_segment": "Unknown",
   "affected_squads": "",
@@ -20224,11 +20064,6 @@
     "count": 1,
     "source": "feedback_batch_20260810",
     "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-08-20",
-    "count": 2,
-    "source": "restored from insights.backup_2026-08-07 (mention-count regression repair)"
    }
   ],
   "statusHistory": [
@@ -20470,1444 +20305,6 @@
     "status": "New – Not yet discussed"
    }
   ]
- },
- {
-  "id": 503,
-  "insight": "User-input instructions are not displayed for file inputs, even when essential.",
-  "type": "Improvement",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Continous_Direct_Feedback_corporate",
-  "userGroup": "Corporate Law Department",
-  "squads": [
-   "Drafting Squad"
-  ],
-  "features": [
-   "Templates"
-  ],
-  "country": "Germany",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "When creating user inputs you add instructions, but these aren't displayed at all for file input.",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-28",
-  "sentiment": "Negative",
-  "publisher": "",
-  "jira": "",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "User-input instructions are not displayed for file inputs, even when essential.",
-  "insight_type": "Improvement",
-  "mention_count": 1,
-  "source_label": "Continous_Direct_Feedback_corporate",
-  "customer_segment": "Corporate Law Department",
-  "affected_squads": "Drafting Squad",
-  "affected_features": "Templates",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccb9194e73d44a215110a",
-  "featurebase_board_id": "6a213f3998f1621c64f747fb",
-  "featurebase_synced_at": "2026-07-31T17:11:55.826834Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 504,
-  "insight": "Required user input is not visible when applying a template — the user must click 'edit' to see it.",
-  "type": "Improvement",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Continous_Direct_Feedback_corporate",
-  "userGroup": "Corporate Law Department",
-  "squads": [
-   "Drafting Squad"
-  ],
-  "features": [
-   "Templates"
-  ],
-  "country": "Germany",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "I have to click 'edit' to see what input is required. This should be visible immediately when selecting the template.",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Negative",
-  "publisher": "",
-  "jira": "",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "Required user input is not visible when applying a template — the user must click 'edit' to see it.",
-  "insight_type": "Improvement",
-  "mention_count": 1,
-  "source_label": "Continous_Direct_Feedback_corporate",
-  "customer_segment": "Corporate Law Department",
-  "affected_squads": "Drafting Squad",
-  "affected_features": "Templates",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccb9484800d6b14f310f7",
-  "featurebase_board_id": "6a213f3998f1621c64f747fb",
-  "featurebase_synced_at": "2026-07-31T17:11:58.702224Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 505,
-  "insight": "RVG and court-cost calculations are wildly wrong — amounts are not correctly taken from the tables.",
-  "type": "Improvement",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Continous_Direct_Feedback_corporate",
-  "userGroup": "Corporate Law Department",
-  "squads": [
-   "AI Squad"
-  ],
-  "features": [
-   "Research"
-  ],
-  "country": "Germany",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "Abrechnung RVG und Gerichtskosten: abenteuerliche Antworten, Beträge nicht richtig aus den Tabellen übernommen.",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-28",
-  "sentiment": "Negative",
-  "publisher": "",
-  "jira": "",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "RVG and court-cost calculations are wildly wrong — amounts are not correctly taken from the tables.",
-  "insight_type": "Improvement",
-  "mention_count": 1,
-  "source_label": "Continous_Direct_Feedback_corporate",
-  "customer_segment": "Corporate Law Department",
-  "affected_squads": "AI Squad",
-  "affected_features": "Research",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccb9694e73d44a21582ce",
-  "featurebase_board_id": "6a213f3998f1621c64f747fb",
-  "featurebase_synced_at": "2026-07-31T17:12:02.012201Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 506,
-  "insight": "Date/deadline calculations are almost always wrong when reference dates are entered (weekdays, week-based deadlines).",
-  "type": "Improvement",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Continous_Direct_Feedback_corporate",
-  "userGroup": "Corporate Law Department",
-  "squads": [
-   "AI Squad"
-  ],
-  "features": [
-   "Research"
-  ],
-  "country": "Germany",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "Fristen: wenn man Referenzdaten eingibt, berechnet Noxtua diese falsch — Wochentage und Wochenfristen fast immer falsch.",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-28",
-  "sentiment": "Negative",
-  "publisher": "",
-  "jira": "",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "Date/deadline calculations are almost always wrong when reference dates are entered (weekdays, week-based deadlines).",
-  "insight_type": "Improvement",
-  "mention_count": 1,
-  "source_label": "Continous_Direct_Feedback_corporate",
-  "customer_segment": "Corporate Law Department",
-  "affected_squads": "AI Squad",
-  "affected_features": "Research",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccb98ae4aea0e96ded353",
-  "featurebase_board_id": "6a213f3998f1621c64f747fb",
-  "featurebase_synced_at": "2026-07-31T17:12:04.872017Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 507,
-  "insight": "Marginal numbers (Randziffern) in responses are often too long to be usable.",
-  "type": "Improvement",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Continous_Direct_Feedback_corporate",
-  "userGroup": "Corporate Law Department",
-  "squads": [
-   "AI Squad"
-  ],
-  "features": [
-   "Citations"
-  ],
-  "country": "Germany",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "Randziffern häufig zu lang — aus Zeitgründen manchmal nicht gefunden.",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Negative",
-  "publisher": "",
-  "jira": "",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "Marginal numbers (Randziffern) in responses are often too long to be usable.",
-  "insight_type": "Improvement",
-  "mention_count": 1,
-  "source_label": "Continous_Direct_Feedback_corporate",
-  "customer_segment": "Corporate Law Department",
-  "affected_squads": "AI Squad",
-  "affected_features": "Citations",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccb9a93655bd982b3c3ad",
-  "featurebase_board_id": "6a213f3998f1621c64f747fb",
-  "featurebase_synced_at": "2026-07-31T17:12:07.790273Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 508,
-  "insight": "Users want color/bold highlighting of the exact citation so they can relocate it after returning to a topic weeks later.",
-  "type": "Idea",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Continous_Direct_Feedback_corporate",
-  "userGroup": "Corporate Law Department",
-  "squads": [
-   "Design"
-  ],
-  "features": [
-   "Citations"
-  ],
-  "country": "Germany",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "Farbliche oder fette Hervorhebung der exakten Fundstelle — manchmal kommt man nach 2 Wochen zum Thema zurück.",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Mixed",
-  "publisher": "",
-  "jira": "",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "Users want color/bold highlighting of the exact citation so they can relocate it after returning to a topic weeks later.",
-  "insight_type": "Idea",
-  "mention_count": 1,
-  "source_label": "Continous_Direct_Feedback_corporate",
-  "customer_segment": "Corporate Law Department",
-  "affected_squads": "Design",
-  "affected_features": "Citations",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "qa_deleted": true,
-  "qa_delete_note": "MERGED into ID 78"
- },
- {
-  "id": 509,
-  "insight": "The user needs the tool to not be influenced by an arguing user unless the tool actually uncovers new information in the system, that changes the result.",
-  "type": "General Feedback",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Beck Czech",
-  "userGroup": "Publisher",
-  "squads": [
-   "AI Squad"
-  ],
-  "features": [
-   "Chat"
-  ],
-  "country": "Czech Republic",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "I suspected as much but thought it be best to report this anyway as this sort of feedback has been submitted also by multiple testers.",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Negative",
-  "publisher": "Beck Czech",
-  "jira": "CS-1515",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs the tool to not be influenced by an arguing user unless the tool actually uncovers new information in the system, that changes the result.",
-  "insight_type": "General Feedback",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Beck Czech",
-  "customer_segment": "Publisher",
-  "affected_squads": "AI Squad",
-  "affected_features": "Chat",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccb9c93655bd982b3e122",
-  "featurebase_board_id": "6a213f3998f1621c64f747fb",
-  "featurebase_synced_at": "2026-07-31T17:12:11.042267Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 510,
-  "insight": "The user needs conditional formatting (e.g. colour, bold, flags) in Matrix Analysis cells, triggered by prompt results.",
-  "type": "Missing Feature",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Beck Poland",
-  "userGroup": "Publisher",
-  "squads": [],
-  "features": [
-   "Matrix Analysis"
-  ],
-  "country": "Poland",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "Individual cells within a matrix could be subject to conditional formatting... as a result of a prompt execution.",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Positive",
-  "publisher": "Beck Poland",
-  "jira": "CS-1526",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs conditional formatting (e.g. colour, bold, flags) in Matrix Analysis cells, triggered by prompt results.",
-  "insight_type": "Missing Feature",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Beck Poland",
-  "customer_segment": "Publisher",
-  "affected_squads": "",
-  "affected_features": "Matrix Analysis",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccb9fd361a8379e2935cd",
-  "featurebase_board_id": "6a2123630535f655cfaec3cb",
-  "featurebase_synced_at": "2026-07-31T17:12:13.922004Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 511,
-  "insight": "The user needs to be able to duplicate existing templates for reuse in similar use cases with slight variations.",
-  "type": "Missing Feature",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Manz",
-  "userGroup": "Publisher",
-  "squads": [],
-  "features": [
-   "Templates"
-  ],
-  "country": "Austria",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "It could be beneficial/useful to be able to create duplicates of existing templates... for same-ish use cases with slight differences",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Positive",
-  "publisher": "Manz",
-  "jira": "CS-1538",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs to be able to duplicate existing templates for reuse in similar use cases with slight variations.",
-  "insight_type": "Missing Feature",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Manz",
-  "customer_segment": "Publisher",
-  "affected_squads": "",
-  "affected_features": "Templates",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccba195b6184de99d85a7",
-  "featurebase_board_id": "6a2123630535f655cfaec3cb",
-  "featurebase_synced_at": "2026-07-31T17:12:16.885890Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 512,
-  "insight": "The user needs to be able to resize Matrix Analysis column widths.",
-  "type": "Missing Feature",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Manz",
-  "userGroup": "Publisher",
-  "squads": [],
-  "features": [
-   "Matrix Analysis"
-  ],
-  "country": "Austria",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Positive",
-  "publisher": "Manz",
-  "jira": "CS-1587",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs to be able to resize Matrix Analysis column widths.",
-  "insight_type": "Missing Feature",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Manz",
-  "customer_segment": "Publisher",
-  "affected_squads": "",
-  "affected_features": "Matrix Analysis",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccba3d361a8379e293724",
-  "featurebase_board_id": "6a2123630535f655cfaec3cb",
-  "featurebase_synced_at": "2026-07-31T17:12:19.730071Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 513,
-  "insight": "The user needs Swiss court decisions to be chunked and cited at the \"Erwägung\" level rather than by fixed size, matching the court's own reasoning structure.",
-  "type": "Missing Feature",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Swiss",
-  "userGroup": "Publisher",
-  "squads": [
-   "AI Squad"
-  ],
-  "features": [
-   "Citations"
-  ],
-  "country": "Switzerland",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "Court decisions in the Swiss-Noxtua corpus should be chunked along their Erwägung structure rather than by fixed size... the court author has already segmented the reasoning",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Mixed",
-  "publisher": "Swiss",
-  "jira": "CS-1589",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs Swiss court decisions to be chunked and cited at the \"Erwägung\" level rather than by fixed size, matching the court's own reasoning structure.",
-  "insight_type": "Missing Feature",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Swiss",
-  "customer_segment": "Publisher",
-  "affected_squads": "AI Squad",
-  "affected_features": "Citations",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccba48a3d03519feed8c2",
-  "featurebase_board_id": "6a2123630535f655cfaec3cb",
-  "featurebase_synced_at": "2026-07-31T17:12:22.579130Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 514,
-  "insight": "The (non-admin) user needs to be able to create private templates for themselves.",
-  "type": "Missing Feature",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Beck Czech, CS-1555, CS-1617",
-  "userGroup": "Publisher",
-  "squads": [],
-  "features": [
-   "Templates",
-   "Roles"
-  ],
-  "country": "Czech Republic",
-  "status": "New – Not yet discussed",
-  "mentions": 4,
-  "quotes": "We suggest that all users have the option to create their private template without such templates being shared. | [2026-06-12] \"In order to access and create templates, you will first need to grant the appropriate permissions to yourself and any other employees who require access by using the administrator account.\" (CS-1555) | [2026-06-25] \"Ich kann keine eigenen Template speichern. Programmierungsfehler oder Absicht?\" (CS-1617) | [Lime Survey 2026-07-23, RID 50]: \"[…] muss wie auch bei der Konkurrent ein Mikrofonbutton eingearbeitet werden, damit man die Promis nicht tippen muss sondern direkt in die Anwendung diktieren kann. Ebaso muss ich eigene Promis abspeichern können\"",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-28",
-  "sentiment": "Positive",
-  "publisher": "Beck Czech",
-  "jira": "CS-1598; CS-1555; CS-1617",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The (non-admin) user needs to be able to create private templates for themselves.",
-  "insight_type": "Missing Feature",
-  "mention_count": 4,
-  "source_label": "Publisher Feedback – Beck Czech, CS-1555, CS-1617",
-  "customer_segment": "Publisher",
-  "affected_squads": "",
-  "affected_features": "Templates;Roles",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   },
-   {
-    "date": "2026-07-27",
-    "count": 2,
-    "source": "feedback_batch_20260727"
-   },
-   {
-    "date": "2026-07-27",
-    "count": 3,
-    "source": "feedback_batch_20260727"
-   },
-   {
-    "date": "2026-07-28",
-    "count": 1,
-    "source": "merged from ID 488",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccba695b6184de99d9257",
-  "featurebase_board_id": "6a2123630535f655cfaec3cb",
-  "featurebase_synced_at": "2026-07-31T17:12:30.325075Z",
-  "featurebase_votes": 4
- },
- {
-  "id": 515,
-  "insight": "The user needs to be able to duplicate an existing Matrix Analysis.",
-  "type": "Missing Feature",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Beck Czech",
-  "userGroup": "Publisher",
-  "squads": [],
-  "features": [
-   "Matrix Analysis",
-   "Templates"
-  ],
-  "country": "Czech Republic",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "users cannot copy / duplicate existing Matrix analysis; whereas it could be useful to have this option so that the users can use the existing matrix analysis setup for different set of documents",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Positive",
-  "publisher": "Beck Czech",
-  "jira": "CS-1599",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs to be able to duplicate an existing Matrix Analysis.",
-  "insight_type": "Missing Feature",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Beck Czech",
-  "customer_segment": "Publisher",
-  "affected_squads": "",
-  "affected_features": "Matrix Analysis;Templates",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccbaaae4aea0e96df3cf5",
-  "featurebase_board_id": "6a2123630535f655cfaec3cb",
-  "featurebase_synced_at": "2026-07-31T17:12:33.415057Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 516,
-  "insight": "The user needs to be able to create templates for Matrix Analysis.",
-  "type": "Missing Feature",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Beck Czech",
-  "userGroup": "Publisher",
-  "squads": [],
-  "features": [
-   "Matrix Analysis",
-   "Templates"
-  ],
-  "country": "Czech Republic",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "users cannot copy / duplicate existing Matrix analysis; whereas it could be useful to have this option so that the users can use the existing matrix analysis setup for different set of documents",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Positive",
-  "publisher": "Beck Czech",
-  "jira": "CS-1599",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs to be able to create templates for Matrix Analysis.",
-  "insight_type": "Missing Feature",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Beck Czech",
-  "customer_segment": "Publisher",
-  "affected_squads": "",
-  "affected_features": "Matrix Analysis;Templates",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccbacd361a8379e29c518",
-  "featurebase_board_id": "6a2123630535f655cfaec3cb",
-  "featurebase_synced_at": "2026-07-31T17:12:36.596022Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 517,
-  "insight": "The user expects the tool to adhere to his instructions (e.g. limitations to sources of interest).",
-  "type": "General Feedback",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Swiss",
-  "userGroup": "Publisher",
-  "squads": [
-   "AI Squad"
-  ],
-  "features": [
-   "Prompting",
-   "Sources"
-  ],
-  "country": "Switzerland",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "in the system prompt, we mention that the data comes from helbing explicitly but do not mention legalis. Let's adapt this",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Negative",
-  "publisher": "Swiss",
-  "jira": "CS-1644",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user expects the tool to adhere to his instructions (e.g. limitations to sources of interest).",
-  "insight_type": "General Feedback",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Swiss",
-  "customer_segment": "Publisher",
-  "affected_squads": "AI Squad",
-  "affected_features": "Prompting;Sources",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccbae8a3d03519fef713d",
-  "featurebase_board_id": "6a213f3998f1621c64f747fb",
-  "featurebase_synced_at": "2026-07-31T17:12:39.712870Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 518,
-  "insight": "The user needs an \"Artefakte\" section that surfaces uploaded documents alongside citations, and eventually the playbook used.",
-  "type": "Idea",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Swiss",
-  "userGroup": "Publisher",
-  "squads": [],
-  "features": [],
-  "country": "Switzerland",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "Currently, we only support a single editor file, not multiple. One option would be to surface the uploaded documents here, alongside citations",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Mixed",
-  "publisher": "Swiss",
-  "jira": "CS-1666",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs an \"Artefakte\" section that surfaces uploaded documents alongside citations, and eventually the playbook used.",
-  "insight_type": "Idea",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Swiss",
-  "customer_segment": "Publisher",
-  "affected_squads": "",
-  "affected_features": "",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccbb14ee14d9752f86c69",
-  "featurebase_board_id": "6a213f3998f1621c64f747fb",
-  "featurebase_synced_at": "2026-07-31T17:12:42.854705Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 519,
-  "insight": "The user needs voice input for long transcription of dictated text or meetings.",
-  "type": "Improvement",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Swiss",
-  "userGroup": "Publisher",
-  "squads": [],
-  "features": [
-   "Voice Control"
-  ],
-  "country": "Switzerland",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "These models are optimized for an ideal use case of an 30 seconds input. It is not a classical speech-to-text dictation that lawyers use to write documents.",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Mixed",
-  "publisher": "Swiss",
-  "jira": "CS-1681",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs voice input for long transcription of dictated text or meetings.",
-  "insight_type": "Improvement",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Swiss",
-  "customer_segment": "Publisher",
-  "affected_squads": "",
-  "affected_features": "Voice Control",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccbb34ee14d9752f88524",
-  "featurebase_board_id": "6a213f3998f1621c64f747fb",
-  "featurebase_synced_at": "2026-07-31T17:12:46.007782Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 520,
-  "insight": "The user needs to be able to collapse or minimize the question box so answers get more screen space.",
-  "type": "Missing Feature",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Blendow Sweden",
-  "userGroup": "Publisher",
-  "squads": [
-   "Design"
-  ],
-  "features": [
-   "Chat",
-   "Layout"
-  ],
-  "country": "Sweden",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "it would be helpful if there was a possibility to either close or minimize the question box... the answer will get more space on the screen and needs less scrolling",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Positive",
-  "publisher": "Blendow Sweden",
-  "jira": "CS-1698",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs to be able to collapse or minimize the question box so answers get more screen space.",
-  "insight_type": "Missing Feature",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Blendow Sweden",
-  "customer_segment": "Publisher",
-  "affected_squads": "Design",
-  "affected_features": "Chat;Layout",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccbb58a3d03519fefc180",
-  "featurebase_board_id": "6a2123630535f655cfaec3cb",
-  "featurebase_synced_at": "2026-07-31T17:12:49.151744Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 521,
-  "insight": "The user needs to be able to create and use templates in multiple languages without creating a template per language.",
-  "type": "Missing Feature",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Swiss",
-  "userGroup": "Publisher",
-  "squads": [],
-  "features": [
-   "Templates",
-   "Personalization"
-  ],
-  "country": "Switzerland",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "If there is a possibility for the user to select the language in which he wants the template to be shown to them, it would be great, instead of having twice the template, one in each language.",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Positive",
-  "publisher": "Swiss",
-  "jira": "CS-1722",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs to be able to create and use templates in multiple languages without creating a template per language.",
-  "insight_type": "Missing Feature",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Swiss",
-  "customer_segment": "Publisher",
-  "affected_squads": "",
-  "affected_features": "Templates;Personalization",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccbb7f8e5d9da85151d2d",
-  "featurebase_board_id": "6a2123630535f655cfaec3cb",
-  "featurebase_synced_at": "2026-07-31T17:12:52.413300Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 522,
-  "insight": "The user needs configurable citation length — shorter inline citations while keeping full-length citations available elsewhere.",
-  "type": "Missing Feature",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Beck Czech",
-  "userGroup": "Publisher",
-  "squads": [
-   "AI Squad",
-   "Platform Squad"
-  ],
-  "features": [
-   "Citations",
-   "Chat"
-  ],
-  "country": "Czech Republic / Slovakia",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "We would like to shorten the in-line citations in the chatbot while keeping the long ones for Beck-Noxtua. Could we arrange to specify different citation values for these two purposes?",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Mixed",
-  "publisher": "Beck Czech",
-  "jira": "CS-1595",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs configurable citation length — shorter inline citations while keeping full-length citations available elsewhere.",
-  "insight_type": "Missing Feature",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Beck Czech",
-  "customer_segment": "Publisher",
-  "affected_squads": "AI Squad;Platform Squad",
-  "affected_features": "Citations;Chat",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccbb94ee14d9752f88e2a",
-  "featurebase_board_id": "6a2123630535f655cfaec3cb",
-  "featurebase_synced_at": "2026-07-31T17:12:55.558209Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 523,
-  "insight": "The user needs custom, savable agents (\"Gems\") for recurring tasks.",
-  "type": "Idea",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "CS-1621",
-  "userGroup": "Big Law Firm",
-  "squads": [
-   "AI Squad"
-  ],
-  "features": [
-   "Prompting",
-   "Customization"
-  ],
-  "country": "Germany",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "Kann ich bei Noxtua auch Agenten bzw. Gems einrichten um diese für wiederkehrende Aufgaben zu nutzen?",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Positive",
-  "publisher": "",
-  "jira": "CS-1621",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs custom, savable agents (\"Gems\") for recurring tasks.",
-  "insight_type": "Idea",
-  "mention_count": 1,
-  "source_label": "CS-1621",
-  "customer_segment": "Big Law Firm",
-  "affected_squads": "AI Squad",
-  "affected_features": "Prompting;Customization",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccbbbae4aea0e96dffa8d",
-  "featurebase_board_id": "6a213f3998f1621c64f747fb",
-  "featurebase_synced_at": "2026-07-31T17:12:58.622892Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 524,
-  "insight": "The user needs a single, unambiguous login entry point instead of two confusing options (publisher portal vs. direct app link).",
-  "type": "Improvement",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Manz",
-  "userGroup": "Publisher",
-  "squads": [
-   "Platform Squad"
-  ],
-  "features": [
-   "Login",
-   "Onboarding"
-  ],
-  "country": "Austria",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "Der von Ihnen angegebene Link (https://noxtua.manz.at/) ist eine andere Möglichkeit, sich anzumelden, die Sie derzeit nicht nutzen können. Es tut mir leid, das ist tatsächlich verwirrend!",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Negative",
-  "publisher": "Manz",
-  "jira": "CS-1669",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs a single, unambiguous login entry point instead of two confusing options (publisher portal vs. direct app link).",
-  "insight_type": "Improvement",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Manz",
-  "customer_segment": "Publisher",
-  "affected_squads": "Platform Squad",
-  "affected_features": "Login;Onboarding",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccbbdd361a8379e2a5af8",
-  "featurebase_board_id": "6a213f3998f1621c64f747fb",
-  "featurebase_synced_at": "2026-07-31T17:13:01.740294Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 525,
-  "insight": "The user needs to have document citations for relevant passages not for the full document only.",
-  "type": "Missing Feature",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Manz",
-  "userGroup": "Publisher",
-  "squads": [
-   "AI Squad",
-   "Platform Squad"
-  ],
-  "features": [
-   "Document Upload",
-   "Citations",
-   "Sources"
-  ],
-  "country": "Austria",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "in den Referenzen für die Passagen wird der gesamte Dokumenttext übermittelt, nicht mehr nur die passende Textpassagen.",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Negative",
-  "publisher": "Manz",
-  "jira": "CS-1686",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs to have document citations for relevant passages not for the full document only.",
-  "insight_type": "Missing Feature",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Manz",
-  "customer_segment": "Publisher",
-  "affected_squads": "AI Squad;Platform Squad",
-  "affected_features": "Document Upload;Citations;Sources",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccbbf84800d6b14f4c105",
-  "featurebase_board_id": "6a2123630535f655cfaec3cb",
-  "featurebase_synced_at": "2026-07-31T17:13:05.408724Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 526,
-  "insight": "The user needs an option to prevent accidental message submission when pressing Enter.",
-  "type": "Improvement",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Beck Germany",
-  "userGroup": "Publisher",
-  "squads": [
-   "Design"
-  ],
-  "features": [
-   "Chat"
-  ],
-  "country": "Germany",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "unangenehm, dass man durch das \"Enter\" drücken in Noxtua den Prompt oft ausversehen abschickt. Sie fänden es toll, wenn man das umstellen/ändern könnte.",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Mixed",
-  "publisher": "Beck Germany",
-  "jira": "CS-1641",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs an option to prevent accidental message submission when pressing Enter.",
-  "insight_type": "Improvement",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Beck Germany",
-  "customer_segment": "Publisher",
-  "affected_squads": "Design",
-  "affected_features": "Chat",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccbc195b6184de99e94fa",
-  "featurebase_board_id": "6a213f3998f1621c64f747fb",
-  "featurebase_synced_at": "2026-07-31T17:13:08.556974Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 527,
-  "insight": "The user needs transparency on how to add user input to a template.",
-  "type": "Improvement",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Beck Germany",
-  "userGroup": "Publisher",
-  "squads": [
-   "Workflow Squad"
-  ],
-  "features": [
-   "Templates"
-  ],
-  "country": "Germany",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "I reproduced the steps on my end, and this is not a bug. The behavior you're seeing is expected... I am closing this as expected behavior rather than a defect.",
-  "notes": "",
-  "created": "2026-07-27",
-  "lastModified": "2026-07-27",
-  "sentiment": "Negative",
-  "publisher": "Beck Germany",
-  "jira": "CS-1674",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs transparency on how to add user input to a template.",
-  "insight_type": "Improvement",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Beck Germany",
-  "customer_segment": "Publisher",
-  "affected_squads": "Workflow Squad",
-  "affected_features": "Templates",
-  "mentionHistory": [
-   {
-    "date": "2026-07-27",
-    "count": 1,
-    "source": "feedback_batch_20260727",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-07-27",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": true,
-  "qa_reviewed_at": "2026-07-28",
-  "featurebase_id": "6a6ccbc38a3d03519fefc765",
-  "featurebase_board_id": "6a213f3998f1621c64f747fb",
-  "featurebase_synced_at": "2026-07-31T17:13:11.702488Z",
-  "featurebase_votes": 1
- },
- {
-  "id": 528,
-  "insight": "The user needs to be able to see the whole document within the app in order to stay in one tool while working.",
-  "type": "Missing Feature",
-  "sourceTypes": [
-   "Direct Feedback"
-  ],
-  "source": "Publisher Feedback – Manz",
-  "userGroup": "Publisher",
-  "squads": [
-   "Platform Squad"
-  ],
-  "features": [
-   "Citations",
-   "Document Review"
-  ],
-  "country": "All",
-  "status": "New – Not yet discussed",
-  "mentions": 1,
-  "quotes": "Dringend benötigt wird eine Dokumentansicht innerhalb der Applikation. Wir stellen dafür eine API zur Verfügung, welche per DokumentID eine HTML-Ansicht retour liefert... Ziel ist eine relativ einfache Dokumentansicht ohne interne Links und Verlinkungen auf andere Dokumente. Inklusive Überschriften, Kapitel etc.",
-  "notes": "",
-  "created": "2026-08-04",
-  "lastModified": "2026-08-05",
-  "sentiment": "Negative",
-  "publisher": "Manz",
-  "jira": "CS-1778",
-  "isNew": true,
-  "unclassified": false,
-  "core_insight": "The user needs to be able to see the whole document within the app in order to stay in one tool while working.",
-  "insight_type": "Missing Feature",
-  "mention_count": 1,
-  "source_label": "Publisher Feedback – Manz",
-  "customer_segment": "Publisher",
-  "affected_squads": "Platform Squad",
-  "affected_features": "Citations;Document Review",
-  "mentionHistory": [
-   {
-    "date": "2026-08-05",
-    "count": 1,
-    "source": "CS-1778",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "statusHistory": [
-   {
-    "date": "2026-08-05",
-    "status": "New – Not yet discussed"
-   }
-  ],
-  "qa_reviewed": false,
-  "qa_reviewed_at": "",
-  "featurebase_id": "",
-  "featurebase_board_id": "",
-  "featurebase_synced_at": "",
-  "featurebase_votes": 0
  },
  {
   "id": 531,
