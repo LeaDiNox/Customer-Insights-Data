@@ -1,0 +1,867 @@
+<title>Corp_002 Merge Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --paper:#EFEEEA; --surface:#FFFFFF; --surface-2:#F7F6F3; --ink:#200F21; --muted:#5C5450;
+  --rule:#D3D6F2; --rule-soft:#E4E2DC; --accent:#3D1A39; --accent-soft:#DFE9FC;
+  --ok:#1F6B4F; --ok-bg:#E4F0EA; --warn:#8A5A16; --warn-bg:#F6EDDD; --info:#3E5AA8; --info-bg:#E6EAF7;
+  --shadow:0 1px 2px rgba(32,15,33,.06),0 8px 24px rgba(32,15,33,.05);
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --paper:#1A0C1B; --surface:#2B1630; --surface-2:#241228; --ink:#F2F2F2; --muted:#A3AAD0;
+  --rule:#5C406B; --rule-soft:#3D1A39; --accent:#A3AAD0; --accent-soft:#361938;
+  --ok:#7FC7A5; --ok-bg:#1E3A2E; --warn:#E0AC63; --warn-bg:#3A2C17; --info:#9FA1CA; --info-bg:#252748;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.3);
+}}
+:root[data-theme="dark"]{
+  --paper:#1A0C1B; --surface:#2B1630; --surface-2:#241228; --ink:#F2F2F2; --muted:#A3AAD0;
+  --rule:#5C406B; --rule-soft:#3D1A39; --accent:#A3AAD0; --accent-soft:#361938;
+  --ok:#7FC7A5; --ok-bg:#1E3A2E; --warn:#E0AC63; --warn-bg:#3A2C17; --info:#9FA1CA; --info-bg:#252748;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-weight:400;line-height:1.55;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px 96px}
+.k{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10.5px;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--muted);display:block;margin:0 0 4px}
+.hint{text-transform:none;letter-spacing:0;font-family:"DM Sans",sans-serif;font-size:12px;color:var(--muted);font-weight:400}
+/* masthead */
+.mast{padding:44px 0 26px;border-bottom:1px solid var(--rule)}
+.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+h1{font-size:clamp(28px,4.4vw,40px);font-weight:300;letter-spacing:-.02em;margin:0 0 10px;text-wrap:balance}
+h1 b{font-weight:500}
+.sub{margin:0;max-width:62ch;color:var(--muted);font-size:15px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 10px;margin:20px 0 0;padding:0;list-style:none}
+.meta li{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink);background:var(--surface);
+  border:1px solid var(--rule-soft);border-radius:2px;padding:4px 9px}
+/* progress */
+.progress{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--paper) 92%,transparent);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:28px}
+.pinner{max-width:900px;margin:0 auto;padding:0 20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.ticks{display:flex;gap:3px;flex:1;min-width:200px}
+.tick{height:6px;flex:1;background:var(--rule-soft);border-radius:1px}
+.tick[data-s="done"]{background:var(--ok)}
+.tick[data-s="conflict"]{background:var(--warn)}
+.tick[data-s="active"]{background:var(--accent)}
+.pcount{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.pcount b{color:var(--ink);font-weight:500}
+/* cards */
+.cards{display:flex;flex-direction:column;gap:18px}
+.card{background:var(--surface);border:1px solid var(--rule-soft);border-radius:3px;box-shadow:var(--shadow);
+  padding:22px 24px;transition:opacity .18s ease}
+.card.locked{opacity:.42;pointer-events:none;box-shadow:none}
+.card.locked .cbody{display:none}
+.card.done .cbody{display:none}
+.card.done{padding:14px 24px;box-shadow:none;background:var(--surface-2)}
+.chead{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.badge{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+  padding:4px 9px;border-radius:2px;border:1px solid transparent}
+.badge.ok{background:var(--ok-bg);color:var(--ok);border-color:color-mix(in srgb,var(--ok) 30%,transparent)}
+.badge.warn{background:var(--warn-bg);color:var(--warn);border-color:color-mix(in srgb,var(--warn) 30%,transparent)}
+.badge.info{background:var(--info-bg);color:var(--info);border-color:color-mix(in srgb,var(--info) 30%,transparent)}
+.rownum{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:500}
+.state{margin-left:auto;font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted)}
+.reopen{display:none;margin-left:auto;font:inherit;font-size:12px;background:none;border:1px solid var(--rule);
+  color:var(--muted);border-radius:2px;padding:3px 10px;cursor:pointer}
+.card.done .reopen{display:inline-block}
+.card.done .state{margin-left:0}
+.reopen:hover{border-color:var(--accent);color:var(--ink)}
+.cbody{margin-top:16px;display:flex;flex-direction:column;gap:14px}
+.insight{margin:0;font-size:17px;line-height:1.5;border-left:2px solid var(--accent);padding:2px 0 2px 14px;
+  outline-offset:4px;max-width:68ch}
+.insight:focus{outline:2px solid var(--accent)}
+.cite{margin:0;font-style:italic;color:var(--muted);font-size:14.5px;padding:0 0 0 14px;
+  border-left:1px dashed var(--rule);max-width:68ch}
+.scan,.cls,.rejected{margin:0;font-size:13.5px;color:var(--muted);max-width:72ch}
+.cls{color:var(--ink)}
+.proposal{border-top:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft);padding:14px 0;
+  display:flex;flex-direction:column;gap:10px}
+.target{display:flex;gap:11px;align-items:flex-start;padding:11px 12px;border:1px solid var(--rule);
+  border-radius:2px;cursor:pointer;background:var(--surface)}
+.target.optional{border-style:dashed}
+.target:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+.target input{margin-top:3px;accent-color:var(--accent);width:15px;height:15px;flex:none}
+.tbody{display:flex;flex-direction:column;gap:3px}
+.tid{font-family:"IBM Plex Mono",monospace;font-size:12.5px;font-weight:500}
+.tlabel{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.ttext{font-size:14.5px}
+.tmeta{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted)}
+.treason{font-size:13px;color:var(--muted)}
+.newrec{margin:0;font-size:14.5px;padding:11px 12px;border:1px dashed var(--info);border-radius:2px;
+  background:var(--info-bg);color:var(--ink)}
+.rewrite{margin:0;font-size:14px}
+.flag{margin:0;font-size:13.5px;color:var(--warn);background:var(--warn-bg);border-radius:2px;padding:8px 11px}
+.flag code{font-family:"IBM Plex Mono",monospace;font-size:12.5px}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+.btn{font:inherit;font-size:14px;font-weight:500;padding:9px 20px;border-radius:2px;cursor:pointer;border:1px solid var(--accent)}
+.btn.accept{background:var(--accent);color:var(--surface)}
+:root[data-theme="dark"] .btn.accept,
+:root:not([data-theme="light"]) .btn.accept{color:var(--paper)}
+.btn.adjust{background:transparent;color:var(--ink)}
+.btn:hover{opacity:.86}
+.btn:focus-visible,.reopen:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn.small{font-size:13px;padding:6px 14px;align-self:flex-start}
+.adjustbox{display:none;flex-direction:column;gap:8px;background:var(--surface-2);padding:14px;border-radius:2px}
+.card[data-local-adjusting="true"] .adjustbox{display:flex}
+.commentbox{display:flex;flex-direction:column;gap:6px}
+textarea{font:inherit;font-size:14px;background:var(--surface);color:var(--ink);border:1px solid var(--rule);
+  border-radius:2px;padding:9px 11px;resize:vertical;width:100%}
+.conflict{margin:0;display:none;font-size:13.5px;color:var(--warn);background:var(--warn-bg);
+  border-left:2px solid var(--warn);padding:9px 12px}
+.card[data-conflict="true"] .conflict{display:block}
+/* summary */
+.summary{margin-top:34px;background:var(--surface);border:1px solid var(--rule);border-radius:3px;padding:22px 24px}
+.summary h2{font-size:20px;font-weight:500;margin:0 0 4px}
+.tally{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0;padding:0;list-style:none}
+.tally li{font-family:"IBM Plex Mono",monospace;font-size:12px;border:1px solid var(--rule-soft);
+  border-radius:2px;padding:5px 10px;font-variant-numeric:tabular-nums}
+#payload{margin-top:14px;font-family:"IBM Plex Mono",monospace;font-size:12px;min-height:150px;white-space:pre;overflow-x:auto}
+.srow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:14px}
+.said{font-size:13.5px;color:var(--muted);max-width:70ch;margin:10px 0 0}
+body[data-submitted="true"] .finalnote{display:block}
+.finalnote{display:none;margin:14px 0 0;font-size:14px;color:var(--ok);background:var(--ok-bg);
+  border-left:2px solid var(--ok);padding:11px 13px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+<div class="progress">
+  <div class="pinner">
+    <div class="ticks" id="ticks"></div>
+    <span class="pcount" id="pcount">0 of 13 decided</span>
+  </div>
+</div>
+<div class="wrap">
+  <header class="mast">
+    <p class="eyebrow">Insight merge review · round 1</p>
+    <h1>Corp_002 feedback call — <b>13 rows against 383 records</b></h1>
+    <p class="sub">Every row from <code>insights_extracted_2026-08-20.csv</code>, each with the pre-merge scan result and a proposed decision. Cards unlock one at a time. Nothing is written to <code>insights.json</code> until you finish here and I apply your decisions.</p>
+    <ul class="meta">
+      <li>Direct_Feedback_Corp_002_08_2026</li><li>Direct Feedback</li><li>Corporate Law Department</li>
+      <li>Germany</li><li>2026-08-20</li><li>9 merges · 4 new records proposed</li>
+    </ul>
+  </header>
+  <main class="cards" id="cards">
+    <article class="card" id="card-0" data-row="0" data-decision="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge ok">Merge · high confidence</span>
+        <span class="rownum">Row 0</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+      <p class="k">New insight <span class="hint">— click to edit the text</span></p>
+      <p class="insight" contenteditable="true" data-field="core_insight" spellcheck="false">Getting an overview of an unfamiliar legal area (insolvency law) through research is perceived as clearly better than Microsoft Copilot, their previous comparison baseline.</p>
+      <blockquote class="cite">deutlich besser als Co-Pilot</blockquote>
+      <p class="scan"><span class="k">Pre-merge scan</span>14 keyword hits (overview, unfamiliar, copilot)</p>
+      <p class="cls"><span class="k">Classification</span>General Feedback · Positive · AI Squad · Research</p>
+      <div class="proposal">
+        <p class="k">Proposed decision <span class="hint">— tick the targets that should receive the mention</span></p>
+        <label class="target primary">
+          <input type="checkbox" data-target="98" checked />
+          <span class="tbody">
+            <span class="tid">ID 98</span>
+            <span class="tlabel">primary target · high</span>
+            <span class="ttext">The user needs help in gaining an initial overview of a (complex) topic.</span>
+            <span class="tmeta">mentions 25 · Research · status: Well done</span>
+            <span class="treason">Same need — this is a positive instance of it. Feature match on Research.</span>
+          </span>
+        </label>
+      </div>
+      <p class="rejected"><span class="k">Considered and left out</span>ID 105 (summary for quick overview) — narrower, about summarising a document rather than orienting in a legal area.</p>
+        <p class="flag">Resolved-status record (Well done) — the vote will be reported in the session summary, status unchanged.</p>
+      <div class="actions">
+        <button class="btn accept" data-act="accept" type="button">Accept</button>
+        <button class="btn adjust" data-act="adjust" type="button">Adjust</button>
+      </div>
+      <div class="adjustbox">
+        <label class="k" for="note-0">Your adjustment — different target, split, or skip this row</label>
+        <textarea id="note-0" data-field="note" rows="3" placeholder="e.g. merge into ID 109 instead, or: keep as new record, or: skip this row"></textarea>
+        <button class="btn small submitnote" data-act="submitnote" type="button">Submit adjustment</button>
+      </div>
+      <div class="commentbox">
+        <label class="k" for="cmt-0">Comment or question <span class="hint">— answered in the next round, does not count as approval</span></label>
+        <textarea id="cmt-0" data-field="comment" rows="2" placeholder="Ask me something about this row"></textarea>
+      </div>
+      <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="card-1" data-row="1" data-decision="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge info">New record</span>
+        <span class="rownum">Row 1</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+      <p class="k">New insight <span class="hint">— click to edit the text</span></p>
+      <p class="insight" contenteditable="true" data-field="core_insight" spellcheck="false">Users benchmark Noxtua against ChatGPT Premium and miss agent-style presets they can set up once and reuse.</p>
+      <blockquote class="cite">LKS: privat ChatGPT premium, dort gut Agenten bzw PromptBibliothek</blockquote>
+      <p class="scan"><span class="k">Pre-merge scan</span>2 keyword hits — no record covers configurable agents</p>
+      <p class="cls"><span class="k">Classification</span>Missing Feature · Mixed · Workflow Squad · Skills</p>
+      <div class="proposal">
+        <p class="k">Proposed decision <span class="hint">— tick the targets that should receive the mention</span></p>
+        <p class="newrec">Add as a new record — no conceptual match found.</p>
+        <p class="rewrite"><span class="k">Wording for the new record</span>The user needs reusable, agent-style presets that can be configured once and applied to recurring tasks.</p>
+      </div>
+      <p class="rejected"><span class="k">Considered and left out</span>ID 279 / ID 278 (reusable prompts inside a tool case) — narrower, prompt-level not assistant-level. ID 488 (save own prompts for reuse) — same, prompt-level.</p>
+        <p class="flag">First record to carry the new <code>Skills</code> feature.</p>
+      <div class="actions">
+        <button class="btn accept" data-act="accept" type="button">Accept</button>
+        <button class="btn adjust" data-act="adjust" type="button">Adjust</button>
+      </div>
+      <div class="adjustbox">
+        <label class="k" for="note-1">Your adjustment — different target, split, or skip this row</label>
+        <textarea id="note-1" data-field="note" rows="3" placeholder="e.g. merge into ID 109 instead, or: keep as new record, or: skip this row"></textarea>
+        <button class="btn small submitnote" data-act="submitnote" type="button">Submit adjustment</button>
+      </div>
+      <div class="commentbox">
+        <label class="k" for="cmt-1">Comment or question <span class="hint">— answered in the next round, does not count as approval</span></label>
+        <textarea id="cmt-1" data-field="comment" rows="2" placeholder="Ask me something about this row"></textarea>
+      </div>
+      <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="card-2" data-row="2" data-decision="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge ok">Merge · high confidence</span>
+        <span class="rownum">Row 2</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+      <p class="k">New insight <span class="hint">— click to edit the text</span></p>
+      <p class="insight" contenteditable="true" data-field="core_insight" spellcheck="false">Users benchmark Noxtua against ChatGPT Premium and miss a reusable prompt library.</p>
+      <blockquote class="cite">LKS: privat ChatGPT premium, dort gut Agenten bzw PromptBibliothek</blockquote>
+      <p class="scan"><span class="k">Pre-merge scan</span>35 keyword hits (prompt, library)</p>
+      <p class="cls"><span class="k">Classification</span>Missing Feature · Mixed · Workflow Squad · Templates</p>
+      <div class="proposal">
+        <p class="k">Proposed decision <span class="hint">— tick the targets that should receive the mention</span></p>
+        <label class="target primary">
+          <input type="checkbox" data-target="240" checked />
+          <span class="tbody">
+            <span class="tid">ID 240</span>
+            <span class="tlabel">primary target · high</span>
+            <span class="ttext">The user needs a prompt library as a central working resource.</span>
+            <span class="tmeta">mentions 1 · no features · status: New</span>
+            <span class="treason">Verbatim conceptual match. Empty features do not gate the merge.</span>
+          </span>
+        </label>
+        <label class="target optional">
+          <input type="checkbox" data-target="488" />
+          <span class="tbody">
+            <span class="tid">ID 488</span>
+            <span class="tlabel">optional target · medium</span>
+            <span class="ttext">The user needs to be able to save their own prompts for reuse.</span>
+            <span class="tmeta">mentions 1 · Templates</span>
+            <span class="treason">Adjacent need — saving vs. having a curated library. Off by default.</span>
+          </span>
+        </label>
+      </div>
+      <p class="rejected"><span class="k">Considered and left out</span>ID 143 (store and share prompts, Implemented), ID 378 (organise prompt templates into folders).</p>
+      <div class="actions">
+        <button class="btn accept" data-act="accept" type="button">Accept</button>
+        <button class="btn adjust" data-act="adjust" type="button">Adjust</button>
+      </div>
+      <div class="adjustbox">
+        <label class="k" for="note-2">Your adjustment — different target, split, or skip this row</label>
+        <textarea id="note-2" data-field="note" rows="3" placeholder="e.g. merge into ID 109 instead, or: keep as new record, or: skip this row"></textarea>
+        <button class="btn small submitnote" data-act="submitnote" type="button">Submit adjustment</button>
+      </div>
+      <div class="commentbox">
+        <label class="k" for="cmt-2">Comment or question <span class="hint">— answered in the next round, does not count as approval</span></label>
+        <textarea id="cmt-2" data-field="comment" rows="2" placeholder="Ask me something about this row"></textarea>
+      </div>
+      <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="card-3" data-row="3" data-decision="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge ok">Merge · high confidence</span>
+        <span class="rownum">Row 3</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+      <p class="k">New insight <span class="hint">— click to edit the text</span></p>
+      <p class="insight" contenteditable="true" data-field="core_insight" spellcheck="false">When researching a specific problem, Noxtua only conceded that a cited source did not exist after the user explicitly asked. Users want it to state clearly and unprompted when something does not exist.</p>
+      <blockquote class="cite">hat zugegeben, dass es Zitat nicht gibt, erst auf Nachfrage / klarer machen, wenn es etwas nicht gibt</blockquote>
+      <p class="scan"><span class="k">Pre-merge scan</span>6 + 4 hits across transparency and accuracy clusters</p>
+      <p class="cls"><span class="k">Classification</span>Improvement · Negative · AI Squad · Citations;Sources</p>
+      <div class="proposal">
+        <p class="k">Proposed decision <span class="hint">— tick the targets that should receive the mention</span></p>
+        <label class="target primary">
+          <input type="checkbox" data-target="58" checked />
+          <span class="tbody">
+            <span class="tid">ID 58</span>
+            <span class="tlabel">primary target · high</span>
+            <span class="ttext">The user needs the tool to be transparent if it does not have any sources available.</span>
+            <span class="tmeta">mentions 4 · Research · status: Identified – JIRA ticket exists</span>
+            <span class="treason">Same need — proactive transparency about what is not there.</span>
+          </span>
+        </label>
+        <label class="target optional">
+          <input type="checkbox" data-target="147" checked />
+          <span class="tbody">
+            <span class="tid">ID 147</span>
+            <span class="tlabel">optional target · medium</span>
+            <span class="ttext">The users would like the tool to prioritize accuracy over convenience, i.e. they rather prefer an “I don&#x27;t know”.</span>
+            <span class="tmeta">mentions 4 · Research, Chat</span>
+            <span class="treason">The &#x27;say I don&#x27;t know&#x27; angle. On by default — uncheck to keep it out.</span>
+          </span>
+        </label>
+      </div>
+      <p class="rejected"><span class="k">Considered and left out</span>ID 44 (answers and citations matching) and ID 102 (general answer accuracy) — the complaint is non-disclosure, not a mismatch or a wrong answer. Learned rule 2026-08-10 reserves 44 for citation-vs-answer mismatches.</p>
+      <div class="actions">
+        <button class="btn accept" data-act="accept" type="button">Accept</button>
+        <button class="btn adjust" data-act="adjust" type="button">Adjust</button>
+      </div>
+      <div class="adjustbox">
+        <label class="k" for="note-3">Your adjustment — different target, split, or skip this row</label>
+        <textarea id="note-3" data-field="note" rows="3" placeholder="e.g. merge into ID 109 instead, or: keep as new record, or: skip this row"></textarea>
+        <button class="btn small submitnote" data-act="submitnote" type="button">Submit adjustment</button>
+      </div>
+      <div class="commentbox">
+        <label class="k" for="cmt-3">Comment or question <span class="hint">— answered in the next round, does not count as approval</span></label>
+        <textarea id="cmt-3" data-field="comment" rows="2" placeholder="Ask me something about this row"></textarea>
+      </div>
+      <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="card-4" data-row="4" data-decision="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge info">New record</span>
+        <span class="rownum">Row 4</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+      <p class="k">New insight <span class="hint">— click to edit the text</span></p>
+      <p class="insight" contenteditable="true" data-field="core_insight" spellcheck="false">For a guideline supplied as an external source carrying annotations from three different stakeholders, the summary delivered 5–6 well-reasoned wording alternatives, including why a given formulation fits a given fact pattern.</p>
+      <blockquote class="cite">sehr gute ZusFas mit 5-6 verschiedenen guten Lösungen. Gut begründet, auch warum welche Formulierung für welchen Sachverhalt besser ist, zB Lös1 zum Ausschluss von Willkür</blockquote>
+      <p class="scan"><span class="k">Pre-merge scan</span>19 + 8 hits, none conceptually matching</p>
+      <p class="cls"><span class="k">Classification</span>General Feedback · Positive · Drafting Squad · feature blank</p>
+      <div class="proposal">
+        <p class="k">Proposed decision <span class="hint">— tick the targets that should receive the mention</span></p>
+        <p class="newrec">Add as a new record — no conceptual match found.</p>
+        <p class="rewrite"><span class="k">Wording for the new record</span>The user wants several well-reasoned wording alternatives with an explanation of which formulation fits which fact pattern — this worked well for a guideline supplied as an external source carrying annotations from three stakeholders.</p>
+      </div>
+      <p class="rejected"><span class="k">Considered and left out</span>ID 259/260 (reasoning attached to Word change suggestions) — add-in specific. ID 401 (shallow reasoning) — the opposite polarity.</p>
+        <p class="flag">Rewritten to fit the 'The user wants…' convention required for new records.</p>
+      <div class="actions">
+        <button class="btn accept" data-act="accept" type="button">Accept</button>
+        <button class="btn adjust" data-act="adjust" type="button">Adjust</button>
+      </div>
+      <div class="adjustbox">
+        <label class="k" for="note-4">Your adjustment — different target, split, or skip this row</label>
+        <textarea id="note-4" data-field="note" rows="3" placeholder="e.g. merge into ID 109 instead, or: keep as new record, or: skip this row"></textarea>
+        <button class="btn small submitnote" data-act="submitnote" type="button">Submit adjustment</button>
+      </div>
+      <div class="commentbox">
+        <label class="k" for="cmt-4">Comment or question <span class="hint">— answered in the next round, does not count as approval</span></label>
+        <textarea id="cmt-4" data-field="comment" rows="2" placeholder="Ask me something about this row"></textarea>
+      </div>
+      <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="card-5" data-row="5" data-decision="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge ok">Merge · high confidence</span>
+        <span class="rownum">Row 5</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+      <p class="k">New insight <span class="hint">— click to edit the text</span></p>
+      <p class="insight" contenteditable="true" data-field="core_insight" spellcheck="false">Users want to view and browse the content templates provided by the publisher, and see example templates as inspiration for their own drafting.</p>
+      <blockquote class="cite">Template-Bsp: einsehbarkeit? Anschauung / gut für Inspiration</blockquote>
+      <p class="scan"><span class="k">Pre-merge scan</span>17 keyword hits (content template, browse, example)</p>
+      <p class="cls"><span class="k">Classification</span>Missing Feature · Mixed · Drafting Squad · Templates</p>
+      <div class="proposal">
+        <p class="k">Proposed decision <span class="hint">— tick the targets that should receive the mention</span></p>
+        <label class="target primary">
+          <input type="checkbox" data-target="151" checked />
+          <span class="tbody">
+            <span class="tid">ID 151</span>
+            <span class="tlabel">primary target · high</span>
+            <span class="ttext">The users would like to be able to use content templates, that can be accessed to draft documents.</span>
+            <span class="tmeta">mentions 33 · Canvas, Document Storage, Knowledge Base · status: Planned for development</span>
+            <span class="treason">Same need — access to publisher-provided content templates.</span>
+          </span>
+        </label>
+        <label class="target optional">
+          <input type="checkbox" data-target="445" />
+          <span class="tbody">
+            <span class="tid">ID 445</span>
+            <span class="tlabel">optional target · medium</span>
+            <span class="ttext">The user needs the vendor to proactively curate and maintain templates and checklists within the tool over time.</span>
+            <span class="tmeta">mentions 1 · Templates</span>
+            <span class="treason">The &#x27;provided by the publisher&#x27; half of the insight. Off by default.</span>
+          </span>
+        </label>
+      </div>
+      <p class="rejected"><span class="k">Considered and left out</span>ID 212 (format templates), ID 378 (organising own prompt templates), ID 86 (templates in the Word add-in).</p>
+      <div class="actions">
+        <button class="btn accept" data-act="accept" type="button">Accept</button>
+        <button class="btn adjust" data-act="adjust" type="button">Adjust</button>
+      </div>
+      <div class="adjustbox">
+        <label class="k" for="note-5">Your adjustment — different target, split, or skip this row</label>
+        <textarea id="note-5" data-field="note" rows="3" placeholder="e.g. merge into ID 109 instead, or: keep as new record, or: skip this row"></textarea>
+        <button class="btn small submitnote" data-act="submitnote" type="button">Submit adjustment</button>
+      </div>
+      <div class="commentbox">
+        <label class="k" for="cmt-5">Comment or question <span class="hint">— answered in the next round, does not count as approval</span></label>
+        <textarea id="cmt-5" data-field="comment" rows="2" placeholder="Ask me something about this row"></textarea>
+      </div>
+      <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="card-6" data-row="6" data-decision="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge info">New record</span>
+        <span class="rownum">Row 6</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+      <p class="k">New insight <span class="hint">— click to edit the text</span></p>
+      <p class="insight" contenteditable="true" data-field="core_insight" spellcheck="false">Using Noxtua to challenge previously written briefs worked as a use case, but source referencing in that scenario was noticeably weak.</p>
+      <blockquote class="cite">alte Schriftsätze gechallenged / bei Quellen bisschen verkackt</blockquote>
+      <p class="scan"><span class="k">Pre-merge scan</span>7 + 52 hits across the source/citation cluster</p>
+      <p class="cls"><span class="k">Classification</span>Improvement · Negative · AI Squad · Sources</p>
+      <div class="proposal">
+        <p class="k">Proposed decision <span class="hint">— tick the targets that should receive the mention</span></p>
+        <p class="newrec">Add as a new record — no conceptual match found.</p>
+        <label class="target optional">
+          <input type="checkbox" data-target="109" />
+          <span class="tbody">
+            <span class="tid">ID 109</span>
+            <span class="tlabel">optional target · medium</span>
+            <span class="ttext">The user needs all relevant sources to be available and used for the answer.</span>
+            <span class="tmeta">mentions 18 · All · status: Identified – JIRA ticket exists</span>
+            <span class="treason">Check this to also bump the general source-coverage record.</span>
+          </span>
+        </label>
+        <label class="target optional">
+          <input type="checkbox" data-target="242" />
+          <span class="tbody">
+            <span class="tid">ID 242</span>
+            <span class="tlabel">optional target · medium</span>
+            <span class="ttext">The user needs references in pleadings or contracts to be more strongly and reliably linked.</span>
+            <span class="tmeta">mentions 1 · no features</span>
+            <span class="treason">Check this if you read the complaint as being about link reliability in pleadings.</span>
+          </span>
+        </label>
+        <p class="rewrite"><span class="k">Wording for the new record</span>The user needs reliable source referencing when using the tool to challenge or critique previously written briefs.</p>
+      </div>
+      <p class="rejected"><span class="k">Considered and left out</span>Considered and left off by default: ID 242 (references in pleadings more reliably linked), ID 109 (all relevant sources available and used), ID 103 (reliable database as source of answers). Defaulted to a new record per the &#x27;when in doubt&#x27; rule — the use case (critiquing an existing brief) is what makes it distinct.</p>
+      <div class="actions">
+        <button class="btn accept" data-act="accept" type="button">Accept</button>
+        <button class="btn adjust" data-act="adjust" type="button">Adjust</button>
+      </div>
+      <div class="adjustbox">
+        <label class="k" for="note-6">Your adjustment — different target, split, or skip this row</label>
+        <textarea id="note-6" data-field="note" rows="3" placeholder="e.g. merge into ID 109 instead, or: keep as new record, or: skip this row"></textarea>
+        <button class="btn small submitnote" data-act="submitnote" type="button">Submit adjustment</button>
+      </div>
+      <div class="commentbox">
+        <label class="k" for="cmt-6">Comment or question <span class="hint">— answered in the next round, does not count as approval</span></label>
+        <textarea id="cmt-6" data-field="comment" rows="2" placeholder="Ask me something about this row"></textarea>
+      </div>
+      <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="card-7" data-row="7" data-decision="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge ok">Merge · high confidence</span>
+        <span class="rownum">Row 7</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+      <p class="k">New insight <span class="hint">— click to edit the text</span></p>
+      <p class="insight" contenteditable="true" data-field="core_insight" spellcheck="false">Recent case law that is publicly available is missing from the sources, which lowers the perceived added value over free internet research.</p>
+      <blockquote class="cite">Ungenauigkeit bei Rspr / aktuelle Rechtssprechung findet man auch im Internet</blockquote>
+      <p class="scan"><span class="k">Pre-merge scan</span>12 keyword hits (recent, case law, outdated)</p>
+      <p class="cls"><span class="k">Classification</span>Improvement · Negative · AI Squad · Research;Sources</p>
+      <div class="proposal">
+        <p class="k">Proposed decision <span class="hint">— tick the targets that should receive the mention</span></p>
+        <label class="target primary">
+          <input type="checkbox" data-target="113" checked />
+          <span class="tbody">
+            <span class="tid">ID 113</span>
+            <span class="tlabel">primary target · high</span>
+            <span class="ttext">The user needs the most recent version of a source to be used instead of an outdated version.</span>
+            <span class="tmeta">mentions 23 · no features · status: Identified – JIRA ticket exists</span>
+            <span class="treason">The skill&#x27;s own calibration anchor for &#x27;source coverage outdated / recent rulings missing&#x27;.</span>
+          </span>
+        </label>
+        <label class="target optional">
+          <input type="checkbox" data-target="425" />
+          <span class="tbody">
+            <span class="tid">ID 425</span>
+            <span class="tlabel">optional target · medium</span>
+            <span class="ttext">The user needs an indicator of how current/outdated the content is, e.g. showing the document date directly with each source.</span>
+            <span class="tmeta">mentions 1 · Sources, Citations</span>
+            <span class="treason">Transparency about currency rather than currency itself. Off by default.</span>
+          </span>
+        </label>
+      </div>
+      <p class="rejected"><span class="k">Considered and left out</span>ID 443 (EU case law coverage), ID 446 (proactive case-law suggestions).</p>
+      <div class="actions">
+        <button class="btn accept" data-act="accept" type="button">Accept</button>
+        <button class="btn adjust" data-act="adjust" type="button">Adjust</button>
+      </div>
+      <div class="adjustbox">
+        <label class="k" for="note-7">Your adjustment — different target, split, or skip this row</label>
+        <textarea id="note-7" data-field="note" rows="3" placeholder="e.g. merge into ID 109 instead, or: keep as new record, or: skip this row"></textarea>
+        <button class="btn small submitnote" data-act="submitnote" type="button">Submit adjustment</button>
+      </div>
+      <div class="commentbox">
+        <label class="k" for="cmt-7">Comment or question <span class="hint">— answered in the next round, does not count as approval</span></label>
+        <textarea id="cmt-7" data-field="comment" rows="2" placeholder="Ask me something about this row"></textarea>
+      </div>
+      <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="card-8" data-row="8" data-decision="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge ok">Merge · high confidence</span>
+        <span class="rownum">Row 8</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+      <p class="k">New insight <span class="hint">— click to edit the text</span></p>
+      <p class="insight" contenteditable="true" data-field="core_insight" spellcheck="false">Coverage of legal literature is rated very strong, with case law also good.</p>
+      <blockquote class="cite">sehr stark bei Literatur, auch bei Rspr</blockquote>
+      <p class="scan"><span class="k">Pre-merge scan</span>4 keyword hits (literature, commentary, corpus)</p>
+      <p class="cls"><span class="k">Classification</span>General Feedback · Positive · AI Squad · Research;Sources</p>
+      <div class="proposal">
+        <p class="k">Proposed decision <span class="hint">— tick the targets that should receive the mention</span></p>
+        <label class="target primary">
+          <input type="checkbox" data-target="483" checked />
+          <span class="tbody">
+            <span class="tid">ID 483</span>
+            <span class="tlabel">primary target · high</span>
+            <span class="ttext">Source and citation quality is a highlight — precise references, working Fundstellen links, and access to commentary/journal literature.</span>
+            <span class="tmeta">mentions 6 · Sources, Citations · status: Identified – JIRA ticket exists</span>
+            <span class="treason">Same positive observation about literature and commentary coverage.</span>
+          </span>
+        </label>
+      </div>
+      <p class="rejected"><span class="k">Considered and left out</span>ID 460 (full use of publisher corpus) — that is the complaint-side record; this row is praise.</p>
+        <p class="flag">Note the tension with row 7 from the same call — almost certainly the two different participants. Both kept.</p>
+      <div class="actions">
+        <button class="btn accept" data-act="accept" type="button">Accept</button>
+        <button class="btn adjust" data-act="adjust" type="button">Adjust</button>
+      </div>
+      <div class="adjustbox">
+        <label class="k" for="note-8">Your adjustment — different target, split, or skip this row</label>
+        <textarea id="note-8" data-field="note" rows="3" placeholder="e.g. merge into ID 109 instead, or: keep as new record, or: skip this row"></textarea>
+        <button class="btn small submitnote" data-act="submitnote" type="button">Submit adjustment</button>
+      </div>
+      <div class="commentbox">
+        <label class="k" for="cmt-8">Comment or question <span class="hint">— answered in the next round, does not count as approval</span></label>
+        <textarea id="cmt-8" data-field="comment" rows="2" placeholder="Ask me something about this row"></textarea>
+      </div>
+      <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="card-9" data-row="9" data-decision="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge ok">Merge · high confidence</span>
+        <span class="rownum">Row 9</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+      <p class="k">New insight <span class="hint">— click to edit the text</span></p>
+      <p class="insight" contenteditable="true" data-field="core_insight" spellcheck="false">Users want scholarly disputes (Meinungsstreit) and unsettled legal questions presented explicitly as contested, rather than as a single confident answer.</p>
+      <blockquote class="cite">P: ich kann nicht genau sagen, ob es das Zitat gibt. Ich habe die RsprLinie korrekt wiedergeben</blockquote>
+      <p class="scan"><span class="k">Pre-merge scan</span>2 keyword hits + targeted opinion-diversity scan</p>
+      <p class="cls"><span class="k">Classification</span>Missing Feature · Negative · AI Squad · Research;Citations</p>
+      <div class="proposal">
+        <p class="k">Proposed decision <span class="hint">— tick the targets that should receive the mention</span></p>
+        <label class="target primary">
+          <input type="checkbox" data-target="225" checked />
+          <span class="tbody">
+            <span class="tid">ID 225</span>
+            <span class="tlabel">primary target · high</span>
+            <span class="ttext">The user needs the system to indicate legal uncertainty if there are alternative viewpoints or if there are ongoing debates.</span>
+            <span class="tmeta">mentions 1 · Research · status: New</span>
+            <span class="treason">Closest match — legal uncertainty and ongoing debates is exactly Meinungsstreit plus unklare Rechtslage.</span>
+          </span>
+        </label>
+        <label class="target optional">
+          <input type="checkbox" data-target="72" checked />
+          <span class="tbody">
+            <span class="tid">ID 72</span>
+            <span class="tlabel">optional target · medium</span>
+            <span class="ttext">The user needs the tool to also provide them with alternative perspectives not only e.g. with the predominant one.</span>
+            <span class="tmeta">mentions 7 · Research · status: Identified – JIRA ticket exists</span>
+            <span class="treason">Learned rule 2026-08-10 routes opinion-diversity requests here. On by default.</span>
+          </span>
+        </label>
+      </div>
+      <p class="rejected"><span class="k">Considered and left out</span>ID 401 (shallow reasoning / minority views) — excluded by that same learned rule, which reserves 401 for reasoning depth.</p>
+      <div class="actions">
+        <button class="btn accept" data-act="accept" type="button">Accept</button>
+        <button class="btn adjust" data-act="adjust" type="button">Adjust</button>
+      </div>
+      <div class="adjustbox">
+        <label class="k" for="note-9">Your adjustment — different target, split, or skip this row</label>
+        <textarea id="note-9" data-field="note" rows="3" placeholder="e.g. merge into ID 109 instead, or: keep as new record, or: skip this row"></textarea>
+        <button class="btn small submitnote" data-act="submitnote" type="button">Submit adjustment</button>
+      </div>
+      <div class="commentbox">
+        <label class="k" for="cmt-9">Comment or question <span class="hint">— answered in the next round, does not count as approval</span></label>
+        <textarea id="cmt-9" data-field="comment" rows="2" placeholder="Ask me something about this row"></textarea>
+      </div>
+      <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="card-10" data-row="10" data-decision="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge ok">Merge · high confidence</span>
+        <span class="rownum">Row 10</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+      <p class="k">New insight <span class="hint">— click to edit the text</span></p>
+      <p class="insight" contenteditable="true" data-field="core_insight" spellcheck="false">Operation of the tool was experienced as intuitive.</p>
+      <blockquote class="cite">keine Probleme. Intutive Bedienung</blockquote>
+      <p class="scan"><span class="k">Pre-merge scan</span>16 keyword hits (intuitive, usable, navigate)</p>
+      <p class="cls"><span class="k">Classification</span>General Feedback · Positive · squad blank · feature blank</p>
+      <div class="proposal">
+        <p class="k">Proposed decision <span class="hint">— tick the targets that should receive the mention</span></p>
+        <label class="target primary">
+          <input type="checkbox" data-target="187" checked />
+          <span class="tbody">
+            <span class="tid">ID 187</span>
+            <span class="tlabel">primary target · high</span>
+            <span class="ttext">The users expect an intuitive handling and interface.</span>
+            <span class="tmeta">mentions 36 · All · status: Well done</span>
+            <span class="treason">Same observation, the database&#x27;s main record for intuitive handling.</span>
+          </span>
+        </label>
+      </div>
+      <p class="rejected"><span class="k">Considered and left out</span>ID 156 (Editor interface intuitive), ID 137 (compare-changes icon) — both feature-specific; this was a general statement.</p>
+        <p class="flag">Resolved-status record (Well done) — reported in the summary, status unchanged.</p>
+        <p class="flag">The 'keine Probleme' half was dropped in your round-1 review, so the citation stays out of the CSV.</p>
+      <div class="actions">
+        <button class="btn accept" data-act="accept" type="button">Accept</button>
+        <button class="btn adjust" data-act="adjust" type="button">Adjust</button>
+      </div>
+      <div class="adjustbox">
+        <label class="k" for="note-10">Your adjustment — different target, split, or skip this row</label>
+        <textarea id="note-10" data-field="note" rows="3" placeholder="e.g. merge into ID 109 instead, or: keep as new record, or: skip this row"></textarea>
+        <button class="btn small submitnote" data-act="submitnote" type="button">Submit adjustment</button>
+      </div>
+      <div class="commentbox">
+        <label class="k" for="cmt-10">Comment or question <span class="hint">— answered in the next round, does not count as approval</span></label>
+        <textarea id="cmt-10" data-field="comment" rows="2" placeholder="Ask me something about this row"></textarea>
+      </div>
+      <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="card-11" data-row="11" data-decision="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge ok">Merge · high confidence</span>
+        <span class="rownum">Row 11</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+      <p class="k">New insight <span class="hint">— click to edit the text</span></p>
+      <p class="insight" contenteditable="true" data-field="core_insight" spellcheck="false">Users want a dictation / voice input function comparable to what ChatGPT and Gemini offer.</p>
+      <blockquote class="cite">FF wünscht sich Diktierfunktion wie bei ChatGPT und Gemini.</blockquote>
+      <p class="scan"><span class="k">Pre-merge scan</span>4 keyword hits (voice, dictation, speech)</p>
+      <p class="cls"><span class="k">Classification</span>Missing Feature · Mixed · AI Interaction · Voice Control</p>
+      <div class="proposal">
+        <p class="k">Proposed decision <span class="hint">— tick the targets that should receive the mention</span></p>
+        <label class="target primary">
+          <input type="checkbox" data-target="170" checked />
+          <span class="tbody">
+            <span class="tid">ID 170</span>
+            <span class="tlabel">primary target · high</span>
+            <span class="ttext">The users would like to be able to interact with the tool via voice input, in order to work more efficiently.</span>
+            <span class="tmeta">mentions 19 · Voice Control · status: Implemented</span>
+            <span class="treason">Same need. Feature match on Voice Control.</span>
+          </span>
+        </label>
+      </div>
+      <p class="rejected"><span class="k">Considered and left out</span>ID 434 (multi-channel intake incl. voice/phone) — different need.</p>
+        <p class="flag">Resolved-status record (Implemented) — reported in the summary, status unchanged.</p>
+        <p class="flag">Consequence of merging: a merge never rewrites a target's classification, so the <code>AI Interaction</code> squad you assigned would not be written anywhere — ID 170 keeps Platform Squad. Adjust this card to 'new record' if you want the new squad value in the database.</p>
+      <div class="actions">
+        <button class="btn accept" data-act="accept" type="button">Accept</button>
+        <button class="btn adjust" data-act="adjust" type="button">Adjust</button>
+      </div>
+      <div class="adjustbox">
+        <label class="k" for="note-11">Your adjustment — different target, split, or skip this row</label>
+        <textarea id="note-11" data-field="note" rows="3" placeholder="e.g. merge into ID 109 instead, or: keep as new record, or: skip this row"></textarea>
+        <button class="btn small submitnote" data-act="submitnote" type="button">Submit adjustment</button>
+      </div>
+      <div class="commentbox">
+        <label class="k" for="cmt-11">Comment or question <span class="hint">— answered in the next round, does not count as approval</span></label>
+        <textarea id="cmt-11" data-field="comment" rows="2" placeholder="Ask me something about this row"></textarea>
+      </div>
+      <p class="conflict"></p>
+      </div>
+    </article>
+    <article class="card" id="card-12" data-row="12" data-decision="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge info">New record</span>
+        <span class="rownum">Row 12</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
+      <div class="cbody">
+      <p class="k">New insight <span class="hint">— click to edit the text</span></p>
+      <p class="insight" contenteditable="true" data-field="core_insight" spellcheck="false">Compliance stakeholders need an ISO-certification status update and access to the Trust Center before the purchase decision can move forward.</p>
+      <blockquote class="cite">Update zu ISO-Zertifikation Zugang zu Trust für Compliance</blockquote>
+      <p class="scan"><span class="k">Pre-merge scan</span>4 + 3 hits, none matching</p>
+      <p class="cls"><span class="k">Classification</span>Missing Feature · Mixed · squad blank · Trust Center</p>
+      <div class="proposal">
+        <p class="k">Proposed decision <span class="hint">— tick the targets that should receive the mention</span></p>
+        <p class="newrec">Add as a new record — no conceptual match found.</p>
+        <p class="rewrite"><span class="k">Wording for the new record</span>The user needs an up-to-date ISO-certification status and access to the Trust Center in order to clear the tool with their compliance function.</p>
+      </div>
+      <p class="rejected"><span class="k">Considered and left out</span>ID 356 (Anwältekammer approval) — different approving body. ID 81 / ID 232 (data-security transparency and compliance) — both resolved and about the security of processing, not about certification evidence for a buying decision.</p>
+      <div class="actions">
+        <button class="btn accept" data-act="accept" type="button">Accept</button>
+        <button class="btn adjust" data-act="adjust" type="button">Adjust</button>
+      </div>
+      <div class="adjustbox">
+        <label class="k" for="note-12">Your adjustment — different target, split, or skip this row</label>
+        <textarea id="note-12" data-field="note" rows="3" placeholder="e.g. merge into ID 109 instead, or: keep as new record, or: skip this row"></textarea>
+        <button class="btn small submitnote" data-act="submitnote" type="button">Submit adjustment</button>
+      </div>
+      <div class="commentbox">
+        <label class="k" for="cmt-12">Comment or question <span class="hint">— answered in the next round, does not count as approval</span></label>
+        <textarea id="cmt-12" data-field="comment" rows="2" placeholder="Ask me something about this row"></textarea>
+      </div>
+      <p class="conflict"></p>
+      </div>
+    </article>
+  </main>
+  <section class="summary">
+    <h2>Decisions</h2>
+    <p class="said">Your selections are saved into this page as you make them, so I can read them back. Mark them final when you're done, or copy the payload if you'd rather paste it to me.</p>
+    <ul class="tally" id="tally"></ul>
+    <textarea id="payload" readonly aria-label="Decision payload"></textarea>
+    <div class="srow">
+      <button class="btn accept" id="final" type="button">Mark decisions final</button>
+      <button class="btn adjust" id="copy" type="button">Copy payload</button>
+      <span class="pcount" id="copystate"></span>
+    </div>
+    <p class="finalnote">Decisions marked final. Tell me “decisions are in” and I'll read this page, apply them, and write insights.json + insights.csv.</p>
+  </section>
+</div>
+<script id="orig-data" type="application/json">["Getting an overview of an unfamiliar legal area (insolvency law) through research is perceived as clearly better than Microsoft Copilot, their previous comparison baseline.", "Users benchmark Noxtua against ChatGPT Premium and miss agent-style presets they can set up once and reuse.", "Users benchmark Noxtua against ChatGPT Premium and miss a reusable prompt library.", "When researching a specific problem, Noxtua only conceded that a cited source did not exist after the user explicitly asked. Users want it to state clearly and unprompted when something does not exist.", "For a guideline supplied as an external source carrying annotations from three different stakeholders, the summary delivered 5–6 well-reasoned wording alternatives, including why a given formulation fits a given fact pattern.", "Users want to view and browse the content templates provided by the publisher, and see example templates as inspiration for their own drafting.", "Using Noxtua to challenge previously written briefs worked as a use case, but source referencing in that scenario was noticeably weak.", "Recent case law that is publicly available is missing from the sources, which lowers the perceived added value over free internet research.", "Coverage of legal literature is rated very strong, with case law also good.", "Users want scholarly disputes (Meinungsstreit) and unsettled legal questions presented explicitly as contested, rather than as a single confident answer.", "Operation of the tool was experienced as intuitive.", "Users want a dictation / voice input function comparable to what ChatGPT and Gemini offer.", "Compliance stakeholders need an ISO-certification status update and access to the Trust Center before the purchase decision can move forward."]</script>
+<script>
+(function(){
+  var cards=[].slice.call(document.querySelectorAll('.card'));
+  var ORIG=JSON.parse(document.getElementById('orig-data').textContent);
+  var ticks=document.getElementById('ticks'), pcount=document.getElementById('pcount');
+  var tally=document.getElementById('tally'), payload=document.getElementById('payload');
+
+  cards.forEach(function(){ var d=document.createElement('span'); d.className='tick'; ticks.appendChild(d); });
+
+  function txt(el){ return el ? (el.getAttribute('data-value')||el.value||'').trim() : ''; }
+  function noteOf(c){ return txt(c.querySelector('[data-field="note"]')); }
+  function commentOf(c){ return txt(c.querySelector('[data-field="comment"]')); }
+  function targetsOf(c){
+    return [].slice.call(c.querySelectorAll('[data-target]'))
+      .filter(function(i){ return i.hasAttribute('checked'); })
+      .map(function(i){ return i.getAttribute('data-target'); });
+  }
+  function decided(c){ return c.getAttribute('data-decision')!=='' && c.getAttribute('data-conflict')!=='true'; }
+
+  function checkConflict(c){
+    var d=c.getAttribute('data-decision'), note=noteOf(c), msg='';
+    if(d==='accept' && note) msg='Conflict: this row is accepted as proposed, but an adjustment note is present — “'+note+'”. Nothing is applied either way. Clear the note to keep the acceptance, or press Submit adjustment to make the note the decision.';
+    if(d==='adjust' && !note) msg='Conflict: adjustment chosen but no note was entered. Write what should change, then submit.';
+    c.setAttribute('data-conflict', msg?'true':'false');
+    c.querySelector('.conflict').textContent=msg;
+  }
+
+  function render(){
+    var firstOpen=-1;
+    cards.forEach(function(c,i){ if(firstOpen<0 && !decided(c)) firstOpen=i; });
+    var done=0, adj=0, conf=0, edits=0, cmts=0;
+    cards.forEach(function(c,i){
+      var d=c.getAttribute('data-decision'), cf=c.getAttribute('data-conflict')==='true';
+      c.classList.toggle('done', decided(c));
+      c.classList.toggle('locked', firstOpen>=0 && i>firstOpen && !decided(c));
+      var st=c.querySelector('.state');
+      if(cf){ st.textContent='conflict — unresolved'; conf++; }
+      else if(d==='accept'){ st.textContent='accepted · round '+(c.getAttribute('data-round')||1); done++; }
+      else if(d==='adjust'){ st.textContent='adjusted · round '+(c.getAttribute('data-round')||1); done++; adj++; }
+      else if(i===firstOpen){ st.textContent='awaiting your decision'; }
+      else { st.textContent='locked until the row above is decided'; }
+      ticks.children[i].setAttribute('data-s', cf?'conflict':(decided(c)?'done':(i===firstOpen?'active':'')));
+      var ins=c.querySelector('[data-field="core_insight"]');
+      if(ins && ins.textContent.trim()!==ORIG[i]) edits++;
+      if(commentOf(c)) cmts++;
+    });
+    pcount.innerHTML='<b>'+(done)+'</b> of '+cards.length+' decided'+(conf?' · '+conf+' conflict':'');
+    tally.innerHTML='';
+    [['decided',done],['adjusted',adj],['conflicts',conf],['text edits',edits],['comments',cmts],['remaining',cards.length-done]]
+      .forEach(function(p){ var li=document.createElement('li'); li.textContent=p[0]+': '+p[1]; tally.appendChild(li); });
+    buildPayload();
+  }
+
+  function buildPayload(){
+    var lines=['Here are my merge review decisions:'];
+    cards.forEach(function(c,i){
+      var d=c.getAttribute('data-decision'); if(!d) return;
+      var tg=targetsOf(c), where=tg.length?tg.map(function(t){return 'ID '+t;}).join(', '):'new record';
+      var line='Row '+i+' → '+where+': '+(d==='accept'?'ACCEPTED':'ADJUSTED');
+      var note=noteOf(c); if(note) line+=' — '+note;
+      if(c.getAttribute('data-conflict')==='true') line+='  [CONFLICT — unresolved]';
+      lines.push(line);
+      var ins=c.querySelector('[data-field="core_insight"]');
+      if(ins && ins.textContent.trim()!==ORIG[i]) lines.push('   edited text: '+ins.textContent.trim());
+      var cm=commentOf(c); if(cm) lines.push('   comment: '+cm);
+    });
+    cards.forEach(function(c,i){ if(!c.getAttribute('data-decision') && commentOf(c)) lines.push('Row '+i+' → undecided, comment: '+commentOf(c)); });
+    lines.push('Please apply these decisions and deliver the final insights.json.');
+    payload.value=lines.join('\n');
+  }
+
+  document.addEventListener('click', function(e){
+    var b=e.target.closest('[data-act]'); if(b){
+      var c=b.closest('.card'), act=b.getAttribute('data-act');
+      if(act==='accept'){ c.setAttribute('data-decision','accept'); c.setAttribute('data-round','1'); c.setAttribute('data-local-adjusting','false'); }
+      if(act==='adjust'){ c.setAttribute('data-local-adjusting','true'); c.querySelector('[data-field="note"]').focus(); return; }
+      if(act==='submitnote'){ c.setAttribute('data-decision','adjust'); c.setAttribute('data-round','1'); }
+      if(act==='reopen'){ c.setAttribute('data-decision',''); c.setAttribute('data-conflict','false'); }
+      checkConflict(c); render(); return;
+    }
+    var box=e.target.closest('[data-target]');
+    if(box){ if(box.checked) box.setAttribute('checked',''); else box.removeAttribute('checked'); render(); }
+  });
+  document.addEventListener('input', function(e){
+    var t=e.target;
+    if(t.tagName==='TEXTAREA'){ t.setAttribute('data-value', t.value); var c=t.closest('.card'); if(c) checkConflict(c); render(); }
+  });
+  document.addEventListener('blur', function(e){
+    if(e.target.hasAttribute && e.target.hasAttribute('contenteditable')) render();
+  }, true);
+  document.getElementById('final').addEventListener('click', function(){
+    document.body.setAttribute('data-submitted','true'); render();
+  });
+  document.getElementById('copy').addEventListener('click', function(){
+    payload.select(); navigator.clipboard.writeText(payload.value).then(function(){
+      document.getElementById('copystate').textContent='copied';
+    }, function(){ document.getElementById('copystate').textContent='select the text above and copy manually'; });
+  });
+  render();
+})();
+</script>
