@@ -166,268 +166,109 @@ select,input[type=number]{font:inherit;font-size:14px;background:var(--surface);
 </style><div class="progress">
   <div class="pinner">
     <div class="ticks" id="ticks"></div>
-    <span class="pcount" id="pcount">0 of 6 confirmed</span>
+    <span class="pcount" id="pcount">5 of 6 confirmed</span>
   </div>
 </div>
 <div class="wrap">
   <header class="mast">
-    <p class="eyebrow">Noxtua Duplicate Check · round 1</p>
-    <h1>6 candidate groups — <b>3 proposed consolidations</b></h1>
-    <p class="sub">Scope: the records today's Corp_002 batch touched plus the 26 restored ones, compared against all 411 records by exact wording, lexical similarity, and underlying need. Shared source, feature or squad was never treated as evidence of duplication, and sentiment was not consulted at all.</p>
+    <p class="eyebrow">Noxtua Duplicate Check · round 2</p>
+    <h1>5 groups confirmed — <b>1 needs your decision</b></h1>
+    <p class="sub">Round 1 is processed and locked. DUP-005 came back with an input I will not guess at, so it is the only open card. Scope was: the records today's Corp_002 batch touched plus the 26 restored ones, compared against all 411 records by exact wording, lexical similarity, and underlying need. Shared source, feature or squad was never treated as evidence of duplication, and sentiment was not consulted at all.</p>
     <ul class="meta">
       <li>411 records compared</li><li>ids 30–533, unique</li><li>0 exact wording duplicates</li>
-      <li>6 candidate groups</li><li>3 consolidate</li><li>3 keep separate</li>
+      <li>5 confirmed in round 1</li><li>1 consolidation approved</li><li>4 kept separate</li><li>1 needs revision</li>
       <li>No database changes have been made</li>
     </ul>
   </header>
-  <main class="cards" id="cards">
-    <article class="card" id="DUP-001" data-card="DUP-001" data-records="525,78" data-action="" data-mc="" data-round="" data-conflict="false">
+  <main class="cards" id="cards">    <article class="card done" data-card="DUP-001" data-records="525, 78" data-action="consolidate" data-round="1" data-mc="approve" data-conflict="false">
       <header class="chead">
-        <span class="badge ok">Consolidate</span>
+        <span class="badge ok">CONSOLIDATE — 525 into canonical 78</span>
         <span class="rownum">DUP-001</span>
         <span class="issuecount">records 525, 78</span>
         <button class="reopen" data-act="reopen" type="button">Reopen decision</button>
         <span class="state" aria-live="polite"></span>
       </header>
-      <div class="cbody">
-        <div class="analysis">
-          <p class="irow"><span class="k">shared underlying need</span>Citations should point at the passage the answer came from, not at the whole document.</p>
-          <p class="irow"><span class="k">material differences</span>525 is phrased as a defect report from Manz (the reference returns the full document text instead of the matching passage); 78 is the standing need, already carrying a JIRA ticket and 12 mentions.</p>
-          <p class="irow"><span class="k">evidence for consolidation</span>A learned merge rule dated 2026-08-14 states exactly this routing: a request for exact source-passage pinpointing is the same need as ID 78, even when phrased around a different symptom.</p>
-          <p class="irow"><span class="k">evidence for separation</span>525 carries publisher context (Manz, Austria, CS-1686) that a merge must preserve in the source and JIRA fields.</p>
-          <p class="alias">Sentiment was not consulted; the field is omitted from this review.</p>
-        </div>
-        <div class="reccard"><p class="k">record 525</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>525</td></tr><tr><th>insight</th><td>The user needs to have document citations for relevant passages not for the full document only.</td></tr><tr><th>type</th><td>Missing Feature</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>source</th><td>Publisher Feedback – Manz</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>userGroup</th><td>Publisher</td></tr><tr><th>country</th><td>Austria</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>features</th><td>[&quot;Document Upload&quot;, &quot;Citations&quot;, &quot;Sources&quot;]</td></tr><tr><th>squads</th><td>[&quot;AI Squad&quot;, &quot;Platform Squad&quot;]</td></tr><tr><th>quotes</th><td>in den Referenzen für die Passagen wird der gesamte Dokumenttext übermittelt, nicht mehr nur die passende Textpassagen.</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>jira</th><td>CS-1686</td></tr><tr><th>publisher</th><td>Manz</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-27</td></tr><tr><th>mentionHistory</th><td>[{&quot;date&quot;: &quot;2026-07-27&quot;, &quot;count&quot;: 1, &quot;source&quot;: &quot;feedback_batch_20260727&quot;, &quot;status&quot;: &quot;New – Not yet discussed&quot;}]</td></tr><tr><th>featurebase_id</th><td>6a6ccbbf84800d6b14f4c105</td></tr><tr><th>featurebase_votes</th><td>1</td></tr></table></div></div><div class="reccard"><p class="k">record 78 · proposed canonical</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>78</td></tr><tr><th>insight</th><td>The user would like to be able to see exactly from which part of a source the model derived the answer.</td></tr><tr><th>type</th><td>Missing Feature</td></tr><tr><th>status</th><td>Identified - JIRA ticket exists</td></tr><tr><th>source</th><td>Continous_Direct_Feedback_big_law_firm,2026_01_Workflow_Expectations_Interview,2025_12_KnowledgeBase_UCs_Interviews,Continous_Publisher_Swiss_Noxtua</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;, &quot;Interview Study&quot;]</td></tr><tr><th>userGroup</th><td>Big Law Firm; Mixed; Publisher</td></tr><tr><th>country</th><td>All</td></tr><tr><th>mentions</th><td>12</td></tr><tr><th>features</th><td>[&quot;Research&quot;, &quot;Knowledge Base&quot;]</td></tr><tr><th>squads</th><td>[&quot;Platform Squad&quot;]</td></tr><tr><th>quotes</th><td>“Direkt Quellen an der Seite einzusehen wäre natürlich noch besser.”</td></tr><tr><th>notes</th><td>Study to be planned</td></tr><tr><th>jira</th><td>—</td></tr><tr><th>publisher</th><td>Swiss</td></tr><tr><th>created</th><td>2025-10-14</td></tr><tr><th>lastModified</th><td>2026-08-20</td></tr><tr><th>mentionHistory</th><td>[{&quot;date&quot;: &quot;2026-06-22&quot;, &quot;count&quot;: 9, &quot;source&quot;: &quot;baseline&quot;, &quot;status&quot;: &quot;Identified - JIRA ticket exists&quot;}, {&quot;date&quot;: &quot;2026-07-08&quot;, &quot;count&quot;: 10, &quot;source&quot;: &quot;merged from ID 417 (+1)&quot;}, {&quot;date&quot;: &quot;2026-07-08&quot;, &quot;count&quot;: 11, &quot;source&quot;: &quot;merged from ID 424 (+1)&quot;}, {&quot;date&quot;: &quot;2026-08-20&quot;, &quot;count&quot;: 12, &quot;source&quot;: &quot;restored from insights.backup_2026-08-07 (mention-count regression repair)&quot;}]</td></tr><tr><th>featurebase_id</th><td>6a51218592665376ac3eea1b</td></tr><tr><th>featurebase_votes</th><td>11</td></tr></table></div></div>
-        <div class="issue">
-          <span class="icat">Mention count — Exact</span>
-          <p class="irow"><span class="k">proposed final count</span>13</p>
-          <p class="irow"><span class="k">calculation</span>78 has 12 verified occurrences; 525 contributes one distinct occurrence (Publisher Feedback – Manz, CS-1686, batch 20260727) that does not appear in 78&#x27;s history. 12 + 1 = 13.</p>
-          <p class="irow"><span class="k">history treatment</span>Append one entry dated 2026-08-20 recording the merge of 525 (+1). No existing entry altered.</p>
-          <p class="irow">⚠ 525 has its own Featurebase post (6a6ccbbf…, 1 vote). Consolidating orphans that post — it should be closed or merged in Featurebase separately.</p>
-          <p class="k">Mention-count decision <span class="hint">— required before this group can be written</span></p>
-          <div class="actions"><button class="btn small mcbtn" data-mc="approve" type="button">Approve proposed mention count</button><button class="btn small mcbtn" data-mc="largest" type="button">Keep largest existing count</button><button class="btn small mcbtn" data-mc="sum" type="button">Sum demonstrably distinct occurrences</button><button class="btn small mcbtn" data-mc="other" type="button">Enter another final count</button><button class="btn small mcbtn" data-mc="srcrev" type="button">Requires source review</button></div>
-          <div class="fieldrow"><label class="k" for="mn-DUP-001">manual final count</label>
-            <input id="mn-DUP-001" type="number" min="0" data-edit="count" />
-            <textarea data-edit="count_reason" rows="2" placeholder="Your rationale for the count"></textarea></div>
-        </div>
-        <div class="edits">
-          <div class="fieldrow"><label class="k" for="cn-DUP-001">Canonical ID <span class="hint">— recommended 78; change it if the other record should survive</span></label>
-        <select id="cn-DUP-001" data-edit="canonical"><option value="525">ID 525</option><option value="78" selected>ID 78</option></select></div>
-          <div class="fieldrow"><span class="k">custom consolidation — which records to include</span><div class="chips"><label class="chip"><input type="checkbox" data-edit="include" value="525" checked /> include 525</label><label class="chip"><input type="checkbox" data-edit="include" value="78" checked /> include 78</label></div></div>
-        </div>
-        <div class="actions"><button class="btn accept" data-act="approve" type="button">Approve proposal</button><button class="btn adjust" data-act="separate" type="button">Keep separate</button><button class="btn adjust" data-act="consolidate" type="button">Consolidate</button><button class="btn adjust" data-act="custom" type="button">Custom consolidation</button><button class="btn adjust" data-act="alt" type="button">Request alternative proposal</button><button class="btn adjust" data-act="reanalyse" type="button">Reanalyse</button><button class="btn adjust" data-act="srcrev" type="button">Requires source review</button><button class="btn adjust" data-act="later" type="button">Remember for later</button></div>
-        <div class="commentbox">
-          <label class="k" for="cm-DUP-001">Comment or question <span class="hint">— answered in the next round; not an approval</span></label>
-          <textarea id="cm-DUP-001" data-edit="comment" rows="2" placeholder="Ask me something about this group"></textarea>
-        </div>
-        <p class="conflict"></p>
-      </div>
+      <div class="cbody"><p class="irow"><span class="k">confirmed in round 1</span>Approved with the proposed exact count of 13 (12 + one distinct Manz/CS-1686 occurrence). Will be applied in the write step.</p></div>
     </article>
-    <article class="card" id="DUP-002" data-card="DUP-002" data-records="515,516" data-action="" data-mc="" data-round="" data-conflict="false">
+    <article class="card done" data-card="DUP-002" data-records="515, 516" data-action="separate" data-round="1" data-mc="" data-conflict="false">
       <header class="chead">
-        <span class="badge ok">Consolidate</span>
+        <span class="badge info">KEEP SEPARATE</span>
         <span class="rownum">DUP-002</span>
         <span class="issuecount">records 515, 516</span>
         <button class="reopen" data-act="reopen" type="button">Reopen decision</button>
         <span class="state" aria-live="polite"></span>
       </header>
-      <div class="cbody">
-        <div class="analysis">
-          <p class="irow"><span class="k">shared underlying need</span>Reuse an existing Matrix Analysis setup for a different set of documents.</p>
-          <p class="irow"><span class="k">material differences</span>515 is phrased as duplicating an existing analysis; 516 as creating templates for Matrix Analysis.</p>
-          <p class="irow"><span class="k">evidence for consolidation</span>Both records carry the same JIRA ticket (CS-1599), the same publisher (Beck Czech), the same batch, and the <em>identical</em> quote — which speaks only of copying/duplicating an existing matrix analysis. 516's 'templates' framing is an interpretation of that same sentence, not separate evidence.</p>
-          <p class="irow"><span class="k">evidence for separation</span>If 'templates for Matrix Analysis' is a distinct roadmap item in your planning (a saved, named template rather than a copy), keeping 516 preserves that framing. Compare 124 (create new criteria and matrices quickly) which stays separate either way.</p>
-          <p class="alias">Sentiment was not consulted; the field is omitted from this review.</p>
-        </div>
-        <div class="reccard"><p class="k">record 515 · proposed canonical</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>515</td></tr><tr><th>insight</th><td>The user needs to be able to duplicate an existing Matrix Analysis.</td></tr><tr><th>type</th><td>Missing Feature</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>source</th><td>Publisher Feedback – Beck Czech</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>userGroup</th><td>Publisher</td></tr><tr><th>country</th><td>Czech Republic</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>features</th><td>[&quot;Matrix Analysis&quot;, &quot;Templates&quot;]</td></tr><tr><th>squads</th><td>[&quot;Review Squad&quot;]</td></tr><tr><th>quotes</th><td>users cannot copy / duplicate existing Matrix analysis; whereas it could be useful to have this option so that the users can use the existing matrix analysis setup for different set of documents</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>jira</th><td>CS-1599</td></tr><tr><th>publisher</th><td>Beck Czech</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-27</td></tr><tr><th>mentionHistory</th><td>[{&quot;date&quot;: &quot;2026-07-27&quot;, &quot;count&quot;: 1, &quot;source&quot;: &quot;feedback_batch_20260727&quot;, &quot;status&quot;: &quot;New – Not yet discussed&quot;}]</td></tr><tr><th>featurebase_id</th><td>6a6ccbaaae4aea0e96df3cf5</td></tr><tr><th>featurebase_votes</th><td>1</td></tr></table></div></div><div class="reccard"><p class="k">record 516</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>516</td></tr><tr><th>insight</th><td>The user needs to be able to create templates for Matrix Analysis.</td></tr><tr><th>type</th><td>Missing Feature</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>source</th><td>Publisher Feedback – Beck Czech</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>userGroup</th><td>Publisher</td></tr><tr><th>country</th><td>Czech Republic</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>features</th><td>[&quot;Matrix Analysis&quot;, &quot;Templates&quot;]</td></tr><tr><th>squads</th><td>[&quot;Review Squad&quot;]</td></tr><tr><th>quotes</th><td>users cannot copy / duplicate existing Matrix analysis; whereas it could be useful to have this option so that the users can use the existing matrix analysis setup for different set of documents</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>jira</th><td>CS-1599</td></tr><tr><th>publisher</th><td>Beck Czech</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-27</td></tr><tr><th>mentionHistory</th><td>[{&quot;date&quot;: &quot;2026-07-27&quot;, &quot;count&quot;: 1, &quot;source&quot;: &quot;feedback_batch_20260727&quot;, &quot;status&quot;: &quot;New – Not yet discussed&quot;}]</td></tr><tr><th>featurebase_id</th><td>6a6ccbacd361a8379e29c518</td></tr><tr><th>featurebase_votes</th><td>1</td></tr></table></div></div>
-        <div class="issue">
-          <span class="icat">Mention count — Exact</span>
-          <p class="irow"><span class="k">proposed final count</span>1</p>
-          <p class="irow"><span class="k">calculation</span>One piece of feedback, one occurrence. The same occurrence must not be counted twice inside one consolidated insight, so the count stays 1 — it is NOT 1 + 1.</p>
-          <p class="irow"><span class="k">history treatment</span>Keep 515&#x27;s single entry. No new entry: no new occurrence happened.</p>
-          <p class="irow">⚠ Both records have Featurebase posts (515 → 6a6ccbaa…, 516 → 6a6ccbac…, 1 vote each). One would be orphaned.</p>
-          <p class="k">Mention-count decision <span class="hint">— required before this group can be written</span></p>
-          <div class="actions"><button class="btn small mcbtn" data-mc="approve" type="button">Approve proposed mention count</button><button class="btn small mcbtn" data-mc="largest" type="button">Keep largest existing count</button><button class="btn small mcbtn" data-mc="sum" type="button">Sum demonstrably distinct occurrences</button><button class="btn small mcbtn" data-mc="other" type="button">Enter another final count</button><button class="btn small mcbtn" data-mc="srcrev" type="button">Requires source review</button></div>
-          <div class="fieldrow"><label class="k" for="mn-DUP-002">manual final count</label>
-            <input id="mn-DUP-002" type="number" min="0" data-edit="count" />
-            <textarea data-edit="count_reason" rows="2" placeholder="Your rationale for the count"></textarea></div>
-        </div>
-        <div class="edits">
-          <div class="fieldrow"><label class="k" for="cn-DUP-002">Canonical ID <span class="hint">— recommended 515; change it if the other record should survive</span></label>
-        <select id="cn-DUP-002" data-edit="canonical"><option value="515" selected>ID 515</option><option value="516">ID 516</option></select></div>
-          <div class="fieldrow"><span class="k">custom consolidation — which records to include</span><div class="chips"><label class="chip"><input type="checkbox" data-edit="include" value="515" checked /> include 515</label><label class="chip"><input type="checkbox" data-edit="include" value="516" checked /> include 516</label></div></div>
-        </div>
-        <div class="actions"><button class="btn accept" data-act="approve" type="button">Approve proposal</button><button class="btn adjust" data-act="separate" type="button">Keep separate</button><button class="btn adjust" data-act="consolidate" type="button">Consolidate</button><button class="btn adjust" data-act="custom" type="button">Custom consolidation</button><button class="btn adjust" data-act="alt" type="button">Request alternative proposal</button><button class="btn adjust" data-act="reanalyse" type="button">Reanalyse</button><button class="btn adjust" data-act="srcrev" type="button">Requires source review</button><button class="btn adjust" data-act="later" type="button">Remember for later</button></div>
-        <div class="commentbox">
-          <label class="k" for="cm-DUP-002">Comment or question <span class="hint">— answered in the next round; not an approval</span></label>
-          <textarea id="cm-DUP-002" data-edit="comment" rows="2" placeholder="Ask me something about this group"></textarea>
-        </div>
-        <p class="conflict"></p>
-      </div>
+      <div class="cbody"><p class="irow"><span class="k">confirmed in round 1</span>You overrode the consolidation: &#x27;templates for Matrix Analysis&#x27; stays its own record even though it shares CS-1599 and the quote with 515. No counts change.</p></div>
     </article>
-    <article class="card" id="DUP-003" data-card="DUP-003" data-records="240,488" data-action="" data-mc="" data-round="" data-conflict="false">
+    <article class="card done" data-card="DUP-003" data-records="240, 488" data-action="separate" data-round="1" data-mc="" data-conflict="false">
       <header class="chead">
-        <span class="badge ok">Consolidate</span>
+        <span class="badge info">KEEP SEPARATE</span>
         <span class="rownum">DUP-003</span>
         <span class="issuecount">records 240, 488</span>
         <button class="reopen" data-act="reopen" type="button">Reopen decision</button>
         <span class="state" aria-live="polite"></span>
       </header>
-      <div class="cbody">
-        <div class="analysis">
-          <p class="irow"><span class="k">shared underlying need</span>Save and reuse your own prompts from a central place.</p>
-          <p class="irow"><span class="k">material differences</span>240 names the artefact (a prompt library as a central working resource); 488 names the action (save my own prompts for reuse).</p>
-          <p class="irow"><span class="k">evidence for consolidation</span>Neither can be satisfied without the other — a saved-prompt store IS the library. 240 already absorbed today's Corp_002 mention about a missing prompt library.</p>
-          <p class="irow"><span class="k">evidence for separation</span>488's survey quote bundles dictation with prompt saving, so part of its evidence belongs to the voice-input need instead (ID 170 / 519). Consolidating carries that mixed quote into 240.</p>
-          <p class="alias">Sentiment was not consulted; the field is omitted from this review.</p>
-        </div>
-        <div class="reccard"><p class="k">record 240 · proposed canonical</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>240</td></tr><tr><th>insight</th><td>The user needs a prompt library as a central working resource.</td></tr><tr><th>type</th><td>Missing Feature</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>source</th><td>Continous_Direct_Feedback_big_law_firm,Direct_Feedback_Corp_002_08_2026</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>userGroup</th><td>Big Law Firm</td></tr><tr><th>country</th><td>All</td></tr><tr><th>mentions</th><td>2</td></tr><tr><th>features</th><td>[]</td></tr><tr><th>squads</th><td>[&quot;Platform Squad&quot;]</td></tr><tr><th>quotes</th><td>[2026-08-20] &quot;LKS: privat ChatGPT premium, dort gut Agenten bzw PromptBibliothek&quot; (Direct_Feedback_Corp_002_08_2026)</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>jira</th><td>—</td></tr><tr><th>publisher</th><td>—</td></tr><tr><th>created</th><td>2025-11-30</td></tr><tr><th>lastModified</th><td>2026-08-20</td></tr><tr><th>mentionHistory</th><td>[{&quot;date&quot;: &quot;2026-06-22&quot;, &quot;count&quot;: 1, &quot;source&quot;: &quot;baseline&quot;, &quot;status&quot;: &quot;New – Not yet discussed&quot;}, {&quot;date&quot;: &quot;2026-08-20&quot;, &quot;count&quot;: 2, &quot;source&quot;: &quot;merged from Direct_Feedback_Corp_002_08_2026 (reusable prompt library missing) (+1)&quot;}]</td></tr><tr><th>featurebase_id</th><td>6a6cca2d84800d6b14ebfd39</td></tr><tr><th>featurebase_votes</th><td>2</td></tr></table></div></div><div class="reccard"><p class="k">record 488</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>488</td></tr><tr><th>insight</th><td>The user needs to be able to save their own prompts for reuse.</td></tr><tr><th>type</th><td>Missing Feature</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>source</th><td>Lime Survey questionaire</td></tr><tr><th>sourceTypes</th><td>[&quot;Survey&quot;]</td></tr><tr><th>userGroup</th><td>Unknown</td></tr><tr><th>country</th><td>All</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>features</th><td>[&quot;Templates&quot;]</td></tr><tr><th>squads</th><td>[]</td></tr><tr><th>quotes</th><td>[Lime Survey 2026-07-23, RID 50]: &quot;[…] muss wie auch bei der Konkurrent ein Mikrofonbutton eingearbeitet werden, damit man die Promis nicht tippen muss sondern direkt in die Anwendung diktieren kann. Ebaso muss ich eigene Promis abspeichern können&quot;</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>jira</th><td>—</td></tr><tr><th>publisher</th><td>—</td></tr><tr><th>created</th><td>2026-07-23</td></tr><tr><th>lastModified</th><td>2026-07-23</td></tr><tr><th>mentionHistory</th><td>[{&quot;date&quot;: &quot;2026-07-23&quot;, &quot;count&quot;: 1, &quot;source&quot;: &quot;feedback_batch_20260723 (Editor/Canvas survey)&quot;, &quot;status&quot;: &quot;New – Not yet discussed&quot;}]</td></tr><tr><th>featurebase_id</th><td>—</td></tr><tr><th>featurebase_votes</th><td>—</td></tr></table></div></div>
-        <div class="issue">
-          <span class="icat">Mention count — Exact</span>
-          <p class="irow"><span class="k">proposed final count</span>3</p>
-          <p class="irow"><span class="k">calculation</span>240 has 2 verified occurrences (baseline + Corp_002 2026-08-20). 488 contributes one distinct occurrence (Lime Survey 2026-07-23, RID 50) absent from 240&#x27;s history. 2 + 1 = 3.</p>
-          <p class="irow"><span class="k">history treatment</span>Append one entry dated 2026-08-20 recording the merge of 488 (+1). Existing entries preserved.</p>
-          <p class="irow">488 has no Featurebase post, so nothing is orphaned. 240's post (6a6cca2d…, 2 votes) would need a vote top-up to 3.</p>
-          <p class="k">Mention-count decision <span class="hint">— required before this group can be written</span></p>
-          <div class="actions"><button class="btn small mcbtn" data-mc="approve" type="button">Approve proposed mention count</button><button class="btn small mcbtn" data-mc="largest" type="button">Keep largest existing count</button><button class="btn small mcbtn" data-mc="sum" type="button">Sum demonstrably distinct occurrences</button><button class="btn small mcbtn" data-mc="other" type="button">Enter another final count</button><button class="btn small mcbtn" data-mc="srcrev" type="button">Requires source review</button></div>
-          <div class="fieldrow"><label class="k" for="mn-DUP-003">manual final count</label>
-            <input id="mn-DUP-003" type="number" min="0" data-edit="count" />
-            <textarea data-edit="count_reason" rows="2" placeholder="Your rationale for the count"></textarea></div>
-        </div>
-        <div class="edits">
-          <div class="fieldrow"><label class="k" for="cn-DUP-003">Canonical ID <span class="hint">— recommended 240; change it if the other record should survive</span></label>
-        <select id="cn-DUP-003" data-edit="canonical"><option value="240" selected>ID 240</option><option value="488">ID 488</option></select></div>
-          <div class="fieldrow"><span class="k">custom consolidation — which records to include</span><div class="chips"><label class="chip"><input type="checkbox" data-edit="include" value="240" checked /> include 240</label><label class="chip"><input type="checkbox" data-edit="include" value="488" checked /> include 488</label></div></div>
-        </div>
-        <div class="actions"><button class="btn accept" data-act="approve" type="button">Approve proposal</button><button class="btn adjust" data-act="separate" type="button">Keep separate</button><button class="btn adjust" data-act="consolidate" type="button">Consolidate</button><button class="btn adjust" data-act="custom" type="button">Custom consolidation</button><button class="btn adjust" data-act="alt" type="button">Request alternative proposal</button><button class="btn adjust" data-act="reanalyse" type="button">Reanalyse</button><button class="btn adjust" data-act="srcrev" type="button">Requires source review</button><button class="btn adjust" data-act="later" type="button">Remember for later</button></div>
-        <div class="commentbox">
-          <label class="k" for="cm-DUP-003">Comment or question <span class="hint">— answered in the next round; not an approval</span></label>
-          <textarea id="cm-DUP-003" data-edit="comment" rows="2" placeholder="Ask me something about this group"></textarea>
-        </div>
-        <p class="conflict"></p>
-      </div>
+      <div class="cbody"><p class="irow"><span class="k">confirmed in round 1</span>Prompt library (240) and saving your own prompts (488) stay separate records. No counts change.</p></div>
     </article>
-    <article class="card" id="DUP-004" data-card="DUP-004" data-records="519,170" data-action="" data-mc="" data-round="" data-conflict="false">
+    <article class="card done" data-card="DUP-004" data-records="519, 170" data-action="separate" data-round="1" data-mc="" data-conflict="false">
       <header class="chead">
-        <span class="badge info">Keep separate — overlapping but distinct</span>
+        <span class="badge info">KEEP SEPARATE — as proposed</span>
         <span class="rownum">DUP-004</span>
         <span class="issuecount">records 519, 170</span>
         <button class="reopen" data-act="reopen" type="button">Reopen decision</button>
         <span class="state" aria-live="polite"></span>
       </header>
-      <div class="cbody">
-        <div class="analysis">
-          <p class="irow"><span class="k">shared underlying need</span>Speak instead of type — but at two different lengths.</p>
-          <p class="irow"><span class="k">material differences</span>170 is short prompt dictation, released and closed at 20 mentions. 519 is long-form transcription of dictated documents or meetings, and its quote states plainly that the shipped model is tuned for ~30-second inputs and is not the classical speech-to-text dictation lawyers use.</p>
-          <p class="irow"><span class="k">evidence for consolidation</span>Both sit under Voice Control and both are 'voice input'.</p>
-          <p class="irow"><span class="k">evidence for separation</span>519's need survives 170's release — merging it into an Implemented record would bury an unsolved requirement. That is exactly the narrow-need-lost case the rules say to keep separate.</p>
-          <p class="alias">Sentiment was not consulted; the field is omitted from this review.</p>
-        </div>
-        <div class="reccard"><p class="k">record 519</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>519</td></tr><tr><th>insight</th><td>The user needs voice input for long transcription of dictated text or meetings.</td></tr><tr><th>type</th><td>Improvement</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>source</th><td>Publisher Feedback – Swiss</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>userGroup</th><td>Publisher</td></tr><tr><th>country</th><td>Switzerland</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>features</th><td>[&quot;Voice Control&quot;]</td></tr><tr><th>squads</th><td>[&quot;AI Interaction&quot;]</td></tr><tr><th>quotes</th><td>These models are optimized for an ideal use case of an 30 seconds input. It is not a classical speech-to-text dictation that lawyers use to write documents.</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>jira</th><td>CS-1681</td></tr><tr><th>publisher</th><td>Swiss</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-27</td></tr><tr><th>mentionHistory</th><td>[{&quot;date&quot;: &quot;2026-07-27&quot;, &quot;count&quot;: 1, &quot;source&quot;: &quot;feedback_batch_20260727&quot;, &quot;status&quot;: &quot;New – Not yet discussed&quot;}]</td></tr><tr><th>featurebase_id</th><td>6a6ccbb34ee14d9752f88524</td></tr><tr><th>featurebase_votes</th><td>1</td></tr></table></div></div><div class="reccard"><p class="k">record 170</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>170</td></tr><tr><th>insight</th><td>The users would like to be able to interact with the tool via voice input, in order to work more efficiently.</td></tr><tr><th>type</th><td>Missing Feature</td></tr><tr><th>status</th><td>Implemented - a solution is released</td></tr><tr><th>source</th><td>202510-Canvas-Interview_Testing,Continous_Direct_Feedback_big_law_firm,2025_11_Personas_M_B_Lawfirms,Continous_Direct_Feedback_GovernmentInstitutions,Publisher Feedback - Beck Germany,Workshop_Feedback_2026_06,Direct_Feedback_Corp_002_08_2026</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;, &quot;Interview Study&quot;, &quot;Usability Testing&quot;, &quot;Workshop&quot;]</td></tr><tr><th>userGroup</th><td>Mixed; Big Law Firm; Government Institutions; Publisher</td></tr><tr><th>country</th><td>All</td></tr><tr><th>mentions</th><td>20</td></tr><tr><th>features</th><td>[&quot;Voice Control&quot;]</td></tr><tr><th>squads</th><td>[&quot;Platform Squad&quot;]</td></tr><tr><th>quotes</th><td>Clients often ask whether Noxtua could add a voice recognition feature to allow users to dictate prompts rather than type them. Would save them time. | Sprachausgabe – frühzeitig ins Testing einbinden. | [2026-07-22] &quot;Für mich wäre eine Diktierfunktion für den Prompt essenziell …&quot; (CSM 17); &quot;Texteingabe mit Mikrofon wäre gut&quot; (SELF 37) | [Lime Survey 2026-07-23, RID 50]: &quot;[…] muss wie auch bei der Konkurrent ein Mikrofonbutton eingearbeitet werden, damit man die Promis nicht tippen muss sondern direkt in die Anwendung diktieren kann. Ebaso muss ich eigene Promis abspeichern können&quot;
-
-[2026-08-20] &quot;FF wünscht sich Diktierfunktion wie bei ChatGPT und Gemini.&quot; (Direct_Feedback_Corp_002_08_2026)</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>jira</th><td>CS-1028</td></tr><tr><th>publisher</th><td>—</td></tr><tr><th>created</th><td>2025-11-05</td></tr><tr><th>lastModified</th><td>2026-08-20</td></tr><tr><th>mentionHistory</th><td>[{&quot;date&quot;: &quot;2026-06-22&quot;, &quot;count&quot;: 14, &quot;source&quot;: &quot;baseline&quot;, &quot;status&quot;: &quot;Planned for development&quot;}, {&quot;count&quot;: 15, &quot;date&quot;: &quot;2026-06-29&quot;, &quot;source&quot;: &quot;feedback_batch_20260629&quot;, &quot;status&quot;: &quot;Planned for development&quot;}, {&quot;date&quot;: &quot;2026-07-22&quot;, &quot;count&quot;: 17, &quot;source&quot;: &quot;feedback_batch_20260722&quot;, &quot;status&quot;: &quot;Implemented - a solution is released&quot;}, {&quot;date&quot;: &quot;2026-07-23&quot;, &quot;count&quot;: 19, &quot;source&quot;: &quot;feedback_batch_20260723 (Editor/Canvas survey) (+2)&quot;, &quot;status&quot;: &quot;Implemented - a solution is released&quot;}, {&quot;date&quot;: &quot;2026-08-20&quot;, &quot;count&quot;: 20, &quot;source&quot;: &quot;merged from Direct_Feedback_Corp_002_08_2026 (dictation / voice input requested) (+1)&quot;}]</td></tr><tr><th>featurebase_id</th><td>6a4e64213210992d27b054eb</td></tr><tr><th>featurebase_votes</th><td>16</td></tr></table></div></div>
-        <div class="issue">
-          <span class="icat">Mention count — Exact</span>
-          <p class="irow"><span class="k">proposed final count</span>unchanged</p>
-          <p class="irow"><span class="k">calculation</span>No consolidation, so no recalculation: 170 stays at 20, 519 stays at 1.</p>
-          <p class="irow"><span class="k">history treatment</span>Unchanged.</p>
-          <p class="irow">⚠ Worth a second look at today's decision: the Corp_002 ask was “Diktierfunktion wie bei ChatGPT und Gemini” — general dictation, which reads closer to 519 than to the already-released 170. You merged it into 170 earlier today. Say the word and I'll move that +1 from 170 to 519.</p>
-          <p class="k">Mention-count decision <span class="hint">— required before this group can be written</span></p>
-          <div class="actions"><button class="btn small mcbtn" data-mc="approve" type="button">Approve proposed mention count</button><button class="btn small mcbtn" data-mc="largest" type="button">Keep largest existing count</button><button class="btn small mcbtn" data-mc="sum" type="button">Sum demonstrably distinct occurrences</button><button class="btn small mcbtn" data-mc="other" type="button">Enter another final count</button><button class="btn small mcbtn" data-mc="srcrev" type="button">Requires source review</button></div>
-          <div class="fieldrow"><label class="k" for="mn-DUP-004">manual final count</label>
-            <input id="mn-DUP-004" type="number" min="0" data-edit="count" />
-            <textarea data-edit="count_reason" rows="2" placeholder="Your rationale for the count"></textarea></div>
-        </div>
-        <div class="edits">
-          
-          <div class="fieldrow"><span class="k">custom consolidation — which records to include</span><div class="chips"><label class="chip"><input type="checkbox" data-edit="include" value="519" checked /> include 519</label><label class="chip"><input type="checkbox" data-edit="include" value="170" checked /> include 170</label></div></div>
-        </div>
-        <div class="actions"><button class="btn accept" data-act="approve" type="button">Approve proposal</button><button class="btn adjust" data-act="separate" type="button">Keep separate</button><button class="btn adjust" data-act="consolidate" type="button">Consolidate</button><button class="btn adjust" data-act="custom" type="button">Custom consolidation</button><button class="btn adjust" data-act="alt" type="button">Request alternative proposal</button><button class="btn adjust" data-act="reanalyse" type="button">Reanalyse</button><button class="btn adjust" data-act="srcrev" type="button">Requires source review</button><button class="btn adjust" data-act="later" type="button">Remember for later</button></div>
-        <div class="commentbox">
-          <label class="k" for="cm-DUP-004">Comment or question <span class="hint">— answered in the next round; not an approval</span></label>
-          <textarea id="cm-DUP-004" data-edit="comment" rows="2" placeholder="Ask me something about this group"></textarea>
-        </div>
-        <p class="conflict"></p>
-      </div>
+      <div class="cbody"><p class="irow"><span class="k">confirmed in round 1</span>Long-form transcription stays separate from the released short-dictation record. Today&#x27;s Corp_002 +1 stays on 170 — approving the proposal did not move it. Say so explicitly if you want it moved to 519.</p></div>
     </article>
-    <article class="card" id="DUP-005" data-card="DUP-005" data-records="503,504,527" data-action="" data-mc="" data-round="" data-conflict="false">
+    <article class="card done" data-card="DUP-006" data-records="505, 506" data-action="separate" data-round="1" data-mc="" data-conflict="false">
       <header class="chead">
-        <span class="badge info">Keep separate — overlapping but distinct</span>
-        <span class="rownum">DUP-005</span>
-        <span class="issuecount">records 503, 504, 527</span>
-        <button class="reopen" data-act="reopen" type="button">Reopen decision</button>
-        <span class="state" aria-live="polite"></span>
-      </header>
-      <div class="cbody">
-        <div class="analysis">
-          <p class="irow"><span class="k">shared underlying need</span>Know what input a template expects, without hunting for it.</p>
-          <p class="irow"><span class="k">material differences</span>503 is about instructions on <em>file</em> inputs never being displayed. 504 is about required input being hidden behind an 'edit' click when applying a template. 527 comes from Beck Germany (CS-1674) and concerns transparency on how user input is added at all — its only quote is a support reply closing the ticket as expected behaviour.</p>
-          <p class="irow"><span class="k">evidence for consolidation</span>All three are template-input visibility complaints, and 503/504 share a source batch.</p>
-          <p class="irow"><span class="k">evidence for separation</span>503 and 504 have different quotes describing different surfaces (file-input instructions vs. the apply dialog), so they are distinct occurrences rather than one restated. 527's evidence is too thin to establish whether it is the author side or the consumer side of the same problem.</p>
-          <p class="alias">Sentiment was not consulted; the field is omitted from this review.</p>
-        </div>
-        <div class="reccard"><p class="k">record 503</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>503</td></tr><tr><th>insight</th><td>User-input instructions are not displayed for file inputs, even when essential.</td></tr><tr><th>type</th><td>Improvement</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>source</th><td>Continous_Direct_Feedback_corporate</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>userGroup</th><td>Corporate Law Department</td></tr><tr><th>country</th><td>Germany</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>features</th><td>[&quot;Templates&quot;]</td></tr><tr><th>squads</th><td>[&quot;Drafting Squad&quot;]</td></tr><tr><th>quotes</th><td>When creating user inputs you add instructions, but these aren&#x27;t displayed at all for file input.</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>jira</th><td>—</td></tr><tr><th>publisher</th><td>—</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-28</td></tr><tr><th>mentionHistory</th><td>[{&quot;date&quot;: &quot;2026-07-27&quot;, &quot;count&quot;: 1, &quot;source&quot;: &quot;feedback_batch_20260727&quot;, &quot;status&quot;: &quot;New – Not yet discussed&quot;}]</td></tr><tr><th>featurebase_id</th><td>6a6ccb9194e73d44a215110a</td></tr><tr><th>featurebase_votes</th><td>1</td></tr></table></div></div><div class="reccard"><p class="k">record 504</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>504</td></tr><tr><th>insight</th><td>Required user input is not visible when applying a template — the user must click &#x27;edit&#x27; to see it.</td></tr><tr><th>type</th><td>Improvement</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>source</th><td>Continous_Direct_Feedback_corporate</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>userGroup</th><td>Corporate Law Department</td></tr><tr><th>country</th><td>Germany</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>features</th><td>[&quot;Templates&quot;]</td></tr><tr><th>squads</th><td>[&quot;Drafting Squad&quot;]</td></tr><tr><th>quotes</th><td>I have to click &#x27;edit&#x27; to see what input is required. This should be visible immediately when selecting the template.</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>jira</th><td>—</td></tr><tr><th>publisher</th><td>—</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-27</td></tr><tr><th>mentionHistory</th><td>[{&quot;date&quot;: &quot;2026-07-27&quot;, &quot;count&quot;: 1, &quot;source&quot;: &quot;feedback_batch_20260727&quot;, &quot;status&quot;: &quot;New – Not yet discussed&quot;}]</td></tr><tr><th>featurebase_id</th><td>6a6ccb9484800d6b14f310f7</td></tr><tr><th>featurebase_votes</th><td>1</td></tr></table></div></div><div class="reccard"><p class="k">record 527</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>527</td></tr><tr><th>insight</th><td>The user needs transparency on how to add user input to a template.</td></tr><tr><th>type</th><td>Improvement</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>source</th><td>Publisher Feedback – Beck Germany</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>userGroup</th><td>Publisher</td></tr><tr><th>country</th><td>Germany</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>features</th><td>[&quot;Templates&quot;]</td></tr><tr><th>squads</th><td>[&quot;Workflow Squad&quot;]</td></tr><tr><th>quotes</th><td>I reproduced the steps on my end, and this is not a bug. The behavior you&#x27;re seeing is expected... I am closing this as expected behavior rather than a defect.</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>jira</th><td>CS-1674</td></tr><tr><th>publisher</th><td>Beck Germany</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-27</td></tr><tr><th>mentionHistory</th><td>[{&quot;date&quot;: &quot;2026-07-27&quot;, &quot;count&quot;: 1, &quot;source&quot;: &quot;feedback_batch_20260727&quot;, &quot;status&quot;: &quot;New – Not yet discussed&quot;}]</td></tr><tr><th>featurebase_id</th><td>6a6ccbc38a3d03519fefc765</td></tr><tr><th>featurebase_votes</th><td>1</td></tr></table></div></div>
-        <div class="issue">
-          <span class="icat">Mention count — Unresolved</span>
-          <p class="irow"><span class="k">proposed final count</span>unchanged</p>
-          <p class="irow"><span class="k">calculation</span>No consolidation proposed. If you do consolidate 503+504, the count would be 2 (two distinct occurrences from the same batch), not 1.</p>
-          <p class="irow"><span class="k">history treatment</span>Unchanged.</p>
-          <p class="irow">527 is the candidate for “Requires source review” — CS-1674 would settle whether it is the same need as 504.</p>
-          <p class="k">Mention-count decision <span class="hint">— required before this group can be written</span></p>
-          <div class="actions"><button class="btn small mcbtn" data-mc="approve" type="button">Approve proposed mention count</button><button class="btn small mcbtn" data-mc="largest" type="button">Keep largest existing count</button><button class="btn small mcbtn" data-mc="sum" type="button">Sum demonstrably distinct occurrences</button><button class="btn small mcbtn" data-mc="other" type="button">Enter another final count</button><button class="btn small mcbtn" data-mc="srcrev" type="button">Requires source review</button></div>
-          <div class="fieldrow"><label class="k" for="mn-DUP-005">manual final count</label>
-            <input id="mn-DUP-005" type="number" min="0" data-edit="count" />
-            <textarea data-edit="count_reason" rows="2" placeholder="Your rationale for the count"></textarea></div>
-        </div>
-        <div class="edits">
-          
-          <div class="fieldrow"><span class="k">custom consolidation — which records to include</span><div class="chips"><label class="chip"><input type="checkbox" data-edit="include" value="503" checked /> include 503</label><label class="chip"><input type="checkbox" data-edit="include" value="504" checked /> include 504</label><label class="chip"><input type="checkbox" data-edit="include" value="527" checked /> include 527</label></div></div>
-        </div>
-        <div class="actions"><button class="btn accept" data-act="approve" type="button">Approve proposal</button><button class="btn adjust" data-act="separate" type="button">Keep separate</button><button class="btn adjust" data-act="consolidate" type="button">Consolidate</button><button class="btn adjust" data-act="custom" type="button">Custom consolidation</button><button class="btn adjust" data-act="alt" type="button">Request alternative proposal</button><button class="btn adjust" data-act="reanalyse" type="button">Reanalyse</button><button class="btn adjust" data-act="srcrev" type="button">Requires source review</button><button class="btn adjust" data-act="later" type="button">Remember for later</button></div>
-        <div class="commentbox">
-          <label class="k" for="cm-DUP-005">Comment or question <span class="hint">— answered in the next round; not an approval</span></label>
-          <textarea id="cm-DUP-005" data-edit="comment" rows="2" placeholder="Ask me something about this group"></textarea>
-        </div>
-        <p class="conflict"></p>
-      </div>
-    </article>
-    <article class="card" id="DUP-006" data-card="DUP-006" data-records="505,506" data-action="" data-mc="" data-round="" data-conflict="false">
-      <header class="chead">
-        <span class="badge info">Keep separate — not duplicates</span>
+        <span class="badge info">KEEP SEPARATE — as proposed</span>
         <span class="rownum">DUP-006</span>
         <span class="issuecount">records 505, 506</span>
         <button class="reopen" data-act="reopen" type="button">Reopen decision</button>
         <span class="state" aria-live="polite"></span>
       </header>
+      <div class="cbody"><p class="irow"><span class="k">confirmed in round 1</span>RVG/court-cost and deadline calculations stay separate. No counts change.</p></div>
+    </article>
+    <article class="card" id="DUP-005" data-card="DUP-005" data-records="503,504,527" data-action="" data-mc="" data-round="" data-conflict="false">
+      <header class="chead">
+        <span class="badge warn">Needs revision — conflicting input</span>
+        <span class="rownum">DUP-005</span>
+        <span class="issuecount">records 503, 504, 527 (+502 for reference)</span>
+        <button class="reopen" data-act="reopen" type="button">Reopen decision</button>
+        <span class="state" aria-live="polite"></span>
+      </header>
       <div class="cbody">
         <div class="analysis">
-          <p class="irow"><span class="k">shared underlying need</span>Numeric calculations should be correct — but in two unrelated domains.</p>
-          <p class="irow"><span class="k">material differences</span>505 is fee and court-cost calculation from the RVG tables. 506 is deadline arithmetic from reference dates (weekdays, week-based periods).</p>
-          <p class="irow"><span class="k">evidence for consolidation</span>Same source, same batch, same squad and feature, and both are 'the maths is wrong'.</p>
-          <p class="irow"><span class="k">evidence for separation</span>Different tables, different logic, different fixes; each quote supports only its own domain. Shared source and shared feature are explicitly not evidence of duplication.</p>
-          <p class="alias">Sentiment was not consulted; the field is omitted from this review.</p>
+          <p class="irow"><span class="k">your comment, round 1</span>“502 &amp; 503 are the same! 527 is distinct as it is about the creation process of the templates.”</p>
+          <p class="irow"><span class="k">my answer</span>527 is now out of the consolidation — your reason holds: it is about the authoring side (how user input gets added when a template is built), while 503 and 504 are about the applying side. That part is settled.<br><br>The pair itself I can't apply as written. <strong>Record 502 is “Suggestion to add/improve a button that helps users refine or improve their prompts”</strong> — a Vattenfall prompt-improvement idea with no connection to template user inputs. 502 and 503 share no subject matter, so consolidating them would delete an unrelated record. Both records are shown below so you can see it.</p>
+          <p class="irow"><span class="k">what I think you meant</span>503 and 504 — adjacent IDs, both in this group, both about required template input not being visible when applying a template. I am not assuming it: nothing is applied until you confirm which pair.</p>
+          <p class="irow"><span class="k">revised proposal</span>Consolidate <strong>503 into canonical 504</strong>. 504 states the general case (required input hidden behind an ‘edit’ click); 503's file-input specificity is preserved as a second quote on the canonical record. 527 stays separate.</p>
+          <p class="irow"><span class="k">evidence for separation, for the record</span>The two quotes describe different surfaces — instructions never shown for file inputs (503) vs. required input hidden until you click edit (504). If you'd rather keep the file-input case visible on its own, “Keep all three separate” remains a valid answer.</p>
+          <p class="alias">Sentiment was not consulted. If you did mean 502, choose “Custom consolidation”, include 502 and 503, and I'll show that consolidation's own count and evidence in round 3 rather than applying it now.</p>
         </div>
-        <div class="reccard"><p class="k">record 505</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>505</td></tr><tr><th>insight</th><td>RVG and court-cost calculations are wildly wrong — amounts are not correctly taken from the tables.</td></tr><tr><th>type</th><td>Improvement</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>source</th><td>Continous_Direct_Feedback_corporate</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>userGroup</th><td>Corporate Law Department</td></tr><tr><th>country</th><td>Germany</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>features</th><td>[&quot;Research&quot;]</td></tr><tr><th>squads</th><td>[&quot;AI Squad&quot;]</td></tr><tr><th>quotes</th><td>Abrechnung RVG und Gerichtskosten: abenteuerliche Antworten, Beträge nicht richtig aus den Tabellen übernommen.</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>jira</th><td>—</td></tr><tr><th>publisher</th><td>—</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-28</td></tr><tr><th>mentionHistory</th><td>[{&quot;date&quot;: &quot;2026-07-27&quot;, &quot;count&quot;: 1, &quot;source&quot;: &quot;feedback_batch_20260727&quot;, &quot;status&quot;: &quot;New – Not yet discussed&quot;}]</td></tr><tr><th>featurebase_id</th><td>6a6ccb9694e73d44a21582ce</td></tr><tr><th>featurebase_votes</th><td>1</td></tr></table></div></div><div class="reccard"><p class="k">record 506</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>506</td></tr><tr><th>insight</th><td>Date/deadline calculations are almost always wrong when reference dates are entered (weekdays, week-based deadlines).</td></tr><tr><th>type</th><td>Improvement</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>source</th><td>Continous_Direct_Feedback_corporate</td></tr><tr><th>sourceTypes</th><td>[&quot;Direct Feedback&quot;]</td></tr><tr><th>userGroup</th><td>Corporate Law Department</td></tr><tr><th>country</th><td>Germany</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>features</th><td>[&quot;Research&quot;]</td></tr><tr><th>squads</th><td>[&quot;AI Squad&quot;]</td></tr><tr><th>quotes</th><td>Fristen: wenn man Referenzdaten eingibt, berechnet Noxtua diese falsch — Wochentage und Wochenfristen fast immer falsch.</td></tr><tr><th>notes</th><td>—</td></tr><tr><th>jira</th><td>—</td></tr><tr><th>publisher</th><td>—</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>lastModified</th><td>2026-07-28</td></tr><tr><th>mentionHistory</th><td>[{&quot;date&quot;: &quot;2026-07-27&quot;, &quot;count&quot;: 1, &quot;source&quot;: &quot;feedback_batch_20260727&quot;, &quot;status&quot;: &quot;New – Not yet discussed&quot;}]</td></tr><tr><th>featurebase_id</th><td>6a6ccb98ae4aea0e96ded353</td></tr><tr><th>featurebase_votes</th><td>1</td></tr></table></div></div>
+        <div class="reccard"><p class="k">record 503 · in the group</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>503</td></tr><tr><th>insight</th><td>User-input instructions are not displayed for file inputs, even when essential.</td></tr><tr><th>type</th><td>Improvement</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>source</th><td>Continous_Direct_Feedback_corporate</td></tr><tr><th>userGroup</th><td>Corporate Law Department</td></tr><tr><th>country</th><td>Germany</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>features</th><td>[&quot;Templates&quot;]</td></tr><tr><th>squads</th><td>[&quot;Drafting Squad&quot;]</td></tr><tr><th>quotes</th><td>When creating user inputs you add instructions, but these aren&#x27;t displayed at all for file input.</td></tr><tr><th>jira</th><td>—</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>featurebase_id</th><td>6a6ccb9194e73d44a215110a</td></tr><tr><th>featurebase_votes</th><td>1</td></tr></table></div></div><div class="reccard"><p class="k">record 504 · in the group</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>504</td></tr><tr><th>insight</th><td>Required user input is not visible when applying a template — the user must click &#x27;edit&#x27; to see it.</td></tr><tr><th>type</th><td>Improvement</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>source</th><td>Continous_Direct_Feedback_corporate</td></tr><tr><th>userGroup</th><td>Corporate Law Department</td></tr><tr><th>country</th><td>Germany</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>features</th><td>[&quot;Templates&quot;]</td></tr><tr><th>squads</th><td>[&quot;Drafting Squad&quot;]</td></tr><tr><th>quotes</th><td>I have to click &#x27;edit&#x27; to see what input is required. This should be visible immediately when selecting the template.</td></tr><tr><th>jira</th><td>—</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>featurebase_id</th><td>6a6ccb9484800d6b14f310f7</td></tr><tr><th>featurebase_votes</th><td>1</td></tr></table></div></div><div class="reccard"><p class="k">record 527 · in the group — you ruled it distinct</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>527</td></tr><tr><th>insight</th><td>The user needs transparency on how to add user input to a template.</td></tr><tr><th>type</th><td>Improvement</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>source</th><td>Publisher Feedback – Beck Germany</td></tr><tr><th>userGroup</th><td>Publisher</td></tr><tr><th>country</th><td>Germany</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>features</th><td>[&quot;Templates&quot;]</td></tr><tr><th>squads</th><td>[&quot;Workflow Squad&quot;]</td></tr><tr><th>quotes</th><td>I reproduced the steps on my end, and this is not a bug. The behavior you&#x27;re seeing is expected... I am closing this as expected behavior rather than a defect.</td></tr><tr><th>jira</th><td>CS-1674</td></tr><tr><th>created</th><td>2026-07-27</td></tr><tr><th>featurebase_id</th><td>6a6ccbc38a3d03519fefc765</td></tr><tr><th>featurebase_votes</th><td>1</td></tr></table></div></div><div class="reccard"><p class="k">record 502 · NOT in the group — added because your comment names it</p><div class="tablewrap"><table class="rec"><tr><th>id</th><td>502</td></tr><tr><th>insight</th><td>Suggestion to add/improve a button that helps users refine or improve their prompts.</td></tr><tr><th>type</th><td>Idea</td></tr><tr><th>status</th><td>New – Not yet discussed</td></tr><tr><th>source</th><td>Vattenfall Feedback Call – 2026-07-13</td></tr><tr><th>userGroup</th><td>Corporate Lawyer</td></tr><tr><th>country</th><td>All</td></tr><tr><th>mentions</th><td>1</td></tr><tr><th>features</th><td>[&quot;Prompting&quot;]</td></tr><tr><th>squads</th><td>[]</td></tr><tr><th>quotes</th><td>[2026-07-13] &quot;Improve your prompt Button&quot; (Vattenfall Feedback Call – 2026-07-13)</td></tr><tr><th>jira</th><td>—</td></tr><tr><th>created</th><td>2026-07-13</td></tr><tr><th>featurebase_id</th><td>—</td></tr><tr><th>featurebase_votes</th><td>—</td></tr></table></div></div>
         <div class="issue">
           <span class="icat">Mention count — Exact</span>
-          <p class="irow"><span class="k">proposed final count</span>unchanged</p>
-          <p class="irow"><span class="k">calculation</span>No consolidation, no recalculation.</p>
-          <p class="irow"><span class="k">history treatment</span>Unchanged.</p>
-          <p class="irow">Neither maps to a general calculation-accuracy record — none exists in the database. If you want one, that's a new-record decision, not a duplicate decision.</p>
+          <p class="irow"><span class="k">proposed final count</span>2</p>
+          <p class="irow"><span class="k">calculation</span>503 and 504 each carry one occurrence. Same source label and batch, but different verbatim quotes describing different behaviour, so they are two distinct occurrences: 1 + 1 = 2. Your round-1 “approve proposed count” matches the figure I flagged for this pair.</p>
+          <p class="irow"><span class="k">history treatment</span>Keep 504's entry; append one entry dated 2026-08-20 recording the merge of 503 (+1). No entry rewritten.</p>
+          <p class="irow">⚠ 503 has its own Featurebase post (6a6ccb91…, 1 vote) which consolidation would orphan — it needs closing on the Featurebase side separately.</p>
           <p class="k">Mention-count decision <span class="hint">— required before this group can be written</span></p>
           <div class="actions"><button class="btn small mcbtn" data-mc="approve" type="button">Approve proposed mention count</button><button class="btn small mcbtn" data-mc="largest" type="button">Keep largest existing count</button><button class="btn small mcbtn" data-mc="sum" type="button">Sum demonstrably distinct occurrences</button><button class="btn small mcbtn" data-mc="other" type="button">Enter another final count</button><button class="btn small mcbtn" data-mc="srcrev" type="button">Requires source review</button></div>
-          <div class="fieldrow"><label class="k" for="mn-DUP-006">manual final count</label>
-            <input id="mn-DUP-006" type="number" min="0" data-edit="count" />
+          <div class="fieldrow"><label class="k" for="mn-005">manual final count</label>
+            <input id="mn-005" type="number" min="0" data-edit="count" />
             <textarea data-edit="count_reason" rows="2" placeholder="Your rationale for the count"></textarea></div>
         </div>
         <div class="edits">
-          
-          <div class="fieldrow"><span class="k">custom consolidation — which records to include</span><div class="chips"><label class="chip"><input type="checkbox" data-edit="include" value="505" checked /> include 505</label><label class="chip"><input type="checkbox" data-edit="include" value="506" checked /> include 506</label></div></div>
+          <div class="fieldrow"><label class="k" for="cn-005">Canonical ID <span class="hint">— recommended 504</span></label>
+            <select id="cn-005" data-edit="canonical"><option value="503">ID 503</option><option value="504" selected>ID 504</option><option value="502">ID 502</option><option value="527">ID 527</option></select></div>
+          <div class="fieldrow"><span class="k">custom consolidation — which records to include</span><div class="chips"><label class="chip"><input type="checkbox" data-edit="include" value="502" /> include 502</label><label class="chip"><input type="checkbox" data-edit="include" value="503" checked /> include 503</label><label class="chip"><input type="checkbox" data-edit="include" value="504" checked /> include 504</label><label class="chip"><input type="checkbox" data-edit="include" value="527" /> include 527</label></div></div>
         </div>
-        <div class="actions"><button class="btn accept" data-act="approve" type="button">Approve proposal</button><button class="btn adjust" data-act="separate" type="button">Keep separate</button><button class="btn adjust" data-act="consolidate" type="button">Consolidate</button><button class="btn adjust" data-act="custom" type="button">Custom consolidation</button><button class="btn adjust" data-act="alt" type="button">Request alternative proposal</button><button class="btn adjust" data-act="reanalyse" type="button">Reanalyse</button><button class="btn adjust" data-act="srcrev" type="button">Requires source review</button><button class="btn adjust" data-act="later" type="button">Remember for later</button></div>
+        <div class="actions"><button class="btn accept" data-act="approve" type="button">Approve revised proposal (503+504 → 504)</button><button class="btn adjust" data-act="consolidate" type="button">Consolidate as I described</button><button class="btn adjust" data-act="custom" type="button">Custom consolidation</button><button class="btn adjust" data-act="separate" type="button">Keep all three separate</button><button class="btn adjust" data-act="alt" type="button">Request alternative proposal</button><button class="btn adjust" data-act="srcrev" type="button">Requires source review</button><button class="btn adjust" data-act="later" type="button">Remember for later</button></div>
         <div class="commentbox">
-          <label class="k" for="cm-DUP-006">Comment or question <span class="hint">— answered in the next round; not an approval</span></label>
-          <textarea id="cm-DUP-006" data-edit="comment" rows="2" placeholder="Ask me something about this group"></textarea>
+          <label class="k" for="cm-005">Comment or question</label>
+          <textarea id="cm-005" data-edit="comment" rows="2" placeholder="Anything else about this group"></textarea>
         </div>
         <p class="conflict"></p>
       </div>
@@ -443,7 +284,7 @@ select,input[type=number]{font:inherit;font-size:14px;background:var(--surface);
       <button class="btn adjust" id="copy" type="button">Copy payload</button>
       <span class="pcount" id="copystate"></span>
     </div>
-    <p class="notice finalnote">Round submitted. Paste the payload to me and I'll process it, then show the final pre-write preview.</p>
+    <p class="notice finalnote">Round 2 submitted. Paste the payload to me and I'll process it, then show the final pre-write preview.</p>
   </section>
 </div>
 <script>
@@ -501,7 +342,7 @@ select,input[type=number]{font:inherit;font-size:14px;background:var(--surface);
     [['confirmed',ok],['consolidate/other',cons],['keep separate',sep],['parked',parked],
      ['conflicts',conf],['pending',cards.length-ok-parked-conf]]
      .forEach(function(p){var li=document.createElement('li');li.textContent=p[0]+': '+p[1];tally.appendChild(li);});
-    var lines=['Duplicate check round 1 decisions:'];
+    var lines=['Duplicate check round 2 decisions:'];
     cards.forEach(function(c){
       var a=c.getAttribute('data-action'); if(!a) return;
       var l=c.getAttribute('data-card')+' ('+c.getAttribute('data-records')+'): '+A[a];
@@ -516,14 +357,14 @@ select,input[type=number]{font:inherit;font-size:14px;background:var(--surface);
     });
     cards.forEach(function(c){ if(!c.getAttribute('data-action')){ var cm=val(c,'comment');
       if(cm) lines.push(c.getAttribute('data-card')+': pending, comment: '+cm); }});
-    lines.push('Please process this round.');
+    lines.push('Please process round 2.');
     payload.value=lines.join('\n');
   }
   document.addEventListener('click', function(ev){
     var b=ev.target.closest('[data-act]');
     if(b){ var c=b.closest('.card'), a=b.getAttribute('data-act');
       if(a==='reopen'){ c.setAttribute('data-action',''); c.setAttribute('data-mc',''); c.setAttribute('data-conflict','false'); }
-      else { c.setAttribute('data-action',a); c.setAttribute('data-round','1'); }
+      else { c.setAttribute('data-action',a); c.setAttribute('data-round','2'); }
       check(c); render(); return; }
     var m=ev.target.closest('[data-mc]');
     if(m){ var c2=m.closest('.card'); c2.setAttribute('data-mc', m.getAttribute('data-mc')); check(c2); render(); return; }
