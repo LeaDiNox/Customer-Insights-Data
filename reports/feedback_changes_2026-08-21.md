@@ -6,7 +6,7 @@ Every item below is a Featurebase post; the board status is the pipeline status.
 
 | Metric | Value |
 |---|---|
-| Posts on the boards (baseline 2026-07-31 → 2026-08-21) | 91 → 348 |
+| Posts on the boards (baseline 2026-07-31 → 2026-08-21) | 90 → 348 |
 | Newly gathered posts | 5 |
 | Posts transferred onto the boards before 2026-08-01 (excluded from intake) | 253 |
 | Posts that gained upvotes | 32 |
@@ -15,7 +15,8 @@ Every item below is a Featurebase post; the board status is the pipeline status.
 | Posts that gained comments | 3 |
 | Posts planned or in progress right now | 15 |
 | Status moves on the boards | n/a — baseline has no status data |
-| Needs not yet on any board | 119 |
+| Open needs not yet on any board | 28 |
+| Delivered needs, correctly not on a board | 91 |
 
 ## 2. What new feedback we gathered
 
@@ -24,7 +25,7 @@ Every item below is a Featurebase post; the board status is the pipeline status.
 | Board | New posts |
 |---|---|
 | Feedback | 3 |
-| Product | 2 |
+| Product Board | 2 |
 
 
 | Created | Votes | Board | Status | Post | Squad tags |
@@ -32,53 +33,47 @@ Every item below is a Featurebase post; the board status is the pipeline status.
 | 2026-08-20 | 2 | Feedback | In Review | [The user needs recent case law that is publicly available to be acces…](https://noxtua.featurebase.app/p/the-user-needs-recent-case-law-that-is-publicly-available) | — |
 | 2026-08-20 | 2 | Feedback | In Review | [The user wants several well-reasoned wording alternatives with an exp…](https://noxtua.featurebase.app/p/the-user-wants-several-well-reasoned-wording-alternatives-with-an) | — |
 | 2026-08-12 | 1 | Feedback | In Review | [No jump to the end of the chat when closing a table](https://noxtua.featurebase.app/p/no-jump-to-the-end-of-the-chat-when-closing) | Platform Squad, Design |
-| 2026-08-20 | 1 | Product | Planned | [Configurable Retention Periods](https://noxtua.featurebase.app/p/configurable-retention-periods) | — |
-| 2026-08-04 | 1 | Product | Completed | [Reference the current Word document (Word add-in)](https://noxtua.featurebase.app/p/reference-the-current-word-document-word-add-in) | — |
-
-Present in the baseline, gone now — deleted, merged, or moved to a board the snapshot does not cover:
-
-| Board | Votes | Title |
-|---|---|---|
-| Missing Feature | 1 | Matrix Export is ugly |
+| 2026-08-20 | 1 | Product Board | Planned | [Configurable Retention Periods](https://noxtua.featurebase.app/p/configurable-retention-periods) | — |
+| 2026-08-04 | 1 | Product Board | Completed | [Reference the current Word document (Word add-in)](https://noxtua.featurebase.app/p/reference-the-current-word-document-word-add-in) | — |
 
 ## 3. Which feedback gained weight
 
-32 of the 91 posts that already existed at the baseline gained upvotes. None lost any. A vote does not bump a post's `updatedAt`, so vote timing cannot be narrowed below the span between the two snapshots — which is this window. The mentions column is the intermediary's count of the same need being voiced again by a separate customer.
+32 of the 90 posts that already existed at the baseline gained upvotes. None lost any. A vote does not bump a post's `updatedAt`, so vote timing cannot be narrowed below the span between the two snapshots — which is this window. The mentions column is the intermediary's count of the same need being voiced again by a separate customer.
 
 | Δ votes | Votes | Δ mentions | Status | Board | Post | Squad tags |
 |---|---|---|---|---|---|---|
-| +13 | 19 → 32 | — | Reviewed | Missing Feature | [Format templates for documents](https://noxtua.featurebase.app/p/format-templates-for-documents) | Drafting Squad |
-| +9 | 2 → 11 | — | Planned | Product | [UI/UX Template Improvements (incl. private Templates)](https://noxtua.featurebase.app/p/template-upgrade) | — |
-| +7 | 11 → 18 | — | Reviewed | Missing Feature | [Source passage highlighting](https://noxtua.featurebase.app/p/source-passage-highlighting) | Platform Squad |
-| +7 | 12 → 19 | — | In Progress | Product | [Stop answer generation and enable prompt re-editing](https://noxtua.featurebase.app/p/stop-answer-generation-and-enable-prompt-re-editing) | Research-Based, Platform Squad |
-| +7 | 8 → 15 | — | Completed | Product | [Cloud Storage](https://noxtua.featurebase.app/p/cloud-storage) | Research-Based, Platform Squad |
-| +6 | 13 → 19 | — | Planned | Product | [DMS Integration concept: first integration](https://noxtua.featurebase.app/p/dms-integrations-first-integration) | Research-Based, Platform Squad |
-| +4 | 13 → 17 | — | Reviewed | Missing Feature | [Collaborative editing environment](https://noxtua.featurebase.app/p/collaborative-editing-environment) | Platform Squad, Drafting Squad |
-| +4 | 11 → 15 | +1 | Reviewed | Missing Feature | [Prompt writing guidance](https://noxtua.featurebase.app/p/prompt-writing-guidance) | AI Squad, Platform Squad |
-| +4 | 12 → 16 | — | In Progress | Product | [Holistic Concept for Onboarding & Feature Adoption](https://noxtua.featurebase.app/p/improvements-to-onboarding-feature-adoption-and-chat-interactions) | Research-Based, Platform Squad |
-| +3 | 3 → 6 | — | Reviewed | Missing Feature | [DMS and API integration](https://noxtua.featurebase.app/p/dms-and-api-integration) | Platform Squad |
-| +3 | 11 → 14 | — | Reviewed | Missing Feature | [Personalised tool customization](https://noxtua.featurebase.app/p/personalised-tool-customization) | Research-Based, Needs Research, Platform Squad |
-| +3 | 23 → 26 | — | Reviewed | Missing Feature | [Custom data integration](https://noxtua.featurebase.app/p/custom-data-integration) | Platform Squad |
-| +3 | 28 → 31 | — | Coming Soon | Product | [Outlook Add-In](https://noxtua.featurebase.app/p/outlook-add-in) | Research-Based, Platform Squad, Drafting Squad |
-| +2 | 6 → 8 | — | Reviewed | Missing Feature | [Individual drafting style adaptation](https://noxtua.featurebase.app/p/individual-drafting-style-adaptation) | AI Squad, Drafting Squad |
-| +2 | 11 → 13 | — | Reviewed | Missing Feature | [Reusable clause snippets](https://noxtua.featurebase.app/p/reusable-clause-snippets) | Platform Squad, Drafting Squad |
-| +2 | 4 → 6 | — | In Progress | Product | [Implement UI language selector](https://noxtua.featurebase.app/p/implement-ui-language-selector) | Research-Based |
-| +1 | 6 → 7 | — | Reviewed | Missing Feature | [The user needs a playbook function for contract comparisons and templ…](https://noxtua.featurebase.app/p/the-user-needs-a-playbook-function-for-contract-comparisons-and) | — |
-| +1 | 6 → 7 | — | Reviewed | Missing Feature | [Chat history search](https://noxtua.featurebase.app/p/chat-history-search) | Platform Squad |
-| +1 | 4 → 5 | — | Reviewed | Missing Feature | [Knowledge base file structuring](https://noxtua.featurebase.app/p/knowledge-base-file-structuring) | Platform Squad |
-| +1 | 5 → 6 | — | Reviewed | Missing Feature | [Knowledge base document overview](https://noxtua.featurebase.app/p/knowledge-base-document-overview) | Platform Squad |
-| +1 | 6 → 7 | — | Reviewed | Missing Feature | [Workflow sharing between users](https://noxtua.featurebase.app/p/workflow-sharing-between-users) | Workflow Squad |
-| +1 | 5 → 6 | — | Reviewed | Missing Feature | [Custom workflow creation](https://noxtua.featurebase.app/p/custom-workflow-creation) | Workflow Squad |
-| +1 | 6 → 7 | — | Reviewed | Missing Feature | [Additional external data sources](https://noxtua.featurebase.app/p/additional-external-data-sources) | AI Squad, Platform Squad |
-| +1 | 4 → 5 | — | Reviewed | Missing Feature | [Full chat export](https://noxtua.featurebase.app/p/full-chat-export) | Platform Squad |
-| +1 | 9 → 10 | — | Reviewed | Missing Feature | [User identity awareness](https://noxtua.featurebase.app/p/user-identity-awareness) | Platform Squad |
-| +1 | 6 → 7 | — | Reviewed | Missing Feature | [Excel and database integration](https://noxtua.featurebase.app/p/excel-and-database-integration) | Platform Squad |
-| +1 | 36 → 37 | — | In Progress | Missing Feature | [Content templates for drafting](https://noxtua.featurebase.app/p/content-templates-for-drafting) | Platform Squad, Drafting Squad |
-| +1 | 6 → 7 | — | Reviewed | Missing Feature | [Document comparison workflow](https://noxtua.featurebase.app/p/document-comparison-workflow) | Drafting Squad |
-| +1 | 4 → 5 | — | Reviewed | Missing Feature | [Time tracking for cases](https://noxtua.featurebase.app/p/time-tracking-for-cases) | AI Squad |
-| +1 | 8 → 9 | — | Reviewed | Missing Feature | [Adjustable answer detail level](https://noxtua.featurebase.app/p/adjustable-answer-detail-level) | Platform Squad |
-| +1 | 1 → 2 | — | Planned | Product | [Word Add-in Stabilisation](https://noxtua.featurebase.app/p/word-add-in-stabilisation) | — |
-| +1 | 2 → 3 | — | In Progress | Product | [Improved Document Processing](https://noxtua.featurebase.app/p/improved-document-processing) | — |
+| +13 | 19 → 32 | — | Reviewed | Feature Request | [Format templates for documents](https://noxtua.featurebase.app/p/format-templates-for-documents) | Drafting Squad |
+| +9 | 2 → 11 | — | Planned | Product Board | [UI/UX Template Improvements (incl. private Templates)](https://noxtua.featurebase.app/p/template-upgrade) | — |
+| +7 | 11 → 18 | — | Reviewed | Feature Request | [Source passage highlighting](https://noxtua.featurebase.app/p/source-passage-highlighting) | Platform Squad |
+| +7 | 12 → 19 | — | In Progress | Product Board | [Stop answer generation and enable prompt re-editing](https://noxtua.featurebase.app/p/stop-answer-generation-and-enable-prompt-re-editing) | Research-Based, Platform Squad |
+| +7 | 8 → 15 | — | Completed | Product Board | [Cloud Storage](https://noxtua.featurebase.app/p/cloud-storage) | Research-Based, Platform Squad |
+| +6 | 13 → 19 | — | Planned | Product Board | [DMS Integration concept: first integration](https://noxtua.featurebase.app/p/dms-integrations-first-integration) | Research-Based, Platform Squad |
+| +4 | 13 → 17 | — | Reviewed | Feature Request | [Collaborative editing environment](https://noxtua.featurebase.app/p/collaborative-editing-environment) | Platform Squad, Drafting Squad |
+| +4 | 11 → 15 | +1 | Reviewed | Feature Request | [Prompt writing guidance](https://noxtua.featurebase.app/p/prompt-writing-guidance) | AI Squad, Platform Squad |
+| +4 | 12 → 16 | — | In Progress | Product Board | [Holistic Concept for Onboarding & Feature Adoption](https://noxtua.featurebase.app/p/improvements-to-onboarding-feature-adoption-and-chat-interactions) | Research-Based, Platform Squad |
+| +3 | 3 → 6 | — | Reviewed | Feature Request | [DMS and API integration](https://noxtua.featurebase.app/p/dms-and-api-integration) | Platform Squad |
+| +3 | 11 → 14 | — | Reviewed | Feature Request | [Personalised tool customization](https://noxtua.featurebase.app/p/personalised-tool-customization) | Research-Based, Needs Research, Platform Squad |
+| +3 | 23 → 26 | — | Reviewed | Feature Request | [Custom data integration](https://noxtua.featurebase.app/p/custom-data-integration) | Platform Squad |
+| +3 | 28 → 31 | — | Coming Soon | Product Board | [Outlook Add-In](https://noxtua.featurebase.app/p/outlook-add-in) | Research-Based, Platform Squad, Drafting Squad |
+| +2 | 6 → 8 | — | Reviewed | Feature Request | [Individual drafting style adaptation](https://noxtua.featurebase.app/p/individual-drafting-style-adaptation) | AI Squad, Drafting Squad |
+| +2 | 11 → 13 | — | Reviewed | Feature Request | [Reusable clause snippets](https://noxtua.featurebase.app/p/reusable-clause-snippets) | Platform Squad, Drafting Squad |
+| +2 | 4 → 6 | — | In Progress | Product Board | [Implement UI language selector](https://noxtua.featurebase.app/p/implement-ui-language-selector) | Research-Based |
+| +1 | 6 → 7 | — | Reviewed | Feature Request | [The user needs a playbook function for contract comparisons and templ…](https://noxtua.featurebase.app/p/the-user-needs-a-playbook-function-for-contract-comparisons-and) | — |
+| +1 | 6 → 7 | — | Reviewed | Feature Request | [Chat history search](https://noxtua.featurebase.app/p/chat-history-search) | Platform Squad |
+| +1 | 4 → 5 | — | Reviewed | Feature Request | [Knowledge base file structuring](https://noxtua.featurebase.app/p/knowledge-base-file-structuring) | Platform Squad |
+| +1 | 5 → 6 | — | Reviewed | Feature Request | [Knowledge base document overview](https://noxtua.featurebase.app/p/knowledge-base-document-overview) | Platform Squad |
+| +1 | 6 → 7 | — | Reviewed | Feature Request | [Workflow sharing between users](https://noxtua.featurebase.app/p/workflow-sharing-between-users) | Workflow Squad |
+| +1 | 5 → 6 | — | Reviewed | Feature Request | [Custom workflow creation](https://noxtua.featurebase.app/p/custom-workflow-creation) | Workflow Squad |
+| +1 | 6 → 7 | — | Reviewed | Feature Request | [Additional external data sources](https://noxtua.featurebase.app/p/additional-external-data-sources) | AI Squad, Platform Squad |
+| +1 | 4 → 5 | — | Reviewed | Feature Request | [Full chat export](https://noxtua.featurebase.app/p/full-chat-export) | Platform Squad |
+| +1 | 9 → 10 | — | Reviewed | Feature Request | [User identity awareness](https://noxtua.featurebase.app/p/user-identity-awareness) | Platform Squad |
+| +1 | 6 → 7 | — | Reviewed | Feature Request | [Excel and database integration](https://noxtua.featurebase.app/p/excel-and-database-integration) | Platform Squad |
+| +1 | 36 → 37 | — | In Progress | Feature Request | [Content templates for drafting](https://noxtua.featurebase.app/p/content-templates-for-drafting) | Platform Squad, Drafting Squad |
+| +1 | 6 → 7 | — | Reviewed | Feature Request | [Document comparison workflow](https://noxtua.featurebase.app/p/document-comparison-workflow) | Drafting Squad |
+| +1 | 4 → 5 | — | Reviewed | Feature Request | [Time tracking for cases](https://noxtua.featurebase.app/p/time-tracking-for-cases) | AI Squad |
+| +1 | 8 → 9 | — | Reviewed | Feature Request | [Adjustable answer detail level](https://noxtua.featurebase.app/p/adjustable-answer-detail-level) | Platform Squad |
+| +1 | 1 → 2 | — | Planned | Product Board | [Word Add-in Stabilisation](https://noxtua.featurebase.app/p/word-add-in-stabilisation) | — |
+| +1 | 2 → 3 | — | In Progress | Product Board | [Improved Document Processing](https://noxtua.featurebase.app/p/improved-document-processing) | — |
 
 5 posts gained mentions without gaining a vote — the need was voiced again in research, but no customer upvoted it on the board.
 
@@ -86,27 +81,27 @@ New discussion:
 
 | Δ | Board | Post |
 |---|---|---|
-| +1 | Missing Feature | [Custom data integration](https://noxtua.featurebase.app/p/custom-data-integration) |
-| +1 | Product | [The complete, current C.H. BECK knowledge from beck-online in Beck-No…](https://noxtua.featurebase.app/p/the-complete-current-ch-beck-knowledge-from-beck-online-in) |
-| +1 | Product | [Outlook Add-In](https://noxtua.featurebase.app/p/outlook-add-in) |
+| +1 | Feature Request | [Custom data integration](https://noxtua.featurebase.app/p/custom-data-integration) |
+| +1 | Product Board | [The complete, current C.H. BECK knowledge from beck-online in Beck-No…](https://noxtua.featurebase.app/p/the-complete-current-ch-beck-knowledge-from-beck-online-in) |
+| +1 | Product Board | [Outlook Add-In](https://noxtua.featurebase.app/p/outlook-add-in) |
 
 ## 4. What is in development, and what should be
 
 | Board / status | Posts |
 |---|---|
+| Feature Request / In Progress | 1 |
+| Feature Request / In Review | 71 |
+| Feature Request / Reviewed | 36 |
 | Feedback / Completed | 1 |
 | Feedback / In Progress | 1 |
 | Feedback / In Review | 113 |
 | Feedback / Reviewed | 72 |
-| Missing Feature / In Progress | 1 |
-| Missing Feature / In Review | 71 |
-| Missing Feature / Reviewed | 36 |
-| Product / Coming Soon | 1 |
-| Product / Completed | 26 |
-| Product / In Progress | 7 |
-| Product / In Review | 7 |
-| Product / Planned | 5 |
-| Product / Reviewed | 7 |
+| Product Board / Coming Soon | 1 |
+| Product Board / Completed | 26 |
+| Product Board / In Progress | 7 |
+| Product Board / In Review | 7 |
+| Product Board / Planned | 5 |
+| Product Board / Reviewed | 7 |
 
 
 > The 2026-07-31 baseline carries no status values, so status moves cannot be diffed for this window and the pipeline above is a current-state read. Snapshots from 2026-08-21 onward record status.
@@ -139,52 +134,42 @@ New discussion:
 | +2 | 13 | — | Reviewed | [Reusable clause snippets](https://noxtua.featurebase.app/p/reusable-clause-snippets) |
 | +1 | 10 | — | Reviewed | [User identity awareness](https://noxtua.featurebase.app/p/user-identity-awareness) |
 
-## 5. Needs not yet on a board
+## 5. Open needs not yet on a board
 
-119 of the intermediary's 383 records have no board post, so they cannot collect votes and are invisible to the pipeline. Those voiced at least 3 times, or voiced again in this window:
+119 of the intermediary's 383 records have no board post. 91 of those are marked implemented or well done — already delivered, so their absence is correct by the rule that implemented insights are never pushed. That leaves **28** open needs that cannot collect votes and are invisible to the pipeline:
 
-| Mentions | Δ in window | Insight | Segment |
-|---|---|---|---|
-| 71 | — | The users need to have a reliable data base as the source of the answers. | Mixed; Corporate Law Department; Big Law Firm; Government Institutions |
-| 66 | — | The user needs to have insights into the sources of the provided answer in order to veri | Big Law Firm; Mixed; Corporate Law Department; Government Institutions |
-| 40 | — | The user needs to be able to look into the fulltext of the provided answer, in order to  | Mixed; Big Law Firm; Government Institutions |
-| 37 | — | The user needs a clear structure of answers in order to easily understand it. | Mixed; Big Law Firm; Corporate Law Department |
-| 36 | — | The users expect an intuitive handling and interface. | Small Law Firm; Mixed; Government Institutions; Big Law Firm; Corporate Law Department |
-| 32 | — | The users expect the tool to seamlessly integrate into their current text editing tools  | Mixed; Corporate Law Department; Big Law Firm |
-| 28 | — | The user needs to be able to understand which steps the AI takes to derive the results. | Big Law Firm; Corporate Law Department; Mixed; Small Law Firm; Government Institutions |
-| 26 | +1 | The user needs the the answers and citations to be matching. | Corporate Law Department; Mixed |
-| 25 | — | The user needs help in gaining an initial overview of a (complex) topic. | Mixed; Corporate Law Department; Big Law Firm; Government Institutions; Prosecution/ Judges |
-| 24 | — | The users appreciate that the export keeps the tracked changes just like in word. | Mixed |
-| 22 | — | The user needs explanations across all areas of Swiss law to be legally accurate, with c | Publisher |
-| 19 | — | The users would like to be able to interact with the tool via voice input, in order to w | Mixed; Big Law Firm; Government Institutions; Publisher |
-| 15 | — | The user needs guidance in case of occuring errors in order to be able to understand wha | Mixed; Big Law Firm; Corporate Law Department |
-| 15 | — | The users struggle and wish for help when interacting with the canvas. | Mixed; Corporate Law Department |
-| 15 | — | The user wants to be able to only get a high-level overview of the thinking process and  | Mixed; Corporate Law Department; Big Law Firm |
-| 13 | — | The user needs to be able to generate customized workflows in order to handle complex ta | Big Law Firm; Corporate Law Department; Government Institutions |
-| 12 | — | The user needs the AI to support him to be quicker with their task. | Mixed |
-| 12 | — | Users want to be able to ask questions to specific sections & prompt changes based on sp | Mixed |
-| 12 | — | The user needs the tool to comply with data security measures necessary for the data tha | Big Law Firm; Prosecution/ Judges |
-| 10 | — | The user expects the Editor interface to be intuitive, with a layout and button design f | Mixed |
-| 9 | — | The user needs to be able to get a summary in order to get a quick overview. | Mixed; Prosecution/ Judges; Corporate Law Department |
-| 9 | — | The user needs the AI to seamlessly integrate into word by inserting and prompting direc | Mixed; Corporate Law Department |
-| 9 | — | The user needs to be able to organize their (prompt) templates e.g. into folders to impr | Mixed; Distribution Department |
-| 8 | +1 | The users need a structured way to review multiple documents. | Big Law Firm; Mixed; Corporate Law Department |
-| 8 | — | The user needs the tool to be accessible and usable within their familiar working enviro | Corporate Law Department; Big Law Firm |
-| 8 | — | The users would like to be able to store prompts and share with other users for usage. | Mixed; Big Law Firm; Distribution Department |
-| 8 | — | The user expects the tool to directly use the words tracked changes feature, so that the | Mixed |
-| 7 | — | The user wants to be able to see the sources of the generated content directly in word i | Mixed |
-| 7 | — | The users want to be able to mark sections within a word document and prompt referring o | Mixed |
-| 7 | — | The visible thinking process / step-by-step reasoning is highly valued — it helps users  | Unknown |
-| 6 | — | The user needs transparency about data security measures to be sure that their data is b | Big Law Firm; Small Law Firm |
-| 6 | — | The user needs to get feedback regarding the completion of the file upload. | Mixed |
-| 6 | — | The tool produces very good results with contract drafts, particularly in the IT sector  | Big Law Firm |
-| 6 | — | The user needs legislations of different countries to be used for cases that involve int | Corporate Law Department; Big Law Firm |
-| 6 | — | The user wants to be able to manually select documents from the knowledge base for a pro | Mixed |
-| 6 | — | Source and citation quality is a highlight — precise references, working Fundstellen lin | Unknown |
-| 5 | — | The user needs Matrix Analysis to evaluate large amounts of data simultaneously with spe | Mixed |
-| 5 | — | The users need more onboarding on how to prompt best. | Corporate Law Department; Big Law Firm |
-| 5 | — | The user needs to be able to preview changes before they are applied in the document in  | Mixed |
-| 5 | — | The user expects a clear distinction between thinking process and content output in orde | Big Law Firm; Corporate Law Department; Publisher |
+| Mentions | Δ in window | Research status | Need | Segment |
+|---|---|---|---|---|
+| 22 | — | Identified - JIRA ticket exists | The user needs explanations across all areas of Swiss law to be legally accurate | Publisher |
+| 15 | — | Identified - JIRA ticket exists | The user needs guidance in case of occuring errors in order to be able to unders | Mixed; Big Law Firm; Corporate Law Department |
+| 7 | — | Identified - JIRA ticket exists | The visible thinking process / step-by-step reasoning is highly valued — it help | Unknown |
+| 6 | — | Identified - JIRA ticket exists | Source and citation quality is a highlight — precise references, working Fundste | Unknown |
+| 5 | — | Identified - JIRA ticket exists | Login is not persisted — users are auto-logged-out after a short time and a fres | Unknown |
+| 4 | — | Identified - JIRA ticket exists | Users value the fast, useful first assessment and the resulting time savings. | Unknown |
+| 4 | — | Identified - JIRA ticket exists | The user needs the tool to preserve and fill a user-provided outline (Gliederung | Unknown |
+| 3 | — | New – Not yet discussed | Recurring system errors / crashes — 'Es ist ein interner Fehler aufgetreten' app | Unknown |
+| 2 | — | New – Not yet discussed | Storage limit is too low — 30 MB is insufficient; ~50 MB is workable. | Unknown |
+| 2 | — | New – Not yet discussed | Response / generation speed is too slow. | Unknown |
+| 2 | — | New – Not yet discussed | The user needs the Word-Add-In to be able to add comments addressed to the other | Unknown |
+| 1 | +1 | New – Not yet discussed | Users felt the added value of Noxtua's large archive/data volume did not justify | Unknown |
+| 1 | +1 | New – Not yet discussed | Trial users saw an advantage for the competitor on deep, thorough research tasks | Unknown |
+| 1 | +1 | New – Not yet discussed | Procurement declined budget to run two parallel legal AI tools; the decision was | Unknown |
+| 1 | +1 | New – Not yet discussed | Customer indicated a target price point of around €200 per user/month and reques | Unknown |
+| 1 | +1 | New – Not yet discussed | To ease the transition to the competitor, the customer asked to keep a minimal f | Unknown |
+| 1 | — | New – Not yet discussed | The citation function is broken in Firefox - raw placeholder tokens are emitted  |  |
+| 1 | — | New – Not yet discussed | The user needs the tool to make full use of the available publisher content corp |  |
+| 1 | — | New – Not yet discussed | The user needs court decisions to be findable and accessible directly within the |  |
+| 1 | — | New – Not yet discussed | The user needs Matrix Analysis Excel exports to include the column prompts on a  | Publisher |
+| 1 | — | New – Not yet discussed | Users want generated output delivered as a downloadable PPTX file. | Unknown |
+| 1 | — | New – Not yet discussed | Users need project workspaces / collaboration, including editing two interdepend | Unknown |
+| 1 | — | New – Not yet discussed | Users want an iOS app. | Unknown |
+| 1 | — | New – Not yet discussed | Generated pleadings/briefs often miss required legal formalities (e.g. Rechtsbeh | Unknown |
+| 1 | — | New – Not yet discussed | The user needs to be able to save their own prompts for reuse. | Unknown |
+| 1 | — | New – Not yet discussed | The user wants to be able to correct the AI's errors directly so that the correc | Unknown |
+| 1 | — | New – Not yet discussed | The user needs a unified, standard citation style (e.g. Bearbeiter/MüKo, § x Rn. | Unknown |
+| 1 | — | New – Not yet discussed | Suggestion to add/improve a button that helps users refine or improve their prom | Corporate Lawyer |
+
+Resolution is by stored `featurebase_id` or exact post title, so a post that was retitled after being pushed shows up here as absent.
 
 ## 6. How this gets reported from now on
 

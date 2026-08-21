@@ -23,11 +23,25 @@ import urllib.error
 FEATUREBASE_API_KEY = os.environ.get("FEATUREBASE_API_KEY", "")
 API_BASE = "https://do.featurebase.app/v2"
 
-BOARDS = {
-    "Missing Feature": "6a2123630535f655cfaec3cb",
+# Boards are discovered from the API rather than hardcoded: a board added later
+# (Setup Board: Germany, created 2026-08-17) would otherwise be invisible to
+# every snapshot and every report built on one. Names come from the API and are
+# stripped — one board is literally named " Feedback".
+FALLBACK_BOARDS = {
+    "Feature Request": "6a2123630535f655cfaec3cb",
     "Feedback": "6a213f3998f1621c64f747fb",
-    "Product": "6a422f49728db77bced50b63",
+    "Product Board": "6a422f49728db77bced50b63",
 }
+
+
+def fetch_boards():
+    try:
+        boards = api_request("GET", "/boards")
+    except Exception as exc:                      # noqa: BLE001 - keep snapshotting
+        print(f"  ! /boards failed ({exc}); falling back to the known board list")
+        return dict(FALLBACK_BOARDS)
+    found = {(b.get("name") or "").strip(): b.get("id") for b in boards if b.get("id")}
+    return found or dict(FALLBACK_BOARDS)
 
 
 def api_request(method, path, body=None):
@@ -102,8 +116,10 @@ def main():
         "snapshot_date": today,
         "boards": {},
     }
+    boards = fetch_boards()
+    print(f"Boards discovered: {', '.join(boards)}")
     total = 0
-    for name, board_id in BOARDS.items():
+    for name, board_id in boards.items():
         print(f"Fetching board '{name}' ({board_id})...")
         raw_posts = fetch_all_board_posts(board_id)
         print(f"  {len(raw_posts)} posts fetched.")
@@ -119,7 +135,7 @@ def main():
     out_path = f"featurebase_snapshot_{today}.json"
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(snapshot, f, ensure_ascii=False, indent=2)
-    print(f"\nSaved {total} posts across {len(BOARDS)} boards to {out_path}")
+    print(f"\nSaved {total} posts across {len(boards)} boards to {out_path}")
 
 
 if __name__ == "__main__":

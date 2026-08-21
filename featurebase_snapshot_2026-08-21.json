@@ -1,13 +1,13 @@
 {
   "snapshot_date": "2026-08-21",
   "boards": {
-    "Missing Feature": {
+    "Feature Request": {
       "board_id": "6a2123630535f655cfaec3cb",
       "post_count": 108,
       "posts": [
         {
           "id": "6a6ccbbf84800d6b14f4c105",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to have document citations for relevant passages not for the full document only.",
           "content": "",
           "status": "In Review",
@@ -36,7 +36,7 @@
         },
         {
           "id": "6a6ccbbbae4aea0e96dffa8d",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs custom, savable agents (\"Gems\") for recurring tasks.",
           "content": "",
           "status": "In Review",
@@ -64,7 +64,7 @@
         },
         {
           "id": "6a6ccbb94ee14d9752f88e2a",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs configurable citation length — shorter inline citations while keeping full-length citations available elsewhere.",
           "content": "",
           "status": "In Review",
@@ -93,7 +93,7 @@
         },
         {
           "id": "6a6ccbb7f8e5d9da85151d2d",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to be able to create and use templates in multiple languages without creating a template per language.",
           "content": "",
           "status": "In Review",
@@ -119,7 +119,7 @@
         },
         {
           "id": "6a6ccbb58a3d03519fefc180",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to be able to collapse or minimize the question box so answers get more screen space.",
           "content": "",
           "status": "In Review",
@@ -147,7 +147,7 @@
         },
         {
           "id": "6a6ccbacd361a8379e29c518",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to be able to create templates for Matrix Analysis.",
           "content": "",
           "status": "In Review",
@@ -173,7 +173,7 @@
         },
         {
           "id": "6a6ccbaaae4aea0e96df3cf5",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to be able to duplicate an existing Matrix Analysis.",
           "content": "",
           "status": "In Review",
@@ -199,7 +199,7 @@
         },
         {
           "id": "6a6ccba695b6184de99d9257",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The (non-admin) user needs to be able to create private templates for themselves.",
           "content": "",
           "status": "In Review",
@@ -225,7 +225,7 @@
         },
         {
           "id": "6a6ccba48a3d03519feed8c2",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs Swiss court decisions to be chunked and cited at the \"Erwägung\" level rather than by fixed size, matching the court's own reasoning structure.",
           "content": "",
           "status": "In Review",
@@ -253,7 +253,7 @@
         },
         {
           "id": "6a6ccba3d361a8379e293724",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to be able to resize Matrix Analysis column widths.",
           "content": "",
           "status": "In Review",
@@ -278,7 +278,7 @@
         },
         {
           "id": "6a6ccba195b6184de99d85a7",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to be able to duplicate existing templates for reuse in similar use cases with slight variations.",
           "content": "",
           "status": "In Review",
@@ -304,7 +304,7 @@
         },
         {
           "id": "6a6ccb9fd361a8379e2935cd",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs conditional formatting (e.g. colour, bold, flags) in Matrix Analysis cells, triggered by prompt results.",
           "content": "",
           "status": "In Review",
@@ -330,7 +330,7 @@
         },
         {
           "id": "6a6ccb8f84800d6b14f2bc8e",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user-input feature should allow both text and file input, not either/or.",
           "content": "",
           "status": "In Review",
@@ -358,7 +358,7 @@
         },
         {
           "id": "6a6ccb8293655bd982b249a3",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to be able to accept only a selected part of a proposed clause/suggestion into the document, rather than the whole suggestion.",
           "content": "",
           "status": "In Review",
@@ -384,7 +384,7 @@
         },
         {
           "id": "6a6ccb7e4ee14d9752f5e3dd",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs a copy button in the Editor, like the one available in the chat.",
           "content": "",
           "status": "In Review",
@@ -410,7 +410,7 @@
         },
         {
           "id": "6a6ccb7c84800d6b14f1e546",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs comments/annotations placed directly at the relevant location in the document, with a settable commenter name and clearer colour coding, for direct hand-off into Word.",
           "content": "",
           "status": "In Review",
@@ -436,7 +436,7 @@
         },
         {
           "id": "6a6ccb76d361a8379e26a532",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The users need to be able to work on their mobile phone, e.g. through an iOS app.",
           "content": "",
           "status": "In Review",
@@ -464,7 +464,7 @@
         },
         {
           "id": "6a6ccb74ae4aea0e96dd78c3",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Users want in-product support — a phone line or live chat directly in the interface.",
           "content": "",
           "status": "In Review",
@@ -490,7 +490,7 @@
         },
         {
           "id": "6a6ccb728a3d03519fed085c",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The users need generated output delivered as a downloadable PPTX file.",
           "content": "",
           "status": "In Review",
@@ -516,7 +516,7 @@
         },
         {
           "id": "6a6ccb6795b6184de99b632b",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs edits on one side of a two-column bilingual document to propagate automatically to the other side across the entire document.",
           "content": "",
           "status": "In Review",
@@ -543,7 +543,7 @@
         },
         {
           "id": "6a6ccb6593655bd982b1a90d",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Users want to reference documents inline in the editor via @ mentions, and reference existing chats via @ to pull documents and results from them.",
           "content": "",
           "status": "In Review",
@@ -570,7 +570,7 @@
         },
         {
           "id": "6a6ccb63d361a8379e26838e",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Users want template generation that consolidates overlaps across similar documents and surfaces differences as optional text blocks.",
           "content": "",
           "status": "In Review",
@@ -596,7 +596,7 @@
         },
         {
           "id": "6a6ccb5fa53a5c328326fd60",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Users want configurable citation style; the default citation format is unusual in German legal scholarship and practice.",
           "content": "",
           "status": "In Review",
@@ -625,7 +625,7 @@
         },
         {
           "id": "6a6ccb5c95b6184de99b5661",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs access to answers from previous sessions in order to maintain continuity across chats.",
           "content": "",
           "status": "In Review",
@@ -653,7 +653,7 @@
         },
         {
           "id": "6a6ccb5ad361a8379e267c42",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs inline AI clause suggestions directly in Word while drafting a contract.",
           "content": "",
           "status": "In Review",
@@ -682,7 +682,7 @@
         },
         {
           "id": "6a6ccb5884800d6b14f19555",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to automate routine administrative steps (e.g. dispatching decrees to attorneys whose addresses are already known).",
           "content": "",
           "status": "In Review",
@@ -710,7 +710,7 @@
         },
         {
           "id": "6a6ccb5684800d6b14f194b0",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to conduct autonomous research and tool calls, rather than requiring the user to provide context manually.",
           "content": "",
           "status": "In Review",
@@ -738,7 +738,7 @@
         },
         {
           "id": "6a6ccb5484800d6b14f19378",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to verify and correctly link cited rulings and sources within incoming submissions from parties.",
           "content": "",
           "status": "In Review",
@@ -766,7 +766,7 @@
         },
         {
           "id": "6a6ccb5295b6184de99b5184",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to flag contradictions between submissions and suggest fact-finding gaps for offence elements.",
           "content": "",
           "status": "In Review",
@@ -794,7 +794,7 @@
         },
         {
           "id": "6a6ccb5094e73d44a2134b82",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to keep track of what has already been read or written in a long-running case, so they do not duplicate work.",
           "content": "",
           "status": "In Review",
@@ -822,7 +822,7 @@
         },
         {
           "id": "6a6ccb4ea53a5c328326f126",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to support cross-border procedural comparison (e.g. covert seizure in Austria) for trans-national cases.",
           "content": "",
           "status": "In Review",
@@ -850,7 +850,7 @@
         },
         {
           "id": "6a6ccb4c4ee14d9752f583a6",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to automatically extract procedural data (admissibility, deadlines, time limits) from case files.",
           "content": "",
           "status": "In Review",
@@ -878,7 +878,7 @@
         },
         {
           "id": "6a6ccb4a94e73d44a213430c",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to automatically suggest relevant case law and judgments in the background when a case file is opened.",
           "content": "",
           "status": "In Review",
@@ -906,7 +906,7 @@
         },
         {
           "id": "6a6ccb49d361a8379e266b1f",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the vendor to proactively curate and maintain templates and checklists within the tool over time.",
           "content": "",
           "status": "In Review",
@@ -934,7 +934,7 @@
         },
         {
           "id": "6a6ccb474ee14d9752f57ec4",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs unlimited input and output length for template-filling tasks.",
           "content": "",
           "status": "In Review",
@@ -962,7 +962,7 @@
         },
         {
           "id": "6a6ccb4484800d6b14f182d3",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to cover EU regulations and EU case law alongside national law in one unified tool.",
           "content": "",
           "status": "In Review",
@@ -990,7 +990,7 @@
         },
         {
           "id": "6a6ccb43d361a8379e266548",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to optimise their English drafting on demand into proper legal English.",
           "content": "",
           "status": "In Review",
@@ -1018,7 +1018,7 @@
         },
         {
           "id": "6a6ccb414ee14d9752f5791d",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to extract and present a tabular overview of contractual obligations, rights, and termination notice periods from a contract.",
           "content": "",
           "status": "In Review",
@@ -1046,7 +1046,7 @@
         },
         {
           "id": "6a6ccb3f94e73d44a21338e0",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to generate visual diagrams (Schaubilder) of contractual relationships from large contracts.",
           "content": "",
           "status": "In Review",
@@ -1074,7 +1074,7 @@
         },
         {
           "id": "6a6ccb3d93655bd982b17cce",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to flag cross-clause and cross-domain impacts (e.g. tax, antitrust) automatically when one clause is changed.",
           "content": "",
           "status": "In Review",
@@ -1102,7 +1102,7 @@
         },
         {
           "id": "6a6ccb3b95b6184de99b3e7b",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to redline an existing Word document with minimal changes rather than regenerating a new document from scratch.",
           "content": "",
           "status": "In Review",
@@ -1131,7 +1131,7 @@
         },
         {
           "id": "6a6ccb388a3d03519feccb8a",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs motivational features (e.g. streaks, daily nudges) to encourage consistent tool use.",
           "content": "",
           "status": "In Review",
@@ -1159,7 +1159,7 @@
         },
         {
           "id": "6a6ccb3695b6184de99b3a6f",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to automatically keep requesters informed of the progress of their request.",
           "content": "",
           "status": "In Review",
@@ -1187,7 +1187,7 @@
         },
         {
           "id": "6a6ccb3594e73d44a21332f4",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to balance workload across team members based on current capacity.",
           "content": "",
           "status": "In Review",
@@ -1215,7 +1215,7 @@
         },
         {
           "id": "6a6ccb334ee14d9752f569cf",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to accept and consolidate requests from multiple input channels (email, intranet form, voice/phone) into one unified system.",
           "content": "",
           "status": "In Review",
@@ -1243,7 +1243,7 @@
         },
         {
           "id": "6a6ccb2f93655bd982b15ffb",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs AI self-service surfaces per business unit so non-legal users can self-serve, with legal teams curating the knowledge base and human-in-the-loop escalation available when needed.",
           "content": "",
           "status": "In Review",
@@ -1272,7 +1272,7 @@
         },
         {
           "id": "6a6ccb2d4ee14d9752f53b64",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to automatically detect deadlines and urgency from incoming items and proactively create calendar entries, tasks, and reminders.",
           "content": "",
           "status": "In Review",
@@ -1301,7 +1301,7 @@
         },
         {
           "id": "6a6ccb1993655bd982b06f8f",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to have cantonal jurisprudence and laws integrated into the database.",
           "content": "",
           "status": "In Review",
@@ -1329,7 +1329,7 @@
         },
         {
           "id": "6a6ccb074ee14d9752f414f8",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the Word-Add-In to be able to work with footnotes in order to have sources less prominent in the document.",
           "content": "",
           "status": "In Review",
@@ -1357,7 +1357,7 @@
         },
         {
           "id": "6a6ccb03a53a5c3283252a29",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user would like to be able to comment on matrixes in order to communicate with team members or other parties.",
           "content": "",
           "status": "In Review",
@@ -1384,7 +1384,7 @@
         },
         {
           "id": "6a6ccafe9ddc772deec18f72",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs clear transparency on existing limitations, e.g. upload limitations.",
           "content": "",
           "status": "In Review",
@@ -1411,7 +1411,7 @@
         },
         {
           "id": "6a6ccaf494e73d44a2110abc",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to be able to differentiate fine granularly what other users can do to templates/ workflows (i.e. creating, using, modifying, and deleting them), in order to have control over quality and access.",
           "content": "",
           "status": "In Review",
@@ -1436,7 +1436,7 @@
         },
         {
           "id": "6a6ccaecae4aea0e96dba113",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the tool to automatically generate documents pre-populated with employee names in the Editor.",
           "content": "",
           "status": "In Review",
@@ -1461,7 +1461,7 @@
         },
         {
           "id": "6a6ccaeaf8e5d9da85105137",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to be able to upload documents from DATEV DMS directly without encountering file format errors.",
           "content": "",
           "status": "In Review",
@@ -1487,7 +1487,7 @@
         },
         {
           "id": "6a6ccad6a53a5c328323c633",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs the settings to be easily discoverable in order to configure the tool to their needs.",
           "content": "",
           "status": "In Review",
@@ -1514,7 +1514,7 @@
         },
         {
           "id": "6a6ccac7ae4aea0e96db17b3",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to be able to restrict certain features (such as file or outlook integration) for certain user groups, that work on highly confidential topics or are too junior to judge what can be shared.",
           "content": "",
           "status": "In Review",
@@ -1541,7 +1541,7 @@
         },
         {
           "id": "6a6ccabe93655bd982ae2adc",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user would like to enable clients to take over parts of their work supported by AI, so that they are more the reviewing and strategic instance.",
           "content": "",
           "status": "In Review",
@@ -1568,7 +1568,7 @@
         },
         {
           "id": "6a6ccaaff8e5d9da850f8b3d",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user wants the AI to automatically update the information in the knowledge base based on changes in the law or commentaries.",
           "content": "",
           "status": "In Review",
@@ -1595,7 +1595,7 @@
         },
         {
           "id": "6a6cca9d93655bd982adad79",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to be able to share files in the knowledge base with ceratin teams.",
           "content": "",
           "status": "In Review",
@@ -1622,7 +1622,7 @@
         },
         {
           "id": "6a6cca71ae4aea0e96da3b88",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to be able to export the final result that a workflow produced for documentation/ sharing purposes.",
           "content": "",
           "status": "In Review",
@@ -1649,7 +1649,7 @@
         },
         {
           "id": "6a6cca5f93655bd982ad510e",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user would like to get suggestions for new workflows based on his usage of the AI.",
           "content": "",
           "status": "In Review",
@@ -1676,7 +1676,7 @@
         },
         {
           "id": "6a6cca438a3d03519fe87f3e",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user would like to be able to tell the tool how harsh or lenient the AI should be when reviewing and suggesting changes to a document.",
           "content": "",
           "status": "In Review",
@@ -1704,7 +1704,7 @@
         },
         {
           "id": "6a6cca3ea53a5c3283217546",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to be able to get an overview of all changes to evaluate them in context, to be able to make a decision on each of the changes.",
           "content": "",
           "status": "In Review",
@@ -1732,7 +1732,7 @@
         },
         {
           "id": "6a6cca2f84800d6b14ec303e",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs clear guidance options for controlled AI deployment, similar to a data room approach.",
           "content": "",
           "status": "In Review",
@@ -1759,7 +1759,7 @@
         },
         {
           "id": "6a6cca258a3d03519fe7b310",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user would like to be able to work in another chat while the prompt is running.",
           "content": "",
           "status": "In Review",
@@ -1786,7 +1786,7 @@
         },
         {
           "id": "6a6cca244ee14d9752ef8f97",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user wants the system to automatically update matrices with new decisions.",
           "content": "",
           "status": "In Review",
@@ -1811,7 +1811,7 @@
         },
         {
           "id": "6a6cca1b93655bd982ab2a5c",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user expects the tool to be able to translate legal findings into technical/product implications, in order to communicate them efficiently to other (non-legal) parties.",
           "content": "",
           "status": "In Review",
@@ -1838,7 +1838,7 @@
         },
         {
           "id": "6a6cc98194e73d44a20bc900",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to be able to access templates from the word-add-in in order to have everything in one place.",
           "content": "",
           "status": "Reviewed",
@@ -1863,7 +1863,7 @@
         },
         {
           "id": "6a6cc97ed361a8379e1efdf2",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user wants to be able to share generated matrixes with their colleagues.",
           "content": "",
           "status": "In Review",
@@ -1888,7 +1888,7 @@
         },
         {
           "id": "6a6cc9609ddc772deebbaa7d",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs to be able to give feedback regarding the quality of the task fulfillment.",
           "content": "",
           "status": "In Review",
@@ -1915,7 +1915,7 @@
         },
         {
           "id": "6a6cb8c9d1a58cde217aa160",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Template Vorlagen",
           "content": "<ul><li><p>First assement</p></li><li><p>Vertragsreview</p></li></ul><p></p>",
           "status": "In Review",
@@ -1943,7 +1943,7 @@
         },
         {
           "id": "6a675bbbcc4b88ca302c1094",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "The user needs a playbook function for contract comparisons and template contracts.",
           "content": "",
           "status": "Reviewed",
@@ -1969,7 +1969,7 @@
         },
         {
           "id": "6a51228903cf284364f9d81f",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Matrix analysis source citations",
           "content": "",
           "status": "Reviewed",
@@ -1998,7 +1998,7 @@
         },
         {
           "id": "6a51228392665376ac410d75",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Chat history search",
           "content": "",
           "status": "Reviewed",
@@ -2029,7 +2029,7 @@
         },
         {
           "id": "6a51227dba59b90f02b8faa2",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Purpose-adapted output format",
           "content": "",
           "status": "Reviewed",
@@ -2060,7 +2060,7 @@
         },
         {
           "id": "6a512278f72a9987c36860ab",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "AI usage documentation support",
           "content": "",
           "status": "Reviewed",
@@ -2089,7 +2089,7 @@
         },
         {
           "id": "6a5122688dc979d466a82046",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Knowledge base file structuring",
           "content": "",
           "status": "Reviewed",
@@ -2120,7 +2120,7 @@
         },
         {
           "id": "6a512264ba59b90f02b8ec7e",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "DMS and API integration",
           "content": "",
           "status": "Reviewed",
@@ -2151,7 +2151,7 @@
         },
         {
           "id": "6a512261ba59b90f02b8e84f",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Knowledge base search",
           "content": "",
           "status": "Reviewed",
@@ -2182,7 +2182,7 @@
         },
         {
           "id": "6a51225dba59b90f02b8a295",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Licence-free document upload",
           "content": "",
           "status": "Reviewed",
@@ -2213,7 +2213,7 @@
         },
         {
           "id": "6a5122595bdcefcb1e77d4d6",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Knowledge base metadata",
           "content": "",
           "status": "Reviewed",
@@ -2244,7 +2244,7 @@
         },
         {
           "id": "6a5122548dc979d466a70d6f",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Knowledge base document overview",
           "content": "",
           "status": "Reviewed",
@@ -2275,7 +2275,7 @@
         },
         {
           "id": "6a51224d8dc979d466a6aa7b",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Collaborative workflow editing",
           "content": "",
           "status": "Reviewed",
@@ -2306,7 +2306,7 @@
         },
         {
           "id": "6a51224703cf284364f8720f",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Workflow sharing between users",
           "content": "",
           "status": "Reviewed",
@@ -2337,7 +2337,7 @@
         },
         {
           "id": "6a5122418dc979d466a69ff1",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Custom workflow creation",
           "content": "",
           "status": "Reviewed",
@@ -2368,7 +2368,7 @@
         },
         {
           "id": "6a51223b8dc979d466a691cf",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Additional external data sources",
           "content": "",
           "status": "Reviewed",
@@ -2400,7 +2400,7 @@
         },
         {
           "id": "6a5122375bdcefcb1e76fdfb",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Admin usage analytics view",
           "content": "",
           "status": "Reviewed",
@@ -2431,7 +2431,7 @@
         },
         {
           "id": "6a51222fba59b90f02b72e4a",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Individual drafting style adaptation",
           "content": "",
           "status": "Reviewed",
@@ -2463,7 +2463,7 @@
         },
         {
           "id": "6a512229f72a9987c36503ef",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Lock document sections from AI",
           "content": "",
           "status": "Reviewed",
@@ -2494,7 +2494,7 @@
         },
         {
           "id": "6a5122255bdcefcb1e760a90",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Full chat export",
           "content": "",
           "status": "Reviewed",
@@ -2525,7 +2525,7 @@
         },
         {
           "id": "6a5122208dc979d466a51ee2",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "File storage system integration",
           "content": "",
           "status": "In Review",
@@ -2554,7 +2554,7 @@
         },
         {
           "id": "6a5122088dc979d466a50abf",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "User identity awareness",
           "content": "",
           "status": "Reviewed",
@@ -2585,7 +2585,7 @@
         },
         {
           "id": "6a5121f5f72a9987c3649e57",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Format templates for documents",
           "content": "",
           "status": "Reviewed",
@@ -2616,7 +2616,7 @@
         },
         {
           "id": "6a5121f06b0eabd446a6996d",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Excel and database integration",
           "content": "",
           "status": "Reviewed",
@@ -2647,7 +2647,7 @@
         },
         {
           "id": "6a5121ea6b0eabd446a69714",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Customisable working preferences",
           "content": "",
           "status": "Reviewed",
@@ -2679,7 +2679,7 @@
         },
         {
           "id": "6a5121e2ba59b90f02b67712",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Source filtering for answers",
           "content": "",
           "status": "Reviewed",
@@ -2711,7 +2711,7 @@
         },
         {
           "id": "6a5121d6ba59b90f02b661af",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Collaborative editing environment",
           "content": "",
           "status": "Reviewed",
@@ -2743,7 +2743,7 @@
         },
         {
           "id": "6a5121c08dc979d466a46f86",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Document version history",
           "content": "",
           "status": "Reviewed",
@@ -2775,7 +2775,7 @@
         },
         {
           "id": "6a5121a25bdcefcb1e752d8e",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Content templates for drafting",
           "content": "",
           "status": "In Progress",
@@ -2807,7 +2807,7 @@
         },
         {
           "id": "6a512199f72a9987c363e191",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Reusable clause snippets",
           "content": "",
           "status": "Reviewed",
@@ -2839,7 +2839,7 @@
         },
         {
           "id": "6a512194926d6521f6453727",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Document comparison workflow",
           "content": "",
           "status": "Reviewed",
@@ -2870,7 +2870,7 @@
         },
         {
           "id": "6a512190926d6521f6453078",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Time tracking for cases",
           "content": "",
           "status": "Reviewed",
@@ -2901,7 +2901,7 @@
         },
         {
           "id": "6a51218592665376ac3eea1b",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Source passage highlighting",
           "content": "",
           "status": "Reviewed",
@@ -2932,7 +2932,7 @@
         },
         {
           "id": "6a51217dba59b90f02b5f59c",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Adjustable answer detail level",
           "content": "",
           "status": "Reviewed",
@@ -2963,7 +2963,7 @@
         },
         {
           "id": "6a51217403cf284364f61214",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Personalised tool customization",
           "content": "",
           "status": "Reviewed",
@@ -2996,7 +2996,7 @@
         },
         {
           "id": "6a5121618dc979d466a3ce4f",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Custom data integration",
           "content": "",
           "status": "Reviewed",
@@ -3027,7 +3027,7 @@
         },
         {
           "id": "6a51215e92665376ac3e8ec0",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Search result translation",
           "content": "",
           "status": "Reviewed",
@@ -3058,7 +3058,7 @@
         },
         {
           "id": "6a51215392665376ac3e33d0",
-          "board": "Missing Feature",
+          "board": "Feature Request",
           "title": "Prompt writing guidance",
           "content": "",
           "status": "Reviewed",
@@ -8198,13 +8198,13 @@
         }
       ]
     },
-    "Product": {
+    "Product Board": {
       "board_id": "6a422f49728db77bced50b63",
       "post_count": 53,
       "posts": [
         {
           "id": "6a86a97ddf8bb5676e137ed7",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Configurable Retention Periods",
           "content": "<h1><strong>What is the new functionality about?</strong></h1><p></p><p>Today, self-admins can already turn their retention policy <strong>on and off,</strong> but the only value available is the <strong>fixed 8-hour default</strong>. This release gives organizations that aren't already locked to 8 hours the flexibility to configure their own retention period — <strong>30, 90, or 180 days</strong> — directly under <strong>Organization Settings</strong>.</p><p></p><h1><strong>How does it work?</strong></h1><p></p><p>There are two paths, depending on the organization's backend configuration:</p><ol><li><p>Organizations locked to the fixed 8-hour retention see a <strong><em>Temporary Mode</em> toggle</strong> only, on by default. Turning it off keeps everything indefinitely; turning it back on restores deletion after 8-hours of inactivity. No period selection is offered here (As Current)</p></li></ol><img data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a86a97ddf8bb5676e137ed7/01a01e01-f1a9-764a-9503-c36ec0dd00a1/b64u-aW1hZ2UucG5n.png\" data-featurebase-content-filename=\"image.png\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a86a97ddf8bb5676e137ed7/01a01e01-f1a9-764a-9503-c36ec0dd00a1/b64u-aW1hZ2UucG5n.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=15ab256c902177bb5a6d545c8dafaeaf7e5cd20f9195c8bce313a800cf55928c\"><ol start=\"2\"><li><p>Organizations not locked to 8-hour retention see an <strong><em>Auto-delete</em> toggle</strong>, off by default, alongside a dropdown of retention periods with 30/90/180 days options. Selecting a period is a prerequisite for turning the toggle on — the user picks a value, then activates it. To change the period afterward, they must switch the toggle off, reselect, and switch it back on; there's no way to change the value while it's already active.</p></li></ol><img data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a86a97ddf8bb5676e137ed7/01a01ea4-3077-760c-9120-8915887c7094/b64u-aW1hZ2UucG5n.png\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a86a97ddf8bb5676e137ed7/01a01ea4-3077-760c-9120-8915887c7094/b64u-aW1hZ2UucG5n.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=152a3deca645402f2462b8f6b508c99af0093be1f8efb916d58170841823cb86\" data-featurebase-content-filename=\"image.png\"><p>In both paths, a toast confirms the change (e.g. \"kept indefinitely,\" \"fixed at 8 hours\", \"active based on the selected time period\").</p><p></p><p>(i) The countdown is based on inactivity, not on when a chat was created.</p><p></p><h1><strong>How do customers benefit?</strong></h1><p></p><p>Self-admins get clear visibility into how their organization's data retention is configured, and — for organizations that don't need the fixed 8-hour window — the flexibility to choose a period that better fits their own data governance or compliance needs (30, 90, or 180 days) instead of a one-size-fits-all central setting.</p>",
           "status": "Planned",
@@ -8237,7 +8237,7 @@
         },
         {
           "id": "6a71e876971b17e2b4b9d718",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Reference the current Word document (Word add-in)",
           "content": "<p></p><h3 style=\"text-align: start\"><strong>What is the new functionality about?</strong></h3><p style=\"text-align: start\">With the new functionality, users can reference the current Word document by tagging @Current document.</p><p style=\"text-align: start\"></p><p style=\"text-align: start\"></p><h3 style=\"text-align: start\"><strong>How does it work?</strong></h3><p class=\"noSpacingAbove spacingBelow\" style=\"text-align: start\">Type @Current document in the input field to reference the Word document you're currently working on. </p><h3 style=\"text-align: start\"></h3><p style=\"text-align: start\"></p><img data-width=\"100%\" data-align=\"center\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a71e876971b17e2b4b9d718/019fccf3-974f-7f92-8d9b-c06663a1075c/b64u-QG1lbnRpb24gY3VycmVudCB3b3JkIGRvYy5naWY.gif\" data-featurebase-content-filename=\"@mention current word doc.gif\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a71e876971b17e2b4b9d718/019fccf3-974f-7f92-8d9b-c06663a1075c/b64u-QG1lbnRpb24gY3VycmVudCB3b3JkIGRvYy5naWY.gif?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7c52a830ebb97a6ee007bb58d916c61b32043bf4f42232b6cb7e12c28c06e382\"><h3 style=\"text-align: start\"><br><strong><br>How do customers benefit?</strong></h3><ul><li><p class=\"noSpacingAbove spacingBelow\">No need to write long prompts to point to the current document</p></li><li><p>Faster, more precise referencing while drafting</p></li></ul><p></p>",
           "status": "Completed",
@@ -8270,7 +8270,7 @@
         },
         {
           "id": "6a6a1d6ceafe4332ffba3ba0",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Improve Accesssibility",
           "content": "<h3>What is the new functionality about?</h3><p>We aim to make Noxtua’s website and applications accessible for as many users as possible. This includes reducing limitations and increasing accessibility for example for screen reader or keyboard navigation using visitors. </p><p></p><h3>How does it work?</h3><p>We have conducted a gap analysis with an external agency and are currently tackling highlighted issues in design and development.</p><p></p><h3>How do customers benefit?</h3><p class=\"whitespace-pre-wrap break-words\" style=\"text-align: start\">Increasing accessibility of our website and applications will help guide as many users as possible through our applications. </p>",
           "status": "Planned",
@@ -8298,7 +8298,7 @@
         },
         {
           "id": "6a6a1ae908bfd6593e5ae83b",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Tracking Consent Banner",
           "content": "<h3 style=\"text-align: start\"><strong>What is the new functionality about?</strong></h3><p>To help improve the performance of the product for our users, we're introducing a <strong>tracking consent banner</strong> that gives users and organizations explicit, transparent control over whether they share pseudonymised&nbsp;usage/tracking data with us.</p><p style=\"text-align: start\"></p><h3 style=\"text-align: start\"><strong>How does it work?</strong></h3><ul><li><p><strong>Trigger point</strong>: The banner appears the first time a user or an organisation admin logs in (or after a policy update), before any tracking data is collected.</p></li><li><p><strong>Clear disclosure</strong>: It explains the actual scope of what's being tracked.</p></li><li><p><strong>Org-level vs user-level consent</strong>: For B2B products, an organisation admin can set a default policy for their whole org. If consented, the users are presented with the Tracking Consent Banner.</p></li><li><p><strong>Persisted preference</strong>: Once a choice is made, it's stored in the user/org profile, and the preference can be changed later from settings.</p></li></ul><p class=\"noSpacingAbove spacingBelow\" style=\"text-align: start\"></p><h3 style=\"text-align: start\"><strong>How do customers benefit?</strong></h3><p class=\"noSpacingAbove spacingBelow\" style=\"text-align: start\">Organisations and users can help improve the performance of the product at full transparency and control over their selection. All data protected under EU GDPR.</p>",
           "status": "In Progress",
@@ -8326,7 +8326,7 @@
         },
         {
           "id": "6a6a0db793371e5bd0441c9c",
-          "board": "Product",
+          "board": "Product Board",
           "title": "AI Act Art. 50 Compliance",
           "content": "<p>Obligations to be implemented:</p><ul><li><p>clear indication in footer of interaction with an AI system</p></li><li><p>metadata in file exports indicated AI-generated content</p></li></ul><p></p>",
           "status": "Completed",
@@ -8356,7 +8356,7 @@
         },
         {
           "id": "6a69ec40c45bb1a254f6bf7e",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Improvements to the Excel export (Chat & Matrix analysis)",
           "content": "<h3 style=\"text-align: start\"><strong>What is the new functionality about?</strong></h3><p style=\"text-align: start\">With the new improvement, basic formatting is applied to the Excel export from Tables in Chat &amp; Matrix analysis. </p><p style=\"text-align: start\"></p><p style=\"text-align: start\"></p><h3 style=\"text-align: start\"><strong>How does it work?</strong></h3><p style=\"text-align: start\">Users get a formatted Excel export when they export Tables in Chat &amp; Matrix analysis. </p><ul><li><p style=\"text-align: start\">Cell content is wrapped</p></li><li><p style=\"text-align: start\">Header row and column are formatted with colour</p></li><li><p style=\"text-align: start\">Header column is formatted in bold text</p><p class=\"noSpacingAbove spacingBelow\" style=\"text-align: start\"></p><img data-width=\"100%\" data-align=\"center\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a69ec40c45bb1a254f6bf7e/019fadb9-a16c-7773-89e8-6854998a4c25/b64u-aW1hZ2UucG5n.png\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a69ec40c45bb1a254f6bf7e/019fadb9-a16c-7773-89e8-6854998a4c25/b64u-aW1hZ2UucG5n.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=38ed6d39fc7ce311d233afe42c099e6a670ea0d494d5fbb5af3b72060f4cf1fd\" data-featurebase-content-filename=\"image.png\"></li></ul><img data-width=\"75%\" data-align=\"center\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a69ec40c45bb1a254f6bf7e/019fadbb-c4ae-79e3-be02-0625213d5b49/b64u-aW1hZ2UucG5n.png\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a69ec40c45bb1a254f6bf7e/019fadbb-c4ae-79e3-be02-0625213d5b49/b64u-aW1hZ2UucG5n.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=a0734b573b9ad32723f03c49765e461f601ae780be6683890ce9d1d43a82bc9c\" data-featurebase-content-filename=\"image.png\"><h3 style=\"text-align: start\"><strong><br></strong><br><strong>How do customers benefit?</strong></h3><ul><li><p class=\"noSpacingAbove spacingBelow\">Users can use the Excel export directly without needing to do any additional formatting </p></li></ul><p></p>",
           "status": "Completed",
@@ -8389,7 +8389,7 @@
         },
         {
           "id": "6a69df123668e7e25ce09417",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Citations from the current Word document (Word add-in)",
           "content": "<h3><br><strong>What is the new functionality about?</strong></h3><p>With the new functionality, the answers from Noxtua now include citations that point directly to the exact location in the current Word document. </p><p></p><p></p><h3><strong>How does it work?</strong></h3><p class=\"noSpacingAbove spacingBelow\">Clicking the citation takes the user to the relevant section and highlights the text cited. </p><p class=\"noSpacingAbove spacingBelow\"></p><img data-width=\"75%\" data-align=\"center\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a69df123668e7e25ce09417/019fad78-4b82-76a1-ad8d-fd717e0107f4/b64u-Q2l0YXRpb25zIGZyb20gdGhlIGN1cnJlbnQgV29yZCBkb2N1bWVudCAoV29yZCBhZGQtaW4pLmdpZg.gif\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a69df123668e7e25ce09417/019fad78-4b82-76a1-ad8d-fd717e0107f4/b64u-Q2l0YXRpb25zIGZyb20gdGhlIGN1cnJlbnQgV29yZCBkb2N1bWVudCAoV29yZCBhZGQtaW4pLmdpZg.gif?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=b5b017047b8c4d583548bef789196b66701ef42f0a1997ec48b6129bef804717\" data-featurebase-content-filename=\"Citations from the current Word document (Word add-in).gif\"><p class=\"noSpacingAbove spacingBelow\"></p><h3><br><br><strong>How do customers benefit?</strong></h3><ul><li><p class=\"noSpacingAbove spacingBelow\">No manual searching </p></li><li><p class=\"noSpacingAbove spacingBelow\">Faster verifications</p></li></ul><p class=\"noSpacingAbove spacingBelow\"></p>",
           "status": "Completed",
@@ -8422,7 +8422,7 @@
         },
         {
           "id": "6a5e35cd240fff60331d4d81",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Implement UI language selector",
           "content": "<p>The user can change the language of the UI via selection in the webapp. </p>",
           "status": "In Progress",
@@ -8457,7 +8457,7 @@
         },
         {
           "id": "6a5e356c351b8b21543c2bc7",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Stop answer generation and enable prompt re-editing",
           "content": "<p></p><ul><li><p>Control &amp; recovery:</p><ul><li><p>stop button,</p></li><li><p>re-editing of prompts</p><p></p></li></ul></li></ul><p></p>",
           "status": "In Progress",
@@ -8493,7 +8493,7 @@
         },
         {
           "id": "6a5e254a29a2dbaa970a37ad",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Folder Upload in Matrix Analysis",
           "content": "",
           "status": "Reviewed",
@@ -8522,7 +8522,7 @@
         },
         {
           "id": "6a5e1bafc9a5d459aeb03edc",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Make Template User Input Optional",
           "content": "<p>User input for templates can be optional </p>",
           "status": "In Review",
@@ -8555,7 +8555,7 @@
         },
         {
           "id": "6a5e1b4e9efb5cbda845b993",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Template Organisation",
           "content": "<ul><li><p>public and private collections</p></li><li><p>grouping via areas of the law</p></li><li><p>grouping and filtering via tags</p></li></ul><p></p>",
           "status": "In Review",
@@ -8588,7 +8588,7 @@
         },
         {
           "id": "6a5a7b97c99d8a14aed47a5e",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Upload more than 10 files for comparison in Matrix",
           "content": "",
           "status": "Reviewed",
@@ -8617,7 +8617,7 @@
         },
         {
           "id": "6a5a7b8fc99d8a14aed4715b",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Higher recognition rate for documents in Matrix",
           "content": "",
           "status": "Reviewed",
@@ -8646,7 +8646,7 @@
         },
         {
           "id": "6a5a7b8c9cf794746ea846ce",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Upload times need to be reliably fast in Matrix",
           "content": "",
           "status": "In Review",
@@ -8675,7 +8675,7 @@
         },
         {
           "id": "6a5a74c367c5c6a11aaea1ae",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Manual Language Selection",
           "content": "",
           "status": "In Review",
@@ -8704,7 +8704,7 @@
         },
         {
           "id": "6a5a73d067c5c6a11aacceea",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Clear user-facing error handling",
           "content": "<p></p>",
           "status": "In Review",
@@ -8735,7 +8735,7 @@
         },
         {
           "id": "6a5a724a67c5c6a11aa95b77",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Persistent Files in Project Spaces",
           "content": "",
           "status": "In Review",
@@ -8764,7 +8764,7 @@
         },
         {
           "id": "6a5a689ab26c313c254f6005",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Voice Input for Prompting",
           "content": "",
           "status": "In Review",
@@ -8793,7 +8793,7 @@
         },
         {
           "id": "6a58a91ef4645e58a53ebb53",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Europe License (Beta)",
           "content": "<p>Multiple European jurisdictions in one license</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Work across multiple European jurisdictions without switching platforms or licenses.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a91ef4645e58a53ebb53/019f6a54-3dd1-71d0-9e48-2c6279aa347a/b64u-MDE5ZjZhNTQtM2M5Yy03NjM0LWI0ZjQtM2ZjOGVkZjI1NmE4.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c71f99d8867b6b64413548e2c2659aeb5e54853bd0197b0501d04fd42d9f2daf\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a91ef4645e58a53ebb53/019f6a54-3dd1-71d0-9e48-2c6279aa347a/b64u-MDE5ZjZhNTQtM2M5Yy03NjM0LWI0ZjQtM2ZjOGVkZjI1NmE4.webp\" data-featurebase-content-filename=\"019f6a54-3c9c-7634-b4f4-3fc8edf256a8\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Whether you handle cross-border issues or need occasional access to legal sources from other European countries, the Europe License integrates curated content from leading publishers across the continent into your familiar Noxtua interface.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">This new licensing model builds on Noxtua's established partnerships with leading legal publishers from the continent, such as <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://rsw.beck.de/publishers\">C.H.BECK</a> (Germany), <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://www.manz.at/\">MANZ</a> (Austria), <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://www.helbing.ch/de/home\">Helbing Lichtenhahn</a> (Switzerland), <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://www.beck.pl/\">Wydawnictwo C.H.Beck</a> (Poland), <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://www.beck.cz/\">Nakladatelství C. H. Beck</a> (Czech Republic), and <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://www.beck.sk/\">Nakladateľstvo C. H. Beck</a> (Slovakia), with additional publishing partners across Europe to follow.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">You can conduct research, analysis, and document drafting across multiple European jurisdictions in one interface (starting with the DACH-region of Germany, Austria, and Switzerland), a capability previously unavailable in the market.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>The Europe License allows you to</strong></p><ul><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Work across multiple European jurisdictions with a single license</p></li><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Access jurisdiction-specific and exclusive legal data and expertise in one consistent interface</p></li><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Rely on the same data security and sovereignty standards you're used to</p></li></ul><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Please note:</strong> The Europe License is now available in beta at no additional cost to existing Noxtua users and will be activated for your workspace over the coming days.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Learn more about the Europe License in <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://academy.noxtua.com/posts/europe-license\">this article</a>.</p>",
           "status": "Completed",
@@ -8826,7 +8826,7 @@
         },
         {
           "id": "6a58a8ea6601b932388a3a0d",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Document citations",
           "content": "<p>Review documents with AI answers linked directly to source passages</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Review legal documents with answers that include clickable citations highlighting the exact passages in your original document.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a8ea6601b932388a3a0d/019f6a53-9883-7f3c-93a1-c91fe44b01b3/b64u-MDE5ZjZhNTMtOTVjOC03YTFmLThjNWYtMDgzY2ViYzM2OTEz.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d4185f42f9cdbbe4eea6edd620fcb7ca311a577ed1a5dbfed4d3aee8e39aa18d\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a8ea6601b932388a3a0d/019f6a53-9883-7f3c-93a1-c91fe44b01b3/b64u-MDE5ZjZhNTMtOTVjOC03YTFmLThjNWYtMDgzY2ViYzM2OTEz.webp\" data-featurebase-content-filename=\"019f6a53-95c8-7a1f-8c5f-083cebc36913\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Reviewing documents with AI tools often means constantly switching between AI answers and the original document to verify information – breaking your focus and slowing down your work.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">With document citations, Noxtua puts you back in focus mode. Upload your PDF or Word document and enter your prompt to review or summarize the document or extract information from it. Noxtua analyzes the file and provides answers with direct citations from the document. Click any citation to open the document with the exact passage highlighted.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Learn more about document citations in <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://academy.noxtua.com/posts/document-citations\">this article</a>.</p><p class=\"framer-text framer-styles-preset-1uarwlm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p>",
           "status": "Completed",
@@ -8859,7 +8859,7 @@
         },
         {
           "id": "6a58a8c5bf5f0e47e3d5589d",
-          "board": "Product",
+          "board": "Product Board",
           "title": "To-do list",
           "content": "<p>Structured approach to solve complex, multi-step tasks</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Get more precise results for multi-step requests as Noxtua breaks complex tasks into a structured to-do list.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a8c5bf5f0e47e3d5589d/019f6a53-05a3-74e3-8c4f-e5d3a6f40710/b64u-MDE5ZjZhNTMtMDRkNS03OWI4LTljNTgtMmVjM2NlZmRjMTE2.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=1b76a7e1f941c75785dd02a4d14fde9b6057d5c112b0ba5350214f2d644bc6b6\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a8c5bf5f0e47e3d5589d/019f6a53-05a3-74e3-8c4f-e5d3a6f40710/b64u-MDE5ZjZhNTMtMDRkNS03OWI4LTljNTgtMmVjM2NlZmRjMTE2.webp\" data-featurebase-content-filename=\"019f6a53-04d5-79b8-9c58-2ec3cefdc116\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">When you give Noxtua a complex job with multiple steps, tracking progress and maintaining consistent quality can be challenging.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">To deliver you more precise results for complex, multi-step tasks, Noxtua now uses a to-do list approach that structures your request into manageable steps you can follow along with.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Activate the to-do list mode by asking \"Use to-do tool for [your task]\" or by providing a list of multiple tasks in your prompt. Noxtua then works through each step systematically.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">This structured approach ensures nothing gets overlooked and each part of your request receives focused attention, improving overall answer quality.</p>",
           "status": "Completed",
@@ -8892,7 +8892,7 @@
         },
         {
           "id": "6a58a89b80ef1ccb50804bef",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Custom chat titles",
           "content": "<p>Rename your chats’ titles for faster retrieval</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Give your chats meaningful names to find past results quickly and keep your workspace organized.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a89b80ef1ccb50804bef/019f6a52-7e01-72bf-8231-226155acdacf/b64u-MDE5ZjZhNTItN2M4OC03ZmM5LWI1NTQtODcyZjMxMjhlOWM1.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c31b769c8f5295cc8b23267e8a4b34a0f86989f8b38d7ba37287ceb24a45f1c0\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a89b80ef1ccb50804bef/019f6a52-7e01-72bf-8231-226155acdacf/b64u-MDE5ZjZhNTItN2M4OC03ZmM5LWI1NTQtODcyZjMxMjhlOWM1.webp\" data-featurebase-content-filename=\"019f6a52-7c88-7fc9-b554-872f3128e9c5\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Finding specific conversations in a long chat history can be challenging when titles aren't self-explanatory. The new ability to rename chat titles solves this problem.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Simply click on the three dots next to any chat title, select \"Rename,\" and give your chat a descriptive name. This keeps your workspace organized so you can find past chats and results more quickly.</p><p></p>",
           "status": "Completed",
@@ -8925,7 +8925,7 @@
         },
         {
           "id": "6a58a87a7aed84556ee7dae8",
-          "board": "Product",
+          "board": "Product Board",
           "title": "The Editor",
           "content": "<p>Draft and refine legal documents with AI assistance</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Explore legal ideas, create structured memos from research results, and refine documents iteratively.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a87a7aed84556ee7dae8/019f6a51-f2c4-7e61-ba36-3bf72cee1b3c/b64u-MDE5ZjZhNTEtZWI2Ny03ZTYzLTk2MmMtMmZjMGY1Y2ZiM2Vm.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=cded3d705c0cab32ac73f28af9bd736a9d43cf7e8899ebe8f9d8cc53e479c7df\" data-width=\"100%\" data-align=\"left\" alt=\"gray and black laptop computer on surface\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a87a7aed84556ee7dae8/019f6a51-f2c4-7e61-ba36-3bf72cee1b3c/b64u-MDE5ZjZhNTEtZWI2Ny03ZTYzLTk2MmMtMmZjMGY1Y2ZiM2Vm.webp\" data-featurebase-content-filename=\"019f6a51-eb67-7e63-962c-2fc0f5cfb3ef\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Creating documents is fundamental to legal work, but also enormously time-consuming. Research results need structuring, initial drafts require formulation, and texts need iterative refinement.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">That's where the new Editor comes in: an AI-powered workspace that helps you create initial drafts and refine text passages with smart improvement suggestions while tracking all changes throughout the process.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Use it to explore initial ideas, organize unstructured information, or create new documents based on reference materials. Once your document reaches the desired quality, simply export it as a .docx file including all source references for further processing.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Learn all about the Editor in <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://academy.noxtua.com/posts/editor\">this Academy article.</a></p><p class=\"framer-text framer-styles-preset-1uarwlm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p>",
           "status": "Completed",
@@ -8958,7 +8958,7 @@
         },
         {
           "id": "6a58a8534137baa454ed3a3e",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Template Library",
           "content": "<p>Pre-built prompt templates for faster, more consistent results</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Access ready-to-use prompt templates to streamline routine work while driving quality and consistency across your team.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a8534137baa454ed3a3e/019f6a50-fc33-75dd-b9d3-be89ea98ac73/b64u-MDE5ZjZhNTAtZmJhMy03NjI1LWJmNDktYWNkNWFhMjAzMDhj.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=708d7cd04a74d1a0159c4c2f8c28708ec6606085f27466bb2b74e3973eb8358e\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a8534137baa454ed3a3e/019f6a50-fc33-75dd-b9d3-be89ea98ac73/b64u-MDE5ZjZhNTAtZmJhMy03NjI1LWJmNDktYWNkNWFhMjAzMDhj.png\" data-featurebase-content-filename=\"019f6a50-fba3-7625-bf49-acd5aa20308c\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">When using Noxtua, you don't need to start from scratch with every new task. Templates help you streamline routine work: Simply save a proven prompt as a template and apply it to similar tasks going forward.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Rather than developing each template yourself, we've launched the Template Library – a centralized collection of pre-built templates for common legal tasks that your entire team can access and use.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><h5 style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Here's what the template library can do for you:</h5><p style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Faster results:</strong> Ready-to-use prompts for common legal tasks, such as contract reviews, summaries, or document drafting.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Consistent quality:</strong> Ensure uniform formatting, language, and quality standards across all team members' work.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Customizability:</strong> Use templates as a solid starting point that you can adapt to your specific use case.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Clear structure: </strong>Find the right template quickly with clear categorization by document type and use case.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">The template library transforms time-consuming routine tasks into streamlined workflows, letting you focus on the aspects of legal work that matter most to you.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Learn more about the template library in <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://academy.noxtua.com/posts/templates-usage\">this article</a>.</p><p></p>",
           "status": "Completed",
@@ -8991,7 +8991,7 @@
         },
         {
           "id": "6a58a8169e1a0a9b294aff56",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Role management: Template manager role",
           "content": "<p>Stay in control of templates within your organization</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Account admins can now assign and revoke Template Manager roles independently to ensure coordinated template management within your organization.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a8169e1a0a9b294aff56/019f6a50-650c-7bd1-955b-81496aaf23f0/b64u-MDE5ZjZhNTAtNjNmNS03ZmQyLWJiM2YtMjk3NjBlZmRjZWQx.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ded65f7212995b93103da1725d0bdb79c231b7bfd0864c9b35b49c0548a39cc4\" data-width=\"100%\" data-align=\"left\" alt=\"gray and black laptop computer on surface\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a8169e1a0a9b294aff56/019f6a50-650c-7bd1-955b-81496aaf23f0/b64u-MDE5ZjZhNTAtNjNmNS03ZmQyLWJiM2YtMjk3NjBlZmRjZWQx.webp\" data-featurebase-content-filename=\"019f6a50-63f5-7fd2-bb3f-29760efdced1\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">To precisely manage which users are allowed to create, edit, and delete templates within your organization, we have introduced role management capabilities.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Account Admins, which are users with the \"self-admin\" role in beck-online, can now independently grant or revoke the Template Manager role directly in Beck-Noxtua. Template Managers can create, edit, and delete templates for the entire organization, while regular users can use existing templates.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">If you want to learn more how to apply this to your organization, visit our<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://academy.noxtua.com/posts/role-management\"> Academy article.</a></p>",
           "status": "Completed",
@@ -9024,7 +9024,7 @@
         },
         {
           "id": "6a58a7ec9eff01821ac4bb3e",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Trust Center",
           "content": "<p>Transparent security and compliance information</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Access Noxtua’s security certificates, compliance frameworks, and policies in one central location – making audits faster and procurement smoother.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a7ec9eff01821ac4bb3e/019f6a4f-c1e4-7a79-8923-d5efbc60a6d0/b64u-MDE5ZjZhNGYtYmY2MS03MTMwLTkwN2ItMmRhNTZiODRmNzVm.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=3499ab4b01fbc1c6029e1b0a2b14a0837a05ad362f8e98fa59362d55f078f6b1\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a7ec9eff01821ac4bb3e/019f6a4f-c1e4-7a79-8923-d5efbc60a6d0/b64u-MDE5ZjZhNGYtYmY2MS03MTMwLTkwN2ItMmRhNTZiODRmNzVm.webp\" data-featurebase-content-filename=\"019f6a4f-bf61-7130-907b-2da56b84f75f\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Cumbersome security and compliance questionnaires can significantly slow down procurement and audit processes. That's why we've launched our Trust Center – a central space where you can access all of Noxtua's security certificates, compliance frameworks, and policies.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Here's a brief overview of what you'll find:</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Security certificates: </strong>BSI C5, ISO 27001, ISO 9001, TISAX, and many more.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Compliance frameworks:</strong> Documentation for ten digital regulation frameworks, including GDPR and the AI Act.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Security controls:</strong> Transparent overview of our technical and organizational security measures.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Visit our Trust Center at <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"link\" href=\"https://trust.noxtua.com/\">https://trust.noxtua.com/</a> and see our commitment to security and compliance for yourself.</p>",
           "status": "Completed",
@@ -9057,7 +9057,7 @@
         },
         {
           "id": "6a58a7b32ef2b48eea008847",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Noxtua Academy",
           "content": "<p>Get more out of Noxtua with expert knowledge</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Your learning hub for mastering Noxtua – with learning videos, step-by-step tutorials, and thought leadership on Legal AI.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a7b32ef2b48eea008847/019f6a4e-dd7a-772d-af56-cc0c9004b72c/b64u-MDE5ZjZhNGUtZDg1YS03MjJhLTkwODAtNGI5ZWJlNzZkNGRh.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=fd0ffa906c058d8915ba78533c77e1b553c1bdc5a433036c19f2ee303394ead5\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a7b32ef2b48eea008847/019f6a4e-dd7a-772d-af56-cc0c9004b72c/b64u-MDE5ZjZhNGUtZDg1YS03MjJhLTkwODAtNGI5ZWJlNzZkNGRh.webp\" data-featurebase-content-filename=\"019f6a4e-d85a-722a-9080-4b9ebe76d4da\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Whether you're getting started with Noxtua or looking to deepen your expertise, you need a reliable place to learn how to get the most out of your Legal AI in your daily work.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">That's why we've launched the Noxtua Academy – an educational platform built specifically for legal professionals who want to work effectively with Beck-Noxtua.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><h5 style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Here's what you'll find in the Academy:</h5><p style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Learning videos:</strong> Short, valuable videos help you to understand how to best use Noxtua and how the AI system works.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Support articles:</strong> Concrete, step-by-step tutorials on how to use specific features and accomplish common tasks.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Blog articles:</strong> Thought leadership and industry insights on Legal AI, helping you understand the broader landscape and best practices.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">The Academy is accessible at <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"link\" href=\"https://academy.noxtua.com\">https://academy.noxtua.com</a> to explore the topics most relevant to you. You'll also find it linked directly from <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"link\" href=\"http://noxtua.com\">noxtua.com</a> and within the Noxtua app itself.</p>",
           "status": "Completed",
@@ -9090,7 +9090,7 @@
         },
         {
           "id": "6a58a78815a8515a41ebab33",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Enhanced Agentic AI",
           "content": "<p>Get better results faster</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Simple prompts, systematic thinking, and transparent literature research quickly provide you with practical results.</p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a78815a8515a41ebab33/019f6a4e-2af2-7bab-b810-d0d8ff6b2cff/b64u-MDE5ZjZhNGUtMjc4NS03ZjcyLWIxMjgtOTYxMjZiNjMwNTRh.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=2e37a517e05317a59abb852f69d7c5cb962fff0fdc72ef8d742cabfdde8cfe26\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a78815a8515a41ebab33/019f6a4e-2af2-7bab-b810-d0d8ff6b2cff/b64u-MDE5ZjZhNGUtMjc4NS03ZjcyLWIxMjgtOTYxMjZiNjMwNTRh.webp\" data-featurebase-content-filename=\"019f6a4e-2785-7f72-b128-96126b63054a\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Whenever you use Noxtua for any legal task, you want to formulate a simple prompt, trust the generated information, and get practical results you can work with.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">It's a high bar for Legal AI systems, but by strengthening Noxtua's Agentic AI capabilities, we've made a significant leap forward. Whenever you enter a prompt, Noxtua analyzes your request, identifies the best approach and legal sources to solve it, and executes step by step to generate high-quality results.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><h5 style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Here's what Noxtua can do for you now:</h5><p style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Simple prompts for complex tasks:</strong> No need to spend time crafting the perfect prompt or breaking it down into different steps. Simply enter your query as it comes to mind and Noxtua understands what needs to be done.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Deep insights into the solution process:</strong> Noxtua now shares its thought process and the sources it uses with you, so you can follow along as it works through your request and validate the answer quality.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Better answer quality:</strong> Through systematic planning and specialized research capabilities for legal literature, you'll get better structured and comprehensively researched results.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Keep using Noxtua normally and you'll see the improvements right away. But feel free to challenge it with more complex tasks now. It's ready.</p><p></p>",
           "status": "Completed",
@@ -9123,7 +9123,7 @@
         },
         {
           "id": "6a58a6c4ab066bad9f9b915c",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Word Add-in (Beta)",
           "content": "<p>AI-powered document editing – directly in Word</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Refine and finalize documents faster, with legal intelligence in your familiar environment.</p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a6c4ab066bad9f9b915c/019f6a4b-3f9f-7ced-bfba-cd4e3b6ecb41/b64u-MDE5ZjZhNGItM2NmOC03NTFlLTgxMjktNjllZjg3MTFjNDI3.webp?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=526e56c2c9b6d51eeee7a49f153f9e679f1fd73333f8d4c28d8f023803c55f1c\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a6c4ab066bad9f9b915c/019f6a4b-3f9f-7ced-bfba-cd4e3b6ecb41/b64u-MDE5ZjZhNGItM2NmOC03NTFlLTgxMjktNjllZjg3MTFjNDI3.webp\" data-featurebase-content-filename=\"019f6a4b-3cf8-751e-8129-69ef8711c427\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Legal professionals spend a significant portion of their day editing documents in Microsoft Word. While AI can accelerate much of this manual work, constantly switching between Word and a separate AI tool disrupts your workflow.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">The new Word Add-in brings Noxtua's Legal AI directly into your familiar Word environment. Working in split-screen mode, you edit your document on the left while Noxtua provides improvement suggestions and researches legal questions on the right – without interruption, without switching context.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Ask Noxtua to make comprehensive changes to the entire document or target a specific passage, and decide for yourself which suggestions make it into the document – with every accepted change tracked directly in the document.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">The Word Add-in can be installed via the <a target=\"_blank\" rel=\"noopener\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://marketplace.microsoft.com/en-gb/product/WA200010107?tab=Overview\">Microsoft Marketplace</a> or directly in Microsoft Word.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">It is currently in beta phase and optimized for the desktop application of Microsoft Word. It does not support the online version that runs in your browser.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Learn everything about the Word Add-in in<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://academy.noxtua.com/posts/word-add-in\"> this article</a>.</p>",
           "status": "Completed",
@@ -9156,7 +9156,7 @@
         },
         {
           "id": "6a58a68592bd4a633f52e1a2",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Cleaner AI thought process",
           "content": "<p>Stay focused on Noxtua’s answer without losing sight of how it got there.</p><p></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Noxtua's thought process now appears in a compact, collapsible area that automatically closes once your answer is ready.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Before generating a response, Noxtua works through a thought process that helps the AI analyze your request and develop a structured solution — giving you the transparency to follow along and evaluate the results.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Until now, this thought process could take up a lot of screen space, making it harder to focus on the answer itself.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">The thought process is now displayed in a fixed, collapsible area that shows the latest activity and automatically collapses once your answer is ready. You can still expand it at any time to review the full reasoning.</p>",
           "status": "Completed",
@@ -9189,7 +9189,7 @@
         },
         {
           "id": "6a58a650f9f6f1c7e4ded01e",
-          "board": "Product",
+          "board": "Product Board",
           "title": "@ Mentions for documents",
           "content": "<p>Reference specific files for precise and faster answers</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Type @ to tag a document and give Noxtua the exact context it needs.</p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a650f9f6f1c7e4ded01e/019f6a49-9907-74ab-9fcb-7b1a7c484c29/b64u-MDE5ZjZhNDktOThkYy03NjY5LTk3ZGEtZTFiYzY5MGExYzI4.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=3b8240eb0a80193891111c9d506a05f8de581680459892e49299304d0aac4627\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a650f9f6f1c7e4ded01e/019f6a49-9907-74ab-9fcb-7b1a7c484c29/b64u-MDE5ZjZhNDktOThkYy03NjY5LTk3ZGEtZTFiYzY5MGExYzI4.png\" data-featurebase-content-filename=\"019f6a49-98dc-7669-97da-e1bc690a1c28\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">When working with multiple uploaded documents, it isn't always clear to the AI which file a question relates to which can lead to imprecise answers and unnecessary iterations.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">@ mentions fix this directly: Simply type \"@\" in the chat field, select the document you mean, and keep writing your prompt. Noxtua will pick up the reference precisely, so there is no manual naming needed. Mentions stay visible in your thread, so context remains clear as the conversation develops.</p><p class=\"framer-text framer-styles-preset-1uarwlm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p></p>",
           "status": "Completed",
@@ -9222,7 +9222,7 @@
         },
         {
           "id": "6a58a620280035f2b9e85648",
-          "board": "Product",
+          "board": "Product Board",
           "title": "EU data (DE)",
           "content": "<h1 style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></h1><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-9to16y\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Legal research backed by EUR-Lex</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Ask legal questions touching EU law and get answers backed by official EUR-Lex data.</p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a620280035f2b9e85648/019f6a48-94c4-752c-8707-090f324db06c/b64u-MDE5ZjZhNDgtOTQ1NS03Y2ZlLTgzYjItNmNmOWEyY2MyZDcy.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=1ccf46da9f43868fdb832e5718e26269d3e04adc4baae54e0de1a8290ed6b94d\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a620280035f2b9e85648/019f6a48-94c4-752c-8707-090f324db06c/b64u-MDE5ZjZhNDgtOTQ1NS03Y2ZlLTgzYjItNmNmOWEyY2MyZDcy.png\" data-featurebase-content-filename=\"019f6a48-9455-7cfe-83b2-6cf9a2cc2d72\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">On top of the exclusive legal publisher data you already work with, Noxtua now integrates EU data directly from EUR-Lex, the official EU law database. Whenever your query touches EU law, Noxtua will automatically draw on the relevant EU data and cite specific sources.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">The integrated EU data covers the following document categories:</p><ul><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Sector 3: Legal acts</p></li><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Sector 6: EU case-law</p></li></ul><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><em>Please note that EU data will currently only be shown when Germany is selected as the jurisdiction.</em></p><p class=\"framer-text\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p>",
           "status": "Completed",
@@ -9255,7 +9255,7 @@
         },
         {
           "id": "6a58a5de92bd4a633f519d29",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Word Add-in: Citations, chat history, and more",
           "content": "<p>A smoother Noxtua experience inside Word</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Pick up past chats, preview sources in the sidebar, and work faster with Noxtua in Word.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Working with Noxtua in Word should not give you any reason that sends you back to the web version. We are closing that gap with these three updates:</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Chat history and new chat:</strong> Start a new chat or return to an earlier one without leaving your document. Your full chat history stays available, so context carries across sessions.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Cleaner citations:</strong> Use citations as you know them from the web – shown as badges that take you to the source in the sidebar. The previous inline links are gone.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Performance improvements:</strong> Work on documents noticeably faster and use Track Changes without distractions. We made several performance improvements for you.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1uarwlm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p></p>",
           "status": "Completed",
@@ -9288,7 +9288,7 @@
         },
         {
           "id": "6a58a5b2cb41f0e2c155996d",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Word Add-in: Add reference documents",
           "content": "<p class=\"framer-text framer-styles-preset-9to16y\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Reference material that support document work in Word</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Upload documents to the Word Add-in and use them as reference material in your chat while drafting or editing.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Drafting or reviewing a contract often works best with a precedent, a sample clause, or an existing agreement at hand. Until now, this was only possible in Noxtua's web Editor.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">You can now upload documents directly in the Word Add-in and reference them in your chat. Ask Noxtua to draft a clause based on a precedent, align wording with an existing agreement, or pull specific passages from your uploaded file – all within Word.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Every uploaded document is available as a citation source, so any passage Noxtua draws on remains traceable and verifiable in the sidebar.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1uarwlm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p></p>",
           "status": "Completed",
@@ -9321,7 +9321,7 @@
         },
         {
           "id": "6a58a57e280035f2b9e7073d",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Smart Templates",
           "content": "<p class=\"framer-text framer-styles-preset-9to16y\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Consistent and faster results with standardizable templates</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Standardize recurring legal tasks with guided prompt templates using dynamic user input and knowledge sources.</p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a57e280035f2b9e7073d/019f6a45-7d60-710f-a7da-d6444809c63d/b64u-MDE5ZjZhNDUtN2Q0MS03YmZlLTk3NTQtYzZjN2MzMTk1MTU3.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=2d003d0cbc6bcd6d5b525f6e32b327e49737f69b4d68ff46db9e49a018a6d16c\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a57e280035f2b9e7073d/019f6a45-7d60-710f-a7da-d6444809c63d/b64u-MDE5ZjZhNDUtN2Q0MS03YmZlLTk3NTQtYzZjN2MzMTk1MTU3.png\" data-featurebase-content-filename=\"019f6a45-7d41-7bfe-9754-c6c7c3195157\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Legal teams rely on Noxtua for routine work such as document reviews, memo drafting, and legal research. But when every team member crafts and uses their own prompts, output quality varies and valuable time is lost.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Smart Templates lets legal teams handle recurring tasks at scale – with consistent quality and greater speed. In a redesigned experience, template managers can package proven prompts into protected, guided workflows, while template users get a turn-key solution to complete their work.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><h4 style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>What's new for template managers:</strong></h4><ul><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Template editor: </strong>Design templates in a new interface with contextual user input to standardize Legal AI usage across your team.</p></li><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>User input:</strong> Define text fields or file upload fields that users fill in when running the template.</p></li><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Knowledge sources:</strong> Embed reference documents such as checklists or review criteria, so Noxtua always has the right guidance at hand without users uploading them each time.</p></li></ul><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><h4 style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>What's new for template users:</strong></h4><ul><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Template application:</strong> Select a template and it appears as a compact box above the chat field.</p></li><li><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Guided input:</strong> Get prompted for the case-specific information needed before running the template.</p></li></ul><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"><strong>Please note:</strong> Templates created before April 15, 2026 must be migrated to the new template experience by users with the template manager role.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Learn more about <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://academy.noxtua.com/posts/templates-setup\"><strong>migrating existing and setting up new templates</strong></a> or <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"framer-text framer-styles-preset-1njh15g link\" href=\"https://academy.noxtua.com/posts/templates-usage\"><strong>how to use templates</strong></a>.</p><p></p>",
           "status": "Completed",
@@ -9354,7 +9354,7 @@
         },
         {
           "id": "6a58a4dd868d46e929ebc249",
-          "board": "Product",
+          "board": "Product Board",
           "title": "The complete, current C.H. BECK knowledge from beck-online in Beck-Noxtua",
           "content": "<p>All current C.H. BECK content from beck-online now available in Beck-Noxtua</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Use our Legal AI based on all current C.H. BECK content from beck-online across all German legal areas.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">By integrating further modules, Beck-Noxtua now accesses the entire current C.H. BECK knowledge from beck-online across all German legal areas. Thanks to this comprehensive database, you receive precise answers from Beck-Noxtua based on the most relevant sources for the task at hand.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">For the full list of modules integrated into Beck-Noxtua, see <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"link\" href=\"https://www.beck-noxtua.de/en/data-foundation/\">https://www.beck-noxtua.de/en/data-foundation/</a></p>",
           "status": "Completed",
@@ -9387,7 +9387,7 @@
         },
         {
           "id": "6a58a4abb0f587f126146701",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Workflows in Templates",
           "content": "<p>Multi-step templates with live progress tracking</p><p></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Break down legal tasks into ordered steps and follow progress as Noxtua works through each one.</p><img src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a58a4abb0f587f126146701/019f6a44-c7a8-703d-9ac6-00401b931cab/b64u-MDE5ZjZhNDQtYzc1ZS03ZTk4LTllOTItYTZmNzVhZTRmZmJm.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e1dae48b5afde1d0b642977bb7362b00f5675e7c7d49390b47956d0bb57cd2e8\" data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a58a4abb0f587f126146701/019f6a44-c7a8-703d-9ac6-00401b931cab/b64u-MDE5ZjZhNDQtYzc1ZS03ZTk4LTllOTItYTZmNzVhZTRmZmJm.png\" data-featurebase-content-filename=\"019f6a44-c75e-7e98-9e92-a6f75ae4ffbf\"><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\"></p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Legal work often involves several distinct actions: analyzing a clause, checking it against precedent, and drafting an alternative. Squeezing them into a single prompt tends to produce imprecise output and obscures the path to the result.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">In the Template editor, creators can now break a task into a sequence of up to five steps that form a workflow. For each step, you can define user input fields and reference documents.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">When you run a multi-step template, a progress tracker shows you which step Noxtua is currently working on, so you always know where things stand.</p><p class=\"framer-text framer-styles-preset-1u3jnvm\" style=\"text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start))\">Please note: Existing single-step templates keep working as before.</p>",
           "status": "Completed",
@@ -9420,7 +9420,7 @@
         },
         {
           "id": "6a58a1defa9808e93bf4a9ec",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Knowledge Graph for DE",
           "content": "<p>a live, self-updating knowledge graph for the DE market that demonstrably outperforms plain search - positioning us ahead of competitors on a differentiating feature</p><ul><li><p>release of KG for DE with automated updates</p></li><li><p>Investigate regular search vs. knowledge graph (currently one benchmark favoring KG)</p></li><li><p>Build an evaluation set for the KG; assess scaling to 100K users</p></li><li><p>timing tbd: rollout of KG for PL, based on learnings from DE</p></li></ul><p></p>",
           "status": "In Progress",
@@ -9453,7 +9453,7 @@
         },
         {
           "id": "6a58a17167941633fe416561",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Holistic Concept for Onboarding & Feature Adoption",
           "content": "<p>Improved User Onboarding &amp; Feature Announcements</p><p></p><p>Improve Chat Interaction</p><ul><li><p>error handling /user instructions</p><p></p></li></ul><p></p>",
           "status": "In Progress",
@@ -9489,7 +9489,7 @@
         },
         {
           "id": "6a58a0ae2ef2b48eeaf36643",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Matrix Upgrade",
           "content": "<p>Matrix can process around 1000 documents in a stable way, enabled by</p><ul><li><p>queuing</p></li><li><p>migration to cloud storage</p></li><li><p>migration to AI Puppy</p></li></ul><p></p>",
           "status": "In Progress",
@@ -9525,7 +9525,7 @@
         },
         {
           "id": "6a58a04efc26897bb8106971",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Word Add-in Stabilisation",
           "content": "<p style=\"text-align: start\">we stabilize the Word Add-in and align it’s feature-set with the web-app (@mentioning, EU License, Voice Input)</p><p></p>",
           "status": "Planned",
@@ -9558,7 +9558,7 @@
         },
         {
           "id": "6a589fd719151076e460475a",
-          "board": "Product",
+          "board": "Product Board",
           "title": "UI/UX Template Improvements (incl. private Templates)",
           "content": "<p>We will rework the template UI to simplify usage and increase adoption. This contains</p><ul><li><p>Reworking UI/UX</p></li><li><p>Possibility to duplicate templates</p></li><li><p>Private / per user Templates</p><p></p></li></ul><p></p>",
           "status": "Planned",
@@ -9591,7 +9591,7 @@
         },
         {
           "id": "6a548c5552b294a48e51603e",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Improved Document Processing",
           "content": "<p>Performance &amp; UX improvements: faster, cheaper and more reliable document processing that scales to 100K users without losing extraction quality</p>",
           "status": "In Progress",
@@ -9624,7 +9624,7 @@
         },
         {
           "id": "6a548beda41fa80e49bba420",
-          "board": "Product",
+          "board": "Product Board",
           "title": "DMS Integration concept: first integration",
           "content": "<p>we will integrate the first DMS provider, either iManage <strong>or</strong> Sharepoint (decision depends on technical investigaion)</p>",
           "status": "Planned",
@@ -9657,7 +9657,7 @@
         },
         {
           "id": "6a51226c926d6521f648e2c7",
-          "board": "Product",
+          "board": "Product Board",
           "title": "File management system integration",
           "content": "",
           "status": "Reviewed",
@@ -9686,7 +9686,7 @@
         },
         {
           "id": "6a512219f72a9987c364c4c3",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Cross-device chat access",
           "content": "",
           "status": "Reviewed",
@@ -9715,7 +9715,7 @@
         },
         {
           "id": "6a512210ba59b90f02b6b06f",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Stop or cancel running generation",
           "content": "",
           "status": "Reviewed",
@@ -9744,7 +9744,7 @@
         },
         {
           "id": "6a5121c45bdcefcb1e755de0",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Email program integration",
           "content": "",
           "status": "Reviewed",
@@ -9773,7 +9773,7 @@
         },
         {
           "id": "6a4e65a4060dbd7bed7b5ee2",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Cloud Storage",
           "content": "<h3><strong>What is the new functionality about?</strong></h3><p>Chats of users will be stored in our cloud and encrypted by project per user. Encryption keys are user-specific so that no one else can decrypt chat histories. For technical details please reach out. The storage architecture is called LECS.</p><p></p><h3><strong>How does it work?</strong></h3><p class=\"noSpacingAbove spacingBelow\">For Beck-Noxtua Germany: Customers have to accept the new DPA, and Beck will hand-over a handle (a datapoint) to Beck-Noxtua so that the system auto-updated a customer to LECS-Storage. For Self-Service Customers, the process still has to be finalized but will be more manual.</p><p class=\"noSpacingAbove spacingBelow\">For all other markets: LECS will be activated for a market with the respective Go Live.</p><p class=\"noSpacingAbove spacingBelow\"></p><h3><strong>How do customers benefit?</strong></h3><p class=\"noSpacingAbove spacingBelow\">Storing data in the cloud has the upside of having chat history, files and other settings device and browser independent so users can work seamlessly. Additionally, newer features such as projects can be rolled out.</p><p class=\"noSpacingAbove spacingBelow\"></p><h3><strong>Are there next steps planned?</strong></h3><p class=\"noSpacingAbove spacingBelow\">Matrix and Templates are yet to be brought to LECS which is currently under way.</p>",
           "status": "Completed",
@@ -9815,7 +9815,7 @@
         },
         {
           "id": "6a4e64e62ca522f7d1337576",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Projects for LECS users",
           "content": "<h3><strong>What is the new functionality about?</strong></h3><p>With the introduction of LECS we will leverage the capability to create projects for individual users, where they can give context and files that persist across chats within a project.</p><p></p><h3><strong>How does it work?</strong></h3><p class=\"noSpacingAbove spacingBelow\">Users need to go to projects and set it up. All new chats that are created from within a project get the context and files that were added automatically considered in the answer generation.</p><p class=\"noSpacingAbove spacingBelow\"></p><h3><strong>How do customers benefit?</strong></h3><p class=\"noSpacingAbove spacingBelow\">Customers will benefit from enhanced user experience by making sure answers to multiple topics that are related to the same initiative/project/case have the same context.</p><p class=\"noSpacingAbove spacingBelow\"></p><h3>Release plan</h3><p class=\"noSpacingAbove spacingBelow\">We will release Projects to production behind feature flag on the 29th of July 2026. Following that, the feature will be rolled out to all LECS-enabled markets on the 4th of August 2026. <br><br>Remark: This functionality is cloud storage/LECS-dependent. Tenants/Organisations/Users who are not LECS-enabled cannot use the feature.</p><p class=\"noSpacingAbove spacingBelow\"></p><p class=\"noSpacingAbove spacingBelow\">Preview Noxtua’s support article for Projects:</p><p class=\"noSpacingAbove spacingBelow\"></p><file-preview-component data-featurebase-content-filename=\"Noxtua - Projects - Support Article EN V1 26.pdf\" data-featurebase-content-filesize=\"1092712\" data-featurebase-content-filetype=\"application/pdf\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a4e64e62ca522f7d1337576/019faa28-4d77-7039-ba2b-e51648d4c205/b64u-Tm94dHVhIC0gUHJvamVjdHMgLSBTdXBwb3J0IEFydGljbGUgRU4gVjEgMjYucGRm.pdf\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a4e64e62ca522f7d1337576/019faa28-4d77-7039-ba2b-e51648d4c205/b64u-Tm94dHVhIC0gUHJvamVjdHMgLSBTdXBwb3J0IEFydGljbGUgRU4gVjEgMjYucGRm.pdf?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=cb80b94c1eb22c02e1640bc9c7b824897873210f10feb027d421ade0c5abe8cd\"></file-preview-component><p class=\"noSpacingAbove spacingBelow\"></p><file-preview-component data-featurebase-content-filename=\"Noxtua - Projects - Support Article DE V1 26.pdf\" data-featurebase-content-filesize=\"1095655\" data-featurebase-content-filetype=\"application/pdf\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a4e64e62ca522f7d1337576/019facf3-0ea2-7dd5-befd-08cdcf12a1f1/b64u-Tm94dHVhIC0gUHJvamVjdHMgLSBTdXBwb3J0IEFydGljbGUgREUgVjEgMjYucGRm.pdf\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a4e64e62ca522f7d1337576/019facf3-0ea2-7dd5-befd-08cdcf12a1f1/b64u-Tm94dHVhIC0gUHJvamVjdHMgLSBTdXBwb3J0IEFydGljbGUgREUgVjEgMjYucGRm.pdf?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f6695862735e369391370be4c9d8f4366e5d77548ba79c4e9344932ae35a8f00\"></file-preview-component><p class=\"noSpacingAbove spacingBelow\"></p><p class=\"noSpacingAbove spacingBelow\">Walk-through video of Projects:</p><video data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvYmplY3RLZXkiOiIwMTlmYTg4Yi03YWY3LTc3NDEtYTgxMC0wMTdiZTYyNWM5YmEiLCJ0eXBlIjoidmlkZW8tdXJsIiwicmVzb3VyY2VJZCI6IjZhNGU2NGU2MmNhNTIyZjdkMTMzNzU3NiIsInJlc291cmNlVHlwZSI6InBvc3QiLCJvcmdJZCI6IjZhMjEyMzYzMDUzNWY2NTVjZmFlYzNjMyIsImlhdCI6MTc4NTIzOTE0M30.MvXNvK1JVtKMIxXpD_s9ns0sgm6Grvcn_PXMMP5BE3I\" controls=\"controls\" playsinline=\"playsinline\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/videos/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvYmplY3RLZXkiOiIwMTlmYTg4Yi03YWY3LTc3NDEtYTgxMC0wMTdiZTYyNWM5YmEiLCJleHAiOjE3ODczNTY4MDAsInR5cGUiOiJ2aWRlby11cmwiLCJvcmdJZCI6IjZhMjEyMzYzMDUzNWY2NTVjZmFlYzNjMyIsInJlc291cmNlSWQiOiI2YTRlNjRlNjJjYTUyMmY3ZDEzMzc1NzYiLCJyZXNvdXJjZVR5cGUiOiJwb3N0In0.VG5EhmtCjqUitk7h5Q3fXpGHlYlFwtgMyi7QXvnkMjA/manifest.mpd\"></video><p></p>",
           "status": "Completed",
@@ -9851,7 +9851,7 @@
         },
         {
           "id": "6a4e64213210992d27b054eb",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Voice Transcription",
           "content": "<h3><strong>What is the new functionality about?</strong></h3><p></p><p>The voice transcription functionality enables the user to dictate their input via voice without losing accuracy on legal terminology.</p><p class=\"noSpacingAbove noSpacingBelow\">Noxtua-ai-voice-1.0 is a self-hosted automatic speech recognition (ASR) model behind the functionality, used in Noxtua to enable the user to interact with the application handsfree. This increases accessibility and saves time.</p><p class=\"noSpacingAbove noSpacingBelow\"></p><h3><strong>How does it work?</strong></h3><p class=\"noSpacingAbove spacingBelow\">The model transcribes speech-to-text. It preprocess the audio to remove noice and background sounds. It furthermore post-processes to ensure accuracy, punctuation and casing are in place. Transcribed text is (equivalent to typed text) visible in the input field and is ready to be fine-tuned or edited by the user.</p><p class=\"noSpacingAbove spacingBelow\"></p><h3><strong>How do customers benefit?</strong></h3><p class=\"noSpacingAbove spacingBelow\">The new functionality improves the user experience:</p><ul><li><p class=\"noSpacingAbove spacingBelow\">Increases accessibility</p></li><li><p class=\"noSpacingAbove spacingBelow\">Saves time</p></li><li><p class=\"noSpacingAbove spacingBelow\">Improving mobile accessibility</p></li></ul><p class=\"noSpacingAbove spacingBelow\"></p><h3><strong>Are there next steps planned?</strong></h3><p class=\"noSpacingAbove spacingBelow\">We will release the functionality to production on the 1st of July 2026. Our user interviews with testing customers start 6th of July 2026 to learn more about how customers interact with the functionality and how to scale the development. Following that: We will rollout the feature to the different markets.</p><p class=\"noSpacingAbove spacingBelow\"></p><p></p><img data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a4e64213210992d27b054eb/019f4231-d5fc-751d-a900-4930bce9252e/b64u-U2NyZWVuc2hvdCAyMDI2LTA3LTA4IGF0IDE2LjQyLjI4LnBuZw.png\" data-featurebase-content-filename=\"Screenshot 2026-07-08 at 16.42.28.png\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a4e64213210992d27b054eb/019f4231-d5fc-751d-a900-4930bce9252e/b64u-U2NyZWVuc2hvdCAyMDI2LTA3LTA4IGF0IDE2LjQyLjI4LnBuZw.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=77c7df9c5142af5b0d5b248b389ae7b98c9be7c113dcbf9b04bb2b143ac51d41\"><p></p>",
           "status": "Completed",
@@ -9891,7 +9891,7 @@
         },
         {
           "id": "6a42320646a7b5cd434b5f08",
-          "board": "Product",
+          "board": "Product Board",
           "title": "Outlook Add-In",
           "content": "<h3><strong>What is the new functionality about?</strong></h3><p></p><p>The Noxtua Outlook Add-in brings Noxtua's AI assistant directly into Microsoft Outlook. Legal professionals can summarise emails, analyse attachments, and draft replies without leaving the email they're reading – the same Noxtua intelligence already trusted in Word, now right in the Outlook inbox.</p><p></p><h3><strong>How does it work?</strong></h3><p></p><p class=\"noSpacingAbove noSpacingBelow\">In Outlook, open the Noxtua add-in pane and the assistant has context on the message, such as sender, subject, body, attachments. You decide which attachments Noxtua processes. Reply requests render as an Email Draft card you review before inserting into your compose window. Drag local PDFs, DOCX, or TXT files into the chat to cross-reference against incoming mail. Noxtua never sends email on its own, the user has to press Send.<br></p><p class=\"noSpacingAbove noSpacingBelow\">Supported on Outlook Web, Outlook for Windows (M365), and Outlook for Mac v16.38.506+.</p><p class=\"noSpacingAbove noSpacingBelow\"></p><h3><strong>How do customers benefit?</strong></h3><p></p><p class=\"noSpacingAbove noSpacingBelow\">Legal professionals spend much of their day in Outlook to receive incoming requests and lead correspondence. Until now, using AI in this context required a tool switch: download the attachment, open the Web app, paste, copy back.</p><p class=\"noSpacingAbove noSpacingBelow\">The Outlook Add-in removes that friction. Users can summarise emails in seconds, ask about an attachment without downloading it, draft a reply in their own style and insert it with one click, and verify every claim through the citation drawer. <br>This way, Noxtua becomes their Legal AI assistant across Web, Word, and Outlook.</p><p class=\"noSpacingAbove noSpacingBelow\"></p><h3><strong>Are there next steps planned?</strong></h3><p class=\"noSpacingAbove spacingBelow\">The first version ships as a focused MVP: reading, AI-drafted replies, attachment analysis, local document upload.</p><p class=\"noSpacingAbove spacingBelow\">Planned for later: Citations for E-Mail content, from workflow triggers received emails, broader compose-mode capabilities, add tone and style as preference</p><h3></h3><img data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a42320646a7b5cd434b5f08/019f375c-6e9b-77f0-9577-98f4891d69a7/b64u-U2NyZWVuc2hvdCAyMDI2LTA2LTI5IGF0IDEwLjUwLjA2LnBuZw.png\" data-featurebase-content-filename=\"Screenshot 2026-06-29 at 10.50.06.png\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a42320646a7b5cd434b5f08/019f375c-6e9b-77f0-9577-98f4891d69a7/b64u-U2NyZWVuc2hvdCAyMDI2LTA2LTI5IGF0IDEwLjUwLjA2LnBuZw.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=5e242cd9ca6f19e43391ff5295c69a695bd341c5952d142a69955e5ed746e534\"><p></p><img data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a42320646a7b5cd434b5f08/019f375d-126e-7466-a905-5f62a879b9f0/b64u-U2NyZWVuc2hvdCAyMDI2LTA2LTI5IGF0IDEwLjUwLjIyLnBuZw.png\" data-featurebase-content-filename=\"Screenshot 2026-06-29 at 10.50.22.png\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a42320646a7b5cd434b5f08/019f375d-126e-7466-a905-5f62a879b9f0/b64u-U2NyZWVuc2hvdCAyMDI2LTA2LTI5IGF0IDEwLjUwLjIyLnBuZw.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=916f5050b4379678676fae1be9cef77773a457dbb37a0f788ce28603be2e4753\"><p></p><img data-width=\"100%\" data-align=\"left\" alt=\"\" data-featurebase-content-key=\"6a2123630535f655cfaec3c3/post/6a42320646a7b5cd434b5f08/019f375d-aef9-7a54-84c9-9a1c2e5045f3/b64u-U2NyZWVuc2hvdCAyMDI2LTA2LTI5IGF0IDEwLjUwLjM2LnBuZw.png\" data-featurebase-content-filename=\"Screenshot 2026-06-29 at 10.50.36.png\" src=\"https://6a2123630535f655cfaec3c3.featurebase-attachments.com/c/post/6a42320646a7b5cd434b5f08/019f375d-aef9-7a54-84c9-9a1c2e5045f3/b64u-U2NyZWVuc2hvdCAyMDI2LTA2LTI5IGF0IDEwLjUwLjM2LnBuZw.png?X-Amz-Expires=3600&amp;X-Amz-Date=20260821T230000Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=DO801TYC4FCVNNEKURKM%2F20260821%2Ffra1%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e8b205de70d87eb98e0a64605b1a06cb7503de3bd1ee57c42193700445e0c057\"><p></p>",
           "status": "Coming Soon",
@@ -9927,6 +9927,11 @@
           "slug": "outlook-add-in"
         }
       ]
+    },
+    "Setup Board: Germany": {
+      "board_id": "6a8309024756697e119ddcf9",
+      "post_count": 0,
+      "posts": []
     }
   },
   "total_posts": 348

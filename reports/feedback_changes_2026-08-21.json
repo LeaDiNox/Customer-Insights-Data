@@ -6,7 +6,7 @@
   "featurebase": {
     "baseline_date": "2026-07-31",
     "current_date": "2026-08-21",
-    "baseline_post_count": 91,
+    "baseline_post_count": 90,
     "current_post_count": 348,
     "baseline_has_status": false,
     "new_since": "2026-08-01",
@@ -58,7 +58,7 @@
       },
       {
         "id": "6a86a97ddf8bb5676e137ed7",
-        "board": "Product",
+        "board": "Product Board",
         "title": "Configurable Retention Periods",
         "votes": 1,
         "status": "Planned",
@@ -72,7 +72,7 @@
       },
       {
         "id": "6a71e876971b17e2b4b9d718",
-        "board": "Product",
+        "board": "Product Board",
         "title": "Reference the current Word document (Word add-in)",
         "votes": 1,
         "status": "Completed",
@@ -87,7 +87,7 @@
     ],
     "new_by_board": {
       "Feedback": 3,
-      "Product": 2
+      "Product Board": 2
     },
     "new_by_day": {
       "2026-08-04": 1,
@@ -98,18 +98,11 @@
     "transferred_by_day": {
       "2026-07-31": 253
     },
-    "disappeared": [
-      {
-        "id": "6a213f849868d0f26c4bc20c",
-        "board": "Missing Feature",
-        "title": "Matrix Export is ugly",
-        "votes": 1
-      }
-    ],
+    "disappeared": [],
     "vote_gains": [
       {
         "id": "6a5121f5f72a9987c3649e57",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Format templates for documents",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -127,7 +120,7 @@
       },
       {
         "id": "6a589fd719151076e460475a",
-        "board": "Product",
+        "board": "Product Board",
         "title": "UI/UX Template Improvements (incl. private Templates)",
         "status": "Planned",
         "status_type": "unstarted",
@@ -143,7 +136,7 @@
       },
       {
         "id": "6a51218592665376ac3eea1b",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Source passage highlighting",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -161,7 +154,7 @@
       },
       {
         "id": "6a5e356c351b8b21543c2bc7",
-        "board": "Product",
+        "board": "Product Board",
         "title": "Stop answer generation and enable prompt re-editing",
         "status": "In Progress",
         "status_type": "active",
@@ -180,7 +173,7 @@
       },
       {
         "id": "6a4e65a4060dbd7bed7b5ee2",
-        "board": "Product",
+        "board": "Product Board",
         "title": "Cloud Storage",
         "status": "Completed",
         "status_type": "completed",
@@ -199,7 +192,7 @@
       },
       {
         "id": "6a548beda41fa80e49bba420",
-        "board": "Product",
+        "board": "Product Board",
         "title": "DMS Integration concept: first integration",
         "status": "Planned",
         "status_type": "unstarted",
@@ -218,7 +211,7 @@
       },
       {
         "id": "6a5121d6ba59b90f02b661af",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Collaborative editing environment",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -237,7 +230,7 @@
       },
       {
         "id": "6a51215392665376ac3e33d0",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Prompt writing guidance",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -258,7 +251,7 @@
       },
       {
         "id": "6a58a17167941633fe416561",
-        "board": "Product",
+        "board": "Product Board",
         "title": "Holistic Concept for Onboarding & Feature Adoption",
         "status": "In Progress",
         "status_type": "active",
@@ -277,7 +270,7 @@
       },
       {
         "id": "6a512264ba59b90f02b8ec7e",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "DMS and API integration",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -295,7 +288,7 @@
       },
       {
         "id": "6a51217403cf284364f61214",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Personalised tool customization",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -315,7 +308,7 @@
       },
       {
         "id": "6a5121618dc979d466a3ce4f",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Custom data integration",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -333,7 +326,7 @@
       },
       {
         "id": "6a42320646a7b5cd434b5f08",
-        "board": "Product",
+        "board": "Product Board",
         "title": "Outlook Add-In",
         "status": "Coming Soon",
         "status_type": "active",
@@ -353,7 +346,7 @@
       },
       {
         "id": "6a51222fba59b90f02b72e4a",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Individual drafting style adaptation",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -372,7 +365,7 @@
       },
       {
         "id": "6a512199f72a9987c363e191",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Reusable clause snippets",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -391,7 +384,7 @@
       },
       {
         "id": "6a5e35cd240fff60331d4d81",
-        "board": "Product",
+        "board": "Product Board",
         "title": "Implement UI language selector",
         "status": "In Progress",
         "status_type": "active",
@@ -409,7 +402,7 @@
       },
       {
         "id": "6a675bbbcc4b88ca302c1094",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "The user needs a playbook function for contract comparisons and template contracts.",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -425,7 +418,7 @@
       },
       {
         "id": "6a51228392665376ac410d75",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Chat history search",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -443,7 +436,7 @@
       },
       {
         "id": "6a5122688dc979d466a82046",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Knowledge base file structuring",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -461,7 +454,7 @@
       },
       {
         "id": "6a5122548dc979d466a70d6f",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Knowledge base document overview",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -479,7 +472,7 @@
       },
       {
         "id": "6a51224703cf284364f8720f",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Workflow sharing between users",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -497,7 +490,7 @@
       },
       {
         "id": "6a5122418dc979d466a69ff1",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Custom workflow creation",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -515,7 +508,7 @@
       },
       {
         "id": "6a51223b8dc979d466a691cf",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Additional external data sources",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -534,7 +527,7 @@
       },
       {
         "id": "6a5122255bdcefcb1e760a90",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Full chat export",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -552,7 +545,7 @@
       },
       {
         "id": "6a5122088dc979d466a50abf",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "User identity awareness",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -570,7 +563,7 @@
       },
       {
         "id": "6a5121f06b0eabd446a6996d",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Excel and database integration",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -588,7 +581,7 @@
       },
       {
         "id": "6a5121a25bdcefcb1e752d8e",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Content templates for drafting",
         "status": "In Progress",
         "status_type": "active",
@@ -607,7 +600,7 @@
       },
       {
         "id": "6a512194926d6521f6453727",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Document comparison workflow",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -625,7 +618,7 @@
       },
       {
         "id": "6a512190926d6521f6453078",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Time tracking for cases",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -643,7 +636,7 @@
       },
       {
         "id": "6a51217dba59b90f02b5f59c",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Adjustable answer detail level",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -661,7 +654,7 @@
       },
       {
         "id": "6a58a04efc26897bb8106971",
-        "board": "Product",
+        "board": "Product Board",
         "title": "Word Add-in Stabilisation",
         "status": "Planned",
         "status_type": "unstarted",
@@ -677,7 +670,7 @@
       },
       {
         "id": "6a548c5552b294a48e51603e",
-        "board": "Product",
+        "board": "Product Board",
         "title": "Improved Document Processing",
         "status": "In Progress",
         "status_type": "active",
@@ -695,7 +688,7 @@
     "comment_gains": [
       {
         "id": "6a5121618dc979d466a3ce4f",
-        "board": "Missing Feature",
+        "board": "Feature Request",
         "title": "Custom data integration",
         "status": "Reviewed",
         "status_type": "reviewing",
@@ -713,7 +706,7 @@
       },
       {
         "id": "6a58a4dd868d46e929ebc249",
-        "board": "Product",
+        "board": "Product Board",
         "title": "The complete, current C.H. BECK knowledge from beck-online in Beck-Noxtua",
         "status": "Completed",
         "status_type": "completed",
@@ -729,7 +722,7 @@
       },
       {
         "id": "6a42320646a7b5cd434b5f08",
-        "board": "Product",
+        "board": "Product Board",
         "title": "Outlook Add-In",
         "status": "Coming Soon",
         "status_type": "active",
@@ -750,19 +743,19 @@
     ],
     "status_moves": [],
     "pipeline_now": {
+      "Feature Request / In Progress": 1,
+      "Feature Request / In Review": 71,
+      "Feature Request / Reviewed": 36,
       "Feedback / Completed": 1,
       "Feedback / In Progress": 1,
       "Feedback / In Review": 113,
       "Feedback / Reviewed": 72,
-      "Missing Feature / In Progress": 1,
-      "Missing Feature / In Review": 71,
-      "Missing Feature / Reviewed": 36,
-      "Product / Coming Soon": 1,
-      "Product / Completed": 26,
-      "Product / In Progress": 7,
-      "Product / In Review": 7,
-      "Product / Planned": 5,
-      "Product / Reviewed": 7
+      "Product Board / Coming Soon": 1,
+      "Product Board / Completed": 26,
+      "Product Board / In Progress": 7,
+      "Product Board / In Review": 7,
+      "Product Board / Planned": 5,
+      "Product Board / Reviewed": 7
     },
     "in_pipeline_count": 15
   },
@@ -838,466 +831,56 @@
     "posts_with_new_mentions": 6,
     "backlog": [
       {
-        "id": 103,
-        "insight": "The users need to have a reliable data base as the source of the answers.",
-        "mentions": 71,
-        "delta": 0,
-        "created": "2025-10-15",
-        "segment": "Mixed; Corporate Law Department; Big Law Firm; Government Institutions"
-      },
-      {
-        "id": 76,
-        "insight": "The user needs to have insights into the sources of the provided answer in order to verify results easier.",
-        "mentions": 66,
-        "delta": 0,
-        "created": "2025-10-14",
-        "segment": "Big Law Firm; Mixed; Corporate Law Department; Government Institutions"
-      },
-      {
-        "id": 213,
-        "insight": "The user needs to be able to look into the fulltext of the provided answer, in order to make sure that the context also fits the legal case.",
-        "mentions": 40,
-        "delta": 0,
-        "created": "2025-11-17",
-        "segment": "Mixed; Big Law Firm; Government Institutions"
-      },
-      {
-        "id": 99,
-        "insight": "The user needs a clear structure of answers in order to easily understand it.",
-        "mentions": 37,
-        "delta": 0,
-        "created": "2025-10-15",
-        "segment": "Mixed; Big Law Firm; Corporate Law Department"
-      },
-      {
-        "id": 187,
-        "insight": "The users expect an intuitive handling and interface.",
-        "mentions": 36,
-        "delta": 0,
-        "created": "2025-11-07",
-        "segment": "Small Law Firm; Mixed; Government Institutions; Big Law Firm; Corporate Law Department"
-      },
-      {
-        "id": 144,
-        "insight": "The users expect the tool to seamlessly integrate into their current text editing tools (i.e. word).",
-        "mentions": 32,
-        "delta": 0,
-        "created": "2025-11-04",
-        "segment": "Mixed; Corporate Law Department; Big Law Firm"
-      },
-      {
-        "id": 79,
-        "insight": "The user needs to be able to understand which steps the AI takes to derive the results.",
-        "mentions": 28,
-        "delta": 0,
-        "created": "2025-10-14",
-        "segment": "Big Law Firm; Corporate Law Department; Mixed; Small Law Firm; Government Institutions"
-      },
-      {
-        "id": 44,
-        "insight": "The user needs the the answers and citations to be matching.",
-        "mentions": 26,
-        "delta": 1,
-        "created": "2025-10-08",
-        "segment": "Corporate Law Department; Mixed"
-      },
-      {
-        "id": 98,
-        "insight": "The user needs help in gaining an initial overview of a (complex) topic.",
-        "mentions": 25,
-        "delta": 0,
-        "created": "2025-10-15",
-        "segment": "Mixed; Corporate Law Department; Big Law Firm; Government Institutions; Prosecution/ Judges"
-      },
-      {
-        "id": 146,
-        "insight": "The users appreciate that the export keeps the tracked changes just like in word.",
-        "mentions": 24,
-        "delta": 0,
-        "created": "2025-11-04",
-        "segment": "Mixed"
-      },
-      {
         "id": 430,
         "insight": "The user needs explanations across all areas of Swiss law to be legally accurate, with correct court citations and sound reasoning.",
         "mentions": 22,
         "delta": 0,
+        "status": "Identified - JIRA ticket exists",
         "created": "2026-01-15",
         "segment": "Publisher"
-      },
-      {
-        "id": 170,
-        "insight": "The users would like to be able to interact with the tool via voice input, in order to work more efficiently.",
-        "mentions": 19,
-        "delta": 0,
-        "created": "2025-11-05",
-        "segment": "Mixed; Big Law Firm; Government Institutions; Publisher"
       },
       {
         "id": 116,
         "insight": "The user needs guidance in case of occuring errors in order to be able to understand what is going wrong.",
         "mentions": 15,
         "delta": 0,
+        "status": "Identified - JIRA ticket exists",
         "created": "2025-10-15",
         "segment": "Mixed; Big Law Firm; Corporate Law Department"
-      },
-      {
-        "id": 141,
-        "insight": "The users struggle and wish for help when interacting with the canvas.",
-        "mentions": 15,
-        "delta": 0,
-        "created": "2025-11-04",
-        "segment": "Mixed; Corporate Law Department"
-      },
-      {
-        "id": 157,
-        "insight": "The user wants to be able to only get a high-level overview of the thinking process and only dig deeper on demand.",
-        "mentions": 15,
-        "delta": 0,
-        "created": "2025-11-04",
-        "segment": "Mixed; Corporate Law Department; Big Law Firm"
-      },
-      {
-        "id": 83,
-        "insight": "The user needs to be able to generate customized workflows in order to handle complex tasks.",
-        "mentions": 13,
-        "delta": 0,
-        "created": "2025-10-14",
-        "segment": "Big Law Firm; Corporate Law Department; Government Institutions"
-      },
-      {
-        "id": 97,
-        "insight": "The user needs the AI to support him to be quicker with their task.",
-        "mentions": 12,
-        "delta": 0,
-        "created": "2025-10-15",
-        "segment": "Mixed"
-      },
-      {
-        "id": 136,
-        "insight": "Users want to be able to ask questions to specific sections & prompt changes based on specific sections.",
-        "mentions": 12,
-        "delta": 0,
-        "created": "2025-11-04",
-        "segment": "Mixed"
-      },
-      {
-        "id": 232,
-        "insight": "The user needs the tool to comply with data security measures necessary for the data that they work with and to comply with their \"Berufsrecht\".",
-        "mentions": 12,
-        "delta": 0,
-        "created": "2025-11-30",
-        "segment": "Big Law Firm; Prosecution/ Judges"
-      },
-      {
-        "id": 156,
-        "insight": "The user expects the Editor interface to be intuitive, with a layout and button design familiar from other tools.",
-        "mentions": 10,
-        "delta": 0,
-        "created": "2025-11-04",
-        "segment": "Mixed"
-      },
-      {
-        "id": 105,
-        "insight": "The user needs to be able to get a summary in order to get a quick overview.",
-        "mentions": 9,
-        "delta": 0,
-        "created": "2025-10-15",
-        "segment": "Mixed; Prosecution/ Judges; Corporate Law Department"
-      },
-      {
-        "id": 252,
-        "insight": "The user needs the AI to seamlessly integrate into word by inserting and prompting directly in the word environment without additional manual effort on their end.",
-        "mentions": 9,
-        "delta": 0,
-        "created": "2025-12-17",
-        "segment": "Mixed; Corporate Law Department"
-      },
-      {
-        "id": 378,
-        "insight": "The user needs to be able to organize their (prompt) templates e.g. into folders to improve organization and finding specific templates more easily.",
-        "mentions": 9,
-        "delta": 0,
-        "created": "2026-03-04",
-        "segment": "Mixed; Distribution Department"
-      },
-      {
-        "id": 389,
-        "insight": "The users need a structured way to review multiple documents.",
-        "mentions": 8,
-        "delta": 1,
-        "created": "2026-03-31",
-        "segment": "Big Law Firm; Mixed; Corporate Law Department"
-      },
-      {
-        "id": 93,
-        "insight": "The user needs the tool to be accessible and usable within their familiar working environment, especially if they have less technical proficiency.",
-        "mentions": 8,
-        "delta": 0,
-        "created": "2025-10-15",
-        "segment": "Corporate Law Department; Big Law Firm"
-      },
-      {
-        "id": 143,
-        "insight": "The users would like to be able to store prompts and share with other users for usage.",
-        "mentions": 8,
-        "delta": 0,
-        "created": "2025-11-04",
-        "segment": "Mixed; Big Law Firm; Distribution Department"
-      },
-      {
-        "id": 255,
-        "insight": "The user expects the tool to directly use the words tracked changes feature, so that they themselves keep the overview of the changes and can send it to other parties.",
-        "mentions": 8,
-        "delta": 0,
-        "created": "2025-12-17",
-        "segment": "Mixed"
-      },
-      {
-        "id": 253,
-        "insight": "The user wants to be able to see the sources of the generated content directly in word in order to have full transparency.",
-        "mentions": 7,
-        "delta": 0,
-        "created": "2025-12-17",
-        "segment": "Mixed"
-      },
-      {
-        "id": 254,
-        "insight": "The users want to be able to mark sections within a word document and prompt referring only the selected content.",
-        "mentions": 7,
-        "delta": 0,
-        "created": "2025-12-17",
-        "segment": "Mixed"
       },
       {
         "id": 482,
         "insight": "The visible thinking process / step-by-step reasoning is highly valued — it helps users verify results and spot imprecise prompts.",
         "mentions": 7,
         "delta": 0,
+        "status": "Identified - JIRA ticket exists",
         "created": "2026-07-22",
         "segment": "Unknown"
-      },
-      {
-        "id": 81,
-        "insight": "The user needs transparency about data security measures to be sure that their data is being treated confidentially and is not distributed, but only locally on their machine.",
-        "mentions": 6,
-        "delta": 0,
-        "created": "2025-10-14",
-        "segment": "Big Law Firm; Small Law Firm"
-      },
-      {
-        "id": 110,
-        "insight": "The user needs to get feedback regarding the completion of the file upload.",
-        "mentions": 6,
-        "delta": 0,
-        "created": "2025-10-15",
-        "segment": "Mixed"
-      },
-      {
-        "id": 189,
-        "insight": "The tool produces very good results with contract drafts, particularly in the IT sector (e.g. hardware maintenance contracts including SLA and schedules of services).",
-        "mentions": 6,
-        "delta": 0,
-        "created": "2025-11-07",
-        "segment": "Big Law Firm"
-      },
-      {
-        "id": 221,
-        "insight": "The user needs legislations of different countries to be used for cases that involve international parties.",
-        "mentions": 6,
-        "delta": 0,
-        "created": "2025-11-19",
-        "segment": "Corporate Law Department; Big Law Firm"
-      },
-      {
-        "id": 321,
-        "insight": "The user wants to be able to manually select documents from the knowledge base for a prompt.",
-        "mentions": 6,
-        "delta": 0,
-        "created": "2026-01-28",
-        "segment": "Mixed"
       },
       {
         "id": 483,
         "insight": "Source and citation quality is a highlight — precise references, working Fundstellen links, and access to commentary/journal literature.",
         "mentions": 6,
         "delta": 0,
+        "status": "Identified - JIRA ticket exists",
         "created": "2026-07-22",
         "segment": "Unknown"
-      },
-      {
-        "id": 126,
-        "insight": "The user needs Matrix Analysis to evaluate large amounts of data simultaneously with speed and efficiency.",
-        "mentions": 5,
-        "delta": 0,
-        "created": "2025-10-20",
-        "segment": "Mixed"
-      },
-      {
-        "id": 228,
-        "insight": "The users need more onboarding on how to prompt best.",
-        "mentions": 5,
-        "delta": 0,
-        "created": "2025-11-20",
-        "segment": "Corporate Law Department; Big Law Firm"
-      },
-      {
-        "id": 262,
-        "insight": "The user needs to be able to preview changes before they are applied in the document in order to feel in control and be able to individually review them.",
-        "mentions": 5,
-        "delta": 0,
-        "created": "2025-12-17",
-        "segment": "Mixed"
-      },
-      {
-        "id": 271,
-        "insight": "The user expects a clear distinction between thinking process and content output in order to navigate the result.",
-        "mentions": 5,
-        "delta": 0,
-        "created": "2026-01-02",
-        "segment": "Big Law Firm; Corporate Law Department; Publisher"
-      },
-      {
-        "id": 280,
-        "insight": "The user would like to be able to assign specific documents to a workflow/ step within a workflow.",
-        "mentions": 5,
-        "delta": 0,
-        "created": "2026-01-28",
-        "segment": "Mixed"
-      },
-      {
-        "id": 334,
-        "insight": "The user wants to be able to retrace from which document a information orginiated from.",
-        "mentions": 5,
-        "delta": 0,
-        "created": "2026-01-28",
-        "segment": "Mixed"
-      },
-      {
-        "id": 408,
-        "insight": "User should be able to collapse the Thinking Process with one click after it is generated.",
-        "mentions": 5,
-        "delta": 0,
-        "created": "2026-04-30",
-        "segment": "Publisher"
       },
       {
         "id": 472,
         "insight": "Login is not persisted — users are auto-logged-out after a short time and a fresh login is required for every Word document.",
         "mentions": 5,
         "delta": 0,
+        "status": "Identified - JIRA ticket exists",
         "created": "2026-07-22",
         "segment": "Unknown"
-      },
-      {
-        "id": 115,
-        "insight": "The user needs to be able to continue the chat even after longer times of inactivity.",
-        "mentions": 4,
-        "delta": 0,
-        "created": "2025-10-15",
-        "segment": "Mixed"
-      },
-      {
-        "id": 119,
-        "insight": "The user needs to be able to see which chat was about which topic in order to easily navigate to the right chat.",
-        "mentions": 4,
-        "delta": 0,
-        "created": "2025-10-16",
-        "segment": "Corporate Law Department; Mixed; Big Law Firm"
-      },
-      {
-        "id": 142,
-        "insight": "User highlight that, familiar document editing and review features (like e.g. tracked changes) are important for adoption of the Editor.",
-        "mentions": 4,
-        "delta": 0,
-        "created": "2025-11-04",
-        "segment": "Mixed"
-      },
-      {
-        "id": 158,
-        "insight": "The users would like to be able to revert changes that they or the tool made.",
-        "mentions": 4,
-        "delta": 0,
-        "created": "2025-11-04",
-        "segment": "Mixed; Corporate Law Department"
-      },
-      {
-        "id": 163,
-        "insight": "The users have trouble differentiating the upload function in the Canvas from the one in the chat.",
-        "mentions": 4,
-        "delta": 0,
-        "created": "2025-11-04",
-        "segment": "Mixed"
-      },
-      {
-        "id": 216,
-        "insight": "The user wants to be able to use Powerpoint as an Input Document in order to be able to use all their usually used documents as input.",
-        "mentions": 4,
-        "delta": 0,
-        "created": "2025-11-18",
-        "segment": "Corporate Law Department; Big Law Firm"
-      },
-      {
-        "id": 259,
-        "insight": "The user expects each change suggestion to come with a reasoning, why it should be changed in this way, in order to make an informed decision on the change.",
-        "mentions": 4,
-        "delta": 0,
-        "created": "2025-12-17",
-        "segment": "Mixed"
-      },
-      {
-        "id": 265,
-        "insight": "The user needs the tool to be able to offer automatic insertion or preview of changes for manual approval in order to be able to work efficiently in all cases.",
-        "mentions": 4,
-        "delta": 0,
-        "created": "2025-12-17",
-        "segment": "Mixed"
-      },
-      {
-        "id": 269,
-        "insight": "The user needs to be able disable tracking changes so that they can quickly iterate from scratch until they have a solid state from which they then want to track the essentiell changes being made.",
-        "mentions": 4,
-        "delta": 0,
-        "created": "2025-12-17",
-        "segment": "Mixed"
-      },
-      {
-        "id": 277,
-        "insight": "The user needs a possibility to connect the individual steps of a workflow with each other or with decision points.",
-        "mentions": 4,
-        "delta": 0,
-        "created": "2026-01-28",
-        "segment": "Mixed"
-      },
-      {
-        "id": 294,
-        "insight": "The user would like to only provide the input for the workflow and then to have it run autonomously.",
-        "mentions": 4,
-        "delta": 0,
-        "created": "2026-01-28",
-        "segment": "Mixed"
-      },
-      {
-        "id": 467,
-        "insight": "The user expects the Matrix Analysis layout to be well-structured and easy to navigate.",
-        "mentions": 4,
-        "delta": 0,
-        "created": "2026-07-09",
-        "segment": "Mixed"
-      },
-      {
-        "id": 470,
-        "insight": "The user finds that answer quality increases significantly with follow-up prompting.",
-        "mentions": 4,
-        "delta": 0,
-        "created": "2026-07-09",
-        "segment": "Big Law Firm"
       },
       {
         "id": 484,
         "insight": "Users value the fast, useful first assessment and the resulting time savings.",
         "mentions": 4,
         "delta": 0,
+        "status": "Identified - JIRA ticket exists",
         "created": "2026-07-22",
         "segment": "Unknown"
       },
@@ -1306,14 +889,722 @@
         "insight": "The user needs the tool to preserve and fill a user-provided outline (Gliederung) instead of deleting it, and to respect legal heading-level structure.",
         "mentions": 4,
         "delta": 0,
+        "status": "Identified - JIRA ticket exists",
         "created": "2026-07-23",
         "segment": "Unknown"
+      },
+      {
+        "id": 475,
+        "insight": "Recurring system errors / crashes — 'Es ist ein interner Fehler aufgetreten' appears repeatedly, especially when reviewing documents in the Editor.",
+        "mentions": 3,
+        "delta": 0,
+        "status": "New – Not yet discussed",
+        "created": "2026-07-22",
+        "segment": "Unknown"
+      },
+      {
+        "id": 473,
+        "insight": "Storage limit is too low — 30 MB is insufficient; ~50 MB is workable.",
+        "mentions": 2,
+        "delta": 0,
+        "status": "New – Not yet discussed",
+        "created": "2026-07-22",
+        "segment": "Unknown"
+      },
+      {
+        "id": 474,
+        "insight": "Response / generation speed is too slow.",
+        "mentions": 2,
+        "delta": 0,
+        "status": "New – Not yet discussed",
+        "created": "2026-07-22",
+        "segment": "Unknown"
+      },
+      {
+        "id": 493,
+        "insight": "The user needs the Word-Add-In to be able to add comments addressed to the other contracting party / a third party who receives the revised version.",
+        "mentions": 2,
+        "delta": 0,
+        "status": "New – Not yet discussed",
+        "created": "2026-07-24",
+        "segment": "Unknown"
+      },
+      {
+        "id": 497,
+        "insight": "Users felt the added value of Noxtua's large archive/data volume did not justify the cost or effort of keeping it versus switching to the competitor.",
+        "mentions": 1,
+        "delta": 1,
+        "status": "New – Not yet discussed",
+        "created": "2026-08-10",
+        "segment": "Unknown"
+      },
+      {
+        "id": 498,
+        "insight": "Trial users saw an advantage for the competitor on deep, thorough research tasks (“dicke Fälle” / heavy cases) requiring extensive investigation.",
+        "mentions": 1,
+        "delta": 1,
+        "status": "New – Not yet discussed",
+        "created": "2026-08-10",
+        "segment": "Unknown"
+      },
+      {
+        "id": 499,
+        "insight": "Procurement declined budget to run two parallel legal AI tools; the decision was purely financial rather than a directive from the Swedish parent company.",
+        "mentions": 1,
+        "delta": 1,
+        "status": "New – Not yet discussed",
+        "created": "2026-08-10",
+        "segment": "Unknown"
+      },
+      {
+        "id": 500,
+        "insight": "Customer indicated a target price point of around €200 per user/month and requested volume-discount tiers starting at 25, 50, and 100 licenses.",
+        "mentions": 1,
+        "delta": 1,
+        "status": "New – Not yet discussed",
+        "created": "2026-08-10",
+        "segment": "Unknown"
+      },
+      {
+        "id": 501,
+        "insight": "To ease the transition to the competitor, the customer asked to keep a minimal footprint of 4–6 Noxtua licenses (including one for HR for works-council parity), while navigating an InfoSec/LECS review for early activation.",
+        "mentions": 1,
+        "delta": 1,
+        "status": "New – Not yet discussed",
+        "created": "2026-08-10",
+        "segment": "Unknown"
+      },
+      {
+        "id": 458,
+        "insight": "The citation function is broken in Firefox - raw placeholder tokens are emitted into the text instead of formatted citations.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "New – Not yet discussed",
+        "created": "2026-07-06",
+        "segment": ""
+      },
+      {
+        "id": 460,
+        "insight": "The user needs the tool to make full use of the available publisher content corpus and insert sufficient literature and commentary references, even when explicitly prompted to do so.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "New – Not yet discussed",
+        "created": "2026-07-06",
+        "segment": ""
+      },
+      {
+        "id": 462,
+        "insight": "The user needs court decisions to be findable and accessible directly within the tool, without requiring manual download and re-upload workflows.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "New – Not yet discussed",
+        "created": "2026-07-06",
+        "segment": ""
+      },
+      {
+        "id": 471,
+        "insight": "The user needs Matrix Analysis Excel exports to include the column prompts on a separate sheet.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "New – Not yet discussed",
+        "created": "2026-07-09",
+        "segment": "Publisher"
+      },
+      {
+        "id": 477,
+        "insight": "Users want generated output delivered as a downloadable PPTX file.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "New – Not yet discussed",
+        "created": "2026-07-22",
+        "segment": "Unknown"
+      },
+      {
+        "id": 478,
+        "insight": "Users need project workspaces / collaboration, including editing two interdependent contracts together.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "New – Not yet discussed",
+        "created": "2026-07-22",
+        "segment": "Unknown"
+      },
+      {
+        "id": 480,
+        "insight": "Users want an iOS app.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "New – Not yet discussed",
+        "created": "2026-07-22",
+        "segment": "Unknown"
+      },
+      {
+        "id": 481,
+        "insight": "Generated pleadings/briefs often miss required legal formalities (e.g. Rechtsbehelfsbelehrung, Anrede, Grußformel).",
+        "mentions": 1,
+        "delta": 0,
+        "status": "New – Not yet discussed",
+        "created": "2026-07-22",
+        "segment": "Unknown"
+      },
+      {
+        "id": 488,
+        "insight": "The user needs to be able to save their own prompts for reuse.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "New – Not yet discussed",
+        "created": "2026-07-23",
+        "segment": "Unknown"
+      },
+      {
+        "id": 494,
+        "insight": "The user wants to be able to correct the AI's errors directly so that the correction feeds back into improving the model.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "New – Not yet discussed",
+        "created": "2026-07-24",
+        "segment": "Unknown"
+      },
+      {
+        "id": 495,
+        "insight": "The user needs a unified, standard citation style (e.g. Bearbeiter/MüKo, § x Rn.) applied consistently, so that source references are directly usable in legal documents.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "New – Not yet discussed",
+        "created": "2026-07-24",
+        "segment": "Unknown"
+      },
+      {
+        "id": 502,
+        "insight": "Suggestion to add/improve a button that helps users refine or improve their prompts.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "New – Not yet discussed",
+        "created": "2026-07-13",
+        "segment": "Corporate Lawyer"
+      }
+    ],
+    "backlog_new_mentions": [
+      {
+        "id": 497,
+        "insight": "Users felt the added value of Noxtua's large archive/data volume did not justify the cost or effort of keeping it versus switching to the competitor.",
+        "mentions": 1,
+        "delta": 1,
+        "status": "New – Not yet discussed",
+        "created": "2026-08-10",
+        "segment": "Unknown"
+      },
+      {
+        "id": 498,
+        "insight": "Trial users saw an advantage for the competitor on deep, thorough research tasks (“dicke Fälle” / heavy cases) requiring extensive investigation.",
+        "mentions": 1,
+        "delta": 1,
+        "status": "New – Not yet discussed",
+        "created": "2026-08-10",
+        "segment": "Unknown"
+      },
+      {
+        "id": 499,
+        "insight": "Procurement declined budget to run two parallel legal AI tools; the decision was purely financial rather than a directive from the Swedish parent company.",
+        "mentions": 1,
+        "delta": 1,
+        "status": "New – Not yet discussed",
+        "created": "2026-08-10",
+        "segment": "Unknown"
+      },
+      {
+        "id": 500,
+        "insight": "Customer indicated a target price point of around €200 per user/month and requested volume-discount tiers starting at 25, 50, and 100 licenses.",
+        "mentions": 1,
+        "delta": 1,
+        "status": "New – Not yet discussed",
+        "created": "2026-08-10",
+        "segment": "Unknown"
+      },
+      {
+        "id": 501,
+        "insight": "To ease the transition to the competitor, the customer asked to keep a minimal footprint of 4–6 Noxtua licenses (including one for HR for works-council parity), while navigating an InfoSec/LECS review for early activation.",
+        "mentions": 1,
+        "delta": 1,
+        "status": "New – Not yet discussed",
+        "created": "2026-08-10",
+        "segment": "Unknown"
+      }
+    ],
+    "delivered_off_board": [
+      {
+        "id": 103,
+        "insight": "The users need to have a reliable data base as the source of the answers.",
+        "mentions": 71,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-10-15",
+        "segment": "Mixed; Corporate Law Department; Big Law Firm; Government Institutions"
+      },
+      {
+        "id": 76,
+        "insight": "The user needs to have insights into the sources of the provided answer in order to verify results easier.",
+        "mentions": 66,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-10-14",
+        "segment": "Big Law Firm; Mixed; Corporate Law Department; Government Institutions"
+      },
+      {
+        "id": 213,
+        "insight": "The user needs to be able to look into the fulltext of the provided answer, in order to make sure that the context also fits the legal case.",
+        "mentions": 40,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-11-17",
+        "segment": "Mixed; Big Law Firm; Government Institutions"
+      },
+      {
+        "id": 99,
+        "insight": "The user needs a clear structure of answers in order to easily understand it.",
+        "mentions": 37,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-10-15",
+        "segment": "Mixed; Big Law Firm; Corporate Law Department"
+      },
+      {
+        "id": 187,
+        "insight": "The users expect an intuitive handling and interface.",
+        "mentions": 36,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-11-07",
+        "segment": "Small Law Firm; Mixed; Government Institutions; Big Law Firm; Corporate Law Department"
+      },
+      {
+        "id": 144,
+        "insight": "The users expect the tool to seamlessly integrate into their current text editing tools (i.e. word).",
+        "mentions": 32,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-11-04",
+        "segment": "Mixed; Corporate Law Department; Big Law Firm"
+      },
+      {
+        "id": 79,
+        "insight": "The user needs to be able to understand which steps the AI takes to derive the results.",
+        "mentions": 28,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-10-14",
+        "segment": "Big Law Firm; Corporate Law Department; Mixed; Small Law Firm; Government Institutions"
+      },
+      {
+        "id": 44,
+        "insight": "The user needs the the answers and citations to be matching.",
+        "mentions": 26,
+        "delta": 1,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-10-08",
+        "segment": "Corporate Law Department; Mixed"
+      },
+      {
+        "id": 98,
+        "insight": "The user needs help in gaining an initial overview of a (complex) topic.",
+        "mentions": 25,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-10-15",
+        "segment": "Mixed; Corporate Law Department; Big Law Firm; Government Institutions; Prosecution/ Judges"
+      },
+      {
+        "id": 146,
+        "insight": "The users appreciate that the export keeps the tracked changes just like in word.",
+        "mentions": 24,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-11-04",
+        "segment": "Mixed"
+      },
+      {
+        "id": 170,
+        "insight": "The users would like to be able to interact with the tool via voice input, in order to work more efficiently.",
+        "mentions": 19,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-11-05",
+        "segment": "Mixed; Big Law Firm; Government Institutions; Publisher"
+      },
+      {
+        "id": 141,
+        "insight": "The users struggle and wish for help when interacting with the canvas.",
+        "mentions": 15,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-11-04",
+        "segment": "Mixed; Corporate Law Department"
+      },
+      {
+        "id": 157,
+        "insight": "The user wants to be able to only get a high-level overview of the thinking process and only dig deeper on demand.",
+        "mentions": 15,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-11-04",
+        "segment": "Mixed; Corporate Law Department; Big Law Firm"
+      },
+      {
+        "id": 83,
+        "insight": "The user needs to be able to generate customized workflows in order to handle complex tasks.",
+        "mentions": 13,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-10-14",
+        "segment": "Big Law Firm; Corporate Law Department; Government Institutions"
+      },
+      {
+        "id": 97,
+        "insight": "The user needs the AI to support him to be quicker with their task.",
+        "mentions": 12,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-10-15",
+        "segment": "Mixed"
+      },
+      {
+        "id": 136,
+        "insight": "Users want to be able to ask questions to specific sections & prompt changes based on specific sections.",
+        "mentions": 12,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-11-04",
+        "segment": "Mixed"
+      },
+      {
+        "id": 232,
+        "insight": "The user needs the tool to comply with data security measures necessary for the data that they work with and to comply with their \"Berufsrecht\".",
+        "mentions": 12,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-11-30",
+        "segment": "Big Law Firm; Prosecution/ Judges"
+      },
+      {
+        "id": 156,
+        "insight": "The user expects the Editor interface to be intuitive, with a layout and button design familiar from other tools.",
+        "mentions": 10,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-11-04",
+        "segment": "Mixed"
+      },
+      {
+        "id": 105,
+        "insight": "The user needs to be able to get a summary in order to get a quick overview.",
+        "mentions": 9,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-10-15",
+        "segment": "Mixed; Prosecution/ Judges; Corporate Law Department"
+      },
+      {
+        "id": 252,
+        "insight": "The user needs the AI to seamlessly integrate into word by inserting and prompting directly in the word environment without additional manual effort on their end.",
+        "mentions": 9,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-12-17",
+        "segment": "Mixed; Corporate Law Department"
+      },
+      {
+        "id": 378,
+        "insight": "The user needs to be able to organize their (prompt) templates e.g. into folders to improve organization and finding specific templates more easily.",
+        "mentions": 9,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-03-04",
+        "segment": "Mixed; Distribution Department"
+      },
+      {
+        "id": 93,
+        "insight": "The user needs the tool to be accessible and usable within their familiar working environment, especially if they have less technical proficiency.",
+        "mentions": 8,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-10-15",
+        "segment": "Corporate Law Department; Big Law Firm"
+      },
+      {
+        "id": 143,
+        "insight": "The users would like to be able to store prompts and share with other users for usage.",
+        "mentions": 8,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-11-04",
+        "segment": "Mixed; Big Law Firm; Distribution Department"
+      },
+      {
+        "id": 255,
+        "insight": "The user expects the tool to directly use the words tracked changes feature, so that they themselves keep the overview of the changes and can send it to other parties.",
+        "mentions": 8,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-12-17",
+        "segment": "Mixed"
+      },
+      {
+        "id": 389,
+        "insight": "The users need a structured way to review multiple documents.",
+        "mentions": 8,
+        "delta": 1,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2026-03-31",
+        "segment": "Big Law Firm; Mixed; Corporate Law Department"
+      },
+      {
+        "id": 253,
+        "insight": "The user wants to be able to see the sources of the generated content directly in word in order to have full transparency.",
+        "mentions": 7,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-12-17",
+        "segment": "Mixed"
+      },
+      {
+        "id": 254,
+        "insight": "The users want to be able to mark sections within a word document and prompt referring only the selected content.",
+        "mentions": 7,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-12-17",
+        "segment": "Mixed"
+      },
+      {
+        "id": 81,
+        "insight": "The user needs transparency about data security measures to be sure that their data is being treated confidentially and is not distributed, but only locally on their machine.",
+        "mentions": 6,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-10-14",
+        "segment": "Big Law Firm; Small Law Firm"
+      },
+      {
+        "id": 110,
+        "insight": "The user needs to get feedback regarding the completion of the file upload.",
+        "mentions": 6,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-10-15",
+        "segment": "Mixed"
+      },
+      {
+        "id": 189,
+        "insight": "The tool produces very good results with contract drafts, particularly in the IT sector (e.g. hardware maintenance contracts including SLA and schedules of services).",
+        "mentions": 6,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-11-07",
+        "segment": "Big Law Firm"
+      },
+      {
+        "id": 221,
+        "insight": "The user needs legislations of different countries to be used for cases that involve international parties.",
+        "mentions": 6,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-11-19",
+        "segment": "Corporate Law Department; Big Law Firm"
+      },
+      {
+        "id": 321,
+        "insight": "The user wants to be able to manually select documents from the knowledge base for a prompt.",
+        "mentions": 6,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-01-28",
+        "segment": "Mixed"
+      },
+      {
+        "id": 126,
+        "insight": "The user needs Matrix Analysis to evaluate large amounts of data simultaneously with speed and efficiency.",
+        "mentions": 5,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-10-20",
+        "segment": "Mixed"
+      },
+      {
+        "id": 228,
+        "insight": "The users need more onboarding on how to prompt best.",
+        "mentions": 5,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-11-20",
+        "segment": "Corporate Law Department; Big Law Firm"
+      },
+      {
+        "id": 262,
+        "insight": "The user needs to be able to preview changes before they are applied in the document in order to feel in control and be able to individually review them.",
+        "mentions": 5,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-12-17",
+        "segment": "Mixed"
+      },
+      {
+        "id": 271,
+        "insight": "The user expects a clear distinction between thinking process and content output in order to navigate the result.",
+        "mentions": 5,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-01-02",
+        "segment": "Big Law Firm; Corporate Law Department; Publisher"
+      },
+      {
+        "id": 280,
+        "insight": "The user would like to be able to assign specific documents to a workflow/ step within a workflow.",
+        "mentions": 5,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-01-28",
+        "segment": "Mixed"
+      },
+      {
+        "id": 334,
+        "insight": "The user wants to be able to retrace from which document a information orginiated from.",
+        "mentions": 5,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-01-28",
+        "segment": "Mixed"
+      },
+      {
+        "id": 408,
+        "insight": "User should be able to collapse the Thinking Process with one click after it is generated.",
+        "mentions": 5,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-04-30",
+        "segment": "Publisher"
+      },
+      {
+        "id": 115,
+        "insight": "The user needs to be able to continue the chat even after longer times of inactivity.",
+        "mentions": 4,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-10-15",
+        "segment": "Mixed"
+      },
+      {
+        "id": 119,
+        "insight": "The user needs to be able to see which chat was about which topic in order to easily navigate to the right chat.",
+        "mentions": 4,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-10-16",
+        "segment": "Corporate Law Department; Mixed; Big Law Firm"
+      },
+      {
+        "id": 142,
+        "insight": "User highlight that, familiar document editing and review features (like e.g. tracked changes) are important for adoption of the Editor.",
+        "mentions": 4,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-11-04",
+        "segment": "Mixed"
+      },
+      {
+        "id": 158,
+        "insight": "The users would like to be able to revert changes that they or the tool made.",
+        "mentions": 4,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-11-04",
+        "segment": "Mixed; Corporate Law Department"
+      },
+      {
+        "id": 163,
+        "insight": "The users have trouble differentiating the upload function in the Canvas from the one in the chat.",
+        "mentions": 4,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-11-04",
+        "segment": "Mixed"
+      },
+      {
+        "id": 216,
+        "insight": "The user wants to be able to use Powerpoint as an Input Document in order to be able to use all their usually used documents as input.",
+        "mentions": 4,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-11-18",
+        "segment": "Corporate Law Department; Big Law Firm"
+      },
+      {
+        "id": 259,
+        "insight": "The user expects each change suggestion to come with a reasoning, why it should be changed in this way, in order to make an informed decision on the change.",
+        "mentions": 4,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-12-17",
+        "segment": "Mixed"
+      },
+      {
+        "id": 265,
+        "insight": "The user needs the tool to be able to offer automatic insertion or preview of changes for manual approval in order to be able to work efficiently in all cases.",
+        "mentions": 4,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-12-17",
+        "segment": "Mixed"
+      },
+      {
+        "id": 269,
+        "insight": "The user needs to be able disable tracking changes so that they can quickly iterate from scratch until they have a solid state from which they then want to track the essentiell changes being made.",
+        "mentions": 4,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-12-17",
+        "segment": "Mixed"
+      },
+      {
+        "id": 277,
+        "insight": "The user needs a possibility to connect the individual steps of a workflow with each other or with decision points.",
+        "mentions": 4,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-01-28",
+        "segment": "Mixed"
+      },
+      {
+        "id": 294,
+        "insight": "The user would like to only provide the input for the workflow and then to have it run autonomously.",
+        "mentions": 4,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-01-28",
+        "segment": "Mixed"
+      },
+      {
+        "id": 467,
+        "insight": "The user expects the Matrix Analysis layout to be well-structured and easy to navigate.",
+        "mentions": 4,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2026-07-09",
+        "segment": "Mixed"
+      },
+      {
+        "id": 470,
+        "insight": "The user finds that answer quality increases significantly with follow-up prompting.",
+        "mentions": 4,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2026-07-09",
+        "segment": "Big Law Firm"
       },
       {
         "id": 55,
         "insight": "The user needs to be able to use the tool to draft text snippets so that they can save time.",
         "mentions": 3,
         "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
         "created": "2025-10-09",
         "segment": "Big Law Firm; Small Law Firm; Government Institutions"
       },
@@ -1322,6 +1613,7 @@
         "insight": "The user needs to be able to stick with their custom formatting and fonts, in order not having to reformat their document.",
         "mentions": 3,
         "delta": 0,
+        "status": "Implemented - a solution is released",
         "created": "2025-10-15",
         "segment": "Corporate Law Department; Big Law Firm"
       },
@@ -1330,6 +1622,7 @@
         "insight": "The user expects matrix functions to be self-explanatory and displays to be well-structured.",
         "mentions": 3,
         "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
         "created": "2025-11-30",
         "segment": "Corporate Law Department; Mixed"
       },
@@ -1338,6 +1631,7 @@
         "insight": "The users want to be able to have the reasoning directly at the changed clause in order to have full transparency for themselves and others.",
         "mentions": 3,
         "delta": 0,
+        "status": "Implemented - a solution is released",
         "created": "2025-12-15",
         "segment": "Mixed"
       },
@@ -1346,6 +1640,7 @@
         "insight": "The users wish to be able to have transparency of why changes have been made even after inserting them into the document in order to allow themselves or another party to have full transparency into reasoning.",
         "mentions": 3,
         "delta": 0,
+        "status": "Implemented - a solution is released",
         "created": "2025-12-17",
         "segment": "Mixed"
       },
@@ -1354,6 +1649,7 @@
         "insight": "The user wants a tool case that already involves example e.g. prompts / steps which they can reuse or adjust to their needs.",
         "mentions": 3,
         "delta": 0,
+        "status": "Implemented - a solution is released",
         "created": "2026-01-28",
         "segment": "Mixed"
       },
@@ -1362,6 +1658,7 @@
         "insight": "The user needs to be able to retrace the results of every step of the workflow, in order to double check results.",
         "mentions": 3,
         "delta": 0,
+        "status": "Implemented - a solution is released",
         "created": "2026-01-28",
         "segment": "Mixed"
       },
@@ -1370,6 +1667,7 @@
         "insight": "The user wants other users to only be able to use the workflow not edit it, so that their workflow is not ruined.",
         "mentions": 3,
         "delta": 0,
+        "status": "Implemented - a solution is released",
         "created": "2026-01-28",
         "segment": "Mixed"
       },
@@ -1378,6 +1676,7 @@
         "insight": "The user needs the chat export to have sources inserted in order to use it for documentation and sharing purposes.",
         "mentions": 3,
         "delta": 0,
+        "status": "Implemented - a solution is released",
         "created": "2026-02-23",
         "segment": "Big Law Firm; Corporate Law Department"
       },
@@ -1386,114 +1685,270 @@
         "insight": "Users need to be able to add supporting documents to the Word-Add-In in order to adjust the document based on further info.",
         "mentions": 3,
         "delta": 0,
+        "status": "Implemented - a solution is released",
         "created": "2026-04-17",
         "segment": "Corporate Law Department"
       },
       {
-        "id": 475,
-        "insight": "Recurring system errors / crashes — 'Es ist ein interner Fehler aufgetreten' appears repeatedly, especially when reviewing documents in the Editor.",
-        "mentions": 3,
+        "id": 88,
+        "insight": "The user wants to be able to see and decide on proposed changes in order to stay in control.",
+        "mentions": 2,
         "delta": 0,
-        "created": "2026-07-22",
-        "segment": "Unknown"
+        "status": "Implemented - a solution is released",
+        "created": "2025-10-15",
+        "segment": "Corporate Law Department"
       },
       {
-        "id": 497,
-        "insight": "Users felt the added value of Noxtua's large archive/data volume did not justify the cost or effort of keeping it versus switching to the competitor.",
+        "id": 124,
+        "insight": "The user needs to be able to create new criteria and matrices in Matrix Analysis quickly and easily.",
+        "mentions": 2,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-10-20",
+        "segment": "Mixed"
+      },
+      {
+        "id": 134,
+        "insight": "The user doesn't want to have to differentiate beforehand between Canvas and Chat, but being able to open the canvas retrospectively for interactive editing, when they want to change sections and or do manual editing.",
+        "mentions": 2,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-10-29",
+        "segment": "Big Law Firm"
+      },
+      {
+        "id": 137,
+        "insight": "The user needs the compare-changes feature to be intuitive and its icon to be self-explanatory.",
+        "mentions": 2,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-11-04",
+        "segment": "Mixed"
+      },
+      {
+        "id": 227,
+        "insight": "The user needs the system to be resistant to the way a prompt is worded.",
+        "mentions": 2,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-11-20",
+        "segment": "Corporate Law Department"
+      },
+      {
+        "id": 246,
+        "insight": "The user needs the tool to be able to process also scanned documents.",
+        "mentions": 2,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-12-01",
+        "segment": "Big Law Firm; Small Law Firm"
+      },
+      {
+        "id": 273,
+        "insight": "The user would like to be supported in drafting answers to a request in understandable language.",
+        "mentions": 2,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2026-01-19",
+        "segment": "Government Institutions"
+      },
+      {
+        "id": 284,
+        "insight": "The user needs to be able to create decision points for their workflows.",
+        "mentions": 2,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-01-28",
+        "segment": "Mixed"
+      },
+      {
+        "id": 286,
+        "insight": "The user needs to be able to (re-)name the individual workflows.",
+        "mentions": 2,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-01-28",
+        "segment": "Mixed"
+      },
+      {
+        "id": 296,
+        "insight": "The user needs to be able to check used sources in a workflow easily (i.e. one click).",
+        "mentions": 2,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-01-28",
+        "segment": "Mixed"
+      },
+      {
+        "id": 360,
+        "insight": "The user would like to be supported in answering questions about their own document.",
+        "mentions": 2,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-02-02",
+        "segment": "Mixed"
+      },
+      {
+        "id": 84,
+        "insight": "The user needs to be able to import on Matrixes to provide the system with more information.",
         "mentions": 1,
-        "delta": 1,
-        "created": "2026-08-10",
-        "segment": "Unknown"
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-10-14",
+        "segment": "Big Law Firm"
       },
       {
-        "id": 498,
-        "insight": "Trial users saw an advantage for the competitor on deep, thorough research tasks (“dicke Fälle” / heavy cases) requiring extensive investigation.",
+        "id": 138,
+        "insight": "Users want the ability to turn on/off numbering in a document.",
         "mentions": 1,
-        "delta": 1,
-        "created": "2026-08-10",
-        "segment": "Unknown"
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-11-04",
+        "segment": "Mixed"
       },
       {
-        "id": 499,
-        "insight": "Procurement declined budget to run two parallel legal AI tools; the decision was purely financial rather than a directive from the Swedish parent company.",
+        "id": 192,
+        "insight": "User needs to be able to name the export to be able to continue working efficiently.",
         "mentions": 1,
-        "delta": 1,
-        "created": "2026-08-10",
-        "segment": "Unknown"
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-11-07",
+        "segment": "Corporate Law Department"
       },
       {
-        "id": 500,
-        "insight": "Customer indicated a target price point of around €200 per user/month and requested volume-discount tiers starting at 25, 50, and 100 licenses.",
+        "id": 193,
+        "insight": "User need the chat export to be able to work efficiently.",
         "mentions": 1,
-        "delta": 1,
-        "created": "2026-08-10",
-        "segment": "Unknown"
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2025-11-07",
+        "segment": "Big Law Firm"
       },
       {
-        "id": 501,
-        "insight": "To ease the transition to the competitor, the customer asked to keep a minimal footprint of 4–6 Noxtua licenses (including one for HR for works-council parity), while navigating an InfoSec/LECS review for early activation.",
+        "id": 218,
+        "insight": "The user needs the system to be able to process PDF content as input for the answer.",
         "mentions": 1,
-        "delta": 1,
-        "created": "2026-08-10",
-        "segment": "Unknown"
-      }
-    ],
-    "backlog_new_mentions": [
-      {
-        "id": 44,
-        "insight": "The user needs the the answers and citations to be matching.",
-        "mentions": 26,
-        "delta": 1,
-        "created": "2025-10-08",
-        "segment": "Corporate Law Department; Mixed"
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-11-18",
+        "segment": "Corporate Law Department"
       },
       {
-        "id": 389,
-        "insight": "The users need a structured way to review multiple documents.",
-        "mentions": 8,
-        "delta": 1,
+        "id": 244,
+        "insight": "The user needs to be able to compare different documents uploaded within a matrix.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-11-30",
+        "segment": "Corporate Law Department"
+      },
+      {
+        "id": 260,
+        "insight": "The user expects change suggestions to come with the supporting law of the reason for the change, to see which source it was derived from.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2025-12-17",
+        "segment": "Mixed"
+      },
+      {
+        "id": 288,
+        "insight": "The user would like to have the option to set the trigger for the workflow to manual.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-01-28",
+        "segment": "Mixed"
+      },
+      {
+        "id": 350,
+        "insight": "The user needs to be always the one controlling where information is send by the tool (colleagues, clients etc.).",
+        "mentions": 1,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2026-01-28",
+        "segment": "Big Law Firm"
+      },
+      {
+        "id": 355,
+        "insight": "The user needs the tool to be able to work with documents in different languages.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-01-28",
+        "segment": "Big Law Firm"
+      },
+      {
+        "id": 366,
+        "insight": "The user would like to be able to get an overview of which documents have been processed or involved in a workflow in order to check that nothing was missing.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-02-10",
+        "segment": "Mixed"
+      },
+      {
+        "id": 369,
+        "insight": "The user wants onboarding ressources (like videos) to be available for them to learn how to use the tools.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2026-02-17",
+        "segment": "Corporate Law Department"
+      },
+      {
+        "id": 385,
+        "insight": "The user expects that when a column prompt is subsequently changed, the response is automatically updated.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2026-03-30",
+        "segment": "Corporate Law Department"
+      },
+      {
+        "id": 388,
+        "insight": "The users need the possibility to structure the data within the matrix in different ways.",
+        "mentions": 1,
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
         "created": "2026-03-31",
-        "segment": "Big Law Firm; Mixed; Corporate Law Department"
+        "segment": "Mixed"
       },
       {
-        "id": 497,
-        "insight": "Users felt the added value of Noxtua's large archive/data volume did not justify the cost or effort of keeping it versus switching to the competitor.",
+        "id": 393,
+        "insight": "The user needs to be able to see and access old chats (within the Word-Add-In) in order to have access to all necessary information.",
         "mentions": 1,
-        "delta": 1,
-        "created": "2026-08-10",
-        "segment": "Unknown"
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-04-17",
+        "segment": "Corporate Law Department"
       },
       {
-        "id": 498,
-        "insight": "Trial users saw an advantage for the competitor on deep, thorough research tasks (“dicke Fälle” / heavy cases) requiring extensive investigation.",
+        "id": 394,
+        "insight": "The User needs to be able to start a new chat (within the Word-Add-In) in order to start clean for a new topic.",
         "mentions": 1,
-        "delta": 1,
-        "created": "2026-08-10",
-        "segment": "Unknown"
+        "delta": 0,
+        "status": "Implemented - a solution is released",
+        "created": "2026-04-17",
+        "segment": "Corporate Law Department"
       },
       {
-        "id": 499,
-        "insight": "Procurement declined budget to run two parallel legal AI tools; the decision was purely financial rather than a directive from the Swedish parent company.",
+        "id": 468,
+        "insight": "The tool produces good results with first drafts of white papers and other documents.",
         "mentions": 1,
-        "delta": 1,
-        "created": "2026-08-10",
-        "segment": "Unknown"
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2026-07-09",
+        "segment": "Big Law Firm"
       },
       {
-        "id": 500,
-        "insight": "Customer indicated a target price point of around €200 per user/month and requested volume-discount tiers starting at 25, 50, and 100 licenses.",
+        "id": 469,
+        "insight": "The user finds support in preparing presentations and structuring content very helpful.",
         "mentions": 1,
-        "delta": 1,
-        "created": "2026-08-10",
-        "segment": "Unknown"
-      },
-      {
-        "id": 501,
-        "insight": "To ease the transition to the competitor, the customer asked to keep a minimal footprint of 4–6 Noxtua licenses (including one for HR for works-council parity), while navigating an InfoSec/LECS review for early activation.",
-        "mentions": 1,
-        "delta": 1,
-        "created": "2026-08-10",
-        "segment": "Unknown"
+        "delta": 0,
+        "status": "Well done - positive feedback outweighs negative",
+        "created": "2026-07-09",
+        "segment": "Big Law Firm"
       }
     ]
   }

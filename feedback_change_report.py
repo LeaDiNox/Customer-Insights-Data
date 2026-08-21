@@ -42,8 +42,15 @@ FB_TYPE_RANK = {"reviewing": 0, "unstarted": 1, "active": 2, "completed": 3}
 
 # A post with this many votes that is still in review is worth promoting.
 PROMOTE_AT = 10
-# A need voiced this often that never reached a board is worth pushing.
-BACKLOG_AT = 3
+# Research statuses that are intentionally never pushed onto a board: the need
+# is already delivered, so its absence is correct, not a gap.
+DELIVERED = ("Implemented - a solution is released",
+             "Well done - positive feedback outweighs negative")
+
+# Board posts to leave out of reporting entirely — test items cleaned up by hand.
+IGNORE_POSTS = {
+    "6a213f849868d0f26c4bc20c": "Matrix Export is ugly — test item, deleted by Lea",
+}
 
 # Proposed cadence, rendered into the report so the proposal travels with the
 # numbers it applies to.
@@ -85,6 +92,9 @@ def diff_featurebase(base_path, cur_path, new_since=None):
 
     # Snapshots taken before the postStatus/status fix carry no status at all.
     base_has_status = any(p.get("status") for p in base.values())
+
+    base = {pid: p for pid, p in base.items() if pid not in IGNORE_POSTS}
+    cur = {pid: p for pid, p in cur.items() if pid not in IGNORE_POSTS}
 
     absent = [p for pid, p in cur.items() if pid not in base]
     if new_since:
@@ -190,7 +200,7 @@ def read_intermediary(path, since, cur_path):
     for post in cur.values():
         by_title.setdefault(post["title"].strip().lower(), post)
 
-    by_post, backlog, on_board = {}, [], 0
+    by_post, backlog, delivered_off_board, on_board = {}, [], [], 0
     for r in records:
         post = resolve_post(r, cur, by_title)
         delta, sources = mention_delta(r, since)
@@ -204,13 +214,18 @@ def read_intermediary(path, since, cur_path):
                 slot["mentions"] += r.get("mentions", 0)
                 slot["delta"] += delta
                 slot["sources"] += sources
-        elif r.get("mentions", 0) >= BACKLOG_AT or delta > 0:
-            backlog.append({"id": r["id"], "insight": r["insight"],
-                            "mentions": r.get("mentions", 0), "delta": delta,
-                            "created": r.get("created", ""),
-                            "segment": r.get("userGroup", "")})
+        else:
+            row = {"id": r["id"], "insight": r["insight"],
+                   "mentions": r.get("mentions", 0), "delta": delta,
+                   "status": r.get("status", ""), "created": r.get("created", ""),
+                   "segment": r.get("userGroup", "")}
+            # Delivered needs are deliberately not on the boards; everything
+            # else that is off-board is an actual gap.
+            (delivered_off_board if r.get("status", "") in DELIVERED
+             else backlog).append(row)
 
     backlog.sort(key=lambda r: (-r["mentions"], -r["delta"]))
+    delivered_off_board.sort(key=lambda r: -r["mentions"])
     return {
         "since": since,
         "record_count": len(records),
@@ -221,6 +236,7 @@ def read_intermediary(path, since, cur_path):
         "posts_with_new_mentions": len(by_post),
         "backlog": backlog,
         "backlog_new_mentions": [r for r in backlog if r["delta"] > 0],
+        "delivered_off_board": delivered_off_board,
     }
 
 
@@ -279,7 +295,9 @@ def render_markdown(fb, inter, since, until):
         ("Status moves on the boards",
          len(fb["status_moves"]) if fb["baseline_has_status"]
          else "n/a — baseline has no status data"),
-        ("Needs not yet on any board", inter["not_on_board"]),
+        ("Open needs not yet on any board", len(inter["backlog"])),
+        ("Delivered needs, correctly not on a board",
+         len(inter["delivered_off_board"])),
     ]
     if fb["transferred_count"]:
         rows.insert(2, (f"Posts transferred onto the boards before {fb['new_since']} "
@@ -366,16 +384,21 @@ def render_markdown(fb, inter, since, until):
                         [(f"+{r['delta']}", r["to"], _mentions(r), r["status"],
                           _link(r["title"], r["url"])) for r in promote]))
 
-    L.append("## 5. Needs not yet on a board")
+    L.append("## 5. Open needs not yet on a board")
     L.append("")
-    L.append(f"{inter['not_on_board']} of the intermediary's {inter['record_count']} records "
-             "have no board post, so they cannot collect votes and are invisible to the "
-             f"pipeline. Those voiced at least {BACKLOG_AT} times, or voiced again in this "
-             "window:")
+    L.append(f"{inter['not_on_board']} of the intermediary's {inter['record_count']} records have "
+             f"no board post. {len(inter['delivered_off_board'])} of those are marked implemented "
+             "or well done — already delivered, so their absence is correct by the rule that "
+             f"implemented insights are never pushed. That leaves **{len(inter['backlog'])}** open "
+             "needs that cannot collect votes and are invisible to the pipeline:")
     L.append("")
-    L.append(_table(["Mentions", "Δ in window", "Insight", "Segment"],
+    L.append(_table(["Mentions", "Δ in window", "Research status", "Need", "Segment"],
                     [(r["mentions"], f"+{r['delta']}" if r["delta"] else "—",
-                      r["insight"][:88], r["segment"]) for r in inter["backlog"][:40]]))
+                      r["status"], r["insight"][:80], r["segment"])
+                     for r in inter["backlog"]]))
+    L.append("Resolution is by stored `featurebase_id` or exact post title, so a post that was "
+             "retitled after being pushed shows up here as absent.")
+    L.append("")
 
     L.append("## 6. How this gets reported from now on")
     L.append("")

@@ -371,7 +371,7 @@ def render(fb, inter, since, until, cadence_rows=None):
         ("gain", sum(r["delta"] for r in fb["vote_gains"]), "", "upvotes added"),
         ("gain", inter["posts_with_new_mentions"], "", "posts whose need was voiced again"),
         ("accent", fb["in_pipeline_count"], "", "posts planned or in progress"),
-        ("warn", inter["not_on_board"], "", "needs not yet on any board"),
+        ("warn", len(inter["backlog"]), "", "open needs not yet on any board"),
     ]
     parts.append('<div class="kpis">' + "".join(
         f'<div class="kpi kpi--{kind}"><span class="kpi__n">{n}</span>'
@@ -484,20 +484,37 @@ def render(fb, inter, since, until, cadence_rows=None):
     rows = [(f'<span class="num">{r["mentions"]}</span>',
              (f'<span class="delta">+{r["delta"]}</span>' if r["delta"]
               else '<span class="dash">—</span>'),
-             esc(r["insight"][:104] + ("…" if len(r["insight"]) > 104 else "")),
+             pill(short_status(r["status"]), db_status_kind(r["status"])),
+             esc(r["insight"][:96] + ("…" if len(r["insight"]) > 96 else "")),
              esc(r["segment"]))
-            for r in inter["backlog"][:40]]
+            for r in inter["backlog"]]
     body = table(['<span class="num">Mentions</span>', '<span class="num">Δ window</span>',
-                  "Need", "Segment"], rows)
-    if len(inter["backlog"]) > 40:
-        body += (f'<p class="lede" style="margin-top:12px;font-size:13px">'
-                 f'{len(inter["backlog"]) - 40} further records below the cut are in the '
-                 "JSON output.</p>")
-    parts.append(section(4, "Backlog", "Needs not yet on a board",
+                  "Research status", "Need", "Segment"], rows)
+    body += f"""<div class="split" style="margin-top:26px">
+  <div class="card"><h4>Why {inter['not_on_board']} records are off-board</h4><ul>
+    <li><strong>{len(inter['delivered_off_board'])}</strong> are marked implemented or well done —
+    already delivered, so their absence is correct by the rule that implemented insights are never
+    pushed. The five most-voiced needs in the whole database sit here, including
+    &ldquo;a reliable data base as the source of the answers&rdquo; at 71 mentions.</li>
+    <li><strong>{len(inter['backlog'])}</strong> are open and cannot collect votes — the table
+    above.</li>
+    <li>Resolution is by stored <code>featurebase_id</code> or exact post title, so a post
+    retitled after being pushed shows up here as absent.</li>
+  </ul></div>
+  <div class="card"><h4>What to do with the open ones</h4><ul>
+    <li>Seven carry a JIRA ticket already — they are being worked without a board post, so
+    customers cannot see or vote on them.</li>
+    <li>Five are the Vattenfall churn findings: pricing and competitive loss, which are
+    commercial signal rather than feature requests and may not belong on a board at all.</li>
+    <li>The rest are single-mention intake from the last two merges — the normal push queue.</li>
+  </ul></div>
+</div>"""
+    parts.append(section(4, "Backlog", "Open needs not yet on a board",
                          f"{inter['not_on_board']} of the intermediary's "
-                         f"{inter['record_count']} records have no board post, so they cannot "
-                         "collect votes and stay invisible to the pipeline. Shown: those voiced "
-                         "at least three times, or voiced again in this window.", body))
+                         f"{inter['record_count']} records have no board post, but most of that is "
+                         f"expected: {len(inter['delivered_off_board'])} are already delivered. "
+                         f"These {len(inter['backlog'])} are open and invisible to the pipeline.",
+                         body))
 
     # ---------------------------------------------------------- 5. cadence
     if cadence_rows:
