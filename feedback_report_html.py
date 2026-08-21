@@ -284,6 +284,8 @@ td.nowrap { white-space: nowrap; }
 
 /* ---------- misc ---------- */
 .empty { color: var(--muted); font-style: italic; }
+.dash { color: var(--quiet); }
+.sub-note { display: block; font-family: "IBM Plex Mono", monospace; font-size: 10px; color: var(--muted); margin-top: 2px; }
 .split { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 3px; padding: 20px; box-shadow: var(--shadow); }
 .card h4 { margin: 0 0 12px; font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
@@ -304,85 +306,90 @@ footer.foot p { margin: 0 0 6px; }
 """
 
 
-def render(fb, ins, sync, since, until, cadence_rows=None):
-    """Build the full page body (no <html>/<head> wrapper — the host adds it)."""
+def render(fb, inter, since, until, cadence_rows=None):
+    """Build the page body (no <html>/<head> wrapper — the host adds it)."""
+    import datetime as _dt
     parts = []
+    days_span = (_dt.date.fromisoformat(until) - _dt.date.fromisoformat(since)).days
+    span = f"{days_span // 7} weeks" if days_span % 7 == 0 else f"{days_span} days"
+
+    def mentions_cell(row):
+        if row.get("mention_delta"):
+            ids = ", ".join(f"#{i}" for i in row.get("insight_ids", []))
+            return (f'<span class="delta">+{row["mention_delta"]}</span>'
+                    f'<span class="sub-note">{esc(ids)}</span>')
+        return '<span class="dash">—</span>'
 
     # ---------------------------------------------------------- masthead
-    src_cards = []
-    if fb:
-        src_cards.append(("Featurebase baseline", f"{fb['baseline_date']} · {fb['baseline_post_count']} posts"))
-        src_cards.append(("Featurebase now", f"{fb['current_date']} · {fb['current_post_count']} posts"))
-    src_cards.append(("Research database", f"insights.json · {ins['record_count']} records"))
-    src_cards.append(("Window", f"{since} → {until} · 4 weeks"))
+    src_cards = [
+        ("Baseline", f"{fb['baseline_date']} · {fb['baseline_post_count']} posts"),
+        ("Now", f"{fb['current_date']} · {fb['current_post_count']} posts"),
+        ("Window", f"{since} → {until} · {span}"),
+        ("Pipeline", f"{fb['in_pipeline_count']} posts planned or in progress"),
+    ]
     sources = "".join(
         f'<div class="src"><span class="src__k">{esc(k)}</span>'
         f'<span class="src__v">{esc(v)}</span></div>' for k, v in src_cards)
 
     parts.append(f"""<header class="mast">
-  <p class="mast__kicker">Noxtua customer insights · change report</p>
-  <h1>What moved in customer feedback <em>since {esc(since)}</em></h1>
-  <p class="mast__sub">Two sources, kept separate on purpose. Featurebase carries the
-  customer-visible demand signal — upvotes and board status. The research database carries
-  mention counts and pipeline status per insight, with dated history, so any window can be
-  recomputed from the current file alone.</p>
+  <p class="mast__kicker">Noxtua · Featurebase change report</p>
+  <h1>What moved on the boards <em>since {esc(since)}</em></h1>
+  <p class="mast__sub">Every item here is a Featurebase post, and its board status is the
+  pipeline status. The insights database is the intermediary that feeds the boards: it
+  contributes how often each need was voiced again, and the backlog of needs that never
+  reached a board. Nothing else from it is reported.</p>
   <div class="sources">{sources}</div>
 </header>""")
 
     # ---------------------------------------------------------- caveat
-    if fb:
-        bulk_day, bulk_n = max(fb["new_by_day"].items(), key=lambda kv: kv[1]) if fb["new_by_day"] else ("", 0)
-        organic = len(fb["new_posts"]) - bulk_n
-        notes = [f"""<p><strong>{bulk_n} of the {len(fb['new_posts'])} new Featurebase posts
-        were created on {esc(bulk_day)}</strong>, within hours of the baseline snapshot. That is a
-        bulk transfer of already-collected research into Featurebase, not new customer demand.
-        Read it as a migration; the genuinely new posts in this window number
-        <strong>{organic}</strong>.</p>"""]
-        if not fb["baseline_has_status"]:
-            notes.append(f"""<p>The {esc(fb['baseline_date'])} baseline stores no board status —
-        the snapshot script read <code>postStatus</code> where the API returns <code>status</code>.
-        Fixed now, so <strong>Featurebase status moves cannot be diffed for this window</strong> and
-        the pipeline below is a current-state read only. Snapshots from {esc(fb['current_date'])}
-        onward carry status, tags, ETA and post URLs.</p>""")
-        parts.append(f"""<div class="note">
+    notes = []
+    if fb["transferred_count"]:
+        days_txt = ", ".join(f"{esc(d)} ({n})" for d, n in fb["transferred_by_day"].items())
+        notes.append(f"""<p><strong>{fb['transferred_count']} posts absent from the baseline are
+    excluded from the intake numbers.</strong> They were created on {days_txt} — the bulk transfer
+    of already-collected research onto the boards, which ran within hours of the baseline
+    snapshot. Counting them as newly gathered feedback would overstate intake roughly
+    fiftyfold. Everything from {esc(fb['new_since'])} onward is organic.</p>""")
+    if not fb["baseline_has_status"]:
+        notes.append(f"""<p>The {esc(fb['baseline_date'])} baseline stores no board status — the
+    snapshot script read <code>postStatus</code> where the API returns <code>status</code>.
+    Fixed now, so <strong>status moves cannot be diffed for this window</strong> and the
+    pipeline below is a current-state read. Snapshots from {esc(fb['current_date'])} onward
+    carry status, tags, ETA and post URLs.</p>""")
+    notes.append("""<p>Upvote timing cannot be narrowed below the span between the two snapshots:
+    a vote does not bump a post's <code>updatedAt</code>. The vote deltas below are exactly
+    &ldquo;since the baseline&rdquo;, which is this window.</p>""")
+    parts.append(f"""<div class="note">
   <h3>Read this before the numbers</h3>
   {''.join(notes)}
 </div>""")
 
     # ---------------------------------------------------------- KPIs
-    kpis = []
-    if fb:
-        organic = len(fb["new_posts"]) - (max(fb["new_by_day"].values()) if fb["new_by_day"] else 0)
-        kpis += [
-            ("accent", len(fb["new_posts"]), "", f"new Featurebase posts<br>({organic} outside the bulk transfer)"),
-            ("gain", len(fb["vote_gains"]), "", "existing posts gained upvotes"),
-            ("gain", sum(r["delta"] for r in fb["vote_gains"]), "", "upvotes added to existing posts"),
-        ]
-    kpis += [
-        ("accent", len(ins["new_records"]), "", "new insight records"),
-        ("gain", len(ins["gained_mentions"]), "", "insights gained mentions"),
-        ("accent", len(ins["status_moved"]), "", "insights changed pipeline status"),
+    kpis = [
+        ("accent", len(fb["new_posts"]), "", "newly gathered posts"),
+        ("gain", len(fb["vote_gains"]), "", "posts gained upvotes"),
+        ("gain", sum(r["delta"] for r in fb["vote_gains"]), "", "upvotes added"),
+        ("gain", inter["posts_with_new_mentions"], "", "posts whose need was voiced again"),
+        ("accent", fb["in_pipeline_count"], "", "posts planned or in progress"),
+        ("warn", inter["not_on_board"], "", "needs not yet on any board"),
     ]
-    if sync:
-        kpis.append(("warn", len(sync["stale_votes"]), "", "insights with a stale vote cache"))
-    kpi_html = "".join(
-        f'<div class="kpi kpi--{kind}"><span class="kpi__n">{n}{f"<small>{sfx}</small>" if sfx else ""}</span>'
-        f'<span class="kpi__l">{label}</span></div>' for kind, n, sfx, label in kpis)
-    parts.append(f'<div class="kpis">{kpi_html}</div>')
+    parts.append('<div class="kpis">' + "".join(
+        f'<div class="kpi kpi--{kind}"><span class="kpi__n">{n}</span>'
+        f'<span class="kpi__l">{label}</span></div>'
+        for kind, n, _sfx, label in kpis) + "</div>")
 
-    # ---------------------------------------------------------- new feedback
-    if fb:
-        days = list(fb["new_by_day"].items())
-        peak = max((n for _, n in days), default=1)
-        spark = "".join(f'<span style="height:{max(3, round(100 * n / peak))}%" '
-                        f'title="{esc(d)}: {n} posts"></span>' for d, n in days)
-        board_rows = [(esc(b), f'<span class="num">{n}</span>')
-                      for b, n in sorted(fb["new_by_board"].items(), key=lambda x: -x[1])]
-        top_new = [(f'<span class="num">{p["votes"]}</span>',
-                    esc(p["board"]), pill(p["status"] or "—", fb_status_kind(p["status"])),
-                    link(p["title"], p["url"], 92), esc(p["created"]))
-                   for p in fb["new_posts"][:20]]
-        body = f"""<div class="split">
+    # ---------------------------------------------------------- 1. intake
+    days = list(fb["new_by_day"].items())
+    peak = max((n for _, n in days), default=1)
+    spark = "".join(f'<span style="height:{max(6, round(100 * n / peak))}%" '
+                    f'title="{esc(d)}: {n}"></span>' for d, n in days)
+    board_rows = [(esc(b), f'<span class="num">{n}</span>')
+                  for b, n in sorted(fb["new_by_board"].items(), key=lambda x: -x[1])]
+    new_rows = [(esc(p["created"]), f'<span class="num">{p["votes"]}</span>',
+                 esc(p["board"]), pill(p["status"] or "—", fb_status_kind(p["status"])),
+                 link(p["title"], p["url"], 88), esc(", ".join(p["tags"]) or "—"))
+                for p in fb["new_posts"]]
+    body = f"""<div class="split">
   <div class="card">
     <h4>New posts per board</h4>
     {table(["Board", '<span class="num">Posts</span>'], board_rows)}
@@ -392,192 +399,152 @@ def render(fb, ins, sync, since, until, cadence_rows=None):
     <div class="spark">{spark}</div>
     <div class="spark--legend"><span>{esc(days[0][0]) if days else ''}</span>
     <span>{esc(days[-1][0]) if days else ''}</span></div>
-    <p class="lede" style="margin-top:12px;font-size:13px">One spike dominates: the
-    {esc(days[0][0]) if days else ''} transfer. Everything after it is organic intake.</p>
+    <p class="lede" style="margin-top:12px;font-size:13px">Organic intake only — the
+    {esc(fb['new_since'])} cut keeps the bulk transfer out.</p>
   </div>
 </div>
-<h3 class="sub">Highest-voted posts among the new arrivals</h3>
-{table(['<span class="num">Votes</span>', "Board", "Status", "Post", "Created"], top_new)}"""
-        if fb["disappeared"]:
-            gone = [(esc(p["board"]), f'<span class="num">{p["votes"]}</span>', esc(p["title"]))
-                    for p in fb["disappeared"]]
-            body += ('<h3 class="sub">In the baseline, gone now</h3>'
-                     + table(["Board", '<span class="num">Votes</span>', "Title"], gone)
-                     + '<p class="lede" style="margin-top:10px;font-size:13px">Deleted, merged, '
-                       'or moved to a board the snapshot does not cover.</p>')
-        parts.append(section(1, "Featurebase", "What new feedback we gathered",
-                             "New posts on the three boards between the baseline and now.", body))
+<h3 class="sub">Every newly gathered post</h3>
+{table(["Created", '<span class="num">Votes</span>', "Board", "Status", "Post", "Squad tags"], new_rows)}"""
+    if fb["disappeared"]:
+        body += ('<h3 class="sub">In the baseline, gone now</h3>'
+                 + table(["Board", '<span class="num">Votes</span>', "Title"],
+                         [(esc(p["board"]), f'<span class="num">{p["votes"]}</span>',
+                           esc(p["title"])) for p in fb["disappeared"]])
+                 + '<p class="lede" style="margin-top:10px;font-size:13px">Deleted, merged, or '
+                   'moved to a board the snapshot does not cover.</p>')
+    parts.append(section(1, "Intake", "What new feedback we gathered",
+                         f"Posts created on the boards from {esc(fb['new_since'])} onward. "
+                         f"{fb['transferred_count']} bulk-transferred posts are excluded.", body))
 
-    # ---------------------------------------------------------- vote gains
-    if fb:
-        scale = max((r["to"] for r in fb["vote_gains"]), default=1)
-        rows = [(f'<span class="delta">+{r["delta"]}</span>',
-                 f'<span class="num">{r["from"]} → {r["to"]}</span>{bar(r["from"], r["delta"], scale)}',
-                 pill(r["status"] or "—", fb_status_kind(r["status"])),
-                 esc(r["board"]), link(r["title"], r["url"], 74),
-                 esc(", ".join(r["tags"]) or "—"))
-                for r in fb["vote_gains"]]
-        rows = [(a, b, c, d, e, f_) for a, b, c, d, e, f_ in rows]
-        body = table(['<span class="num">Δ</span>', '<span class="num">Votes</span>', "Status",
-                      "Board", "Post", "Squad tags"], rows)
-        if fb["comment_gains"]:
-            cg = [(f'<span class="delta">+{r["delta"]}</span>', esc(r["board"]),
-                   link(r["title"], r["url"], 80)) for r in fb["comment_gains"]]
-            body += ('<h3 class="sub">New discussion</h3>'
-                     + table(['<span class="num">Δ</span>', "Board", "Post"], cg))
-        parts.append(section(2, "Featurebase", "Which feedback gained upvotes",
-                             f"{len(fb['vote_gains'])} of the {fb['baseline_post_count']} posts that "
-                             "already existed at the baseline gained votes. None lost any. The bar "
-                             "shows the baseline count in grey and the gain in green.", body))
-
-    # ---------------------------------------------------------- mentions
+    # ---------------------------------------------------------- 2. weight
+    scale = max((r["to"] for r in fb["vote_gains"]), default=1)
     rows = [(f'<span class="delta">+{r["delta"]}</span>',
-             f'<span class="num">{r["mentions"]}</span>',
-             f'<span class="id">#{r["id"]}</span>',
-             pill(short_status(r["status"]), db_status_kind(r["status"])),
-             link(r["insight"], r["fb_url"], 88),
-             (f'<span class="num">{r["fb_votes"]}</span> votes · ' + pill(r["fb_status"], fb_status_kind(r["fb_status"])))
-             if r["on_featurebase"] else pill("not pushed", "quiet"))
-            for r in ins["gained_mentions"]]
-    parts.append(section(3, "Research database", "Which feedback gained new mentions",
-                         "A mention is a separate customer saying the same thing. "
-                         "<code>mentionHistory</code> stores the cumulative count per date, so these "
-                         "are the increments recorded inside the window — from the "
-                         "<code>feedback_batch_20260724</code> and <code>20260810</code> merges, plus "
-                         "duplicate consolidations.",
-                         table(['<span class="num">Δ</span>', '<span class="num">Total</span>', "ID",
-                                "Research status", "Insight", "On Featurebase"], rows)))
+             f'<span class="num">{r["from"]} → {r["to"]}</span>{bar(r["from"], r["delta"], scale)}',
+             mentions_cell(r),
+             pill(r["status"] or "—", fb_status_kind(r["status"])),
+             esc(r["board"]), link(r["title"], r["url"], 70),
+             esc(", ".join(r["tags"]) or "—"))
+            for r in fb["vote_gains"]]
+    body = table(['<span class="num">Δ votes</span>', '<span class="num">Votes</span>',
+                  '<span class="num">Δ mentions</span>', "Status", "Board", "Post",
+                  "Squad tags"], rows)
+    seen = {r["id"] for r in fb["vote_gains"]} | {p["id"] for p in fb["new_posts"]}
+    mention_only = [pid for pid in inter["by_post"] if pid not in seen]
+    if mention_only:
+        body += (f'<p class="lede" style="margin-top:16px">{len(mention_only)} further posts '
+                 "gained mentions without gaining a vote: the need was voiced again in "
+                 "research, but nobody upvoted it on the board.</p>")
+    if fb["comment_gains"]:
+        body += ('<h3 class="sub">New discussion</h3>'
+                 + table(['<span class="num">Δ</span>', "Board", "Post"],
+                         [(f'<span class="delta">+{r["delta"]}</span>', esc(r["board"]),
+                           link(r["title"], r["url"], 80)) for r in fb["comment_gains"]]))
+    parts.append(section(2, "Demand", "Which feedback gained weight",
+                         f"{len(fb['vote_gains'])} of the {fb['baseline_post_count']} posts that "
+                         "already existed at the baseline gained upvotes, and none lost any. The "
+                         "bar shows the baseline count in grey, the gain in green. Δ mentions is "
+                         "the intermediary's count of the same need being voiced again by a "
+                         "separate customer.", body))
 
-    # ---------------------------------------------------------- new records
-    rows = [(esc(r["created"]), f'<span class="id">#{r["id"]}</span>',
-             f'<span class="num">{r["mentions"]}</span>',
-             link(r["insight"], r["fb_url"], 96), esc(r["source"]),
-             (f'<span class="num">{r["fb_votes"]}</span> votes' if r["on_featurebase"]
-              else pill("not pushed", "quiet")))
-            for r in ins["new_records"]]
-    parts.append(section(4, "Research database", "New insight records",
-                         f"{len(ins['new_records'])} records created in the window, from two intakes: "
-                         "the LimeSurvey questionnaire (Word add-in behaviour and citation style) and "
-                         "the Vattenfall churn conversation (pricing and competitive loss — commercial "
-                         "signal, not feature requests).",
-                         table(["Created", "ID", '<span class="num">Mentions</span>', "Insight",
-                                "Source", "On Featurebase"], rows)))
+    # ---------------------------------------------------------- 3. pipeline
+    body = table(["Board / status", '<span class="num">Posts</span>'],
+                 [(esc(k), f'<span class="num">{v}</span>') for k, v in fb["pipeline_now"].items()])
+    if fb["baseline_has_status"]:
+        body += ('<h3 class="sub">Status moves in this window</h3>'
+                 + table(["From", "To", "Advanced?", '<span class="num">Votes</span>', "Post"],
+                         [(pill(m["from"] or "—", fb_status_kind(m["from"])),
+                           pill(m["to"], fb_status_kind(m["to"])),
+                           "yes" if m["advanced"] else "no",
+                           f'<span class="num">{m["votes"]}</span>',
+                           link(m["title"], m["url"], 70)) for m in fb["status_moves"]]))
+    prio = [r for r in fb["vote_gains"] if r["status_type"] != "reviewing"]
+    if prio:
+        body += ('<h3 class="sub">In the pipeline and gaining demand — delivery and demand agree</h3>'
+                 + table(['<span class="num">Δ votes</span>', '<span class="num">Votes now</span>',
+                          '<span class="num">Δ mentions</span>', "Status", "Post"],
+                         [(f'<span class="delta">+{r["delta"]}</span>',
+                           f'<span class="num">{r["to"]}</span>', mentions_cell(r),
+                           pill(r["status"], fb_status_kind(r["status"])),
+                           link(r["title"], r["url"], 72)) for r in prio]))
+    promote = [r for r in fb["vote_gains"]
+               if r["status_type"] == "reviewing" and r["to"] >= 10]
+    if promote:
+        body += ('<h3 class="sub">Gained votes, now ≥10, still in review — promotion candidates</h3>'
+                 + table(['<span class="num">Δ votes</span>', '<span class="num">Votes now</span>',
+                          '<span class="num">Δ mentions</span>', "Status", "Post"],
+                         [(f'<span class="delta">+{r["delta"]}</span>',
+                           f'<span class="num">{r["to"]}</span>', mentions_cell(r),
+                           pill(r["status"], fb_status_kind(r["status"])),
+                           link(r["title"], r["url"], 72)) for r in promote]))
+    parts.append(section(3, "Pipeline", "What is in development, and what should be",
+                         "Board status is the pipeline status — nothing here is inferred from "
+                         "the research database.", body))
 
-    # ---------------------------------------------------------- pipeline
-    moved = [(esc(m["date"]), f'<span class="id">#{r["id"]}</span>',
-              f'<span class="num">{r["mentions"]}</span>',
-              pill(short_status(m["from"]), db_status_kind(m["from"] or "")),
-              pill(short_status(m["to"]), db_status_kind(m["to"])),
-              esc(r["insight"][:96] + ("…" if len(r["insight"]) > 96 else "")))
-             for r in ins["status_moved"] for m in r["moves"]]
-    body = table(["Date", "ID", '<span class="num">Mentions</span>', "From", "To", "Insight"], moved)
+    # ---------------------------------------------------------- 4. backlog
+    rows = [(f'<span class="num">{r["mentions"]}</span>',
+             (f'<span class="delta">+{r["delta"]}</span>' if r["delta"]
+              else '<span class="dash">—</span>'),
+             esc(r["insight"][:104] + ("…" if len(r["insight"]) > 104 else "")),
+             esc(r["segment"]))
+            for r in inter["backlog"][:40]]
+    body = table(['<span class="num">Mentions</span>', '<span class="num">Δ window</span>',
+                  "Need", "Segment"], rows)
+    if len(inter["backlog"]) > 40:
+        body += (f'<p class="lede" style="margin-top:12px;font-size:13px">'
+                 f'{len(inter["backlog"]) - 40} further records below the cut are in the '
+                 "JSON output.</p>")
+    parts.append(section(4, "Backlog", "Needs not yet on a board",
+                         f"{inter['not_on_board']} of the intermediary's "
+                         f"{inter['record_count']} records have no board post, so they cannot "
+                         "collect votes and stay invisible to the pipeline. Shown: those voiced "
+                         "at least three times, or voiced again in this window.", body))
 
-    if fb:
-        prio = [r for r in fb["vote_gains"] if r["status_type"] in ("unstarted", "active")]
-        promote = [r for r in fb["vote_gains"] if r["status_type"] == "reviewing" and r["to"] >= 10]
-        if prio:
-            body += ('<h3 class="sub">Gained votes and already planned or in progress — demand and delivery agree</h3>'
-                     + table(['<span class="num">Δ</span>', '<span class="num">Votes now</span>', "Status", "Post"],
-                             [(f'<span class="delta">+{r["delta"]}</span>',
-                               f'<span class="num">{r["to"]}</span>',
-                               pill(r["status"], fb_status_kind(r["status"])),
-                               link(r["title"], r["url"], 76)) for r in prio]))
-        if promote:
-            body += ('<h3 class="sub">Gained votes, now ≥10, still only in review — promotion candidates</h3>'
-                     + table(['<span class="num">Δ</span>', '<span class="num">Votes now</span>', "Status", "Post"],
-                             [(f'<span class="delta">+{r["delta"]}</span>',
-                               f'<span class="num">{r["to"]}</span>',
-                               pill(r["status"], fb_status_kind(r["status"])),
-                               link(r["title"], r["url"], 76)) for r in promote]))
-        body += ('<h3 class="sub">Featurebase pipeline as it stands now</h3>'
-                 + table(["Board / status", '<span class="num">Posts</span>'],
-                         [(esc(k), f'<span class="num">{v}</span>') for k, v in fb["pipeline_now"].items()]))
-    body += ('<h3 class="sub">Research database status distribution now</h3>'
-             + table(["Status", '<span class="num">Records</span>'],
-                     [(pill(short_status(k), db_status_kind(k)), f'<span class="num">{v}</span>')
-                      for k, v in sorted(ins["status_now"].items(), key=lambda x: -x[1])]))
-    parts.append(section(5, "Both sources", "What was taken up for development",
-                         "Two ways feedback advances: it is newly submitted and picked up, or it "
-                         "accumulates weight after being transmitted and gets promoted. The research "
-                         "database records both as dated status transitions.", body))
-
-    # ---------------------------------------------------------- hygiene
-    if sync and (sync["stale_votes"] or sync["dangling_links"]):
-        rows = [(f'<span class="id">#{r["insight_id"]}</span>',
-                 f'<span class="num">{r["stored_votes"]}</span>',
-                 f'<span class="num">{r["live_votes"]}</span>',
-                 f'<span class="delta">+{r["live_votes"] - r["stored_votes"]}</span>',
-                 esc(r["synced_at"]), pill(r["fb_status"], fb_status_kind(r["fb_status"])),
-                 esc(r["insight"][:74] + ("…" if len(r["insight"]) > 74 else "")))
-                for r in sync["stale_votes"]]
-        body = table(["ID", '<span class="num">Cached</span>', '<span class="num">Live</span>',
-                      '<span class="num">Δ</span>', "Last synced", "FB status", "Insight"], rows)
-        if sync["dangling_links"]:
-            body += ('<h3 class="sub">Pointing at a post that no longer exists</h3>'
-                     + table(["ID", "featurebase_id", "Insight"],
-                             [(f'<span class="id">#{r["insight_id"]}</span>',
-                               f'<code>{esc(r["featurebase_id"])}</code>',
-                               esc(r["insight"][:80])) for r in sync["dangling_links"]]))
-        body += f"""<div class="split" style="margin-top:26px">
-  <div class="card"><h4>Why it matters</h4><ul>
-    <li>Only <strong>46 of {ins['record_count']}</strong> records carry a <code>featurebase_id</code>.
-    A further <strong>{ins['on_featurebase_count'] - 46}</strong> resolve only by exact title match —
-    fragile the moment a post is retitled.</li>
-    <li><code>featurebase_votes</code> is written at push time and never refreshed, so any report
-    reading it under-counts demand by up to 13 votes today.</li>
-    <li>{ins['record_count'] - ins['on_featurebase_count']} records are not on Featurebase at all,
-    so they cannot collect votes and are invisible to the boards.</li>
-  </ul></div>
-  <div class="card"><h4>Fix, in order</h4><ul>
-    <li>Write <code>featurebase_id</code> back for every pushed record, matching on title once.</li>
-    <li>Refresh <code>featurebase_votes</code> from the live boards on each snapshot run.</li>
-    <li>Re-point or clear the dangling id.</li>
-  </ul></div>
-</div>"""
-        parts.append(section(6, "Data hygiene", "Gaps that distort the next report",
-                             "None of this changes the numbers above — they are computed from live "
-                             "boards and dated history, not the cache. It changes what any tool "
-                             "reading <code>insights.json</code> alone would report.", body))
-
-    # ---------------------------------------------------------- cadence
+    # ---------------------------------------------------------- 5. cadence
     if cadence_rows:
-        rows = [(esc(a), esc(b), esc(c), esc(d)) for a, b, c, d in cadence_rows]
-        body = table(["Cadence", "What runs", "Output", "Audience"], rows) + f"""
-<h3 class="sub">The one command</h3>
-<pre>python3 featurebase_snapshot.py                      # writes featurebase_snapshot_&lt;today&gt;.json
+        body = table(["Cadence", "What runs", "Output", "Audience"],
+                     [(esc(a), esc(b), esc(c), esc(d)) for a, b, c, d in cadence_rows]) + """
+<h3 class="sub">The one command, every Tuesday morning</h3>
+<pre>python3 featurebase_snapshot.py          # commit it — it is the baseline four weeks from now
 python3 feedback_change_report.py \\
-    --baseline featurebase_snapshot_&lt;last-week&gt;.json \\
+    --baseline featurebase_snapshot_&lt;four weeks ago&gt;.json \\
     --current  featurebase_snapshot_&lt;today&gt;.json \\
-    --since    &lt;today minus 7 days&gt;
+    --since    &lt;today minus 28 days&gt; \\
+    --fb-new-since &lt;day after any bulk push in the window&gt;
 # -&gt; reports/feedback_changes_&lt;today&gt;.md | .json | .html</pre>
+<p class="lede" style="margin-top:14px">First run: <strong>Tuesday 2026-08-25</strong>, baselined
+on the 2026-07-31 snapshot, so it covers a hair under four weeks. From 2026-09-22 every run has a
+true four-week-old baseline to diff against.</p>
 <div class="split" style="margin-top:26px">
   <div class="card"><h4>Rules that keep the numbers honest</h4><ul>
-    <li><strong>Commit every snapshot.</strong> A diff is only as old as the oldest snapshot kept.
-    Today there is exactly one historical snapshot, which is why this report has a 3-week baseline
-    instead of a 4-week one.</li>
-    <li><strong>Separate transfers from demand.</strong> Flag any day where new posts exceed, say,
-    20 as a migration and report it apart from organic intake.</li>
-    <li><strong>Never diff votes out of <code>insights.json</code>.</strong> The cached value is
-    frozen at push time; always read the live boards.</li>
+    <li><strong>Snapshot weekly, report four-weekly.</strong> A diff is only as old as the oldest
+    snapshot kept — this report had to start at 2026-07-31 because that was the only one in the
+    repo. Take one every Tuesday even in weeks nothing is reported.</li>
+    <li><strong>Separate transfers from demand.</strong> Pass <code>--fb-new-since</code> for any
+    window containing a bulk push; any day with more than ~20 new posts is a migration.</li>
+    <li><strong>Read votes from the boards, never from the intermediary.</strong> The cached
+    <code>featurebase_votes</code> in insights.json is frozen at push time.</li>
     <li><strong>Count mentions from history, not totals.</strong> <code>mentionHistory</code>
-    stores cumulative counts — the delta is the step between entries.</li>
+    stores cumulative counts; the delta is the step between entries.</li>
   </ul></div>
-  <div class="card"><h4>What the weekly report should surface</h4><ul>
-    <li>New posts and new insight records, split by intake source.</li>
-    <li>Vote and mention gains, ranked by delta rather than by total.</li>
+  <div class="card"><h4>What sprint review should see each time</h4><ul>
+    <li>Newly gathered posts, with the bulk transfers called out separately.</li>
+    <li>Vote and mention gains ranked by delta, not by total.</li>
     <li>Status moves in both directions — regressions matter as much as advances.</li>
     <li>Promotion candidates: gained votes, above threshold, still in review.</li>
-    <li>Anything ≥5 mentions still not pushed to Featurebase.</li>
+    <li>The backlog of needs never pushed onto a board.</li>
   </ul></div>
 </div>"""
-        parts.append(section(7, "Proposal", "How to report this every week", "", body))
+        parts.append(section(5, "Proposal", "How this gets reported from now on",
+                             "Four-week window, refreshed every Tuesday for sprint review, "
+                             "starting 2026-08-25.", body))
 
     parts.append(f"""<footer class="foot">
   <p>Generated by <code>feedback_change_report.py</code> from
-  <code>featurebase_snapshot_{esc(fb['current_date']) if fb else esc(until)}.json</code>
-  and <code>insights.json</code>. Window {esc(since)} → {esc(until)}.</p>
-  <p>Featurebase boards: Feedback, Missing Feature (Feature Request), Product.
-  Vote and status values read live from the API on {esc(until)}.</p>
+  <code>featurebase_snapshot_{esc(fb['current_date'])}.json</code>, diffed against
+  <code>featurebase_snapshot_{esc(fb['baseline_date'])}.json</code>, with mention counts and
+  backlog from <code>insights.json</code>. Window {esc(since)} → {esc(until)}.</p>
+  <p>Boards: Feedback, Missing Feature (Feature Request), Product. Votes and statuses read live
+  from the Featurebase API on {esc(until)}.</p>
 </footer>""")
 
     head = ('<title>Noxtua Feedback Delta</title>\n'
