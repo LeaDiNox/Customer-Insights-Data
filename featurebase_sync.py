@@ -21,6 +21,7 @@ import datetime
 import time
 import shutil
 import random
+import re
 import urllib.request
 import urllib.error
 from pathlib import Path
@@ -274,6 +275,144 @@ def build_post_payload(ins):
         }
 
 
+# ---------------------------------------------------------------------------
+# Company resolution — attribute votes to the company behind a source label
+# ---------------------------------------------------------------------------
+
+_companies = None          # [{"id","name","contacts":[contact_id,...]}]
+
+# Documented name variants: source-label spelling -> stored company spelling.
+# Keep in sync with the publisher list in the Database Management skill (Step 5).
+COMPANY_ALIASES = {
+    "beck germany": "c.h. beck germany",
+    "publisher feedback - beck germany": "c.h. beck germany",
+    "publisher feedback – beck germany": "c.h. beck germany",
+}
+
+_LEGAL_SUFFIXES = {"gmbh", "ag", "ltd", "limited", "inc", "llc", "plc", "sa", "se",
+                   "kg", "ohg", "bv", "nv", "oy", "ab", "as", "spa", "srl"}
+_SEP = "_-. ,/|"
+
+
+def _norm_company(s):
+    """Lowercase, drop punctuation and trailing legal suffixes."""
+    toks = [t for t in re.split(r"[^0-9a-zA-Z]+", (s or "").lower()) if t]
+    while toks and toks[-1] in _LEGAL_SUFFIXES:
+        toks.pop()
+    return "".join(toks)
+
+
+def _segments(s):
+    """Split a source label into whole segments (Direct_Feedback_Corp_002_08_2026 -> [...])."""
+    out, cur = [], ""
+    for ch in (s or ""):
+        if ch in _SEP:
+            if cur:
+                out.append(cur.lower()); cur = ""
+        else:
+            cur += ch
+    if cur:
+        out.append(cur.lower())
+    return out
+
+
+def fetch_companies():
+    """Fetch companies once, with the contact IDs linked to each."""
+    global _companies
+    if _companies is not None:
+        return _companies
+    result = api_request("GET", "/companies")
+    raw = result.get("results") or result.get("data") or result.get("companies") or []
+    if isinstance(result, list):
+        raw = result
+    companies = {}
+    for c in raw:
+        if not isinstance(c, dict):
+            continue
+        cid = c.get("id") or c.get("_id")
+        if cid:
+            companies[cid] = {"id": cid, "name": c.get("name") or "", "contacts": []}
+    cursor = None
+    while True:
+        path = "/contacts" + (f"?cursor={cursor}" if cursor else "")
+        page = api_request("GET", path)
+        data = page.get("data", [])
+        for contact in data:
+            for co in contact.get("companies", []) or []:
+                cid = co.get("companyId") or co.get("id")
+                if cid in companies and contact.get("id"):
+                    companies[cid]["contacts"].append(contact["id"])
+        cursor = page.get("nextCursor")
+        if not cursor or not data:
+            break
+    _companies = list(companies.values())
+    return _companies
+
+
+def _pick_company(matches):
+    """Duplicate company records share a name. Prefer the one that is actually
+    usable for voting: the record with linked contacts. Ambiguous only when
+    several records with contacts share the name."""
+    with_contacts = [m for m in matches if m["contacts"]]
+    if len(with_contacts) == 1:
+        return with_contacts[0], None
+    if len(with_contacts) > 1:
+        return None, ("ambiguous", with_contacts)
+    return matches[0], ("no_contacts", matches)
+
+
+def resolve_company(source_label):
+    """Map a source label onto a stored Featurebase company.
+
+    Cases, in order: exact name, normalised name, documented alias, and a
+    whole-segment match anywhere in the label — 'Direct_Feedback_Corp_002_08_2026'
+    resolves to 'Corp_002' even though the company token does not lead the label.
+    Substring hits that are not whole segments never match ('Corp_02' vs 'Corp_002',
+    'Beck' vs 'Beckman').
+
+    Returns {"status", "company", "note", "candidates", "label"}.
+    status: exact | normalised | alias | segment | ambiguous | no_contacts | none
+    """
+    companies = fetch_companies()
+    parts = [p.strip() for p in (source_label or "").split(",") if p.strip()]
+    for part in parts:
+        low = part.lower().strip()
+        for finder, status in (
+            (lambda c: c["name"].lower().strip() == low, "exact"),
+            (lambda c: _norm_company(c["name"]) == _norm_company(part), "normalised"),
+            (lambda c: _norm_company(c["name"]) == _norm_company(COMPANY_ALIASES.get(low, "")), "alias"),
+        ):
+            hits = [c for c in companies if c["name"] and finder(c)]
+            if hits:
+                chosen, problem = _pick_company(hits)
+                if problem and problem[0] == "ambiguous":
+                    return {"status": "ambiguous", "company": None, "candidates": problem[1], "label": part, "note": ""}
+                if problem and problem[0] == "no_contacts":
+                    return {"status": "no_contacts", "company": chosen, "candidates": hits, "label": part, "note": ""}
+                return {"status": status, "company": chosen, "candidates": hits, "label": part, "note": ""}
+        segs = _segments(part)
+        for c in companies:
+            cs = _segments(c["name"])
+            if not cs or len(cs) > len(segs):
+                continue
+            if any(segs[i:i + len(cs)] == cs for i in range(len(segs) - len(cs) + 1)):
+                hits = [x for x in companies if x["name"].lower() == c["name"].lower()]
+                chosen, problem = _pick_company(hits)
+                if problem and problem[0] == "ambiguous":
+                    return {"status": "ambiguous", "company": None, "candidates": problem[1], "label": part, "note": ""}
+                if problem and problem[0] == "no_contacts":
+                    return {"status": "no_contacts", "company": chosen, "candidates": hits, "label": part, "note": ""}
+                return {"status": "segment", "company": chosen, "candidates": hits, "label": part, "note": ""}
+    return {"status": "none", "company": None, "candidates": [], "label": source_label, "note": ""}
+
+
+def unvote(post_id, contact_id):
+    """Remove one voter from a post (maintenance path for a mis-attributed vote)."""
+    result = api_request("DELETE", f"/posts/{post_id}/voters", {"id": contact_id})
+    print(f"  ✓ Removed voter {contact_id} from post {post_id}: {result}")
+    return result
+
+
 def fetch_voter_pool():
     """
     Fetch all contacts belonging to VOTER_COMPANY_ID by paginating GET /contacts
@@ -349,8 +488,11 @@ def fetch_post_voters(post_id):
     return ids
 
 
-def seed_voters(post_id, mentions):
+def seed_voters(post_id, mentions, pool=None, pool_label="research pool"):
     """Add up to min(mentions, available contacts) voters to a post.
+
+    `pool` overrides the generic research pool — used to vote as the contact
+    linked to the company behind the insight's source label.
 
     Draws from the FULL voter pool every time (the same real research
     participants can legitimately upvote many different posts — there's no
@@ -358,18 +500,19 @@ def seed_voters(post_id, mentions):
     never voting twice on the SAME post, which is enforced by fetching that
     post's actual current voters live and excluding them.
     Returns n_ok (number of voters successfully added)."""
-    if not _voter_pool:
+    voters = list(pool) if pool else _voter_pool
+    if not voters:
         print(f"    ⚠ Voter pool is empty — no voters seeded")
         return 0
     already_voted = fetch_post_voters(post_id)
-    available = [c for c in _voter_pool if c not in already_voted]
-    skipped = len(_voter_pool) - len(available)
+    available = [c for c in voters if c not in already_voted]
+    skipped = len(voters) - len(available)
     n_target = min(mentions, len(available))
     if n_target == 0:
-        print(f"    ⚠ No unique voters left for this post ({skipped}/{len(_voter_pool)} already voted on it)")
+        print(f"    ⚠ No unique voters left for this post ({skipped}/{len(voters)} already voted on it)")
         return 0
     note = f" ({skipped} already-voted contact(s) skipped)" if skipped else ""
-    print(f"    Seeding {n_target} new voter(s) for post {post_id}{note}...")
+    print(f"    Seeding {n_target} new voter(s) from the {pool_label} for post {post_id}{note}...")
     n_ok = 0
     for contact_id in available[:n_target]:
         try:
@@ -386,7 +529,41 @@ def seed_voters(post_id, mentions):
 # Outbound sync
 # ---------------------------------------------------------------------------
 
-def push_insights(insights, dry_run=False, ids=None, no_save=False):
+
+def voter_context(ins, allow_generic=False, force_contact=None):
+    """Decide who should cast this insight's votes.
+
+    Returns (pool, label, blocked, message). A source that resolves to a stored
+    company must vote as that company's linked contact — never as the generic
+    research account. When the company resolves but cannot vote (no linked
+    contact, or duplicate records with contacts), seeding is BLOCKED rather than
+    silently falling back, unless --allow-generic-votes is passed.
+    """
+    if force_contact:
+        return [force_contact], f"forced voter {force_contact}", False, ""
+    res = resolve_company(ins.get("source") or ins.get("source_label") or "")
+    st = res["status"]
+    if st in ("exact", "normalised", "alias", "segment"):
+        c = res["company"]
+        return (list(c["contacts"]), f"company {c['name']} ({len(c['contacts'])} linked contact(s))",
+                False, f"source '{res['label']}' → company {c['name']} [{st} match]")
+    if st == "no_contacts":
+        c = res["company"]
+        msg = (f"source '{res['label']}' matches stored company {c['name']} ({c['id']}) but that "
+               f"company has no linked contact to vote as")
+        if allow_generic:
+            return _voter_pool, "generic research pool (override)", False, msg + " — --allow-generic-votes given"
+        return [], "", True, msg
+    if st == "ambiguous":
+        names = ", ".join(f"{c['name']} ({c['id']}, {len(c['contacts'])} contacts)" for c in res["candidates"])
+        msg = f"source '{res['label']}' matches several stored companies with contacts: {names}"
+        if allow_generic:
+            return _voter_pool, "generic research pool (override)", False, msg + " — --allow-generic-votes given"
+        return [], "", True, msg
+    return _voter_pool, "generic research pool", False, ""
+
+
+def push_insights(insights, dry_run=False, ids=None, no_save=False, allow_generic=False, vote_as=None):
     targets = qualifying_insights(insights, ids=ids)
     label = f"ID(s) {ids}" if ids else "qa_reviewed (all types, not Released/Well done)"
     print(f"\n{'DRY RUN — ' if dry_run else ''}{label} insights to push: {len(targets)}\n")
@@ -395,9 +572,11 @@ def push_insights(insights, dry_run=False, ids=None, no_save=False):
 
     by_id = {ins["id"]: ins for ins in insights}
     created, updated, errors = 0, 0, 0
+    blocked_votes = []
 
     if not dry_run:
         fetch_voter_pool()
+        fetch_companies()
 
     for ins in targets:
         fid = ins.get("featurebase_id")
@@ -420,6 +599,10 @@ def push_insights(insights, dry_run=False, ids=None, no_save=False):
                 print(f"    featurebase_id: {fid}")
             if votes_needed:
                 print(f"    votes to top up: +{votes_needed} (mentions {ins.get('mentions', 0)} vs featurebase_votes {ins.get('featurebase_votes', 0)})")
+                _pool, _plabel, _blocked, _msg = voter_context(ins, allow_generic, vote_as)
+                if _msg:
+                    print(f"    company check: {_msg}")
+                print(f"    voter source: {'BLOCKED — no vote would be seeded' if _blocked else _plabel}")
             if votes_only:
                 print(f"    (Product board post — content/customFields untouched, votes only)")
             elif "customFields" in payload:
@@ -448,8 +631,22 @@ def push_insights(insights, dry_run=False, ids=None, no_save=False):
                     print(f"  ✓ Updated ID {ins['id']} (featurebase: {fid}, board: {board_name})")
                 # Top up votes if research mentions have grown past what's synced
                 votes_needed = max(0, ins.get("mentions", 0) - ins.get("featurebase_votes", 0))
-                if _voter_pool and votes_needed:
-                    n = seed_voters(fid, votes_needed)
+                pool, plabel, blocked, msg = voter_context(ins, allow_generic, vote_as)
+                if msg:
+                    print(f"    company check: {msg}")
+                if votes_needed and blocked:
+                    print(f"    ⛔ Votes NOT seeded for ID {ins['id']} — resolve the company voter, "
+                          f"or re-run with --vote-as CONTACT_ID / --allow-generic-votes")
+                    blocked_votes.append((ins["id"], msg))
+                    n = 0
+                elif pool and votes_needed:
+                    n = seed_voters(fid, min(votes_needed, len(pool)), pool=pool, pool_label=plabel)
+                    remainder = votes_needed - (n or 0)
+                    if remainder > 0 and _voter_pool and pool is not _voter_pool:
+                        print(f"    {remainder} vote(s) beyond this company's linked contact(s) "
+                              f"come from the generic research pool")
+                        n = (n or 0) + (seed_voters(fid, remainder, pool=_voter_pool,
+                                                    pool_label="generic research pool") or 0)
                     if not no_save:
                         by_id[ins["id"]]["featurebase_votes"] = ins.get("featurebase_votes", 0) + (n or 0)
                         by_id[ins["id"]]["featurebase_synced_at"] = _now()
@@ -471,8 +668,23 @@ def push_insights(insights, dry_run=False, ids=None, no_save=False):
                 if no_save:
                     print(f"    ℹ Note the post ID above — paste it into insights.json when ready to link")
                 # Seed upvotes from research mentions
-                if _voter_pool:
-                    n = seed_voters(new_fid, ins.get("mentions", 0))
+                pool, plabel, blocked, msg = voter_context(ins, allow_generic, vote_as)
+                if msg:
+                    print(f"    company check: {msg}")
+                if blocked:
+                    print(f"    ⛔ Votes NOT seeded for ID {ins['id']} — resolve the company voter, "
+                          f"or re-run with --vote-as CONTACT_ID / --allow-generic-votes")
+                    blocked_votes.append((ins["id"], msg))
+                    n = 0
+                elif pool:
+                    want = ins.get("mentions", 0)
+                    n = seed_voters(new_fid, min(want, len(pool)), pool=pool, pool_label=plabel)
+                    remainder = want - (n or 0)
+                    if remainder > 0 and _voter_pool and pool is not _voter_pool:
+                        print(f"    {remainder} vote(s) beyond this company's linked contact(s) "
+                              f"come from the generic research pool")
+                        n = (n or 0) + (seed_voters(new_fid, remainder, pool=_voter_pool,
+                                                    pool_label="generic research pool") or 0)
                     if not no_save:
                         by_id[ins["id"]]["featurebase_votes"] = n or 0
                     print(f"    → {n} vote(s) seeded")
@@ -480,6 +692,11 @@ def push_insights(insights, dry_run=False, ids=None, no_save=False):
             time.sleep(0.3)
         except Exception:
             errors += 1
+
+    if blocked_votes:
+        print("\n⛔ Votes withheld — the source resolves to a company that cannot vote yet:")
+        for iid, msg in blocked_votes:
+            print(f"    ID {iid}: {msg}")
 
     if not dry_run and not no_save:
         save_insights(list(by_id.values()))
@@ -891,6 +1108,8 @@ def main():
     group.add_argument("--pull-votes",        action="store_true", help="Pull vote counts and add delta to mentions")
     group.add_argument("--list-boards",       action="store_true", help="List your Featurebase boards and IDs")
     group.add_argument("--list-companies",    action="store_true", help="List your Featurebase companies and IDs")
+    group.add_argument("--resolve-company", metavar="LABEL", help="Show which stored company a source label resolves to, and who would vote")
+    group.add_argument("--unvote", metavar="POST_ID", help="Remove one voter from a post (needs --contact)")
     group.add_argument("--list-custom-fields",action="store_true", help="List custom fields and IDs — paste IDs into CUSTOM_FIELD_IDS")
     group.add_argument("--check-ids",         action="store_true", help="Cross-check Featurebase posts against insights.json via the Insight ID custom field")
     parser.add_argument("--apply-links",      action="store_true", help="With --check-ids: write back featurebase_id/votes for any 'unlinked' matches found (safe, local-only field fill)")
@@ -905,6 +1124,10 @@ def main():
                         help="Number of votes to seed when using --seed-voters-for (default: 10)")
     parser.add_argument("--field-id",    metavar="ID",      help="Custom field ID for --fill-field")
     parser.add_argument("--field-value", metavar="VALUE", nargs="+", help="Value(s) to set for --fill-field (multi-select: pass multiple values separated by spaces)")
+    parser.add_argument("--contact", help="Contact ID, for --unvote")
+    parser.add_argument("--vote-as", metavar="CONTACT_ID", help="Force this contact as the voter for this run")
+    parser.add_argument("--allow-generic-votes", action="store_true",
+                        help="Permit generic research-pool votes even when the source resolves to a company that cannot vote")
     parser.add_argument("--board-id",    metavar="BOARD_ID", help="Override the default board ID (e.g. for --fill-field on a different board)")
     args = parser.parse_args()
 
@@ -923,12 +1146,44 @@ def main():
         return
 
     if args.list_companies:
-        result = api_request("GET", "/companies")
-        companies = result if isinstance(result, list) else result.get("data", [])
+        companies = fetch_companies()
         print("\nYour Featurebase companies:\n")
-        for c in companies:
-            print(f"  ID: {c.get('id') or c.get('_id')}   Name: {c.get('name')}")
+        names = {}
+        for c in sorted(companies, key=lambda x: x["name"].lower()):
+            names.setdefault(c["name"].lower(), []).append(c)
+            flag = "" if c["contacts"] else "   ⚠ no linked contact — cannot vote as this company"
+            print(f"  ID: {c['id']}   Name: {c['name']}   contacts: {len(c['contacts'])}{flag}")
+        dupes = {n: v for n, v in names.items() if len(v) > 1}
+        if dupes:
+            print("\n⚠ Duplicate company names — the record WITH linked contacts is the one used for voting:")
+            for n, v in dupes.items():
+                for c in v:
+                    mark = " ← used" if c["contacts"] else " (empty duplicate)"
+                    print(f"    {c['name']}: {c['id']} — {len(c['contacts'])} contact(s){mark}")
         print("\nPaste the correct ID into VOTER_COMPANY_ID at the top of this script.")
+        return
+
+    if args.resolve_company:
+        res = resolve_company(args.resolve_company)
+        print(f"\nSource label: {args.resolve_company!r}")
+        print(f"  status      : {res['status']}")
+        print(f"  matched part: {res['label']!r}")
+        if res["company"]:
+            c = res["company"]
+            print(f"  company     : {c['name']} ({c['id']})")
+            print(f"  contacts    : {len(c['contacts'])} → {c['contacts'][:5]}")
+        for cand in res["candidates"]:
+            print(f"    candidate : {cand['name']} ({cand['id']}) — {len(cand['contacts'])} contact(s)")
+        if res["status"] == "none":
+            print("  → no company match; votes would come from the generic research pool")
+        elif res["status"] in ("ambiguous", "no_contacts"):
+            print("  → BLOCKED: resolve the company voter before pushing (see --vote-as / --allow-generic-votes)")
+        return
+
+    if args.unvote:
+        if not args.contact:
+            print("Error: --unvote needs --contact CONTACT_ID"); sys.exit(1)
+        unvote(args.unvote, args.contact)
         return
 
     if args.list_custom_fields:
@@ -959,11 +1214,11 @@ def main():
     print(f"Loaded {len(insights)} insights from {INSIGHTS_JSON.name}")
 
     if args.dry_run:
-        push_insights(insights, dry_run=True, ids=args.id)
+        push_insights(insights, dry_run=True, ids=args.id, allow_generic=args.allow_generic_votes, vote_as=args.vote_as)
     elif args.push:
-        push_insights(insights, dry_run=False, ids=args.id)
+        push_insights(insights, dry_run=False, ids=args.id, allow_generic=args.allow_generic_votes, vote_as=args.vote_as)
     elif args.push_no_save:
-        push_insights(insights, dry_run=False, ids=args.id, no_save=True)
+        push_insights(insights, dry_run=False, ids=args.id, no_save=True, allow_generic=args.allow_generic_votes, vote_as=args.vote_as)
     elif args.pull_votes:
         pull_votes(insights)
     elif args.check_ids:
