@@ -18,6 +18,8 @@ Every item below is a Featurebase post; the board status is the pipeline status.
 | Open needs not yet on any board | 28 |
 | Delivered needs, correctly not on a board | 91 |
 
+The post count reconciles exactly: 90 at the baseline + 253 transferred + 5 newly gathered = 348 on the boards now. That is the only partition here — every other table is a lens on the same posts, so one post can appear in several of them (Outlook Add-In gained 3 votes *and* 1 comment, and is in the pipeline). Rows are never duplicated within a single table.
+
 ## 2. What new feedback we gathered
 
 > 253 posts absent from the baseline were created before `2026-08-01` — the bulk transfer of already-collected research onto the boards. Excluded from every count in this section: `2026-07-31` 253.
@@ -75,15 +77,23 @@ Every item below is a Featurebase post; the board status is the pipeline status.
 | +1 | 1 → 2 | — | Planned | Product Board | [Word Add-in Stabilisation](https://noxtua.featurebase.app/p/word-add-in-stabilisation) | — |
 | +1 | 2 → 3 | — | In Progress | Product Board | [Improved Document Processing](https://noxtua.featurebase.app/p/improved-document-processing) | — |
 
-5 posts gained mentions without gaining a vote — the need was voiced again in research, but no customer upvoted it on the board.
+Gained mentions but no votes — the need was voiced again in research, but nobody upvoted it on the board:
 
-New discussion:
+| Δ mentions | Votes | Status | Board | Post | Insight IDs |
+|---|---|---|---|---|---|
+| +2 | 8 | Reviewed | Feedback | [The user needs the tool to also provide them with alternative perspec…](https://noxtua.featurebase.app/p/the-user-needs-the-tool-to-also-provide-them-with) | #72 |
+| +1 | 86 | Reviewed | Feedback | [The user needs the answers to have a high accuracy to be beneficial t…](https://noxtua.featurebase.app/p/the-user-needs-the-answers-to-have-a-high-accuracy) | #102 |
+| +1 | 26 | Reviewed | Feedback | [The user needs all relevant sources to be available and used for the …](https://noxtua.featurebase.app/p/the-user-needs-all-relevant-sources-to-be-available-and) | #109 |
+| +1 | 6 | Reviewed | Feedback | [The users expect the word-add-in to be intuitive and offer guidance s…](https://noxtua.featurebase.app/p/the-users-expect-the-word-add-in-to-be-intuitive) | #257 |
+| +1 | 12 | Reviewed | Product Board | [File management system integration](https://noxtua.featurebase.app/p/file-management-system-integration) | #342 |
 
-| Δ | Board | Post |
-|---|---|---|
-| +1 | Feature Request | [Custom data integration](https://noxtua.featurebase.app/p/custom-data-integration) |
-| +1 | Product Board | [The complete, current C.H. BECK knowledge from beck-online in Beck-No…](https://noxtua.featurebase.app/p/the-complete-current-ch-beck-knowledge-from-beck-online-in) |
-| +1 | Product Board | [Outlook Add-In](https://noxtua.featurebase.app/p/outlook-add-in) |
+New discussion — comment counts, not votes. A post can appear here and in the vote table above; the two numbers count different things.
+
+| Δ comments | Comments | Votes | Board | Post |
+|---|---|---|---|---|
+| +1 | 0 → 1 | 26 | Feature Request | [Custom data integration](https://noxtua.featurebase.app/p/custom-data-integration) |
+| +1 | 0 → 1 | 2 | Product Board | [The complete, current C.H. BECK knowledge from beck-online in Beck-No…](https://noxtua.featurebase.app/p/the-complete-current-ch-beck-knowledge-from-beck-online-in) |
+| +1 | 2 → 3 | 31 | Product Board | [Outlook Add-In](https://noxtua.featurebase.app/p/outlook-add-in) |
 
 ## 4. What is in development, and what should be
 
@@ -112,7 +122,6 @@ New discussion:
 |---|---|---|---|---|
 | +9 | 11 | — | Planned | [UI/UX Template Improvements (incl. private Templates)](https://noxtua.featurebase.app/p/template-upgrade) |
 | +7 | 19 | — | In Progress | [Stop answer generation and enable prompt re-editing](https://noxtua.featurebase.app/p/stop-answer-generation-and-enable-prompt-re-editing) |
-| +7 | 15 | — | Completed | [Cloud Storage](https://noxtua.featurebase.app/p/cloud-storage) |
 | +6 | 19 | — | Planned | [DMS Integration concept: first integration](https://noxtua.featurebase.app/p/dms-integrations-first-integration) |
 | +4 | 16 | — | In Progress | [Holistic Concept for Onboarding & Feature Adoption](https://noxtua.featurebase.app/p/improvements-to-onboarding-feature-adoption-and-chat-interactions) |
 | +3 | 31 | — | Coming Soon | [Outlook Add-In](https://noxtua.featurebase.app/p/outlook-add-in) |
@@ -120,6 +129,12 @@ New discussion:
 | +1 | 37 | — | In Progress | [Content templates for drafting](https://noxtua.featurebase.app/p/content-templates-for-drafting) |
 | +1 | 2 | — | Planned | [Word Add-in Stabilisation](https://noxtua.featurebase.app/p/word-add-in-stabilisation) |
 | +1 | 3 | — | In Progress | [Improved Document Processing](https://noxtua.featurebase.app/p/improved-document-processing) |
+
+### Already shipped, still gaining votes
+
+| Δ votes | Votes now | Δ mentions | Status | Post |
+|---|---|---|---|---|
+| +7 | 15 | — | Completed | [Cloud Storage](https://noxtua.featurebase.app/p/cloud-storage) |
 
 ### Gained votes, now ≥10, still in review — promotion candidates
 

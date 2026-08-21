@@ -285,6 +285,13 @@ td.nowrap { white-space: nowrap; }
 /* ---------- misc ---------- */
 .empty { color: var(--muted); font-style: italic; }
 .dash { color: var(--quiet); }
+.reconcile {
+  margin: 20px 0 0; padding: 14px 18px; font-size: 13.5px; color: var(--ink-2);
+  background: var(--surface); border: 1px solid var(--line); border-radius: 3px;
+  max-width: none; box-shadow: var(--shadow);
+}
+.reconcile strong { font-family: "IBM Plex Mono", monospace; color: var(--ink); font-variant-numeric: tabular-nums; }
+.reconcile span { color: var(--muted); padding: 0 2px; }
 .sub-note { display: block; font-family: "IBM Plex Mono", monospace; font-size: 10px; color: var(--muted); margin-top: 2px; }
 .split { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 3px; padding: 20px; box-shadow: var(--shadow); }
@@ -378,6 +385,14 @@ def render(fb, inter, since, until, cadence_rows=None):
         f'<span class="kpi__l">{label}</span></div>'
         for kind, n, _sfx, label in kpis) + "</div>")
 
+    parts.append(f"""<p class="reconcile"><strong>{fb['baseline_post_count']}</strong> at the
+    baseline <span>+</span> <strong>{fb['transferred_count']}</strong> transferred
+    <span>+</span> <strong>{len(fb['new_posts'])}</strong> newly gathered
+    <span>=</span> <strong>{fb['current_post_count']}</strong> on the boards now. That is the
+    only partition on this page. Every table below is a lens on the same posts, so one post can
+    appear in several of them — Outlook Add-In gained 3 votes <em>and</em> 1 comment, and is in
+    the pipeline. No table repeats a post within itself.</p>""")
+
     # ---------------------------------------------------------- 1. intake
     days = list(fb["new_by_day"].items())
     peak = max((n for _, n in days), default=1)
@@ -429,16 +444,30 @@ def render(fb, inter, since, until, cadence_rows=None):
                   '<span class="num">Δ mentions</span>', "Status", "Board", "Post",
                   "Squad tags"], rows)
     seen = {r["id"] for r in fb["vote_gains"]} | {p["id"] for p in fb["new_posts"]}
-    mention_only = [pid for pid in inter["by_post"] if pid not in seen]
+    mention_only = sorted([v for pid, v in inter["by_post"].items() if pid not in seen],
+                          key=lambda v: -v["delta"])
     if mention_only:
-        body += (f'<p class="lede" style="margin-top:16px">{len(mention_only)} further posts '
-                 "gained mentions without gaining a vote: the need was voiced again in "
-                 "research, but nobody upvoted it on the board.</p>")
+        body += ('<h3 class="sub">Gained mentions but no votes</h3>'
+                 + table(['<span class="num">Δ mentions</span>', '<span class="num">Votes</span>',
+                          "Status", "Board", "Post", "Insight IDs"],
+                         [(f'<span class="delta">+{v["delta"]}</span>',
+                           f'<span class="num">{v["votes"]}</span>',
+                           pill(v["status"], fb_status_kind(v["status"])), esc(v["board"]),
+                           link(v["title"], v["url"], 66),
+                           f'<span class="id">'
+                           + ", ".join(f"#{i}" for i in v["insight_ids"]) + "</span>")
+                          for v in mention_only])
+                 + '<p class="lede" style="margin-top:12px;font-size:13px">The need was voiced '
+                   "again in research, but nobody upvoted it on the board.</p>")
     if fb["comment_gains"]:
-        body += ('<h3 class="sub">New discussion</h3>'
-                 + table(['<span class="num">Δ</span>', "Board", "Post"],
-                         [(f'<span class="delta">+{r["delta"]}</span>', esc(r["board"]),
-                           link(r["title"], r["url"], 80)) for r in fb["comment_gains"]]))
+        body += ('<h3 class="sub">New discussion — comments, not votes</h3>'
+                 + table(['<span class="num">Δ comments</span>',
+                          '<span class="num">Comments</span>', '<span class="num">Votes</span>',
+                          "Board", "Post"],
+                         [(f'<span class="delta">+{r["delta"]}</span>',
+                           f'<span class="num">{r["from"]} → {r["to"]}</span>',
+                           f'<span class="num">{r["votes"]}</span>', esc(r["board"]),
+                           link(r["title"], r["url"], 74)) for r in fb["comment_gains"]]))
     parts.append(section(2, "Demand", "Which feedback gained weight",
                          f"{len(fb['vote_gains'])} of the {fb['baseline_post_count']} posts that "
                          "already existed at the baseline gained upvotes, and none lost any. The "
@@ -457,25 +486,30 @@ def render(fb, inter, since, until, cadence_rows=None):
                            "yes" if m["advanced"] else "no",
                            f'<span class="num">{m["votes"]}</span>',
                            link(m["title"], m["url"], 70)) for m in fb["status_moves"]]))
-    prio = [r for r in fb["vote_gains"] if r["status_type"] != "reviewing"]
-    if prio:
+    def gain_table(rows):
+        return table(['<span class="num">Δ votes</span>', '<span class="num">Votes now</span>',
+                      '<span class="num">Δ mentions</span>', "Status", "Post"],
+                     [(f'<span class="delta">+{r["delta"]}</span>',
+                       f'<span class="num">{r["to"]}</span>', mentions_cell(r),
+                       pill(r["status"], fb_status_kind(r["status"])),
+                       link(r["title"], r["url"], 72)) for r in rows])
+
+    in_flight = [r for r in fb["vote_gains"]
+                 if r["status_type"] in ("unstarted", "active")]
+    if in_flight:
         body += ('<h3 class="sub">In the pipeline and gaining demand — delivery and demand agree</h3>'
-                 + table(['<span class="num">Δ votes</span>', '<span class="num">Votes now</span>',
-                          '<span class="num">Δ mentions</span>', "Status", "Post"],
-                         [(f'<span class="delta">+{r["delta"]}</span>',
-                           f'<span class="num">{r["to"]}</span>', mentions_cell(r),
-                           pill(r["status"], fb_status_kind(r["status"])),
-                           link(r["title"], r["url"], 72)) for r in prio]))
+                 + gain_table(in_flight))
+    shipped = [r for r in fb["vote_gains"] if r["status_type"] == "completed"]
+    if shipped:
+        body += ('<h3 class="sub">Already shipped, still gaining votes</h3>'
+                 + gain_table(shipped)
+                 + '<p class="lede" style="margin-top:12px;font-size:13px">Demand kept arriving '
+                   "after release — worth checking whether the shipped version covers it.</p>")
     promote = [r for r in fb["vote_gains"]
                if r["status_type"] == "reviewing" and r["to"] >= 10]
     if promote:
         body += ('<h3 class="sub">Gained votes, now ≥10, still in review — promotion candidates</h3>'
-                 + table(['<span class="num">Δ votes</span>', '<span class="num">Votes now</span>',
-                          '<span class="num">Δ mentions</span>', "Status", "Post"],
-                         [(f'<span class="delta">+{r["delta"]}</span>',
-                           f'<span class="num">{r["to"]}</span>', mentions_cell(r),
-                           pill(r["status"], fb_status_kind(r["status"])),
-                           link(r["title"], r["url"], 72)) for r in promote]))
+                 + gain_table(promote))
     parts.append(section(3, "Pipeline", "What is in development, and what should be",
                          "Board status is the pipeline status — nothing here is inferred from "
                          "the research database.", body))

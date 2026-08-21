@@ -773,7 +773,12 @@
         "delta": 1,
         "sources": [
           "merged from Vattenfall Feedback Call – 2026-07-13 (improve-prompt button idea) (+1)"
-        ]
+        ],
+        "title": "Prompt writing guidance",
+        "board": "Feature Request",
+        "status": "Reviewed",
+        "votes": 15,
+        "url": "https://noxtua.featurebase.app/p/prompt-writing-guidance"
       },
       "6a6cc96ad361a8379e1ef528": {
         "insight_ids": [
@@ -784,7 +789,12 @@
         "sources": [
           "merged from Vattenfall Feedback Call – 2026-07-13 (limited/exotic sources - contradicting opinions angle) (+1)",
           "merged from Vattenfall Feedback Call – 2026-07-13 (dissenting opinions across instances) (+1)"
-        ]
+        ],
+        "title": "The user needs the tool to also provide them with alternative perspectives not only e.g. with the predominant one.",
+        "board": "Feedback",
+        "status": "Reviewed",
+        "votes": 8,
+        "url": "https://noxtua.featurebase.app/p/the-user-needs-the-tool-to-also-provide-them-with"
       },
       "6a6cc9a9d361a8379e1f165f": {
         "insight_ids": [
@@ -794,7 +804,12 @@
         "delta": 1,
         "sources": [
           "feedback_batch_20260810"
-        ]
+        ],
+        "title": "The user needs the answers to have a high accuracy to be beneficial to him.",
+        "board": "Feedback",
+        "status": "Reviewed",
+        "votes": 86,
+        "url": "https://noxtua.featurebase.app/p/the-user-needs-the-answers-to-have-a-high-accuracy"
       },
       "6a6cc9b8a53a5c32831f789f": {
         "insight_ids": [
@@ -804,7 +819,12 @@
         "delta": 1,
         "sources": [
           "merged from Vattenfall Feedback Call – 2026-07-13 (source coverage) (+1)"
-        ]
+        ],
+        "title": "The user needs all relevant sources to be available and used for the answer.",
+        "board": "Feedback",
+        "status": "Reviewed",
+        "votes": 26,
+        "url": "https://noxtua.featurebase.app/p/the-user-needs-all-relevant-sources-to-be-available-and"
       },
       "6a6cca3bf8e5d9da850e14b5": {
         "insight_ids": [
@@ -814,7 +834,12 @@
         "delta": 1,
         "sources": [
           "feedback_batch_20260810"
-        ]
+        ],
+        "title": "The users expect the word-add-in to be intuitive and offer guidance so that they don't have to watch tutorials to be able to use it.",
+        "board": "Feedback",
+        "status": "Reviewed",
+        "votes": 6,
+        "url": "https://noxtua.featurebase.app/p/the-users-expect-the-word-add-in-to-be-intuitive"
       },
       "6a51226c926d6521f648e2c7": {
         "insight_ids": [
@@ -824,7 +849,12 @@
         "delta": 1,
         "sources": [
           "feedback_batch_20260810"
-        ]
+        ],
+        "title": "File management system integration",
+        "board": "Product Board",
+        "status": "Reviewed",
+        "votes": 12,
+        "url": "https://noxtua.featurebase.app/p/file-management-system-integration"
       }
     },
     "mention_delta_total": 7,

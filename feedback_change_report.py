@@ -209,7 +209,10 @@ def read_intermediary(path, since, cur_path):
             if delta > 0:
                 # Several records can feed one post; accumulate.
                 slot = by_post.setdefault(post["id"], {
-                    "insight_ids": [], "mentions": 0, "delta": 0, "sources": []})
+                    "insight_ids": [], "mentions": 0, "delta": 0, "sources": [],
+                    "title": post.get("title", ""), "board": post.get("board", ""),
+                    "status": post.get("status", ""), "votes": post.get("votes", 0),
+                    "url": post.get("postUrl", "")})
                 slot["insight_ids"].append(r["id"])
                 slot["mentions"] += r.get("mentions", 0)
                 slot["delta"] += delta
@@ -303,6 +306,13 @@ def render_markdown(fb, inter, since, until):
         rows.insert(2, (f"Posts transferred onto the boards before {fb['new_since']} "
                         "(excluded from intake)", fb["transferred_count"]))
     L.append(_table(["Metric", "Value"], rows))
+    L.append(f"The post count reconciles exactly: {fb['baseline_post_count']} at the baseline "
+             f"+ {fb['transferred_count']} transferred + {len(fb['new_posts'])} newly gathered "
+             f"= {fb['current_post_count']} on the boards now. That is the only partition here — "
+             "every other table is a lens on the same posts, so one post can appear in several "
+             "of them (Outlook Add-In gained 3 votes *and* 1 comment, and is in the pipeline). "
+             "Rows are never duplicated within a single table.")
+    L.append("")
 
     L.append("## 2. What new feedback we gathered")
     L.append("")
@@ -338,18 +348,24 @@ def render_markdown(fb, inter, since, until):
                     [(f"+{r['delta']}", f"{r['from']} → {r['to']}", _mentions(r),
                       r["status"] or "—", r["board"], _link(r["title"], r["url"]),
                       ", ".join(r["tags"]) or "—") for r in fb["vote_gains"]]))
-    mention_only = [pid for pid in inter["by_post"]
-                    if pid not in {r["id"] for r in fb["vote_gains"]}
-                    and pid not in {p["id"] for p in fb["new_posts"]}]
+    seen = {r["id"] for r in fb["vote_gains"]} | {p["id"] for p in fb["new_posts"]}
+    mention_only = [v for pid, v in inter["by_post"].items() if pid not in seen]
     if mention_only:
-        L.append(f"{len(mention_only)} posts gained mentions without gaining a vote — the need "
-                 "was voiced again in research, but no customer upvoted it on the board.")
+        L.append("Gained mentions but no votes — the need was voiced again in research, but "
+                 "nobody upvoted it on the board:")
         L.append("")
+        L.append(_table(["Δ mentions", "Votes", "Status", "Board", "Post", "Insight IDs"],
+                        [(f"+{v['delta']}", v["votes"], v["status"], v["board"],
+                          _link(v["title"], v["url"]),
+                          ", ".join(f"#{i}" for i in v["insight_ids"]))
+                         for v in sorted(mention_only, key=lambda v: -v["delta"])]))
     if fb["comment_gains"]:
-        L.append("New discussion:")
+        L.append("New discussion — comment counts, not votes. A post can appear here and in "
+                 "the vote table above; the two numbers count different things.")
         L.append("")
-        L.append(_table(["Δ", "Board", "Post"],
-                        [(f"+{r['delta']}", r["board"], _link(r["title"], r["url"]))
+        L.append(_table(["Δ comments", "Comments", "Votes", "Board", "Post"],
+                        [(f"+{r['delta']}", f"{r['from']} → {r['to']}", r["votes"],
+                          r["board"], _link(r["title"], r["url"]))
                          for r in fb["comment_gains"]]))
 
     L.append("## 4. What is in development, and what should be")
@@ -368,13 +384,21 @@ def render_markdown(fb, inter, since, until):
                  "moves cannot be diffed for this window and the pipeline above is a "
                  f"current-state read. Snapshots from {fb['current_date']} onward record status.\n")
 
-    prio = [r for r in fb["vote_gains"] if r["status_type"] != "reviewing"]
-    if prio:
+    in_flight = [r for r in fb["vote_gains"]
+                 if r["status_type"] in ("unstarted", "active")]
+    if in_flight:
         L.append("### In the pipeline and gaining demand")
         L.append("")
         L.append(_table(["Δ votes", "Votes now", "Δ mentions", "Status", "Post"],
                         [(f"+{r['delta']}", r["to"], _mentions(r), r["status"],
-                          _link(r["title"], r["url"])) for r in prio]))
+                          _link(r["title"], r["url"])) for r in in_flight]))
+    shipped = [r for r in fb["vote_gains"] if r["status_type"] == "completed"]
+    if shipped:
+        L.append("### Already shipped, still gaining votes")
+        L.append("")
+        L.append(_table(["Δ votes", "Votes now", "Δ mentions", "Status", "Post"],
+                        [(f"+{r['delta']}", r["to"], _mentions(r), r["status"],
+                          _link(r["title"], r["url"])) for r in shipped]))
     promote = [r for r in fb["vote_gains"]
                if r["status_type"] == "reviewing" and r["to"] >= PROMOTE_AT]
     if promote:
