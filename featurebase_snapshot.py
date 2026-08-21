@@ -66,7 +66,13 @@ def fetch_all_board_posts(board_id):
 
 
 def slim(post, board_name):
-    status = post.get("postStatus") or {}
+    # NOTE: the Featurebase v2 API returns the workflow status under "status"
+    # (an object), not "postStatus". Snapshots taken before 2026-08-21 have
+    # empty status/status_type for that reason.
+    status = post.get("status") or post.get("postStatus") or {}
+    if not isinstance(status, dict):
+        status = {"name": status}
+    tags = post.get("tags") or []
     return {
         "id": post.get("_id") or post.get("id"),
         "board": board_name,
@@ -77,10 +83,16 @@ def slim(post, board_name):
         "votes": post.get("upvotes", post.get("votesCount", 0)),
         "commentCount": post.get("commentCount", 0),
         "category": (post.get("category") or {}).get("name", "") if isinstance(post.get("category"), dict) else post.get("category", ""),
+        "tags": [t.get("name", "") for t in tags if isinstance(t, dict)],
+        "eta": post.get("eta"),
+        "assigneeId": post.get("assigneeId"),
         "createdAt": post.get("createdAt", ""),
+        "updatedAt": post.get("updatedAt", ""),
         "lastActivityAt": post.get("lastActivityAt") or post.get("lastModified", ""),
         "customFields": post.get("customFields", {}),
         "author": (post.get("author") or {}).get("name", ""),
+        "postUrl": post.get("postUrl", ""),
+        "slug": post.get("slug", ""),
     }
 
 
