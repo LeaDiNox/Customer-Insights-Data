@@ -149,8 +149,10 @@ Replicate the reference page exactly, in this order:
 
 1. Excerpt macro wrapping a **compass custom panel**: 📌 Roadmap item (link · Insight
    ID · votes) · ☑ Status · 👤 Assignee (PM) · 📝 Description · 🗺️ User journey
-   moment(s) *(placeholder)* · 🚥 Research Coverage & Priority (two status badges) ·
-   ⏭️ Next Research Step.
+   moment(s) *(placeholder)* · 👩‍💼 Related Personas *(placeholder)* · 🚥 Research
+   Coverage & Priority (two status badges) · ⏭️ Next Research Step. Related Personas
+   was added by Lea on the 2026-08-21 review of the language-selector page — include it
+   on every new page, right after User journey moment(s).
 2. `<hr>` — **✅ SOLVES** — Insight ID | Description | Mentions (votes) | Citation | User group(s)
 3. `<hr>` — **🔗 RELATES TO** — same + Featurebase link
 4. `<hr>` — **🚩 NOT (YET) IN FEATUREBASE** — same + Suggested action
@@ -159,8 +161,25 @@ Replicate the reference page exactly, in this order:
 6. `<hr>` — **🔍 OPEN RESEARCH QUESTIONS** — Question | Category | Recommended Approach | Risk without / Expected Impact with Research | Status
 7. `<hr>` — **Review log** note panel
 
-Horizontal rules between sections; **no expander macros** (Lea finds them harder to
-read). Do not try to wrap tables in a Panel — Confluence rejects it.
+Horizontal rules between sections. Do not try to wrap tables in a Panel — Confluence
+rejects it.
+
+**Expander macros (`<details>`) — status revised 2026-08-21.** The original guidance
+here was "no expanders, Lea finds them harder to read." On her 2026-08-21 review of the
+language-selector page she introduced `<details>` herself, but only in one specific
+place: inside **Broader scope**, to collapse the *evidence/citation detail* behind each
+numbered workflow cluster, while keeping a short lead-in (bold header + one-line
+implication) visible by default, plus one `<details>` collapsing the dense
+"derived from the database on..." methodology paragraph. She also pulled the section's
+single key takeaway out into a `panel-info` callout right under the intro question, and
+wrapped the closing "Implication for this item" paragraph in a `panel-warning` instead
+of plain text. Working assumption pending Lea's confirmation: **apply this pattern specifically
+inside Broader scope on future pages** — short lead-in + collapsed
+"Source and detailed verbatim" expander per cluster, key takeaway in a panel-info,
+implication in a panel-warning — and leave the original "no expanders" guidance in
+place everywhere else (Solves / Relates / Not-yet tables, Open Research Questions)
+until she says otherwise. She was asked on 2026-08-21 whether this scoping is right;
+update this note once she answers.
 
 Coverage and Priority are judged from how many open questions the topic raises and the
 risk/impact of researching vs. not. Be honest: a topic with no feedback at all is
@@ -200,6 +219,17 @@ matching a language pattern) and say how many hits you kept.
 `references/build_page.py` renders this markup; `references/api_recipes.md` holds the
 request shapes.
 
+### Open Research Questions — consolidate tightly-related sub-questions
+
+Don't reflexively give every distinct question its own row. On her 2026-08-21 review
+Lea merged two rows that were really one line of inquiry (UI-chrome-vs-answer-language,
+and the Swiss/cross-border retrieval question) into a single Question cell with the
+sub-questions stacked as separate `<p>`s, under one Category/Approach/Risk/Status. She
+also added a severity qualifier to a Risk cell ("Low Risk without: ...") where the risk
+genuinely is low, rather than always writing a bare "Risk without:". Judgment call: if
+two questions share the same recommended approach and the same population to
+interview/survey, they are probably one row, not two.
+
 ## Step 6 — refresh the pages that already exist
 
 The review is not only about new items. On every run, re-check each existing page under
@@ -224,6 +254,23 @@ keep the existing Review log line, and append the refresh to it. Use a
 
 Never silently drop a row Lea already reviewed — if it no longer belongs, move it and
 say why.
+
+**Respect intentional removals — the current page, not the last draft this skill wrote,
+is the source of truth.** No tool currently available (Atlassian MCP or otherwise) lists
+Confluence page version history or diffs one version against another — there is no
+`getConfluencePageVersions`-type call, and the network policy blocks a direct REST call
+to `xainag.atlassian.net` outside the MCP tools (see Known gaps). This means a refresh
+cannot mechanically detect "Lea removed this row on purpose" versus "this was never
+here." The rule that stands in for that: on every refresh, always fetch and edit the
+page's **current live content**, never a cached copy of what this skill last wrote —
+that alone prevents resurrecting a row from stale memory. If a row that a matching sweep
+would re-suggest is genuinely missing from the current page and you cannot tell whether
+that was deliberate, do not silently re-add it — surface it as a question to Lea instead
+("insight X would match again, it's not on the page — intentional, or should it come
+back?") rather than assuming either way. If Lea wants mechanical protection against
+resurrecting a real removal, ask her whether the Confluence connector can be granted the
+scope for a page-history/diff call; until then this is a judgment call, not an
+automated check.
 
 ## Strict review order
 
@@ -263,3 +310,19 @@ Update the Review log panel to "approved" when she signs off.
 - **`insights.json` in this repo is stale** (ends at ID 502; Featurebase references up
   to 527). Refresh it before relying on the Not-yet-in-Featurebase bucket for recent
   insights.
+- **No Confluence version-history/diff tool.** Checked 2026-08-21: the connected
+  Atlassian MCP tools cover create/read/update/comment on the current version of a page,
+  but nothing lists prior versions or diffs two versions. A direct REST call to the
+  version-history endpoint would also need `xainag.atlassian.net` in `allowedHosts`,
+  which the network policy currently blocks. Consequence: this skill cannot mechanically
+  tell "Lea deleted this on purpose" apart from "this was never added" — see the
+  intentional-removals note under Step 6. Ask Lea before assuming this is unblockable;
+  it may just need a scope/allowlist change.
+- **Status badge on an item past "Planned"** — open question, not yet resolved. On her
+  2026-08-21 review Lea's edited page shows the roadmap item's status as a plain
+  `IN PROGRESS` badge with no explanatory italic line, whereas every other field on the
+  page still follows the "pulled live from the Featurebase API" convention. Unconfirmed
+  whether: (a) once an item leaves Planned/"Next up", drop the "(pulled live... status
+  'X')" annotation and just show the live status name as a plain badge, or (b) this was
+  a one-off manual edit with no general rule intended. Ask Lea; don't generalize this
+  from one page.
